@@ -6,6 +6,16 @@ on:
     - cron: "0 9 * * *"
   workflow_dispatch: {}  # permite rodar manualmente pelo botao "Run workflow"
 
+# o job commita o historico de precos de volta no repositorio
+permissions:
+  contents: write
+
+# duas execucoes simultaneas escreveriam no mesmo historico e uma
+# sobrescreveria a outra
+concurrency:
+  group: buscar-ofertas
+  cancel-in-progress: false
+
 jobs:
   buscar-ofertas:
     runs-on: ubuntu-latest
@@ -25,10 +35,22 @@ jobs:
         env:
           AWIN_PRODUCTDATA_KEY: ${{ secrets.AWIN_PRODUCTDATA_KEY }}
           AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}  # fallback legado
-          AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
-          AWIN_FEED_IDS: ${{ secrets.AWIN_FEED_IDS }}
-          AWIN_ADVERTISER_IDS: ${{ secrets.AWIN_ADVERTISER_IDS }}  # fallback legado
+          AWIN_FEED_IDS: ${{ secrets.AWIN_FEED_IDS }}  # vazio = descobre pela regiao
+          AWIN_REGIAO: ${{ vars.AWIN_REGIAO || 'BR' }}
         run: python buscar_ofertas.py
+
+      - name: Commitar historico de precos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historico/precos.csv output/panorama.md
+          # sem mudanca de preco nao ha o que commitar, e tudo bem
+          if git diff --staged --quiet; then
+            echo "Nenhuma mudanca no historico."
+          else
+            git commit -m "historico de precos: $(date -u +%Y-%m-%d)"
+            git push
+          fi
 
       - name: Salvar resultado como artefato
         if: always()  # sobe os arquivos mesmo se o script falhar, pra poder diagnosticar

@@ -1,11 +1,16 @@
 name: Listar feeds Awin
 
-# Workflow de diagnostico: roda sob demanda e imprime no log todos os feeds
-# a que a conta tem acesso, com Advertiser ID e Feed ID lado a lado.
-# Use para descobrir o valor correto de AWIN_FEED_IDS.
+# Workflow de diagnostico: roda sob demanda e imprime no log os feeds a que a
+# conta tem acesso, com Advertiser ID e Feed ID lado a lado.
+# Use para descobrir o valor de AWIN_FEED_IDS (ou so para conferir o catalogo).
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      regiao:
+        description: "Regiao dos feeds (BR, GB, US... ou 'todas')"
+        required: false
+        default: "BR"
 
 jobs:
   listar-feeds:
@@ -26,4 +31,5 @@ jobs:
         env:
           AWIN_PRODUCTDATA_KEY: ${{ secrets.AWIN_PRODUCTDATA_KEY }}
           AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}  # fallback legado
+          REGIAO: ${{ inputs.regiao }}
         run: python listar_feeds.py

@@ -1,136 +1,134 @@
-# techcaiu-bot — busca de ofertas Awin
+# market-filter — monitor de preços de feeds Awin
 
-Script que baixa o feed de produtos da Awin, filtra por desconto mínimo e
-palavras-chave do nicho (tech), e salva o resultado em `output/ofertas.json`.
+Baixa os feeds de produto da Awin diariamente, mantém um histórico de preços
+e sinaliza quedas. Também gera um panorama do catálogo, para escolher nicho
+olhando o inventário real.
+
+## Como a detecção de oferta funciona
+
+Os feeds Awin usados aqui **não publicam `rrp_price`** (o preço "de"). Foi
+verificado: o campo vem vazio em 100% das linhas — não é dado mal preenchido,
+a coluna não faz parte do que essas lojas publicam. Logo, não existe desconto
+calculável olhando só a foto de hoje.
+
+O sinal usado é **queda em relação ao maior preço já observado**. O workflow
+roda todo dia e guarda os preços em `historico/precos.csv`; quando um produto
+cai `QUEDA_MINIMA_PCT` abaixo do seu máximo histórico, vira oferta.
+
+Duas consequências disso:
+
+- **A primeira execução nunca gera ofertas.** Ela só cria o histórico. Isso é
+  esperado, e o script diz isso explicitamente no log.
+- O histórico é versionado no git de propósito — é a memória do projeto. Sem
+  ele, cada execução começaria do zero.
+
+Usar o máximo histórico como referência (em vez do preço de ontem) faz uma
+promoção continuar aparecendo enquanto durar, em vez de sumir no dia seguinte
+por "não ter mudado desde ontem".
 
 ## Rodando localmente
 
 ```bash
-# 1. instalar dependencias
 pip install -r requirements.txt
-
-# 2. configurar credenciais
-cp .env.example .env
-# edite o .env e preencha AWIN_PRODUCTDATA_KEY e AWIN_PUBLISHER_ID
-
-# 3. descobrir os Feed IDs da sua conta e preencher AWIN_FEED_IDS no .env
-python listar_feeds.py
-
-# 4. rodar
+cp .env.example .env      # preencha AWIN_PRODUCTDATA_KEY
+python listar_feeds.py    # confere o que a conta enxerga
 python buscar_ofertas.py
 ```
 
-### As duas credenciais da Awin
+Saídas:
 
-A Awin tem dois tipos de chave, e elas não são intercambiáveis:
+| Arquivo | O que é |
+|---|---|
+| `historico/precos.csv` | memória de preços, um produto por linha (versionado) |
+| `output/ofertas.json` | produtos que caíram de preço |
+| `output/panorama.md` | visão do catálogo: lojas, faixas de preço, marcas |
 
-| Credencial | Onde pegar | Para que serve |
+## As duas credenciais da Awin
+
+A pegadinha que custou as primeiras execuções. São chaves diferentes e não
+intercambiáveis:
+
+| Credencial | Onde pegar | Serve para |
 |---|---|---|
-| **Product Feed API key** | Toolbox > Create-a-Feed, embutida no link "Download list" | `productdata.awin.com` — é a que este projeto usa |
+| **Product Feed API key** | Toolbox > Create-a-Feed, na caixa "Feed List Download" | `productdata.awin.com` — é a que este projeto usa |
 | Publisher API token | `ui.awin.com/awin-api` | `api.awin.com` (relatórios, transações) |
 
-Usar o token da Publisher API no `productdata` retorna `500` na listagem de
-feeds e `404` no download — sem mensagem que explique a causa.
+Usar o token da Publisher API no `productdata` retorna `500` na listagem e
+`404` no download, sem mensagem que explique a causa.
 
-### Feed ID != Advertiser ID
+## Feed ID != Advertiser ID
 
-Essa é a pegadinha principal da Awin. A URL de download do datafeed usa o
-parâmetro `fid`, que é o **Feed ID** — um número diferente do Advertiser ID
-que aparece na URL do programa. Passar o Advertiser ID ali retorna `404`.
+Segunda pegadinha. A URL de download usa `fid`, que é o **Feed ID** — número
+diferente do Advertiser ID que aparece na URL do programa. Passar o Advertiser
+ID retorna `404`.
 
-`listar_feeds.py` resolve isso: ele consulta a API da Awin e imprime os dois
-IDs lado a lado, junto com o nome da loja e o número de produtos no feed.
+`listar_feeds.py` mostra os dois lado a lado. Se `AWIN_FEED_IDS` ficar vazio,
+o script descobre sozinho todos os feeds da região em `AWIN_REGIAO`.
 
-O resultado fica em `output/ofertas.json`, algo como:
+## O catálogo brasileiro é pequeno
 
-```json
-{
-  "gerado_em": "2026-08-08T12:00:00+00:00",
-  "total_ofertas": 5,
-  "ofertas": [
-    {
-      "nome": "Fone Bluetooth XYZ",
-      "loja": "Nome da Loja",
-      "categoria": "Eletronicos",
-      "preco": 89.9,
-      "preco_original": 129.9,
-      "desconto_pct": 30.8,
-      "link_afiliado": "https://www.awin1.com/cread.php?...",
-      "imagem": "https://..."
-    }
-  ]
-}
-```
+Levantamento de 2026-08-09: dos 582 feeds da conta, **10 são do Brasil**,
+somando ~11,5 mil produtos, concentrados assim:
 
-## Ajustando o filtro
+| Loja | Produtos | Segmento |
+|---|---|---|
+| Clovis Calçados | 8.198 | calçados |
+| Lauri Esporte | 1.514 | tênis esportivos |
+| Carraro | 456 | móveis |
+| Alianças Imperiais | 451 | joias |
+| Legale Lover | 361 | cursos de direito |
+| Leveros | 250 | ar-condicionado |
 
-No topo de `buscar_ofertas.py`:
+**Não há loja de tech/eletrônicos com feed no Brasil.** No catálogo global
+inteiro só existem 4 feeds com cara de tech, todos GB/US. Se o nicho pretendido
+for tech nacional, a Awin não é a rede — o caminho seria outra rede
+(Amazon Associates, Shopee, Magalu, Mercado Livre).
 
-- `DESCONTO_MINIMO_PCT`: desconto mínimo pra entrar na lista (padrão 20%)
-- `PALAVRAS_CHAVE`: lista de termos que o nome do produto precisa conter
-- `MAX_OFERTAS_POR_LOJA`: quantas ofertas trazer por loja, no máximo
+Vale notar também que `category_name` vem vazio em ~97% dos produtos: para
+segmentar, **marca** funciona, categoria não.
 
-## Adicionando mais lojas
+## Configuração
 
-1. No painel Awin, vá em "Anunciantes" e adere a mais programas (lojas)
-2. Rode `python listar_feeds.py` — as lojas aprovadas que publicam feed
-   aparecem na lista com seus Feed IDs
-3. Adicione no `.env`, separado por vírgula:
-   ```
-   AWIN_FEED_IDS=12345,67890
-   ```
+Tudo por variável de ambiente, sem editar código — ver `.env.example`.
 
-## Automatizando com GitHub Actions
+| Variável | Padrão | O que faz |
+|---|---|---|
+| `AWIN_PRODUCTDATA_KEY` | — | chave do Product Feed (obrigatória) |
+| `AWIN_FEED_IDS` | vazio | feeds específicos; vazio = descobre pela região |
+| `AWIN_REGIAO` | `BR` | região usada na descoberta automática |
+| `QUEDA_MINIMA_PCT` | `10` | queda mínima para virar oferta |
+| `MIN_OBSERVACOES` | `2` | quantas vezes é preciso ter visto o produto |
+| `PALAVRAS_CHAVE` | vazio | filtro por nome; vazio = não filtra |
 
-Este repositório já vem com um workflow em
-`.github/workflows/buscar-ofertas.yml` que roda o script todo dia
-automaticamente e salva o resultado como artefato do GitHub.
+## Automação no GitHub Actions
 
-Passos para ativar:
+`Buscar ofertas Awin` roda todo dia às 06h (Brasília) e commita o histórico
+atualizado. Precisa do secret `AWIN_PRODUCTDATA_KEY`.
 
-1. Suba este projeto para um repositório no GitHub (**não suba o `.env`** —
-   o `.gitignore` já bloqueia isso)
-2. No repositório, vá em `Settings > Secrets and variables > Actions`
-3. Clique em "New repository secret" e crie 3 secrets:
-   - `AWIN_PRODUCTDATA_KEY`
-   - `AWIN_PUBLISHER_ID`
-   - `AWIN_FEED_IDS`
+`Listar feeds Awin` roda sob demanda e aceita a região como input — útil para
+inspecionar o catálogo de outros países sem mexer em nada.
 
-   Existe também o workflow `Listar feeds Awin`, que roda sob demanda em
-   `Actions` e imprime os Feed IDs disponíveis no log — útil pra preencher
-   `AWIN_FEED_IDS` sem precisar configurar nada localmente.
-4. Pronto — o workflow roda sozinho todo dia às 06h (horário de Brasília).
-   Você também pode rodar manualmente em `Actions > Buscar ofertas Awin > Run workflow`
-5. O resultado (`ofertas.json`) fica disponível pra download na aba `Actions`,
-   dentro da execução, em "Artifacts"
+## Estrutura
 
-### Próximo passo de automação
+| Arquivo | Responsabilidade |
+|---|---|
+| `awin.py` | cliente do Product Feed: lista e baixa feeds |
+| `historico.py` | memória de preços entre execuções e cálculo de queda |
+| `panorama.py` | relatório do catálogo em markdown |
+| `buscar_ofertas.py` | orquestra tudo |
+| `listar_feeds.py` | diagnóstico: o que a conta enxerga |
 
-Esse `ofertas.json` gerado é o input pra próxima etapa do pipeline: geração
-de copy (texto do post) via API do Claude, e depois agendamento do post via
-Buffer/Zapier. Ainda não está incluso aqui — é o próximo módulo a construir.
+## Próximo passo
 
-## Diagnosticando "0 ofertas"
-
-O script loga cada etapa pra você saber onde o funil zerou:
-
-- `feed baixado: N linhas` — se não aparece, o download falhou (o erro vem
-  logo abaixo, com o tipo da exceção). `404` = Feed ID errado.
-- `diagnostico: X/N linhas tem rrp_price preenchido | ...` — mostra quantas
-  linhas passam em cada filtro separadamente. Se `rrp_price` vem zerado na
-  maioria, o desconto não é calculável e nada passa no corte.
-- `output/amostra_<feed_id>.csv` — as 50 primeiras linhas do feed cru, pra
-  inspecionar na mão. Vem junto no artefato do Actions.
-
-Pra testar afrouxando o filtro sem editar código:
-
-```bash
-DESCONTO_MINIMO_PCT=0 PALAVRAS_CHAVE=usb python buscar_ofertas.py
-```
+Com nicho escolhido a partir do panorama, o `ofertas.json` vira input da
+geração de copy (API do Claude) e do agendamento de post. Ainda não construído.
 
 ## Limitações conhecidas
 
-- O feed reflete o que a loja publica na Awin — nem toda loja atualiza com
-  a mesma frequência.
-- Sem `rrp_price` (preço "de"), o cálculo de desconto fica zerado — algumas
-  lojas não preenchem esse campo no feed.
+- Todos os feeds aparecem como `Not Joined` e mesmo assim baixam. O
+  `aw_deep_link` já vem com o publisher ID, mas **vale confirmar com a Awin se
+  há comissão sem adesão formal ao programa** — é questão comercial, não
+  técnica.
+- O histórico só enxerga o que já observou: um produto que só cai de preço
+  não tem "máximo" real, e a queda aparece subestimada.
+- Produtos que somem do feed ficam parados no histórico com a última cotação.

@@ -1,102 +1,66 @@
 """
 listar_feeds.py
 
-Lista todos os feeds de produto a que sua conta Awin tem acesso, mostrando
-lado a lado o Advertiser ID e o Feed ID (fid).
-
-Por que isso existe: a URL de download do datafeed usa 'fid', que e o
-**Feed ID**, e nao o Advertiser ID. Passar o advertiser id no lugar do fid
-retorna 404 -- foi exatamente o que aconteceu na primeira execucao.
+Lista os feeds de produto acessiveis pela conta, mostrando Advertiser ID e
+Feed ID lado a lado -- sao numeros diferentes, e a URL de download usa o
+Feed ID. Passar o Advertiser ID retorna 404.
 
 Uso:
-    python listar_feeds.py
-
-Precisa de AWIN_PRODUCTDATA_KEY no ambiente (ou no .env).
-
-IMPORTANTE -- sao DUAS credenciais diferentes na Awin:
-  - Publisher API token: pego em ui.awin.com/awin-api. Serve para api.awin.com.
-    NAO funciona aqui (o productdata responde 500 ou 404 com ele).
-  - Product Feed API key: pega em Toolbox > Create-a-Feed, embutida no link
-    "Download list". E essa que este script usa.
+    python listar_feeds.py           # feeds da regiao BR
+    REGIAO=todas python listar_feeds.py
 """
 
 import os
-import io
 import sys
 
-import requests
-import pandas as pd
-from dotenv import load_dotenv
+import awin
 
-load_dotenv()
+REGIAO = os.getenv("REGIAO", "BR").strip().upper()
 
-# A chave do productdata NAO e a mesma coisa que o token da Publisher API.
-# Ver docstring do modulo. AWIN_TOKEN e aceito como fallback legado.
-PRODUCTDATA_KEY = os.getenv("AWIN_PRODUCTDATA_KEY") or os.getenv("AWIN_TOKEN")
 
-LISTA_URL = "https://productdata.awin.com/datafeed/list/apikey/{token}/"
-
-ERRO_CHAVE_ERRADA = (
-    "A chave usada nao foi aceita pelo productdata.awin.com.\n"
-    "Causa mais comum: estar usando o token da Publisher API (o de\n"
-    "ui.awin.com/awin-api) no lugar da chave do Product Feed -- sao\n"
-    "credenciais diferentes.\n\n"
-    "Onde achar a chave certa: no painel Awin, Toolbox > Create-a-Feed.\n"
-    "O link 'Download list' de la tem o formato\n"
-    "  https://productdata.awin.com/datafeed/list/apikey/SUA_CHAVE/\n"
-    "Copie o trecho logo depois de /apikey/ e use em AWIN_PRODUCTDATA_KEY."
-)
-
-# colunas que interessam, na ordem em que queremos exibir.
-# a Awin as vezes muda o nome exato, entao casamos de forma tolerante.
-COLUNAS_DESEJADAS = [
-    "Advertiser ID",
-    "Advertiser Name",
-    "Feed ID",
-    "Feed Name",
-    "Language",
-    "Membership Status",
-    "No of products",
-    "Last Imported",
-]
+def numero(feed: dict) -> int:
+    try:
+        return int(feed.get("No of products") or 0)
+    except ValueError:
+        return 0
 
 
 def main():
-    if not PRODUCTDATA_KEY:
-        print("Erro: AWIN_PRODUCTDATA_KEY nao definido (use .env ou variavel de ambiente)")
+    try:
+        feeds = awin.listar_feeds()
+    except awin.AwinError as e:
+        print(f"ERRO: {e}")
         sys.exit(1)
 
-    url = LISTA_URL.format(token=PRODUCTDATA_KEY)
-    print("Baixando lista de feeds da Awin...")
-    resp = requests.get(url, timeout=60)
+    print(f"{len(feeds)} feed(s) na conta.")
 
-    # a Awin responde 500 (nao 401) quando a chave nao vale para o productdata
-    if resp.status_code in (401, 403, 500):
-        print(f"\nHTTP {resp.status_code} ao consultar a lista de feeds.\n")
-        print(ERRO_CHAVE_ERRADA)
-        sys.exit(1)
-    resp.raise_for_status()
+    if REGIAO != "TODAS":
+        feeds = [f for f in feeds if f.get("Primary Region", "").strip().upper() == REGIAO]
+        print(f"{len(feeds)} na regiao {REGIAO} (use REGIAO=todas para ver todos).")
 
-    df = pd.read_csv(io.BytesIO(resp.content))
-    if df.empty:
+    if not feeds:
         print(
-            "Nenhum feed retornado. Isso normalmente significa que voce ainda "
-            "nao foi aprovado em nenhum programa que publique feed de produtos."
+            "\nNenhum feed nessa regiao. Se a conta e nova, pode ser que ainda "
+            "nao haja programa com feed de produto disponivel."
         )
-        sys.exit(0)
+        return
 
-    print(f"\n{len(df)} feed(s) disponivel(is).\n")
-    print(f"Colunas retornadas pela Awin: {list(df.columns)}\n")
-
-    presentes = [c for c in COLUNAS_DESEJADAS if c in df.columns]
-    exibir = df[presentes] if presentes else df
-
-    with pd.option_context("display.max_rows", None, "display.width", 200):
-        print(exibir.to_string(index=False))
+    print()
+    cab = f"{'Adv ID':>8} | {'Feed ID':>8} | {'Loja':38} | {'Reg':3} | {'Idioma':10} | {'Produtos':>9} | Status"
+    print(cab)
+    print("-" * len(cab))
+    for f in sorted(feeds, key=numero, reverse=True):
+        print(
+            f"{f.get('Advertiser ID',''):>8} | {f.get('Feed ID',''):>8} | "
+            f"{f.get('Advertiser Name','')[:38]:38} | "
+            f"{f.get('Primary Region',''):3} | {f.get('Language','')[:10]:10} | "
+            f"{numero(f):>9,} | {f.get('Membership Status','')}"
+        )
 
     print(
-        "\nPegue o valor da coluna 'Feed ID' da loja que voce quer e use ele "
-        "em AWIN_FEED_IDS (separado por virgula se for mais de um)."
+        "\nUse a coluna 'Feed ID' em AWIN_FEED_IDS (separado por virgula). "
+        "Deixando AWIN_FEED_IDS vazio, buscar_ofertas.py pega sozinho todos os "
+        f"feeds da regiao {REGIAO}."
     )
 
 
