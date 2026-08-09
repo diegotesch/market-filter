@@ -32,6 +32,36 @@ Usar o máximo histórico como referência (em vez do preço de ontem) faz uma
 promoção continuar aparecendo enquanto durar, em vez de sumir no dia seguinte
 por "não ter mudado desde ontem".
 
+## Página de filtros
+
+**https://diegotesch.github.io/market-filter/**
+
+Carrega o catálogo inteiro e filtra no navegador, sem servidor: busca por
+nome (ignora acento), público (masculino/feminino/infantil), loja, marca,
+faixa de preço e queda de preço. Ordena por qualquer coluna e exporta o
+resultado filtrado em CSV.
+
+Publicada pelo mesmo workflow da coleta, como segundo job — reaproveita os
+feeds já baixados em vez de baixá-los de novo.
+
+### Sobre o peso do dataset
+
+São 11,5 mil produtos carregados de uma vez. Duas decisões mantêm isso em
+1,3 MB (210 KB comprimido, que é como o Pages serve):
+
+- Loja e marca viram índices para listas separadas, em vez de repetir a
+  string em cada produto.
+- O link de afiliado não é armazenado. Todo link do feed segue o padrão
+  `awin1.com/pclick.php?p=<produto>&a=<publisher>&m=<merchant>`, então a
+  página remonta a URL a partir do id do produto e do merchant da loja.
+  Economiza ~700 KB.
+
+A URL da imagem ficou de fora: tem ~280 caracteres com um hash não derivável,
+o que somaria mais de 3 MB. A página é ferramenta de filtro, não vitrine.
+
+O `dados.json` **não é commitado** — vai direto como artefato do Pages, para
+não reescrever alguns MB no repositório todo dia.
+
 ## Rodando localmente
 
 ```bash
@@ -144,6 +174,8 @@ inspecionar o catálogo de outros países sem mexer em nada.
 | `awin.py` | cliente do Product Feed: lista e baixa feeds |
 | `historico.py` | memória de preços entre execuções e cálculo de queda |
 | `panorama.py` | relatório do catálogo em markdown |
+| `exportar.py` | dataset compacto consumido pela página |
+| `web/index.html` | página de filtros (estática, sem dependências) |
 | `buscar_ofertas.py` | orquestra tudo |
 | `listar_feeds.py` | diagnóstico: o que a conta enxerga |
 
