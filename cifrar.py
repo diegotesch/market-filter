@@ -41,6 +41,18 @@ TAMANHO_IV = 12
 ITERACOES = 600_000
 
 
+def normalizar_senha(senha: str) -> str:
+    """
+    Remove espacos e quebras de linha das pontas.
+
+    Motivo pratico: `echo senha | gh secret set` grava a senha COM o \\n final,
+    e ai a senha digitada no navegador nunca confere -- falha silenciosa e
+    dificil de diagnosticar. A pagina faz o mesmo trim, entao os dois lados
+    concordam.
+    """
+    return senha.strip()
+
+
 def derivar_chave(senha: str, salt: bytes) -> bytes:
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
@@ -48,7 +60,7 @@ def derivar_chave(senha: str, salt: bytes) -> bytes:
         salt=salt,
         iterations=ITERACOES,
     )
-    return kdf.derive(senha.encode("utf-8"))
+    return kdf.derive(normalizar_senha(senha).encode("utf-8"))
 
 
 def cifrar_arquivo(origem: str, destino: str, senha: str) -> dict:

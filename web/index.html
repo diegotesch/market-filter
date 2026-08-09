@@ -353,8 +353,29 @@ function abrirPortao(buffer) {
   };
 }
 
+// Sem isto, um navegador sem DecompressionStream mostraria "senha incorreta"
+// para sempre, com a senha certa -- o erro mais confuso possivel.
+function checarSuporte() {
+  if (typeof DecompressionStream === "undefined") {
+    return "Este navegador não suporta DecompressionStream, necessário para " +
+           "abrir os dados. Use Chrome 80+, Firefox 113+ ou Safari 16.4+.";
+  }
+  if (!crypto?.subtle) {
+    return "Sem acesso à WebCrypto. Isso costuma acontecer em conexão não " +
+           "segura — abra a página por HTTPS.";
+  }
+  return "";
+}
+
 async function tentar(senha, buffer, silencioso) {
   const btn = $("btn-entrar");
+  const incompativel = checarSuporte();
+  if (incompativel) {
+    $("erro-senha").textContent = incompativel;
+    btn.disabled = true;
+    return;
+  }
+
   btn.disabled = true;
   if (!silencioso) $("erro-senha").textContent = "";
   btn.textContent = "Abrindo…";
@@ -367,7 +388,17 @@ async function tentar(senha, buffer, silencioso) {
     iniciar();
   } catch (err) {
     sessionStorage.removeItem("mf_senha");
-    if (!silencioso) $("erro-senha").textContent = "Senha incorreta.";
+    if (!silencioso) {
+      // 'OperationError' e a falha de integridade do AES-GCM, ou seja, senha
+      // errada de verdade. Qualquer outro erro e problema tecnico, e dizer
+      // "senha incorreta" mandaria o usuario procurar no lugar errado.
+      $("erro-senha").textContent =
+        err.name === "OperationError"
+          ? "Senha incorreta."
+          : `Falha ao abrir os dados (${err.name}: ${err.message}). ` +
+            `Tente recarregar com Ctrl+Shift+R.`;
+      console.error("market-filter: falha ao decifrar", err);
+    }
     btn.disabled = false;
     btn.textContent = "Entrar";
     $("senha").select();
@@ -380,8 +411,10 @@ async function decifrar(buffer, senha) {
   const iv = bytes.slice(8 + TAM_SALT, 8 + TAM_SALT + TAM_IV);
   const ct = bytes.slice(8 + TAM_SALT + TAM_IV);
 
+  // mesmo trim aplicado em cifrar.py: um secret gravado por pipe leva '\n' no
+  // fim, e sem isto a senha certa nunca conferiria
   const base = await crypto.subtle.importKey(
-    "raw", new TextEncoder().encode(senha), "PBKDF2", false, ["deriveKey"]
+    "raw", new TextEncoder().encode(senha.trim()), "PBKDF2", false, ["deriveKey"]
   );
   const chave = await crypto.subtle.deriveKey(
     { name: "PBKDF2", salt, iterations: ITERACOES, hash: "SHA-256" },
