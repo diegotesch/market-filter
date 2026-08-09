@@ -9,7 +9,6 @@ lista de palavras-chave e descobrir depois que nao casa com nada.
 """
 
 import collections
-from datetime import datetime, timezone
 
 FAIXAS = [
     (0, 50, "ate R$ 50"),
@@ -39,10 +38,10 @@ def _tabela(titulo: str, contagem: collections.Counter, total: int, limite=12) -
 
 def gerar(produtos: list, feeds: list, caminho: str) -> None:
     total = len(produtos)
+    # sem timestamp de propria geracao: ele mudaria a cada execucao e geraria
+    # um commit diario sem informacao nova. A data do commit ja registra isso.
     linhas = [
         "# Panorama do catalogo",
-        "",
-        f"Gerado em {datetime.now(timezone.utc).isoformat()}",
         "",
         f"- **{total:,}** produtos coletados",
         f"- **{len(feeds)}** feed(s)",
