@@ -26,8 +26,12 @@ import sys
 from datetime import datetime, timezone
 
 import awin
+import exportar
 import historico
 import panorama
+
+# usado na pagina estatica para remontar os links de afiliado
+PUBLISHER_ID = os.getenv("AWIN_PUBLISHER_ID", "").strip()
 
 FEED_IDS = os.getenv("AWIN_FEED_IDS", "").strip()
 REGIAO = os.getenv("AWIN_REGIAO", "BR").strip().upper()
@@ -88,6 +92,7 @@ def normalizar(linhas: list[dict], feed: dict) -> list[dict]:
         produtos.append({
             "produto_id": pid,
             "feed_id": feed_id,
+            "merchant_id": (linha.get("merchant_id") or "").strip(),
             "loja": (linha.get("merchant_name") or feed.get("Advertiser Name", "")).strip(),
             "nome": (linha.get("product_name") or "").strip(),
             "marca": (linha.get("brand_name") or "").strip(),
@@ -231,6 +236,17 @@ def main():
         }, fh, ensure_ascii=False, indent=2)
 
     panorama.gerar(todos_produtos, feeds, "output/panorama.md")
+
+    # dataset da pagina estatica: sempre o catalogo inteiro, porque os filtros
+    # de nicho la sao interativos
+    resumo_site = exportar.gerar(
+        todos_produtos, registros, "output/dados.json", publisher=PUBLISHER_ID
+    )
+    print(
+        f"Dataset da pagina: {resumo_site['produtos']} produtos, "
+        f"{resumo_site['lojas']} lojas, {resumo_site['marcas']} marcas "
+        f"({resumo_site['bytes'] / 1024:.0f} KB)"
+    )
 
     print(f"\n{len(ofertas)} oferta(s) em output/ofertas.json")
     print("Panorama do catalogo em output/panorama.md")

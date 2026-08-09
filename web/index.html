@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>market-filter — catálogo Awin</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #f6f7f9;
+    --bg-elev: #ffffff;
+    --fg: #16181d;
+    --fg-mute: #62666d;
+    --linha: #e3e5e9;
+    --acento: #1f6feb;
+    --queda: #14804a;
+    --queda-bg: #e7f5ee;
+    --sombra: 0 1px 2px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --bg-alt: #161b22;
+      --bg-elev: #161b22;
+      --fg: #e6edf3;
+      --fg-mute: #8b949e;
+      --linha: #262c36;
+      --acento: #4493f8;
+      --queda: #3fb950;
+      --queda-bg: #12261a;
+      --sombra: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid var(--linha);
+    background: var(--bg-alt);
+  }
+  h1 { margin: 0 0 4px; font-size: 19px; letter-spacing: -.01em; }
+  .sub { color: var(--fg-mute); font-size: 13px; }
+  .layout { display: flex; align-items: flex-start; gap: 24px; padding: 20px 24px 60px; }
+  @media (max-width: 900px) { .layout { flex-direction: column; padding: 16px; gap: 16px; } }
+
+  aside {
+    flex: 0 0 268px;
+    position: sticky; top: 16px;
+    background: var(--bg-elev);
+    border: 1px solid var(--linha);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: var(--sombra);
+  }
+  @media (max-width: 900px) { aside { position: static; flex: 1 1 auto; width: 100%; } }
+
+  .grupo { margin-bottom: 18px; }
+  .grupo:last-child { margin-bottom: 0; }
+  .rot {
+    display: block; margin-bottom: 6px;
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--fg-mute);
+  }
+  input[type=text], input[type=number], select {
+    width: 100%; padding: 7px 9px;
+    background: var(--bg);
+    border: 1px solid var(--linha); border-radius: 7px;
+    color: var(--fg); font: inherit; font-size: 14px;
+  }
+  input:focus, select:focus { outline: 2px solid var(--acento); outline-offset: -1px; }
+  .dupla { display: flex; gap: 8px; }
+  .caixa-lista {
+    max-height: 168px; overflow-y: auto;
+    border: 1px solid var(--linha); border-radius: 7px;
+    padding: 6px; background: var(--bg);
+  }
+  .caixa-lista label {
+    display: flex; align-items: center; gap: 7px;
+    padding: 3px 4px; border-radius: 5px; cursor: pointer; font-size: 13px;
+  }
+  .caixa-lista label:hover { background: var(--bg-alt); }
+  .caixa-lista .cont { margin-left: auto; color: var(--fg-mute); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    padding: 5px 11px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--bg);
+    font-size: 13px; user-select: none;
+  }
+  .chip[aria-pressed=true] { background: var(--acento); border-color: var(--acento); color: #fff; }
+  button.acao {
+    width: 100%; padding: 8px; cursor: pointer;
+    background: var(--bg); color: var(--fg);
+    border: 1px solid var(--linha); border-radius: 7px; font: inherit;
+  }
+  button.acao:hover { border-color: var(--acento); color: var(--acento); }
+
+  main { flex: 1 1 auto; min-width: 0; }
+  .barra {
+    display: flex; align-items: center; gap: 12px;
+    flex-wrap: wrap; margin-bottom: 12px;
+  }
+  .resumo { font-size: 14px; color: var(--fg-mute); }
+  .resumo b { color: var(--fg); font-variant-numeric: tabular-nums; }
+  .barra .espaco { margin-left: auto; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--linha); }
+  th {
+    position: sticky; top: 0; z-index: 1;
+    background: var(--bg); color: var(--fg-mute);
+    font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+    cursor: pointer; white-space: nowrap;
+  }
+  th:hover { color: var(--acento); }
+  th[data-ativo] { color: var(--acento); }
+  tbody tr:hover { background: var(--bg-alt); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .nome a { color: var(--fg); text-decoration: none; }
+  .nome a:hover { color: var(--acento); text-decoration: underline; }
+  .meta { display: block; color: var(--fg-mute); font-size: 12px; margin-top: 2px; }
+  .badge {
+    display: inline-block; padding: 2px 7px; border-radius: 999px;
+    background: var(--queda-bg); color: var(--queda);
+    font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums;
+  }
+  .risco { color: var(--fg-mute); text-decoration: line-through; font-size: 12px; }
+  .vazio { padding: 48px 16px; text-align: center; color: var(--fg-mute); }
+  #mais { margin: 16px auto 0; display: block; width: 220px; }
+  .rodape { padding: 0 24px 32px; color: var(--fg-mute); font-size: 12px; }
+  @media (max-width: 700px) { .esconde-mobile { display: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Catálogo Awin — filtros</h1>
+  <div class="sub" id="cabecalho">carregando…</div>
+</header>
+
+<div class="layout">
+  <aside>
+    <div class="grupo">
+      <label class="rot" for="busca">Buscar no nome</label>
+      <input type="text" id="busca" placeholder="ex: tênis corrida" autocomplete="off">
+    </div>
+
+    <div class="grupo">
+      <span class="rot">Público</span>
+      <div class="chips" id="generos"></div>
+    </div>
+
+    <div class="grupo">
+      <span class="rot">Preço (R$)</span>
+      <div class="dupla">
+        <input type="number" id="preco-min" placeholder="mín" min="0">
+        <input type="number" id="preco-max" placeholder="máx" min="0">
+      </div>
+    </div>
+
+    <div class="grupo">
+      <label class="rot" for="queda-min">Queda mínima de preço</label>
+      <select id="queda-min">
+        <option value="0">qualquer</option>
+        <option value="0.01">só com queda</option>
+        <option value="5">5% ou mais</option>
+        <option value="10">10% ou mais</option>
+        <option value="20">20% ou mais</option>
+        <option value="30">30% ou mais</option>
+      </select>
+    </div>
+
+    <div class="grupo">
+      <span class="rot">Loja</span>
+      <div class="caixa-lista" id="lojas"></div>
+    </div>
+
+    <div class="grupo">
+      <span class="rot">Marca</span>
+      <input type="text" id="busca-marca" placeholder="filtrar marcas…" autocomplete="off" style="margin-bottom:6px">
+      <div class="caixa-lista" id="marcas"></div>
+    </div>
+
+    <div class="grupo">
+      <button class="acao" id="limpar">Limpar filtros</button>
+    </div>
+  </aside>
+
+  <main>
+    <div class="barra">
+      <div class="resumo" id="resumo"></div>
+      <div class="espaco"></div>
+      <button class="acao" id="csv" style="width:auto;padding:7px 14px">Baixar CSV</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th data-ord="nome">Produto</th>
+          <th data-ord="loja" class="esconde-mobile">Loja</th>
+          <th data-ord="preco" class="num">Preço</th>
+          <th data-ord="queda" class="num">Queda</th>
+          <th data-ord="preco_max" class="num esconde-mobile">Máx. visto</th>
+        </tr>
+      </thead>
+      <tbody id="linhas"></tbody>
+    </table>
+
+    <div class="vazio" id="vazio" hidden>Nenhum produto com esses filtros.</div>
+    <button class="acao" id="mais" hidden>Carregar mais</button>
+  </main>
+</div>
+
+<div class="rodape" id="rodape"></div>
+
+<script>
+const PAGINA = 100;
+let DADOS = null, PRODUTOS = [], FILTRADOS = [], mostrando = 0;
+let ordem = { campo: "queda", desc: true };
+
+const estado = {
+  busca: "", generos: new Set(), lojas: new Set(), marcas: new Set(),
+  precoMin: null, precoMax: null, quedaMin: 0,
+};
+
+const NOMES_GENERO = { m: "Masculino", f: "Feminino", i: "Infantil", u: "Indefinido" };
+const $ = id => document.getElementById(id);
+const brl = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+
+// tira acento para a busca casar "tenis" com "tênis"
+const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+fetch("dados.json")
+  .then(r => {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  })
+  .then(d => { DADOS = d; iniciar(); })
+  .catch(e => {
+    $("cabecalho").textContent = "Falha ao carregar dados.json: " + e.message;
+  });
+
+function iniciar() {
+  PRODUTOS = DADOS.produtos.map(p => ({
+    id: p[0], loja: p[1], marca: p[2], nome: p[3],
+    preco: p[4], preco_min: p[5], preco_max: p[6],
+    queda: p[7], genero: p[8], desde: p[9],
+    _busca: semAcento(p[3]),
+  }));
+
+  $("cabecalho").textContent =
+    `${PRODUTOS.length.toLocaleString("pt-BR")} produtos · ` +
+    `${DADOS.lojas.length} lojas · ${DADOS.marcas.filter(Boolean).length} marcas`;
+
+  montarGeneros();
+  montarLojas();
+  montarMarcas();
+  ligarEventos();
+  aplicar();
+}
+
+function contarPor(fn) {
+  const c = new Map();
+  for (const p of PRODUTOS) c.set(fn(p), (c.get(fn(p)) || 0) + 1);
+  return c;
+}
+
+function montarGeneros() {
+  const cont = contarPor(p => p.genero);
+  $("generos").innerHTML = "";
+  for (const [cod, rotulo] of Object.entries(NOMES_GENERO)) {
+    if (!cont.get(cod)) continue;
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.type = "button";
+    b.setAttribute("aria-pressed", "false");
+    b.textContent = `${rotulo} (${cont.get(cod).toLocaleString("pt-BR")})`;
+    b.onclick = () => {
+      const ativo = b.getAttribute("aria-pressed") === "true";
+      b.setAttribute("aria-pressed", String(!ativo));
+      ativo ? estado.generos.delete(cod) : estado.generos.add(cod);
+      aplicar();
+    };
+    $("generos").appendChild(b);
+  }
+}
+
+function montarLojas() {
+  const cont = contarPor(p => p.loja);
+  const ordenadas = DADOS.lojas
+    .map((l, i) => ({ ...l, i, n: cont.get(i) || 0 }))
+    .filter(l => l.n > 0)
+    .sort((a, b) => b.n - a.n);
+
+  $("lojas").innerHTML = "";
+  for (const l of ordenadas) {
+    $("lojas").appendChild(caixa(l.nome, l.n, l.i, estado.lojas));
+  }
+}
+
+function montarMarcas(filtro = "") {
+  const cont = contarPor(p => p.marca);
+  const alvo = semAcento(filtro);
+  const ordenadas = DADOS.marcas
+    .map((nome, i) => ({ nome, i, n: cont.get(i) || 0 }))
+    .filter(m => m.nome && m.n > 0 && (!alvo || semAcento(m.nome).includes(alvo)))
+    .sort((a, b) => b.n - a.n);
+
+  $("marcas").innerHTML = "";
+  if (!ordenadas.length) {
+    $("marcas").innerHTML = '<div style="padding:8px;color:var(--fg-mute);font-size:13px">nenhuma marca</div>';
+    return;
+  }
+  for (const m of ordenadas) {
+    $("marcas").appendChild(caixa(m.nome, m.n, m.i, estado.marcas));
+  }
+}
+
+function caixa(rotulo, n, valor, conjunto) {
+  const l = document.createElement("label");
+  const cb = document.createElement("input");
+  cb.type = "checkbox";
+  cb.checked = conjunto.has(valor);
+  cb.onchange = () => {
+    cb.checked ? conjunto.add(valor) : conjunto.delete(valor);
+    aplicar();
+  };
+  const txt = document.createElement("span");
+  txt.textContent = rotulo;
+  const c = document.createElement("span");
+  c.className = "cont";
+  c.textContent = n.toLocaleString("pt-BR");
+  l.append(cb, txt, c);
+  return l;
+}
+
+function ligarEventos() {
+  let t;
+  $("busca").oninput = e => {
+    clearTimeout(t);
+    t = setTimeout(() => { estado.busca = semAcento(e.target.value.trim()); aplicar(); }, 160);
+  };
+  $("busca-marca").oninput = e => montarMarcas(e.target.value.trim());
+  $("preco-min").oninput = e => { estado.precoMin = e.target.value ? +e.target.value : null; aplicar(); };
+  $("preco-max").oninput = e => { estado.precoMax = e.target.value ? +e.target.value : null; aplicar(); };
+  $("queda-min").onchange = e => { estado.quedaMin = +e.target.value; aplicar(); };
+  $("mais").onclick = () => desenhar(true);
+  $("csv").onclick = baixarCsv;
+  $("limpar").onclick = limpar;
+
+  document.querySelectorAll("th[data-ord]").forEach(th => {
+    th.onclick = () => {
+      const campo = th.dataset.ord;
+      if (ordem.campo === campo) ordem.desc = !ordem.desc;
+      else ordem = { campo, desc: campo !== "nome" };
+      aplicar();
+    };
+  });
+}
+
+function limpar() {
+  estado.busca = ""; estado.precoMin = null; estado.precoMax = null; estado.quedaMin = 0;
+  estado.generos.clear(); estado.lojas.clear(); estado.marcas.clear();
+  $("busca").value = ""; $("busca-marca").value = "";
+  $("preco-min").value = ""; $("preco-max").value = ""; $("queda-min").value = "0";
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", "false"));
+  montarMarcas();
+  montarLojas();
+  aplicar();
+}
+
+function aplicar() {
+  FILTRADOS = PRODUTOS.filter(p =>
+    (!estado.busca || p._busca.includes(estado.busca)) &&
+    (!estado.generos.size || estado.generos.has(p.genero)) &&
+    (!estado.lojas.size || estado.lojas.has(p.loja)) &&
+    (!estado.marcas.size || estado.marcas.has(p.marca)) &&
+    (estado.precoMin === null || p.preco >= estado.precoMin) &&
+    (estado.precoMax === null || p.preco <= estado.precoMax) &&
+    (!estado.quedaMin || p.queda >= estado.quedaMin)
+  );
+
+  const c = ordem.campo, sinal = ordem.desc ? -1 : 1;
+  FILTRADOS.sort((a, b) => {
+    let x = c === "loja" ? DADOS.lojas[a.loja].nome : a[c];
+    let y = c === "loja" ? DADOS.lojas[b.loja].nome : b[c];
+    if (typeof x === "string") return sinal * x.localeCompare(y, "pt-BR");
+    return sinal * (x - y);
+  });
+
+  document.querySelectorAll("th[data-ord]").forEach(th => {
+    if (th.dataset.ord === ordem.campo) th.setAttribute("data-ativo", "");
+    else th.removeAttribute("data-ativo");
+  });
+
+  mostrando = 0;
+  $("linhas").innerHTML = "";
+  desenhar();
+  atualizarResumo();
+}
+
+function atualizarResumo() {
+  const n = FILTRADOS.length;
+  let txt = `<b>${n.toLocaleString("pt-BR")}</b> de ${PRODUTOS.length.toLocaleString("pt-BR")} produtos`;
+  if (n) {
+    const precos = FILTRADOS.map(p => p.preco).sort((a, b) => a - b);
+    const mediana = precos[Math.floor(precos.length / 2)];
+    const comQueda = FILTRADOS.filter(p => p.queda > 0).length;
+    txt += ` · mediana <b>${brl(mediana)}</b>`;
+    if (comQueda) txt += ` · <b>${comQueda.toLocaleString("pt-BR")}</b> com queda`;
+  }
+  $("resumo").innerHTML = txt;
+  $("vazio").hidden = n > 0;
+}
+
+function linkAfiliado(p) {
+  const loja = DADOS.lojas[p.loja];
+  return `https://www.awin1.com/pclick.php?p=${p.id}&a=${DADOS.publisher}&m=${loja.merchant}`;
+}
+
+function desenhar(anexar = false) {
+  if (!anexar) mostrando = 0;
+  const fim = Math.min(mostrando + PAGINA, FILTRADOS.length);
+  const frag = document.createDocumentFragment();
+
+  for (let i = mostrando; i < fim; i++) {
+    const p = FILTRADOS[i];
+    const tr = document.createElement("tr");
+    const marca = DADOS.marcas[p.marca];
+
+    const tdNome = document.createElement("td");
+    tdNome.className = "nome";
+    const a = document.createElement("a");
+    a.href = linkAfiliado(p);
+    a.target = "_blank";
+    a.rel = "nofollow sponsored noopener";
+    a.textContent = p.nome;
+    tdNome.appendChild(a);
+    if (marca) {
+      const m = document.createElement("span");
+      m.className = "meta";
+      m.textContent = marca;
+      tdNome.appendChild(m);
+    }
+
+    const tdLoja = document.createElement("td");
+    tdLoja.className = "esconde-mobile";
+    tdLoja.textContent = DADOS.lojas[p.loja].nome;
+
+    const tdPreco = document.createElement("td");
+    tdPreco.className = "num";
+    tdPreco.textContent = brl(p.preco);
+
+    const tdQueda = document.createElement("td");
+    tdQueda.className = "num";
+    if (p.queda > 0) {
+      const b = document.createElement("span");
+      b.className = "badge";
+      b.textContent = "−" + p.queda.toFixed(1).replace(".", ",") + "%";
+      tdQueda.appendChild(b);
+    } else {
+      tdQueda.textContent = "—";
+    }
+
+    const tdMax = document.createElement("td");
+    tdMax.className = "num esconde-mobile";
+    tdMax.innerHTML = p.preco_max > p.preco
+      ? `<span class="risco">${brl(p.preco_max)}</span>`
+      : "—";
+
+    tr.append(tdNome, tdLoja, tdPreco, tdQueda, tdMax);
+    frag.appendChild(tr);
+  }
+
+  $("linhas").appendChild(frag);
+  mostrando = fim;
+  $("mais").hidden = mostrando >= FILTRADOS.length;
+  $("mais").textContent =
+    `Carregar mais (${(FILTRADOS.length - mostrando).toLocaleString("pt-BR")} restantes)`;
+}
+
+function baixarCsv() {
+  const cabecalho = ["nome", "loja", "marca", "publico", "preco", "preco_min", "preco_max", "queda_pct", "link"];
+  const escapar = v => `"${String(v).replace(/"/g, '""')}"`;
+  const linhas = FILTRADOS.map(p => [
+    p.nome, DADOS.lojas[p.loja].nome, DADOS.marcas[p.marca] || "",
+    NOMES_GENERO[p.genero], p.preco, p.preco_min, p.preco_max, p.queda, linkAfiliado(p),
+  ].map(escapar).join(","));
+
+  const blob = new Blob(["﻿" + [cabecalho.join(","), ...linhas].join("\n")],
+    { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `catalogo-filtrado-${FILTRADOS.length}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>

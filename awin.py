@@ -41,6 +41,7 @@ BASE_DOWNLOAD = "https://productdata.awin.com/datafeed/download/apikey/{key}/"
 COLUNAS = [
     "aw_product_id",
     "product_name",
+    "merchant_id",
     "merchant_name",
     "brand_name",
     "category_name",

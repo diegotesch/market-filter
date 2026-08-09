@@ -8,3 +8,6 @@ output/*.csv
 
 # historico/precos.csv e output/panorama.md NAO entram aqui de proposito:
 # o historico e a memoria do projeto entre execucoes e precisa ser versionado.
+
+# site/ e montado a cada execucao (web/ + dados.json) e vai para o Pages
+site/
