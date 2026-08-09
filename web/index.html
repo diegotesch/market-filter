@@ -311,8 +311,17 @@ const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowe
 //   dados.bin  -> cifrado com senha (AES-256-GCM, chave via PBKDF2)
 //   dados.json -> em claro, quando o site e gerado sem SITE_SENHA
 //
-// Tenta o cifrado primeiro. Se nao existir, cai no aberto sem pedir senha.
+// O modo e gravado aqui no momento do build, e NAO deduzido de o dados.bin
+// existir ou nao. Deduzir pela existencia do arquivo tornava a pagina refem
+// do cache: uma copia antiga do dados.bin em algum ponto do CDN fazia a
+// pagina pedir senha depois de a senha ter sido removida. Com o modo fixo no
+// HTML, pagina e dado envelhecem juntos.
+//
+// O workflow substitui estes dois marcadores ao montar o site.
 // ---------------------------------------------------------------------------
+const MODO = "__MODO__";     // "cifrado" ou "aberto"
+const BUILD = "__BUILD__";   // identificacao da publicacao, exibida no rodape
+
 const MAGIC = "MKTFLT01";
 const ITERACOES = 600000;   // precisa bater com cifrar.py
 const TAM_SALT = 16, TAM_IV = 12;
@@ -320,9 +329,19 @@ const TAM_SALT = 16, TAM_IV = 12;
 // cache: "reload" ignora o cache do navegador nesta sondagem. Sem isso, uma
 // copia antiga do dados.bin faz a pagina pedir senha mesmo depois de o site
 // voltar a ser publicado em claro -- e o Pages guarda por 10 minutos.
-fetch("dados.bin", { cache: "reload" })
-  .then(r => (r.ok ? r.arrayBuffer().then(abrirPortao) : semSenha()))
-  .catch(semSenha);
+if (MODO === "cifrado") {
+  fetch("dados.bin", { cache: "reload" })
+    .then(r => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.arrayBuffer();
+    })
+    .then(abrirPortao)
+    .catch(e => {
+      $("cabecalho").textContent = "Falha ao carregar dados.bin: " + e.message;
+    });
+} else {
+  semSenha();
+}
 
 function semSenha() {
   return fetch("dados.json")
@@ -437,6 +456,11 @@ async function decifrar(buffer, senha) {
 }
 
 function iniciar() {
+  // carimbo da publicacao: sem isso nao da para saber se o navegador esta
+  // mostrando a versao atual ou uma copia velha do cache
+  $("rodape").textContent =
+    `publicação ${BUILD} · modo ${MODO === "cifrado" ? "com senha" : "aberto"}`;
+
   PRODUTOS = DADOS.produtos.map(p => ({
     id: p[0], loja: p[1], marca: p[2], nome: p[3],
     preco: p[4], preco_min: p[5], preco_max: p[6],

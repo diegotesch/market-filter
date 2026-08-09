@@ -66,11 +66,22 @@ jobs:
           # em claro foi apagado; sem ela, o contrario
           if [ -f output/dados.bin ]; then
             cp output/dados.bin site/
+            MODO=cifrado
             echo "Publicando dataset cifrado."
           else
             cp output/dados.json site/
+            MODO=aberto
             echo "AVISO: publicando dataset em claro (SITE_SENHA nao definida)."
           fi
+
+          # grava o modo na propria pagina: deduzi-lo da existencia do arquivo
+          # deixava a pagina refem de uma copia velha do dados.bin no cache
+          BUILD="$(date -u +%Y-%m-%d\ %H:%M) UTC · ${GITHUB_SHA:0:7}"
+          sed -i "s|__MODO__|$MODO|; s|__BUILD__|$BUILD|" site/index.html
+
+          echo "modo=$MODO build=$BUILD"
+          grep -c "__MODO__\|__BUILD__" site/index.html && \
+            { echo "ERRO: marcador nao substituido"; exit 1; } || true
           ls -la site/
 
       # dados.json nao e commitado: sao ~1,3 MB que mudam todo dia, e o
