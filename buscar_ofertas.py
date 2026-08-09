@@ -103,6 +103,10 @@ def normalizar(linhas: list[dict], feed: dict) -> list[dict]:
             "preco": awin.preco(linha),
             "em_estoque": (linha.get("in_stock") or "").strip(),
             "link_afiliado": (linha.get("aw_deep_link") or "").strip(),
+            # aw_image_url (proxy da Awin, 200x200) em vez de
+            # merchant_image_url: a URL e maior, mas a imagem servida tem
+            # ~5,9 KB contra ~84 KB do arquivo original da loja -- ver
+            # exportar.py para a medicao completa
             "imagem": (linha.get("aw_image_url") or "").strip(),
         })
     return produtos
@@ -271,7 +275,8 @@ def main():
     # dataset da pagina estatica: sempre o catalogo inteiro, porque os filtros
     # de nicho la sao interativos
     resumo_site = exportar.gerar(
-        todos_produtos, registros, "output/dados.json", publisher=PUBLISHER_ID
+        todos_produtos, registros, "output/dados.json",
+        publisher=PUBLISHER_ID, feeds=feeds,
     )
     print(
         f"Dataset da pagina: {resumo_site['produtos']} produtos, "

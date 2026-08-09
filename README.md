@@ -38,8 +38,20 @@ por "não ter mudado desde ontem".
 
 Carrega o catálogo inteiro e filtra no navegador, sem servidor: busca por
 nome (ignora acento), público (masculino/feminino/infantil), loja, marca,
-faixa de preço e queda de preço. Ordena por qualquer coluna e exporta o
-resultado filtrado em CSV.
+faixa de preço, queda de preço e **somente lojas em que você é afiliado**.
+Ordena por qualquer coluna, mostra miniatura do produto e exporta o resultado
+filtrado em CSV.
+
+### Filtro de afiliação
+
+Vem do campo `Membership Status` da lista de feeds da Awin: só `active` conta
+como afiliado. As lojas aceitas aparecem primeiro na lista, com selo, e o
+painel mostra quantas são — se nenhuma estiver aceita, o filtro é desabilitado
+com aviso, em vez de devolver uma lista vazia que pareceria bug.
+
+Situação em 2026-08-09: **Lauri Esporte** (1.514 produtos, tênis esportivos) é
+a única loja BR aceita. Há também a Aussui (GB, 64.740 produtos), fora da
+região coletada.
 
 Publicada pelo mesmo workflow da coleta, como segundo job — reaproveita os
 feeds já baixados em vez de baixá-los de novo.
@@ -92,18 +104,39 @@ Sem o secret, o site é publicado em claro (e o workflow avisa no log).
 
 ### Sobre o peso do dataset
 
-São 11,5 mil produtos carregados de uma vez. Duas decisões mantêm isso em
-1,3 MB (210 KB comprimido, que é como o Pages serve):
+São 11,5 mil produtos carregados de uma vez, e o arquivo final tem **579 KB**.
+Três decisões seguram esse número:
 
 - Loja e marca viram índices para listas separadas, em vez de repetir a
   string em cada produto.
 - O link de afiliado não é armazenado. Todo link do feed segue o padrão
   `awin1.com/pclick.php?p=<produto>&a=<publisher>&m=<merchant>`, então a
   página remonta a URL a partir do id do produto e do merchant da loja.
-  Economiza ~700 KB.
+  Economiza ~700 KB. Verificado que o link remontado redireciona para a página
+  certa, com o parâmetro `awc=` de rastreamento intacto.
+- O prefixo de URL de imagem mais comum de cada loja é guardado uma vez só, e
+  cada produto guarda apenas o sufixo — corta o dataset de 3.355 KB para
+  2.256 KB antes da compressão.
 
-A URL da imagem ficou de fora: tem ~280 caracteres com um hash não derivável,
-o que somaria mais de 3 MB. A página é ferramenta de filtro, não vitrine.
+### Por que a miniatura usa o proxy da Awin
+
+O feed traz duas URLs de imagem, e a escolha não é óbvia:
+
+| | Tamanho da URL | Peso da imagem | Dataset final |
+|---|---|---|---|
+| `aw_image_url` (proxy Awin, 200×200) | ~278 chars | **5,9 KB** | 579 KB |
+| `merchant_image_url` (CDN da loja) | ~134 chars | 84 KB | **272 KB** |
+
+A URL da loja gera um dataset bem menor, mas serve a imagem em tamanho cheio.
+Para 100 produtos na tela: **1,2 MB de tráfego total com o proxy contra
+8,7 MB com a URL da loja**. O JSON maior se paga com folga.
+
+Alguns CDNs têm variantes menores (`-thumb.jpg` na Yampi, por exemplo), mas
+depender do padrão de nome de cada loja quebra silenciosamente quando uma
+delas muda. O proxy funciona igual para todas.
+
+Os ~230 KB do hash `k=` nas URLs do proxy são incompressíveis por natureza —
+esse é o piso do arquivo.
 
 O `dados.json` **não é commitado** — vai direto como artefato do Pages, para
 não reescrever alguns MB no repositório todo dia.

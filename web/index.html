@@ -86,6 +86,17 @@
   }
   .caixa-lista label:hover { background: var(--bg-alt); }
   .caixa-lista .cont { margin-left: auto; color: var(--fg-mute); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .interruptor {
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer; font-size: 13px;
+  }
+  .dica { margin-top: 6px; font-size: 12px; color: var(--fg-mute); }
+  .selo {
+    margin-left: 6px; padding: 1px 6px; border-radius: 999px;
+    background: var(--queda-bg); color: var(--queda);
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .04em;
+  }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip {
     padding: 5px 11px; border-radius: 999px; cursor: pointer;
@@ -121,6 +132,17 @@
   th[data-ativo] { color: var(--acento); }
   tbody tr:hover { background: var(--bg-alt); }
   .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .thumb {
+    width: 52px; height: 52px; object-fit: contain;
+    border-radius: 6px; background: #fff;
+    border: 1px solid var(--linha); flex: 0 0 auto;
+  }
+  .thumb-vazio {
+    width: 52px; height: 52px; border-radius: 6px; flex: 0 0 auto;
+    border: 1px dashed var(--linha); background: var(--bg-alt);
+  }
+  .produto { display: flex; align-items: center; gap: 11px; }
+  .produto-texto { min-width: 0; }
   .nome a { color: var(--fg); text-decoration: none; }
   .nome a:hover { color: var(--acento); text-decoration: underline; }
   .meta { display: block; color: var(--fg-mute); font-size: 12px; margin-top: 2px; }
@@ -214,6 +236,15 @@
     </div>
 
     <div class="grupo">
+      <span class="rot">Afiliação</span>
+      <label class="interruptor">
+        <input type="checkbox" id="so-afiliado">
+        <span>Somente lojas em que sou afiliado</span>
+      </label>
+      <div class="dica" id="dica-afiliado"></div>
+    </div>
+
+    <div class="grupo">
       <span class="rot">Loja</span>
       <div class="caixa-lista" id="lojas"></div>
     </div>
@@ -263,7 +294,7 @@ let ordem = { campo: "queda", desc: true };
 
 const estado = {
   busca: "", generos: new Set(), lojas: new Set(), marcas: new Set(),
-  precoMin: null, precoMax: null, quedaMin: 0,
+  precoMin: null, precoMax: null, quedaMin: 0, soAfiliado: false,
 };
 
 const NOMES_GENERO = { m: "Masculino", f: "Feminino", i: "Infantil", u: "Indefinido" };
@@ -373,7 +404,7 @@ function iniciar() {
   PRODUTOS = DADOS.produtos.map(p => ({
     id: p[0], loja: p[1], marca: p[2], nome: p[3],
     preco: p[4], preco_min: p[5], preco_max: p[6],
-    queda: p[7], genero: p[8], desde: p[9],
+    queda: p[7], genero: p[8], desde: p[9], img: p[10],
     _busca: semAcento(p[3]),
   }));
 
@@ -383,6 +414,7 @@ function iniciar() {
 
   montarGeneros();
   montarLojas();
+  montarDicaAfiliado();
   montarMarcas();
   ligarEventos();
   aplicar();
@@ -419,12 +451,32 @@ function montarLojas() {
   const ordenadas = DADOS.lojas
     .map((l, i) => ({ ...l, i, n: cont.get(i) || 0 }))
     .filter(l => l.n > 0)
-    .sort((a, b) => b.n - a.n);
+    .sort((a, b) => (b.afiliado - a.afiliado) || (b.n - a.n));
 
   $("lojas").innerHTML = "";
   for (const l of ordenadas) {
-    $("lojas").appendChild(caixa(l.nome, l.n, l.i, estado.lojas));
+    $("lojas").appendChild(caixa(l.nome, l.n, l.i, estado.lojas, l.afiliado));
   }
+}
+
+// Aviso quando marcar "somente afiliado" nao traria nada: sem isso o
+// resultado vazio pareceria bug, e nao situacao real da conta.
+function montarDicaAfiliado() {
+  const afiliadas = DADOS.lojas.filter(l => l.afiliado);
+  const produtosAfiliados = PRODUTOS.filter(p => DADOS.lojas[p.loja].afiliado).length;
+  const dica = $("dica-afiliado");
+
+  if (!afiliadas.length) {
+    dica.textContent =
+      "Nenhum programa aceito ainda — marcar isto deixa a lista vazia. " +
+      "A situação vem do campo Membership Status da Awin.";
+    $("so-afiliado").disabled = true;
+    return;
+  }
+  dica.textContent =
+    `${afiliadas.length} de ${DADOS.lojas.length} lojas aceitas ` +
+    `(${produtosAfiliados.toLocaleString("pt-BR")} produtos): ` +
+    afiliadas.map(l => l.nome).join(", ");
 }
 
 function montarMarcas(filtro = "") {
@@ -445,7 +497,7 @@ function montarMarcas(filtro = "") {
   }
 }
 
-function caixa(rotulo, n, valor, conjunto) {
+function caixa(rotulo, n, valor, conjunto, afiliado = false) {
   const l = document.createElement("label");
   const cb = document.createElement("input");
   cb.type = "checkbox";
@@ -456,10 +508,18 @@ function caixa(rotulo, n, valor, conjunto) {
   };
   const txt = document.createElement("span");
   txt.textContent = rotulo;
+  l.append(cb, txt);
+  if (afiliado) {
+    const selo = document.createElement("span");
+    selo.className = "selo";
+    selo.textContent = "afiliado";
+    selo.title = "Programa aceito na Awin";
+    l.appendChild(selo);
+  }
   const c = document.createElement("span");
   c.className = "cont";
   c.textContent = n.toLocaleString("pt-BR");
-  l.append(cb, txt, c);
+  l.appendChild(c);
   return l;
 }
 
@@ -473,6 +533,7 @@ function ligarEventos() {
   $("preco-min").oninput = e => { estado.precoMin = e.target.value ? +e.target.value : null; aplicar(); };
   $("preco-max").oninput = e => { estado.precoMax = e.target.value ? +e.target.value : null; aplicar(); };
   $("queda-min").onchange = e => { estado.quedaMin = +e.target.value; aplicar(); };
+  $("so-afiliado").onchange = e => { estado.soAfiliado = e.target.checked; aplicar(); };
   $("mais").onclick = () => desenhar(true);
   $("csv").onclick = baixarCsv;
   $("limpar").onclick = limpar;
@@ -489,9 +550,11 @@ function ligarEventos() {
 
 function limpar() {
   estado.busca = ""; estado.precoMin = null; estado.precoMax = null; estado.quedaMin = 0;
+  estado.soAfiliado = false;
   estado.generos.clear(); estado.lojas.clear(); estado.marcas.clear();
   $("busca").value = ""; $("busca-marca").value = "";
   $("preco-min").value = ""; $("preco-max").value = ""; $("queda-min").value = "0";
+  $("so-afiliado").checked = false;
   document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", "false"));
   montarMarcas();
   montarLojas();
@@ -500,6 +563,7 @@ function limpar() {
 
 function aplicar() {
   FILTRADOS = PRODUTOS.filter(p =>
+    (!estado.soAfiliado || DADOS.lojas[p.loja].afiliado) &&
     (!estado.busca || p._busca.includes(estado.busca)) &&
     (!estado.generos.size || estado.generos.has(p.genero)) &&
     (!estado.lojas.size || estado.lojas.has(p.loja)) &&
@@ -547,6 +611,18 @@ function linkAfiliado(p) {
   return `https://www.awin1.com/pclick.php?p=${p.id}&a=${DADOS.publisher}&m=${loja.merchant}`;
 }
 
+// a URL da imagem e guardada sem o prefixo comum da loja, para economizar peso
+function urlImagem(p) {
+  if (!p.img) return "";
+  return p.img.startsWith("http") ? p.img : DADOS.lojas[p.loja].img_prefixo + p.img;
+}
+
+function placeholder() {
+  const d = document.createElement("div");
+  d.className = "thumb-vazio";
+  return d;
+}
+
 function desenhar(anexar = false) {
   if (!anexar) mostrando = 0;
   const fim = Math.min(mostrando + PAGINA, FILTRADOS.length);
@@ -559,18 +635,41 @@ function desenhar(anexar = false) {
 
     const tdNome = document.createElement("td");
     tdNome.className = "nome";
+    const caixaProduto = document.createElement("div");
+    caixaProduto.className = "produto";
+
+    const img = urlImagem(p);
+    if (img) {
+      const el = document.createElement("img");
+      el.className = "thumb";
+      el.src = img;
+      el.alt = "";
+      el.loading = "lazy";       // so baixa a imagem quando a linha aparece
+      el.decoding = "async";
+      el.referrerPolicy = "no-referrer";
+      // loja que bloqueia hotlink ou imagem removida: cai no placeholder
+      el.onerror = () => { el.replaceWith(placeholder()); };
+      caixaProduto.appendChild(el);
+    } else {
+      caixaProduto.appendChild(placeholder());
+    }
+
+    const texto = document.createElement("div");
+    texto.className = "produto-texto";
     const a = document.createElement("a");
     a.href = linkAfiliado(p);
     a.target = "_blank";
     a.rel = "nofollow sponsored noopener";
     a.textContent = p.nome;
-    tdNome.appendChild(a);
+    texto.appendChild(a);
     if (marca) {
       const m = document.createElement("span");
       m.className = "meta";
       m.textContent = marca;
-      tdNome.appendChild(m);
+      texto.appendChild(m);
     }
+    caixaProduto.appendChild(texto);
+    tdNome.appendChild(caixaProduto);
 
     const tdLoja = document.createElement("td");
     tdLoja.className = "esconde-mobile";
