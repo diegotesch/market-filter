@@ -1,0 +1,35 @@
+name: Buscar ofertas Awin
+
+on:
+  schedule:
+    # roda todo dia as 09:00 UTC (06:00 horario de Brasilia)
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}  # permite rodar manualmente pelo botao "Run workflow"
+
+jobs:
+  buscar-ofertas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Rodar script de busca de ofertas
+        env:
+          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
+          AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
+          AWIN_ADVERTISER_IDS: ${{ secrets.AWIN_ADVERTISER_IDS }}
+        run: python buscar_ofertas.py
+
+      - name: Salvar resultado como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofertas
+          path: output/ofertas.json
