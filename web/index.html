@@ -317,7 +317,10 @@ const MAGIC = "MKTFLT01";
 const ITERACOES = 600000;   // precisa bater com cifrar.py
 const TAM_SALT = 16, TAM_IV = 12;
 
-fetch("dados.bin", { cache: "no-cache" })
+// cache: "reload" ignora o cache do navegador nesta sondagem. Sem isso, uma
+// copia antiga do dados.bin faz a pagina pedir senha mesmo depois de o site
+// voltar a ser publicado em claro -- e o Pages guarda por 10 minutos.
+fetch("dados.bin", { cache: "reload" })
   .then(r => (r.ok ? r.arrayBuffer().then(abrirPortao) : semSenha()))
   .catch(semSenha);
 
