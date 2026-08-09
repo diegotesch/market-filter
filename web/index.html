@@ -134,9 +134,47 @@
   #mais { margin: 16px auto 0; display: block; width: 220px; }
   .rodape { padding: 0 24px 32px; color: var(--fg-mute); font-size: 12px; }
   @media (max-width: 700px) { .esconde-mobile { display: none; } }
+
+  /* tela de senha */
+  #portao {
+    position: fixed; inset: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--bg); padding: 24px;
+  }
+  #portao form {
+    width: 100%; max-width: 340px;
+    background: var(--bg-elev);
+    border: 1px solid var(--linha); border-radius: 12px;
+    padding: 24px; box-shadow: var(--sombra);
+  }
+  #portao h2 { margin: 0 0 6px; font-size: 17px; }
+  #portao p { margin: 0 0 18px; color: var(--fg-mute); font-size: 13px; }
+  #portao input {
+    width: 100%; padding: 9px 11px; margin-bottom: 10px;
+    background: var(--bg); border: 1px solid var(--linha);
+    border-radius: 7px; color: var(--fg); font: inherit;
+  }
+  #portao button {
+    width: 100%; padding: 9px; cursor: pointer;
+    background: var(--acento); color: #fff;
+    border: 0; border-radius: 7px; font: inherit; font-weight: 600;
+  }
+  #portao button[disabled] { opacity: .6; cursor: progress; }
+  #erro-senha { margin-top: 10px; color: #d1242f; font-size: 13px; min-height: 18px; }
+  @media (prefers-color-scheme: dark) { #erro-senha { color: #ff7b72; } }
 </style>
 </head>
 <body>
+
+<div id="portao" hidden>
+  <form id="form-senha">
+    <h2>Acesso restrito</h2>
+    <p>Os dados desta página são cifrados. Informe a senha para abrir.</p>
+    <input type="password" id="senha" placeholder="senha" autocomplete="current-password" required>
+    <button type="submit" id="btn-entrar">Entrar</button>
+    <div id="erro-senha"></div>
+  </form>
+</div>
 
 <header>
   <h1>Catálogo Awin — filtros</h1>
@@ -235,15 +273,101 @@ const brl = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" 
 // tira acento para a busca casar "tenis" com "tênis"
 const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-fetch("dados.json")
-  .then(r => {
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    return r.json();
-  })
-  .then(d => { DADOS = d; iniciar(); })
-  .catch(e => {
-    $("cabecalho").textContent = "Falha ao carregar dados.json: " + e.message;
-  });
+// ---------------------------------------------------------------------------
+// Carga dos dados
+//
+// Duas formas de publicacao:
+//   dados.bin  -> cifrado com senha (AES-256-GCM, chave via PBKDF2)
+//   dados.json -> em claro, quando o site e gerado sem SITE_SENHA
+//
+// Tenta o cifrado primeiro. Se nao existir, cai no aberto sem pedir senha.
+// ---------------------------------------------------------------------------
+const MAGIC = "MKTFLT01";
+const ITERACOES = 600000;   // precisa bater com cifrar.py
+const TAM_SALT = 16, TAM_IV = 12;
+
+fetch("dados.bin", { cache: "no-cache" })
+  .then(r => (r.ok ? r.arrayBuffer().then(abrirPortao) : semSenha()))
+  .catch(semSenha);
+
+function semSenha() {
+  return fetch("dados.json")
+    .then(r => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(d => { DADOS = d; iniciar(); })
+    .catch(e => {
+      $("cabecalho").textContent = "Falha ao carregar os dados: " + e.message;
+    });
+}
+
+function abrirPortao(buffer) {
+  const cabecalho = new TextDecoder().decode(new Uint8Array(buffer, 0, 8));
+  if (cabecalho !== MAGIC) {
+    $("cabecalho").textContent = "Arquivo de dados em formato desconhecido.";
+    return;
+  }
+
+  $("portao").hidden = false;
+  $("senha").focus();
+
+  // dentro da mesma aba, nao pede a senha de novo a cada recarga
+  const lembrada = sessionStorage.getItem("mf_senha");
+  if (lembrada) tentar(lembrada, buffer, true);
+
+  $("form-senha").onsubmit = e => {
+    e.preventDefault();
+    tentar($("senha").value, buffer, false);
+  };
+}
+
+async function tentar(senha, buffer, silencioso) {
+  const btn = $("btn-entrar");
+  btn.disabled = true;
+  if (!silencioso) $("erro-senha").textContent = "";
+  btn.textContent = "Abrindo…";
+
+  try {
+    const dados = await decifrar(buffer, senha);
+    sessionStorage.setItem("mf_senha", senha);
+    $("portao").hidden = true;
+    DADOS = dados;
+    iniciar();
+  } catch (err) {
+    sessionStorage.removeItem("mf_senha");
+    if (!silencioso) $("erro-senha").textContent = "Senha incorreta.";
+    btn.disabled = false;
+    btn.textContent = "Entrar";
+    $("senha").select();
+  }
+}
+
+async function decifrar(buffer, senha) {
+  const bytes = new Uint8Array(buffer);
+  const salt = bytes.slice(8, 8 + TAM_SALT);
+  const iv = bytes.slice(8 + TAM_SALT, 8 + TAM_SALT + TAM_IV);
+  const ct = bytes.slice(8 + TAM_SALT + TAM_IV);
+
+  const base = await crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(senha), "PBKDF2", false, ["deriveKey"]
+  );
+  const chave = await crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt, iterations: ITERACOES, hash: "SHA-256" },
+    base,
+    { name: "AES-GCM", length: 256 },
+    false,
+    ["decrypt"]
+  );
+
+  // senha errada faz o GCM falhar na verificacao da tag e lancar aqui
+  const comprimido = await crypto.subtle.decrypt({ name: "AES-GCM", iv }, chave, ct);
+
+  // o JSON foi comprimido antes de cifrar: dado cifrado nao comprime, entao
+  // sem isso o download seria ~6x maior
+  const fluxo = new Blob([comprimido]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(fluxo).text());
+}
 
 function iniciar() {
   PRODUTOS = DADOS.produtos.map(p => ({

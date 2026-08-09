@@ -39,6 +39,7 @@ jobs:
           AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
           AWIN_FEED_IDS: ${{ secrets.AWIN_FEED_IDS }}  # vazio = descobre pela regiao
           AWIN_REGIAO: ${{ vars.AWIN_REGIAO || 'BR' }}
+          SITE_SENHA: ${{ secrets.SITE_SENHA }}  # vazio = site publicado em claro
         run: python buscar_ofertas.py
 
       - name: Commitar historico de precos
@@ -58,8 +59,19 @@ jobs:
         run: |
           mkdir -p site
           cp web/index.html site/
-          cp output/dados.json site/
-          cp output/panorama.md site/
+          # panorama.md NAO vai para o site: e texto em claro com lojas,
+          # marcas e exemplos de produto -- publicar junto anularia a senha.
+          # Ele continua versionado no repositorio.
+          # com SITE_SENHA definida existe dados.bin (cifrado) e o dados.json
+          # em claro foi apagado; sem ela, o contrario
+          if [ -f output/dados.bin ]; then
+            cp output/dados.bin site/
+            echo "Publicando dataset cifrado."
+          else
+            cp output/dados.json site/
+            echo "AVISO: publicando dataset em claro (SITE_SENHA nao definida)."
+          fi
+          ls -la site/
 
       # dados.json nao e commitado: sao ~1,3 MB que mudam todo dia, e o
       # repositorio incharia sem ganho nenhum. Vai direto para o Pages.

@@ -5,6 +5,7 @@ __pycache__/
 # saidas regeradas a cada execucao
 output/*.json
 output/*.csv
+output/*.bin
 
 # historico/precos.csv e output/panorama.md NAO entram aqui de proposito:
 # o historico e a memoria do projeto entre execucoes e precisa ser versionado.

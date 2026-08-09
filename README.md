@@ -44,6 +44,52 @@ resultado filtrado em CSV.
 Publicada pelo mesmo workflow da coleta, como segundo job — reaproveita os
 feeds já baixados em vez de baixá-los de novo.
 
+### Autenticação
+
+Definindo o secret `SITE_SENHA`, o dataset é **cifrado** e a página pede a
+senha antes de carregar qualquer coisa.
+
+Por que cifrar em vez de fazer uma tela de login: o Pages serve arquivos
+estáticos, sem servidor. Qualquer verificação de senha em JavaScript é
+decorativa — o visitante lê o código-fonte, ou baixa `/dados.json` direto,
+ignorando a tela. Cifrando, o que o servidor entrega é inútil sem a senha.
+
+Como funciona:
+
+- `dados.json` é comprimido com gzip e cifrado com **AES-256-GCM**
+- a chave vem da senha via **PBKDF2-HMAC-SHA256, 600 mil iterações**
+  (recomendação OWASP), derivada no navegador pela WebCrypto
+- senha errada faz o GCM falhar na verificação de integridade — não há como
+  decifrar parcialmente
+- o JSON em claro é apagado, para não ser publicado junto
+- a senha fica em `sessionStorage`, então recarregar a aba não pede de novo
+
+A compressão vem **antes** da cifra de propósito: dado cifrado não comprime,
+então o gzip do servidor não ajudaria. Sem isso, o download voltaria de
+~190 KB para 1,3 MB.
+
+Para configurar:
+
+```bash
+gh secret set SITE_SENHA --repo diegotesch/market-filter
+```
+
+Sem o secret, o site é publicado em claro (e o workflow avisa no log).
+
+**Limites honestos desta proteção:**
+
+- É uma senha só, compartilhada — não há usuários nem revogação individual.
+  Trocar a senha exige rodar o workflow de novo.
+- A força real depende da senha escolhida. Decifrar leva ~300 ms, o que
+  também limita quem tentar força bruta, mas uma senha curta cai rápido. Use
+  uma frase longa.
+- Quem já baixou o `dados.bin` e tem a senha fica com aquela cópia para
+  sempre. Trocar a senha protege só as publicações seguintes.
+- `historico/precos.csv` e `output/panorama.md` **continuam versionados no
+  repositório, que é público** — quem abrir o repo vê preços, lojas, marcas e
+  exemplos de produto. Se o objetivo for privacidade real, o repositório
+  precisa ser privado.
+
 ### Sobre o peso do dataset
 
 São 11,5 mil produtos carregados de uma vez. Duas decisões mantêm isso em

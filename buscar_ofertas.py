@@ -33,6 +33,9 @@ import panorama
 # usado na pagina estatica para remontar os links de afiliado
 PUBLISHER_ID = os.getenv("AWIN_PUBLISHER_ID", "").strip()
 
+# senha que protege o dataset publicado. Vazia = publica em claro.
+SITE_SENHA = os.getenv("SITE_SENHA", "")
+
 FEED_IDS = os.getenv("AWIN_FEED_IDS", "").strip()
 REGIAO = os.getenv("AWIN_REGIAO", "BR").strip().upper()
 IDIOMA = os.getenv("AWIN_IDIOMA", "pt").strip()
@@ -174,6 +177,34 @@ def montar_ofertas(registros: dict, produtos: list[dict]) -> list[dict]:
     return ofertas[:MAX_OFERTAS]
 
 
+def proteger_dataset():
+    """
+    Cifra output/dados.json quando SITE_SENHA esta definida.
+
+    Sem senha, o dataset fica em claro e a pagina carrega direto -- e o que
+    permite rodar local sem configurar nada. Com senha, o JSON em claro e
+    apagado para nao ser publicado junto e anular a protecao.
+    """
+    if not SITE_SENHA:
+        print(
+            "AVISO: SITE_SENHA nao definida -- o dataset vai para o site em "
+            "claro, sem protecao."
+        )
+        return
+
+    import cifrar
+
+    tamanhos = cifrar.cifrar_arquivo(
+        "output/dados.json", "output/dados.bin", SITE_SENHA
+    )
+    os.remove("output/dados.json")
+    print(
+        f"Dataset cifrado: {tamanhos['original'] / 1024:.0f} KB -> "
+        f"{tamanhos['comprimido'] / 1024:.0f} KB comprimido -> "
+        f"{tamanhos['final'] / 1024:.0f} KB cifrado (dados.bin)"
+    )
+
+
 def main():
     try:
         feeds = descobrir_feeds()
@@ -247,6 +278,7 @@ def main():
         f"{resumo_site['lojas']} lojas, {resumo_site['marcas']} marcas "
         f"({resumo_site['bytes'] / 1024:.0f} KB)"
     )
+    proteger_dataset()
 
     print(f"\n{len(ofertas)} oferta(s) em output/ofertas.json")
     print("Panorama do catalogo em output/panorama.md")
