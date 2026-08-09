@@ -11,7 +11,13 @@ retorna 404 -- foi exatamente o que aconteceu na primeira execucao.
 Uso:
     python listar_feeds.py
 
-So precisa de AWIN_TOKEN no ambiente (ou no .env).
+Precisa de AWIN_PRODUCTDATA_KEY no ambiente (ou no .env).
+
+IMPORTANTE -- sao DUAS credenciais diferentes na Awin:
+  - Publisher API token: pego em ui.awin.com/awin-api. Serve para api.awin.com.
+    NAO funciona aqui (o productdata responde 500 ou 404 com ele).
+  - Product Feed API key: pega em Toolbox > Create-a-Feed, embutida no link
+    "Download list". E essa que este script usa.
 """
 
 import os
@@ -24,9 +30,22 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AWIN_TOKEN = os.getenv("AWIN_TOKEN")
+# A chave do productdata NAO e a mesma coisa que o token da Publisher API.
+# Ver docstring do modulo. AWIN_TOKEN e aceito como fallback legado.
+PRODUCTDATA_KEY = os.getenv("AWIN_PRODUCTDATA_KEY") or os.getenv("AWIN_TOKEN")
 
 LISTA_URL = "https://productdata.awin.com/datafeed/list/apikey/{token}/"
+
+ERRO_CHAVE_ERRADA = (
+    "A chave usada nao foi aceita pelo productdata.awin.com.\n"
+    "Causa mais comum: estar usando o token da Publisher API (o de\n"
+    "ui.awin.com/awin-api) no lugar da chave do Product Feed -- sao\n"
+    "credenciais diferentes.\n\n"
+    "Onde achar a chave certa: no painel Awin, Toolbox > Create-a-Feed.\n"
+    "O link 'Download list' de la tem o formato\n"
+    "  https://productdata.awin.com/datafeed/list/apikey/SUA_CHAVE/\n"
+    "Copie o trecho logo depois de /apikey/ e use em AWIN_PRODUCTDATA_KEY."
+)
 
 # colunas que interessam, na ordem em que queremos exibir.
 # a Awin as vezes muda o nome exato, entao casamos de forma tolerante.
@@ -43,16 +62,18 @@ COLUNAS_DESEJADAS = [
 
 
 def main():
-    if not AWIN_TOKEN:
-        print("Erro: AWIN_TOKEN nao definido (use .env ou variavel de ambiente)")
+    if not PRODUCTDATA_KEY:
+        print("Erro: AWIN_PRODUCTDATA_KEY nao definido (use .env ou variavel de ambiente)")
         sys.exit(1)
 
-    url = LISTA_URL.format(token=AWIN_TOKEN)
+    url = LISTA_URL.format(token=PRODUCTDATA_KEY)
     print("Baixando lista de feeds da Awin...")
     resp = requests.get(url, timeout=60)
 
-    if resp.status_code == 401:
-        print("401: token invalido ou sem permissao de acesso ao product data.")
+    # a Awin responde 500 (nao 401) quando a chave nao vale para o productdata
+    if resp.status_code in (401, 403, 500):
+        print(f"\nHTTP {resp.status_code} ao consultar a lista de feeds.\n")
+        print(ERRO_CHAVE_ERRADA)
         sys.exit(1)
     resp.raise_for_status()
 

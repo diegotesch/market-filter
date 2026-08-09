@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 # 2. configurar credenciais
 cp .env.example .env
-# edite o .env e preencha AWIN_TOKEN e AWIN_PUBLISHER_ID
+# edite o .env e preencha AWIN_PRODUCTDATA_KEY e AWIN_PUBLISHER_ID
 
 # 3. descobrir os Feed IDs da sua conta e preencher AWIN_FEED_IDS no .env
 python listar_feeds.py
@@ -19,6 +19,18 @@ python listar_feeds.py
 # 4. rodar
 python buscar_ofertas.py
 ```
+
+### As duas credenciais da Awin
+
+A Awin tem dois tipos de chave, e elas não são intercambiáveis:
+
+| Credencial | Onde pegar | Para que serve |
+|---|---|---|
+| **Product Feed API key** | Toolbox > Create-a-Feed, embutida no link "Download list" | `productdata.awin.com` — é a que este projeto usa |
+| Publisher API token | `ui.awin.com/awin-api` | `api.awin.com` (relatórios, transações) |
+
+Usar o token da Publisher API no `productdata` retorna `500` na listagem de
+feeds e `404` no download — sem mensagem que explique a causa.
 
 ### Feed ID != Advertiser ID
 
@@ -80,9 +92,13 @@ Passos para ativar:
    o `.gitignore` já bloqueia isso)
 2. No repositório, vá em `Settings > Secrets and variables > Actions`
 3. Clique em "New repository secret" e crie 3 secrets:
-   - `AWIN_TOKEN`
+   - `AWIN_PRODUCTDATA_KEY`
    - `AWIN_PUBLISHER_ID`
    - `AWIN_FEED_IDS`
+
+   Existe também o workflow `Listar feeds Awin`, que roda sob demanda em
+   `Actions` e imprime os Feed IDs disponíveis no log — útil pra preencher
+   `AWIN_FEED_IDS` sem precisar configurar nada localmente.
 4. Pronto — o workflow roda sozinho todo dia às 06h (horário de Brasília).
    Você também pode rodar manualmente em `Actions > Buscar ofertas Awin > Run workflow`
 5. O resultado (`ofertas.json`) fica disponível pra download na aba `Actions`,

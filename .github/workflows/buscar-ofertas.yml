@@ -23,7 +23,8 @@ jobs:
 
       - name: Rodar script de busca de ofertas
         env:
-          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
+          AWIN_PRODUCTDATA_KEY: ${{ secrets.AWIN_PRODUCTDATA_KEY }}
+          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}  # fallback legado
           AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
           AWIN_FEED_IDS: ${{ secrets.AWIN_FEED_IDS }}
           AWIN_ADVERTISER_IDS: ${{ secrets.AWIN_ADVERTISER_IDS }}  # fallback legado

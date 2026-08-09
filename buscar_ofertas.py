@@ -14,7 +14,9 @@ Como funciona a Awin aqui:
   o link de afiliado -- não precisa gerar nada manualmente.
 
 Variáveis de ambiente necessárias (ver .env.example):
-- AWIN_TOKEN: seu API token da Awin
+- AWIN_PRODUCTDATA_KEY: a chave do Product Feed (Toolbox > Create-a-Feed).
+  Nao confundir com o token da Publisher API de ui.awin.com/awin-api --
+  esse nao funciona no productdata.awin.com.
 - AWIN_PUBLISHER_ID: seu Publisher ID (aparece no painel Awin)
 - AWIN_FEED_IDS: um ou mais **Feed IDs** separados por vírgula. Não confundir
   com o Advertiser ID -- rode `python listar_feeds.py` para descobrir os seus.
@@ -32,7 +34,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AWIN_TOKEN = os.getenv("AWIN_TOKEN")
+# Chave do Product Feed (Toolbox > Create-a-Feed), que NAO e o token da
+# Publisher API. AWIN_TOKEN fica como fallback do secret antigo.
+PRODUCTDATA_KEY = os.getenv("AWIN_PRODUCTDATA_KEY") or os.getenv("AWIN_TOKEN")
 PUBLISHER_ID = os.getenv("AWIN_PUBLISHER_ID")
 
 # ATENCAO: 'fid' na URL do datafeed e o **Feed ID**, nao o Advertiser ID.
@@ -63,10 +67,10 @@ SALVAR_AMOSTRA = os.getenv("SALVAR_AMOSTRA", "1") not in ("0", "false", "")
 LINHAS_AMOSTRA = 50
 
 # URL base do datafeed da Awin.
-# 'fid' = feed id / advertiser id. A Awin as vezes usa 'fid' como o proprio
-# advertiser id quando a loja so tem 1 feed publicado -- confirme no painel
-# em Anunciante > Ferramentas > Feed de produtos, se o fid for diferente do
-# advertiser id, ajuste aqui.
+# 'fid' = Feed ID. Nao e o Advertiser ID: sao numeros distintos, e passar o
+# advertiser id aqui retorna 404 (foi o que quebrou a primeira execucao).
+# 'language/pt' tambem faz parte da chave de busca do feed -- se a loja nao
+# publicar feed nesse idioma, o retorno tambem e 404.
 FEED_URL_TEMPLATE = (
     "https://productdata.awin.com/datafeed/download/apikey/{token}/"
     "language/pt/fid/{fid}/columns/aw_deep_link,product_name,"
@@ -77,8 +81,8 @@ FEED_URL_TEMPLATE = (
 
 def validar_config():
     faltando = []
-    if not AWIN_TOKEN:
-        faltando.append("AWIN_TOKEN")
+    if not PRODUCTDATA_KEY:
+        faltando.append("AWIN_PRODUCTDATA_KEY")
     if not PUBLISHER_ID:
         faltando.append("AWIN_PUBLISHER_ID")
     if not FEED_IDS:
@@ -89,7 +93,7 @@ def validar_config():
 
 
 def baixar_feed(feed_id: str) -> pd.DataFrame:
-    url = FEED_URL_TEMPLATE.format(token=AWIN_TOKEN, fid=feed_id)
+    url = FEED_URL_TEMPLATE.format(token=PRODUCTDATA_KEY, fid=feed_id)
     print(f"Baixando feed {feed_id}...")
     resp = requests.get(url, timeout=60)
 
@@ -212,7 +216,11 @@ def main():
     # falha o job se nenhuma loja foi baixada com sucesso -- assim um token
     # invalido aparece como run vermelho, e nao como "0 ofertas" silencioso
     if falhas == len(feed_ids):
-        print("Todos os feeds falharam no download. Verifique AWIN_TOKEN e os Feed IDs.")
+        print(
+            "Todos os feeds falharam no download. Verifique se AWIN_PRODUCTDATA_KEY\n"
+            "e a chave do Product Feed (nao o token da Publisher API) e se os\n"
+            "Feed IDs estao corretos -- rode `python listar_feeds.py`."
+        )
         sys.exit(1)
 
 

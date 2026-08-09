@@ -24,5 +24,6 @@ jobs:
 
       - name: Listar feeds disponiveis
         env:
-          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
+          AWIN_PRODUCTDATA_KEY: ${{ secrets.AWIN_PRODUCTDATA_KEY }}
+          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}  # fallback legado
         run: python listar_feeds.py
