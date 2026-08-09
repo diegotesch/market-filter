@@ -198,6 +198,21 @@ def proteger_dataset():
 
     import cifrar
 
+    # Diagnostico sem vazar a senha: so o comprimento e se havia espaco nas
+    # pontas. O log deste repositorio e publico, entao nada alem disso.
+    # Serve para comparar com o que se digita: comprimento diferente significa
+    # caractere a mais ou a menos no secret.
+    limpa = cifrar.normalizar_senha(SITE_SENHA)
+    print(
+        f"SITE_SENHA: {len(limpa)} caracteres"
+        + (
+            f" (o valor guardado tinha {len(SITE_SENHA)} -- "
+            f"espacos/quebras nas pontas foram removidos)"
+            if len(limpa) != len(SITE_SENHA)
+            else ""
+        )
+    )
+
     tamanhos = cifrar.cifrar_arquivo(
         "output/dados.json", "output/dados.bin", SITE_SENHA
     )
