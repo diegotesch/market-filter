@@ -16,7 +16,8 @@ Como funciona a Awin aqui:
 Variáveis de ambiente necessárias (ver .env.example):
 - AWIN_TOKEN: seu API token da Awin
 - AWIN_PUBLISHER_ID: seu Publisher ID (aparece no painel Awin)
-- AWIN_ADVERTISER_IDS: um ou mais Advertiser IDs separados por vírgula (ex: 128601)
+- AWIN_FEED_IDS: um ou mais **Feed IDs** separados por vírgula. Não confundir
+  com o Advertiser ID -- rode `python listar_feeds.py` para descobrir os seus.
 """
 
 import os
@@ -33,15 +34,33 @@ load_dotenv()
 
 AWIN_TOKEN = os.getenv("AWIN_TOKEN")
 PUBLISHER_ID = os.getenv("AWIN_PUBLISHER_ID")
-ADVERTISER_IDS = os.getenv("AWIN_ADVERTISER_IDS", "")
 
-# Configuracao de filtro -- ajuste conforme seu nicho
-DESCONTO_MINIMO_PCT = 20  # so entra oferta com desconto >= 20%
+# ATENCAO: 'fid' na URL do datafeed e o **Feed ID**, nao o Advertiser ID.
+# Passar o advertiser id ali da 404. Rode `python listar_feeds.py` para
+# descobrir o Feed ID de cada loja.
+# AWIN_ADVERTISER_IDS continua aceito como fallback so para nao quebrar
+# quem ja tinha o secret antigo configurado.
+FEED_IDS = os.getenv("AWIN_FEED_IDS") or os.getenv("AWIN_ADVERTISER_IDS", "")
+
+# Configuracao de filtro -- ajuste conforme seu nicho.
+# Todos podem ser sobrescritos por variavel de ambiente, o que permite
+# afrouxar o filtro numa execucao de teste sem mexer no codigo.
+DESCONTO_MINIMO_PCT = float(os.getenv("DESCONTO_MINIMO_PCT", "20"))
 PALAVRAS_CHAVE = [
-    "fone", "carregador", "cabo", "mouse", "teclado", "headset",
-    "smartwatch", "power bank", "hub usb", "ssd", "webcam",
+    p.strip().lower()
+    for p in os.getenv(
+        "PALAVRAS_CHAVE",
+        "fone,carregador,cabo,mouse,teclado,headset,"
+        "smartwatch,power bank,hub usb,ssd,webcam",
+    ).split(",")
+    if p.strip()
 ]
-MAX_OFERTAS_POR_LOJA = 30
+MAX_OFERTAS_POR_LOJA = int(os.getenv("MAX_OFERTAS_POR_LOJA", "30"))
+
+# Salva uma amostra do feed cru em output/amostra_<id>.csv para inspecao
+# manual quando o filtro nao retorna nada.
+SALVAR_AMOSTRA = os.getenv("SALVAR_AMOSTRA", "1") not in ("0", "false", "")
+LINHAS_AMOSTRA = 50
 
 # URL base do datafeed da Awin.
 # 'fid' = feed id / advertiser id. A Awin as vezes usa 'fid' como o proprio
@@ -62,22 +81,37 @@ def validar_config():
         faltando.append("AWIN_TOKEN")
     if not PUBLISHER_ID:
         faltando.append("AWIN_PUBLISHER_ID")
-    if not ADVERTISER_IDS:
-        faltando.append("AWIN_ADVERTISER_IDS")
+    if not FEED_IDS:
+        faltando.append("AWIN_FEED_IDS")
     if faltando:
         print(f"Erro: variaveis faltando no .env: {', '.join(faltando)}")
         sys.exit(1)
 
 
-def baixar_feed(advertiser_id: str) -> pd.DataFrame:
-    url = FEED_URL_TEMPLATE.format(token=AWIN_TOKEN, fid=advertiser_id)
-    print(f"Baixando feed do anunciante {advertiser_id}...")
+def baixar_feed(feed_id: str) -> pd.DataFrame:
+    url = FEED_URL_TEMPLATE.format(token=AWIN_TOKEN, fid=feed_id)
+    print(f"Baixando feed {feed_id}...")
     resp = requests.get(url, timeout=60)
+
+    if resp.status_code == 404:
+        raise RuntimeError(
+            f"404 no feed {feed_id}. Quase sempre significa que esse id nao e um "
+            f"Feed ID valido (o Advertiser ID nao serve aqui). "
+            f"Rode `python listar_feeds.py` para ver os Feed IDs disponiveis."
+        )
     resp.raise_for_status()
 
     # o feed vem comprimido em gzip; pandas descomprime automatico pela extensao,
     # entao forcamos via BytesIO + compression explicita
     df = pd.read_csv(io.BytesIO(resp.content), compression="gzip")
+    print(f"  -> feed baixado: {len(df)} linhas, colunas: {list(df.columns)}")
+
+    if SALVAR_AMOSTRA and not df.empty:
+        os.makedirs("output", exist_ok=True)
+        caminho = f"output/amostra_{feed_id}.csv"
+        df.head(LINHAS_AMOSTRA).to_csv(caminho, index=False)
+        print(f"  -> amostra das {LINHAS_AMOSTRA} primeiras linhas em {caminho}")
+
     return df
 
 
@@ -94,7 +128,17 @@ def calcular_desconto_pct(row) -> float:
 
 def filtrar_ofertas(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
+        print("  -> feed veio vazio, nada a filtrar")
         return df
+
+    faltando = [c for c in ("product_name", "search_price") if c not in df.columns]
+    if faltando:
+        print(f"  -> feed sem as colunas esperadas: {faltando} -- filtro abortado")
+        return df.iloc[0:0]
+
+    if "rrp_price" not in df.columns:
+        print("  -> feed nao traz 'rrp_price'; sem preco 'de' o desconto fica 0")
+        df["rrp_price"] = 0
 
     df["desconto_pct"] = df.apply(calcular_desconto_pct, axis=1)
 
@@ -102,10 +146,18 @@ def filtrar_ofertas(df: pd.DataFrame) -> pd.DataFrame:
     tem_palavra_chave = nome_lower.apply(
         lambda nome: any(p in nome for p in PALAVRAS_CHAVE)
     )
+    tem_desconto = df["desconto_pct"] >= DESCONTO_MINIMO_PCT
 
-    filtrado = df[
-        (df["desconto_pct"] >= DESCONTO_MINIMO_PCT) & tem_palavra_chave
-    ].copy()
+    # diagnostico por etapa: mostra qual dos dois filtros esta zerando o resultado
+    com_rrp = (pd.to_numeric(df["rrp_price"], errors="coerce").fillna(0) > 0).sum()
+    print(
+        f"  -> diagnostico: {com_rrp}/{len(df)} linhas tem rrp_price preenchido | "
+        f"{int(tem_desconto.sum())} passam no desconto >= {DESCONTO_MINIMO_PCT}% | "
+        f"{int(tem_palavra_chave.sum())} batem alguma palavra-chave | "
+        f"{int((tem_desconto & tem_palavra_chave).sum())} passam nos dois"
+    )
+
+    filtrado = df[tem_desconto & tem_palavra_chave].copy()
 
     filtrado = filtrado.sort_values("desconto_pct", ascending=False)
     return filtrado.head(MAX_OFERTAS_POR_LOJA)
@@ -129,18 +181,20 @@ def montar_saida(df: pd.DataFrame) -> list:
 
 def main():
     validar_config()
-    advertiser_ids = [a.strip() for a in ADVERTISER_IDS.split(",") if a.strip()]
+    feed_ids = [f.strip() for f in FEED_IDS.split(",") if f.strip()]
 
     todas_ofertas = []
-    for adv_id in advertiser_ids:
+    falhas = 0
+    for feed_id in feed_ids:
         try:
-            df = baixar_feed(adv_id)
+            df = baixar_feed(feed_id)
             filtrado = filtrar_ofertas(df)
             ofertas = montar_saida(filtrado)
-            print(f"  -> {len(ofertas)} ofertas encontradas (loja {adv_id})")
+            print(f"  -> {len(ofertas)} ofertas encontradas (feed {feed_id})")
             todas_ofertas.extend(ofertas)
         except Exception as e:
-            print(f"  -> erro ao processar loja {adv_id}: {e}")
+            falhas += 1
+            print(f"  -> ERRO ao processar feed {feed_id}: {type(e).__name__}: {e}")
 
     resultado = {
         "gerado_em": datetime.now(timezone.utc).isoformat(),
@@ -154,6 +208,12 @@ def main():
         json.dump(resultado, f, ensure_ascii=False, indent=2)
 
     print(f"\nConcluido: {len(todas_ofertas)} ofertas salvas em {caminho_saida}")
+
+    # falha o job se nenhuma loja foi baixada com sucesso -- assim um token
+    # invalido aparece como run vermelho, e nao como "0 ofertas" silencioso
+    if falhas == len(feed_ids):
+        print("Todos os feeds falharam no download. Verifique AWIN_TOKEN e os Feed IDs.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

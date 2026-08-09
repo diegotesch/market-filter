@@ -11,11 +11,23 @@ pip install -r requirements.txt
 
 # 2. configurar credenciais
 cp .env.example .env
-# edite o .env e preencha AWIN_TOKEN, AWIN_PUBLISHER_ID, AWIN_ADVERTISER_IDS
+# edite o .env e preencha AWIN_TOKEN e AWIN_PUBLISHER_ID
 
-# 3. rodar
+# 3. descobrir os Feed IDs da sua conta e preencher AWIN_FEED_IDS no .env
+python listar_feeds.py
+
+# 4. rodar
 python buscar_ofertas.py
 ```
+
+### Feed ID != Advertiser ID
+
+Essa é a pegadinha principal da Awin. A URL de download do datafeed usa o
+parâmetro `fid`, que é o **Feed ID** — um número diferente do Advertiser ID
+que aparece na URL do programa. Passar o Advertiser ID ali retorna `404`.
+
+`listar_feeds.py` resolve isso: ele consulta a API da Awin e imprime os dois
+IDs lado a lado, junto com o nome da loja e o número de produtos no feed.
 
 O resultado fica em `output/ofertas.json`, algo como:
 
@@ -49,10 +61,11 @@ No topo de `buscar_ofertas.py`:
 ## Adicionando mais lojas
 
 1. No painel Awin, vá em "Anunciantes" e adere a mais programas (lojas)
-2. Pegue o Advertiser ID de cada uma aprovada (aparece na URL do programa)
+2. Rode `python listar_feeds.py` — as lojas aprovadas que publicam feed
+   aparecem na lista com seus Feed IDs
 3. Adicione no `.env`, separado por vírgula:
    ```
-   AWIN_ADVERTISER_IDS=128601,999999,888888
+   AWIN_FEED_IDS=12345,67890
    ```
 
 ## Automatizando com GitHub Actions
@@ -69,7 +82,7 @@ Passos para ativar:
 3. Clique em "New repository secret" e crie 3 secrets:
    - `AWIN_TOKEN`
    - `AWIN_PUBLISHER_ID`
-   - `AWIN_ADVERTISER_IDS`
+   - `AWIN_FEED_IDS`
 4. Pronto — o workflow roda sozinho todo dia às 06h (horário de Brasília).
    Você também pode rodar manualmente em `Actions > Buscar ofertas Awin > Run workflow`
 5. O resultado (`ofertas.json`) fica disponível pra download na aba `Actions`,
@@ -81,12 +94,27 @@ Esse `ofertas.json` gerado é o input pra próxima etapa do pipeline: geração
 de copy (texto do post) via API do Claude, e depois agendamento do post via
 Buffer/Zapier. Ainda não está incluso aqui — é o próximo módulo a construir.
 
+## Diagnosticando "0 ofertas"
+
+O script loga cada etapa pra você saber onde o funil zerou:
+
+- `feed baixado: N linhas` — se não aparece, o download falhou (o erro vem
+  logo abaixo, com o tipo da exceção). `404` = Feed ID errado.
+- `diagnostico: X/N linhas tem rrp_price preenchido | ...` — mostra quantas
+  linhas passam em cada filtro separadamente. Se `rrp_price` vem zerado na
+  maioria, o desconto não é calculável e nada passa no corte.
+- `output/amostra_<feed_id>.csv` — as 50 primeiras linhas do feed cru, pra
+  inspecionar na mão. Vem junto no artefato do Actions.
+
+Pra testar afrouxando o filtro sem editar código:
+
+```bash
+DESCONTO_MINIMO_PCT=0 PALAVRAS_CHAVE=usb python buscar_ofertas.py
+```
+
 ## Limitações conhecidas
 
 - O feed reflete o que a loja publica na Awin — nem toda loja atualiza com
   a mesma frequência.
 - Sem `rrp_price` (preço "de"), o cálculo de desconto fica zerado — algumas
   lojas não preenchem esse campo no feed.
-- Se `fid` (feed id) for diferente do Advertiser ID pra alguma loja, ajuste
-  isso em `FEED_URL_TEMPLATE` — confirme no painel Awin em
-  `Anunciante > Ferramentas > Feed de produtos`.

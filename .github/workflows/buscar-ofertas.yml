@@ -25,11 +25,13 @@ jobs:
         env:
           AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
           AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
-          AWIN_ADVERTISER_IDS: ${{ secrets.AWIN_ADVERTISER_IDS }}
+          AWIN_FEED_IDS: ${{ secrets.AWIN_FEED_IDS }}
+          AWIN_ADVERTISER_IDS: ${{ secrets.AWIN_ADVERTISER_IDS }}  # fallback legado
         run: python buscar_ofertas.py
 
       - name: Salvar resultado como artefato
+        if: always()  # sobe os arquivos mesmo se o script falhar, pra poder diagnosticar
         uses: actions/upload-artifact@v4
         with:
           name: ofertas
-          path: output/ofertas.json
+          path: output/
