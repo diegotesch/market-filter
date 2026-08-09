@@ -42,10 +42,20 @@ MIN_OBSERVACOES = int(os.getenv("MIN_OBSERVACOES", "2"))
 
 MAX_OFERTAS = int(os.getenv("MAX_OFERTAS", "100"))
 
-# filtro opcional por palavra-chave. Vazio (padrao) = nao filtra nada.
+# Filtro opcional por nome do produto. Vazio (padrao) = nao filtra nada.
+# PALAVRAS_CHAVE inclui, PALAVRAS_EXCLUIR remove -- exclusao vence.
+# Os dois sao necessarios juntos porque so incluir nao basta: "masculino"
+# tambem casa "Infantil Masculino", que e outro publico.
 PALAVRAS_CHAVE = [
     p.strip().lower() for p in os.getenv("PALAVRAS_CHAVE", "").split(",") if p.strip()
 ]
+PALAVRAS_EXCLUIR = [
+    p.strip().lower() for p in os.getenv("PALAVRAS_EXCLUIR", "").split(",") if p.strip()
+]
+
+# faixa de preco opcional (0 = sem limite)
+PRECO_MIN = float(os.getenv("PRECO_MIN", "0"))
+PRECO_MAX = float(os.getenv("PRECO_MAX", "0"))
 
 
 def descobrir_feeds() -> list[dict]:
@@ -91,15 +101,38 @@ def normalizar(linhas: list[dict], feed: dict) -> list[dict]:
     return produtos
 
 
-def aplicar_palavras_chave(produtos: list[dict]) -> list[dict]:
-    if not PALAVRAS_CHAVE:
+def aplicar_filtros(produtos: list[dict]) -> list[dict]:
+    """Aplica inclusao por palavra-chave, exclusao e faixa de preco."""
+    if not (PALAVRAS_CHAVE or PALAVRAS_EXCLUIR or PRECO_MIN or PRECO_MAX):
         return produtos
-    filtrados = [
-        p for p in produtos
-        if any(chave in p["nome"].lower() for chave in PALAVRAS_CHAVE)
-    ]
-    print(f"Filtro de palavras-chave: {len(filtrados)}/{len(produtos)} produtos")
-    return filtrados
+
+    antes = len(produtos)
+    passo = produtos
+
+    if PALAVRAS_CHAVE:
+        passo = [
+            p for p in passo
+            if any(chave in p["nome"].lower() for chave in PALAVRAS_CHAVE)
+        ]
+        print(f"Filtro incluir: {len(passo)}/{antes} produtos")
+
+    if PALAVRAS_EXCLUIR:
+        depois = [
+            p for p in passo
+            if not any(termo in p["nome"].lower() for termo in PALAVRAS_EXCLUIR)
+        ]
+        print(f"Filtro excluir: removeu {len(passo) - len(depois)} produtos")
+        passo = depois
+
+    if PRECO_MIN or PRECO_MAX:
+        depois = [
+            p for p in passo
+            if p["preco"] >= PRECO_MIN and (not PRECO_MAX or p["preco"] <= PRECO_MAX)
+        ]
+        print(f"Filtro de preco: {len(depois)}/{len(passo)} produtos na faixa")
+        passo = depois
+
+    return passo
 
 
 def montar_ofertas(registros: dict, produtos: list[dict]) -> list[dict]:
@@ -166,9 +199,12 @@ def main():
         print("\nTodos os feeds falharam. Verifique AWIN_PRODUCTDATA_KEY.")
         sys.exit(1)
 
-    todos_produtos = aplicar_palavras_chave(todos_produtos)
     print(f"\nTotal coletado: {len(todos_produtos)} produtos")
 
+    # O historico guarda TUDO, de proposito: os filtros de nicho sao aplicados
+    # so na hora de montar as ofertas. Assim, mudar de nicho depois nao joga
+    # fora os precos ja acumulados -- e o historico e o unico ativo do projeto
+    # que nao da para reconstruir.
     registros = historico.carregar()
     primeira_execucao = not registros
     resumo = historico.atualizar(registros, todos_produtos)
@@ -178,7 +214,8 @@ def main():
         f"({resumo['novos']} novos, {resumo['mudaram']} mudaram de preco)"
     )
 
-    ofertas = montar_ofertas(registros, todos_produtos)
+    do_nicho = aplicar_filtros(todos_produtos)
+    ofertas = montar_ofertas(registros, do_nicho)
 
     os.makedirs("output", exist_ok=True)
     with open("output/ofertas.json", "w", encoding="utf-8") as fh:
@@ -189,6 +226,7 @@ def main():
                 f"observado, com no minimo {MIN_OBSERVACOES} observacoes"
             ),
             "produtos_acompanhados": resumo["total"],
+            "produtos_no_nicho": len(do_nicho),
             "total_ofertas": len(ofertas),
             "ofertas": ofertas,
         }, fh, ensure_ascii=False, indent=2)

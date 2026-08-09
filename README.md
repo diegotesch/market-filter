@@ -98,7 +98,31 @@ Tudo por variável de ambiente, sem editar código — ver `.env.example`.
 | `AWIN_REGIAO` | `BR` | região usada na descoberta automática |
 | `QUEDA_MINIMA_PCT` | `10` | queda mínima para virar oferta |
 | `MIN_OBSERVACOES` | `2` | quantas vezes é preciso ter visto o produto |
-| `PALAVRAS_CHAVE` | vazio | filtro por nome; vazio = não filtra |
+| `PALAVRAS_CHAVE` | vazio | inclui por nome; vazio = não filtra |
+| `PALAVRAS_EXCLUIR` | vazio | remove por nome; exclusão vence inclusão |
+| `PRECO_MIN` / `PRECO_MAX` | `0` | faixa de preço; 0 = sem limite |
+
+Os filtros valem **apenas para montar as ofertas**. O histórico sempre
+acompanha o catálogo inteiro, de propósito: trocar de nicho depois não joga
+fora os preços acumulados, que são o único ativo do projeto impossível de
+reconstruir.
+
+### Nicho masculino/esportivo
+
+Recorte escolhido, com o que existe hoje no catálogo:
+
+```
+PALAVRAS_CHAVE=masculin
+PALAVRAS_EXCLUIR=infantil,feminin,menino,bebê,bebe,juvenil
+```
+
+Isso dá **2.381 produtos**: 1.417 da Clovis Calçados e 962 da Lauri Esporte.
+Preço mediano R$ 299,99 (p10 R$ 99,99, p90 R$ 1.199). Só `masculin` traria
+470 itens infantis junto — daí a lista de exclusão.
+
+Recorte só de tênis masculino: 1.953 produtos, mediana R$ 349,99, com On
+Running, New Balance, Asics, Adidas, Nike, Skechers, Fila e Olympikus como
+marcas mais frequentes.
 
 ## Automação no GitHub Actions
 
