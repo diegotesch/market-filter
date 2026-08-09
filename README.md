@@ -18,9 +18,15 @@ cai `QUEDA_MINIMA_PCT` abaixo do seu máximo histórico, vira oferta.
 Duas consequências disso:
 
 - **A primeira execução nunca gera ofertas.** Ela só cria o histórico. Isso é
-  esperado, e o script diz isso explicitamente no log.
+  esperado, e o script diz isso explicitamente no log. Produto visto pela
+  primeira vez hoje também não vira oferta — não há com o que comparar.
 - O histórico é versionado no git de propósito — é a memória do projeto. Sem
   ele, cada execução começaria do zero.
+
+O CSV não guarda nenhum campo do tipo "visto hoje". Se guardasse, as 11,5 mil
+linhas seriam reescritas em toda execução e o commit diário viraria ruído.
+Do jeito atual, **uma linha só muda quando o preço muda** — o diff do dia é
+exatamente a lista de variações de preço.
 
 Usar o máximo histórico como referência (em vez do preço de ontem) faz uma
 promoção continuar aparecendo enquanto durar, em vez de sumir no dia seguinte
@@ -97,7 +103,6 @@ Tudo por variável de ambiente, sem editar código — ver `.env.example`.
 | `AWIN_FEED_IDS` | vazio | feeds específicos; vazio = descobre pela região |
 | `AWIN_REGIAO` | `BR` | região usada na descoberta automática |
 | `QUEDA_MINIMA_PCT` | `10` | queda mínima para virar oferta |
-| `MIN_OBSERVACOES` | `2` | quantas vezes é preciso ter visto o produto |
 | `PALAVRAS_CHAVE` | vazio | inclui por nome; vazio = não filtra |
 | `PALAVRAS_EXCLUIR` | vazio | remove por nome; exclusão vence inclusão |
 | `PRECO_MIN` / `PRECO_MAX` | `0` | faixa de preço; 0 = sem limite |

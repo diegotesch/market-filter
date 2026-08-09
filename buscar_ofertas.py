@@ -36,9 +36,8 @@ IDIOMA = os.getenv("AWIN_IDIOMA", "pt").strip()
 # queda minima em relacao ao maior preco ja visto para virar "oferta"
 QUEDA_MINIMA_PCT = float(os.getenv("QUEDA_MINIMA_PCT", "10"))
 
-# so considera oferta quando ja vimos o produto ao menos N vezes, senao uma
-# variacao de estreia vira "promocao" sem base nenhuma
-MIN_OBSERVACOES = int(os.getenv("MIN_OBSERVACOES", "2"))
+# produtos vistos pela primeira vez hoje nao viram oferta: nao ha com o que
+# comparar, e a estreia no feed viraria "promocao" sem base nenhuma
 
 MAX_OFERTAS = int(os.getenv("MAX_OFERTAS", "100"))
 
@@ -144,7 +143,7 @@ def montar_ofertas(registros: dict, produtos: list[dict]) -> list[dict]:
         atual = por_id.get(pid)
         if atual is None:  # produto nao veio no feed de hoje
             continue
-        if reg["observacoes"] < MIN_OBSERVACOES:
+        if not historico.ja_conhecido(reg):
             continue
 
         queda = historico.queda_pct(reg)
@@ -160,8 +159,8 @@ def montar_ofertas(registros: dict, produtos: list[dict]) -> list[dict]:
             "preco_maximo_visto": reg["preco_max"],
             "preco_minimo_visto": reg["preco_min"],
             "queda_pct": queda,
-            "observacoes": reg["observacoes"],
             "acompanhado_desde": reg["primeira_vez"],
+            "preco_mudou_em": reg["ultima_alteracao"],
             "link_afiliado": atual["link_afiliado"],
             "imagem": atual["imagem"],
         })
@@ -223,7 +222,7 @@ def main():
             "gerado_em": datetime.now(timezone.utc).isoformat(),
             "criterio": (
                 f"queda >= {QUEDA_MINIMA_PCT}% em relacao ao maior preco ja "
-                f"observado, com no minimo {MIN_OBSERVACOES} observacoes"
+                f"observado, para produtos conhecidos antes de hoje"
             ),
             "produtos_acompanhados": resumo["total"],
             "produtos_no_nicho": len(do_nicho),

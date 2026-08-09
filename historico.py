@@ -8,9 +8,12 @@ Por que isso existe: os feeds da Awin usados aqui nao publicam 'rrp_price'
 A alternativa e guardar o que ja vimos e comparar -- o workflow roda todo dia,
 entao o historico se forma sozinho.
 
-O arquivo e um CSV ordenado por id de produto, um produto por linha. Formato
-escolhido para o diff do git ficar legivel: quando um preco muda, muda uma
-linha so.
+O arquivo e um CSV ordenado por id de produto, um produto por linha.
+
+Nenhum campo registra "visto hoje": se registrasse, toda linha mudaria em toda
+execucao e o commit diario viraria 11 mil linhas de ruido. Aqui uma linha so
+muda quando o preco muda, entao o diff do git mostra exatamente as variacoes
+de preco do dia -- que e a informacao que interessa.
 """
 
 import csv
@@ -29,9 +32,10 @@ CAMPOS = [
     "preco_min",
     "preco_max",
     "primeira_vez",
-    "ultima_vez",
-    "observacoes",
+    "ultima_alteracao",
 ]
+
+NUMERICOS = ("preco_atual", "preco_anterior", "preco_min", "preco_max")
 
 
 def carregar(caminho: str = CAMINHO_PADRAO) -> dict:
@@ -39,12 +43,16 @@ def carregar(caminho: str = CAMINHO_PADRAO) -> dict:
     if not os.path.exists(caminho):
         return {}
 
+    registros = {}
     with open(caminho, newline="", encoding="utf-8") as fh:
-        registros = {}
         for linha in csv.DictReader(fh):
-            for campo in ("preco_atual", "preco_anterior", "preco_min", "preco_max"):
+            for campo in NUMERICOS:
                 linha[campo] = float(linha[campo] or 0)
-            linha["observacoes"] = int(linha["observacoes"] or 0)
+            # migracao do formato antigo, que tinha 'ultima_vez'/'observacoes'
+            if not linha.get("ultima_alteracao"):
+                linha["ultima_alteracao"] = (
+                    linha.get("ultima_vez") or linha.get("primeira_vez") or ""
+                )
             registros[linha["produto_id"]] = linha
     return registros
 
@@ -73,8 +81,9 @@ def atualizar(registros: dict, produtos: list[dict], hoje: str = None) -> dict:
         if preco <= 0:
             continue
 
-        anterior = registros.get(pid)
-        if anterior is None:
+        registro = registros.get(pid)
+
+        if registro is None:
             registros[pid] = {
                 "produto_id": pid,
                 "feed_id": p["feed_id"],
@@ -85,25 +94,36 @@ def atualizar(registros: dict, produtos: list[dict], hoje: str = None) -> dict:
                 "preco_min": preco,
                 "preco_max": preco,
                 "primeira_vez": hoje,
-                "ultima_vez": hoje,
-                "observacoes": 1,
+                "ultima_alteracao": hoje,
             }
             novos += 1
             continue
 
-        if preco != anterior["preco_atual"]:
-            mudaram += 1
-            anterior["preco_anterior"] = anterior["preco_atual"]
+        if preco == registro["preco_atual"]:
+            continue  # nada mudou: a linha fica intacta no CSV
 
-        anterior["preco_atual"] = preco
-        anterior["preco_min"] = min(anterior["preco_min"], preco)
-        anterior["preco_max"] = max(anterior["preco_max"], preco)
-        anterior["ultima_vez"] = hoje
-        anterior["observacoes"] += 1
+        mudaram += 1
+        registro["preco_anterior"] = registro["preco_atual"]
+        registro["preco_atual"] = preco
+        registro["preco_min"] = min(registro["preco_min"], preco)
+        registro["preco_max"] = max(registro["preco_max"], preco)
+        registro["ultima_alteracao"] = hoje
         # o nome pode mudar (loja renomeia o anuncio); manter o mais recente
-        anterior["nome"] = p["nome"]
+        registro["nome"] = p["nome"]
 
     return {"novos": novos, "mudaram": mudaram, "total": len(registros)}
+
+
+def ja_conhecido(registro: dict, hoje: str = None) -> bool:
+    """
+    Verdadeiro se ja conheciamos o produto antes de hoje.
+
+    Substitui uma contagem de observacoes: serve para nao tratar como promocao
+    a estreia de um produto no feed, sem precisar de um contador que mudaria
+    toda linha do CSV a cada execucao.
+    """
+    hoje = hoje or date.today().isoformat()
+    return registro.get("primeira_vez", hoje) < hoje
 
 
 def queda_pct(registro: dict) -> float:
