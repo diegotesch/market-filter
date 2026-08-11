@@ -1,20 +1,20 @@
 # Panorama do catalogo
 
-- **11,508** produtos coletados
+- **11,500** produtos coletados
 - **10** feed(s)
 
-- **11,508** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
+- **11,500** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| Clovis Calçados BR | 8,198 | 71.2% |
+| Clovis Calçados BR | 8,198 | 71.3% |
 | Lauri Esporte | 1,514 | 13.2% |
+| Alianças Imperiais BR | 456 | 4.0% |
 | Carraro BR | 456 | 4.0% |
-| Alianças Imperiais BR | 451 | 3.9% |
 | Legale Lover BR | 361 | 3.1% |
-| Leveros BR | 251 | 2.2% |
+| Leveros BR | 238 | 2.1% |
 | Afiliados Galícia Educação | 201 | 1.7% |
 | Afiliados Galícia Educação - Escola de Direi | 50 | 0.4% |
 | Radiale Pneus | 21 | 0.2% |
@@ -24,11 +24,11 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 3,939 | 34.2% |
-| R$ 100 a 250 | 3,119 | 27.1% |
-| R$ 250 a 500 | 1,821 | 15.8% |
-| acima de R$ 1.000 | 1,086 | 9.4% |
-| R$ 500 a 1.000 | 810 | 7.0% |
+| R$ 50 a 100 | 3,939 | 34.3% |
+| R$ 100 a 250 | 3,121 | 27.1% |
+| R$ 250 a 500 | 1,822 | 15.8% |
+| acima de R$ 1.000 | 1,073 | 9.3% |
+| R$ 500 a 1.000 | 812 | 7.1% |
 | ate R$ 50 | 733 | 6.4% |
 
 ## Marcas
@@ -52,7 +52,7 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| 605 | 243 | 2.1% |
+| 605 | 230 | 2.0% |
 | Automotive | 21 | 0.2% |
 | Vitamins & Supplements | 5 | 0.0% |
 | 608 | 2 | 0.0% |
@@ -79,14 +79,6 @@
 - Tênis Asics Gel-Nagoya 7 Masculino Preto e Branco — R$ 499.00
 - Tênis Olympikus Corre 4 Bege — R$ 599.00
 
-**Carraro BR**
-
-- Kit 2 Banquetas Baixas Cozinha Balcão 105 Carraro Branco Prata — R$ 271.73
-- Kit 4 Banquetas Baixas Cozinha Balcão 105 Carraro Branco — R$ 543.47
-- Mesa Dobrável Extensível 216 Carraro Branco — R$ 391.29
-- Mesa Dobrável Extensível 216 Carraro Branco Prata — R$ 391.29
-- Armário Multiuso 2 Portas 424 Carraro Branco — R$ 380.42
-
 **Alianças Imperiais BR**
 
 - (COMBO) Par de alianças 6mm abaulada+ anel mod. Madrid — R$ 397.90
@@ -94,6 +86,14 @@
 - (COMBO) Par de alianças 6mm mod. A6 abaulada+ anel Princesa — R$ 379.90
 - (COMBO) Par de alianças 6mm Mod. R5+ Anel Princesa — R$ 379.90
 - (COMBO) Par de alianças 8mm mod R8 + anel Rainha — R$ 427.90
+
+**Carraro BR**
+
+- Kit 2 Banquetas Baixas Cozinha Balcão 105 Carraro Branco Prata — R$ 271.73
+- Kit 4 Banquetas Baixas Cozinha Balcão 105 Carraro Branco — R$ 543.47
+- Mesa Dobrável Extensível 216 Carraro Branco — R$ 391.29
+- Mesa Dobrável Extensível 216 Carraro Branco Prata — R$ 391.29
+- Armário Multiuso 2 Portas 424 Carraro Branco — R$ 380.42
 
 **Legale Lover BR**
 
@@ -105,8 +105,8 @@
 
 **Leveros BR**
 
-- Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs — R$ 8,739.05
+- Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs — R$ 8,359.05
 - Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,609.05
 - Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (3x Evap HW 9. — R$ 13,602.10
-- Ar-Condicionado Inverter Piso Teto R-32 Gree G-Prime Compact 57.000 BT — R$ 10,599.00
-- Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente — R$ 8,999.00
+- Ar-Condicionado Inverter Piso Teto R-32 Gree G-Prime Compact 57.000 BT — R$ 10,069.05
+- Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente — R$ 7,884.05
