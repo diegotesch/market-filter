@@ -3,7 +3,7 @@
 - **11,500** produtos coletados
 - **10** feed(s)
 
-- **11,500** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
+- **11,500** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 60,749.00)
 
 ## Lojas
 
