@@ -1,9 +1,9 @@
 # Panorama do catalogo
 
-- **11,500** produtos coletados
+- **11,501** produtos coletados
 - **10** feed(s)
 
-- **11,500** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 60,749.00)
+- **11,501** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
 
 ## Lojas
 
@@ -11,10 +11,10 @@
 |---|---:|---:|
 | Clovis Calçados BR | 8,198 | 71.3% |
 | Lauri Esporte | 1,514 | 13.2% |
-| Alianças Imperiais BR | 456 | 4.0% |
+| Alianças Imperiais BR | 458 | 4.0% |
 | Carraro BR | 456 | 4.0% |
 | Legale Lover BR | 361 | 3.1% |
-| Leveros BR | 238 | 2.1% |
+| Leveros BR | 237 | 2.1% |
 | Afiliados Galícia Educação | 201 | 1.7% |
 | Afiliados Galícia Educação - Escola de Direi | 50 | 0.4% |
 | Radiale Pneus | 21 | 0.2% |
@@ -24,10 +24,10 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 3,939 | 34.3% |
-| R$ 100 a 250 | 3,121 | 27.1% |
+| R$ 50 a 100 | 3,939 | 34.2% |
+| R$ 100 a 250 | 3,123 | 27.2% |
 | R$ 250 a 500 | 1,822 | 15.8% |
-| acima de R$ 1.000 | 1,073 | 9.3% |
+| acima de R$ 1.000 | 1,072 | 9.3% |
 | R$ 500 a 1.000 | 812 | 7.1% |
 | ate R$ 50 | 733 | 6.4% |
 
@@ -52,7 +52,7 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| 605 | 230 | 2.0% |
+| 605 | 229 | 2.0% |
 | Automotive | 21 | 0.2% |
 | Vitamins & Supplements | 5 | 0.0% |
 | 608 | 2 | 0.0% |

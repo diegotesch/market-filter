@@ -64,7 +64,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197437985,97939,Leveros BR,Ar-Condicionado Splitão Carrier Ecosplit 25 TR Só Frio 220V Trifásico,57711.55,57711.55,57711.55,57711.55,2026-08-09,2026-08-09
 39197437989,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,31853.5,31853.5,31853.5,31853.5,2026-08-09,2026-08-09
 39197437991,97939,Leveros BR,5000012580-KIT MS K7 1V EVAP 18K+PAINEL-GR,3711.0,3711.0,3711.0,3711.0,2026-08-09,2026-08-09
-39197437997,97939,Leveros BR,Ar-Condicionado Splitão Carrier 20 TR Só Frio 380V Trifásico,44039.0,41837.05,41837.05,44039.0,2026-08-09,2026-08-12
+39197437997,97939,Leveros BR,Ar-Condicionado Splitão Carrier 20 TR Só Frio 380V Trifásico,41837.05,44039.0,41837.05,44039.0,2026-08-09,2026-08-13
 39197438005,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 24.000 BTUs Só Frio 220V,4179.05,4179.05,4179.05,4179.05,2026-08-09,2026-08-09
 39197438006,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Inverter II Wi-Fi 24.000 BTUs R-32 Só Frio 220V,3229.05,3419.05,3229.05,3419.05,2026-08-09,2026-08-12
 39197438038,97939,Leveros BR,Kit Controlador Daikin Reiri For Office,7494.55,7494.55,7494.55,7494.55,2026-08-09,2026-08-09
@@ -72,7 +72,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197438049,97939,Leveros BR,Ar Condicionado Split HW G-Diamond Auto Inverter Wi-Fi Gree 9.000 BTUs Só Frio 220V,2564.05,2564.05,2564.05,2564.05,2026-08-09,2026-08-09
 39197438051,97939,Leveros BR,Ar-Condicionado Split Duto Inverter Trane U-Match 50.000 BTUs Quente/Frio 220V Monofásico,18049.05,18049.05,18049.05,18049.05,2026-08-09,2026-08-09
 39197438054,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap HW 9.000) Quente/Frio 220V,11750.55,11750.55,11750.55,11750.55,2026-08-09,2026-08-09
-39197438066,97939,Leveros BR,Climatizador Evaporativo Residencial 35 Litros Ventisol CLIN35 PRO 220V,839.0,797.05,797.05,839.0,2026-08-09,2026-08-12
+39197438066,97939,Leveros BR,Climatizador Evaporativo Residencial 35 Litros Ventisol CLIN35 PRO 220V,797.05,839.0,797.05,839.0,2026-08-09,2026-08-13
 39197438067,97939,Leveros BR,Ar Condicionado Split HW G-Diamond Auto Inverter Wi-Fi Gree 12.000 BTUs Só Frio 220V,2972.55,2972.55,2972.55,2972.55,2026-08-09,2026-08-09
 39197438076,97939,Leveros BR,Cortina de Ar 120 CM Springer 220V,825.55,869.0,825.55,869.0,2026-08-09,2026-08-11
 39197438079,97939,Leveros BR,Fechadura Digital Kaadas L7-5 com Biometria,539.1,539.1,539.1,539.1,2026-08-09,2026-08-09
@@ -3421,7 +3421,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39965201831,98680,Clovis Calçados BR,Scarpin Feminino Salto Fino Vizzano 1421110 PRETO 01 36,149.99,149.99,149.99,149.99,2026-08-09,2026-08-09
 39965201833,98680,Clovis Calçados BR,Tamanco Feminino Flat Beira Rio 8529102 PRETO 01 34,59.99,59.99,59.99,59.99,2026-08-09,2026-08-09
 39965201835,98680,Clovis Calçados BR,Tamanco Feminino Flat Beira Rio 8529305 PRETO 34,49.99,49.99,49.99,49.99,2026-08-09,2026-08-09
-39970387886,97939,Leveros BR,Ar-Condicionado Splitão Carrier Ecosplit 25 TR Só Frio 380V Trifásico,60749.0,57711.55,57711.55,60749.0,2026-08-09,2026-08-12
+39970387886,97939,Leveros BR,Ar-Condicionado Splitão Carrier Ecosplit 25 TR Só Frio 380V Trifásico,57711.55,60749.0,57711.55,60749.0,2026-08-09,2026-08-13
 39970610882,98680,Clovis Calçados BR,Bota Infantil Feminina Conturno Kidy 4340001 CAFÉ 31,149.99,149.99,149.99,149.99,2026-08-09,2026-08-09
 40030621454,98680,Clovis Calçados BR,Sapato Masculino Social Mais Leve 600 CAFÉ 38,79.99,79.99,79.99,79.99,2026-08-09,2026-08-09
 40030621567,98680,Clovis Calçados BR,Papete Infantil Masculina Marvel United Grendene Kids 23173 PRETO/VERMELHO 19,49.99,49.99,49.99,49.99,2026-08-09,2026-08-09
@@ -3797,7 +3797,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 40271223629,98680,Clovis Calçados BR,Tênis Feminino Casual Beira Rio 4316104 BRANCO 01 34,99.99,99.99,99.99,99.99,2026-08-09,2026-08-09
 40292683393,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 (1x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,6848.55,6848.55,6848.55,6848.55,2026-08-09,2026-08-09
 40292683401,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 (1x Evap HW 7.000 + 1x Evap HW 9.000) Quente/Frio 220V,6544.55,6544.55,6544.55,6544.55,2026-08-09,2026-08-09
-40292683404,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 (2x Evap HW 9.000) Quente/Frio 220V,7040.0,6688.0,6688.0,7040.0,2026-08-09,2026-08-12
+40292683404,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 (2x Evap HW 9.000) Quente/Frio 220V,6688.0,7040.0,6688.0,7040.0,2026-08-09,2026-08-13
 40292683774,98680,Clovis Calçados BR,Sandália Infantil Feminina Conforto Molekinha 2357103 OURO 26,79.99,79.99,79.99,79.99,2026-08-09,2026-08-09
 40292683813,98680,Clovis Calçados BR,Sandália Feminina Flat Modare 7200102 VERDE 35,149.99,149.99,149.99,149.99,2026-08-09,2026-08-09
 40292683817,98680,Clovis Calçados BR,Sapatilha Feminina Flat Moleca 50271407 BEGE 34,59.99,59.99,59.99,59.99,2026-08-09,2026-08-09
@@ -5532,7 +5532,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 41816592128,98680,Clovis Calçados BR,Sandália Feminina Meia Pata Vizzano 6472213 PRATA 35,189.99,189.99,189.99,189.99,2026-08-09,2026-08-09
 41816592133,98680,Clovis Calçados BR,Sandália Feminina Meia Pata Vizzano 6472213 BRONZE 36,189.99,189.99,189.99,189.99,2026-08-09,2026-08-09
 41816592135,98680,Clovis Calçados BR,Tênis Infantil Masculino Molekinho 283113 PRETO 31,99.99,99.99,99.99,99.99,2026-08-09,2026-08-09
-41834209024,97939,Leveros BR,Ar-Condicionado Splitão Carrier 20 TR Só Frio 220V Trifásico,45309.0,43043.55,43043.55,45309.0,2026-08-09,2026-08-12
+41834209024,97939,Leveros BR,Ar-Condicionado Splitão Carrier 20 TR Só Frio 220V Trifásico,43043.55,45309.0,43043.55,45309.0,2026-08-09,2026-08-13
 41834209292,98680,Clovis Calçados BR,Sapato Feminino Salto Taça Via Marte 145012 AZUL 38,99.99,99.99,99.99,99.99,2026-08-09,2026-08-09
 41834209295,98680,Clovis Calçados BR,Tênis Feminino Casual Beira Rio 4305112 BRANCO/CINZA 34,119.99,119.99,119.99,119.99,2026-08-09,2026-08-09
 41834209296,98680,Clovis Calçados BR,Sapatilha Feminina Flat Usaflex MM1601 PRETO 34,149.99,149.99,149.99,149.99,2026-08-09,2026-08-09
@@ -10897,6 +10897,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43520576092,97992,Alianças Imperiais BR,Par de alianças em Prata 3mm mod. Orla + Anel Rainha,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 43535186533,97939,Leveros BR,Ar-condicionado Split Cassete 4 Vias Inverter Fujitsu Airstage 54.000 BTUs R-32 Quente/Frio 380V Trifásico,18714.05,19699.0,18714.05,19699.0,2026-08-09,2026-08-11
 43535186534,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Fujitsu 45.000 BTUs Quente/Frio R32 220V Monofásico,16909.05,17479.05,16909.05,17479.05,2026-08-09,2026-08-11
+43579286014,97939,Leveros BR,Ar-condicionado Split HW Inverter Fujitsu Airstage Essencial 9.000 BTUs R-32 Quente/Frio 220V,2089.05,2089.05,2089.05,2089.05,2026-08-13,2026-08-13
 43597730970,97992,Alianças Imperiais BR,Caixinha de veludo preto,14.9,14.9,14.9,14.9,2026-08-09,2026-08-09
 43622450843,97992,Alianças Imperiais BR,Anel de prata modelo Laurel com Zircônia,147.9,147.9,147.9,147.9,2026-08-09,2026-08-09
 43633973359,97992,Alianças Imperiais BR,Caixinha de veludo em formato de coração,19.9,19.9,19.9,19.9,2026-08-09,2026-08-09
@@ -11506,10 +11507,12 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45396982396,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Florença,357.9,357.9,357.9,357.9,2026-08-09,2026-08-09
 45411044264,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 4mm Mod. Athenas,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 45411044265,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Athenas,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
-45460523841,97939,Leveros BR,Purificador de Água IBBL FR600 Speciale Branco 110V,829.0,787.55,787.55,829.0,2026-08-09,2026-08-12
+45460523841,97939,Leveros BR,Purificador de Água IBBL FR600 Speciale Branco 110V,787.55,829.0,787.55,829.0,2026-08-09,2026-08-13
 45460523842,97939,Leveros BR,Purificador de Água IBBL FR600 Speciale Prata 110V,816.05,816.05,816.05,816.05,2026-08-09,2026-08-09
 45543757455,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas 4mm Mod. Italiana Fosca no Meio,257.9,257.9,257.9,257.9,2026-08-11,2026-08-11
 45543757456,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Mod. Italiana 6mm Fosco no Meio,267.9,267.9,267.9,267.9,2026-08-11,2026-08-11
 45543757457,97992,Alianças Imperiais BR,Par de Alianças Mod. PD13 6mm + Anel Cute (Escolha a Cor da Pedra),459.9,459.9,459.9,459.9,2026-08-11,2026-08-11
 45548355991,97992,Alianças Imperiais BR,Aliança de Moeda Antiga Trabalhada 4mm Mod. Napoli,197.9,197.9,197.9,197.9,2026-08-11,2026-08-11
 45548355992,97992,Alianças Imperiais BR,Aliança de Moeda Antiga Trabalhada 4mm Mod. Napoli em Prata,197.9,197.9,197.9,197.9,2026-08-11,2026-08-11
+45578429220,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias Mod. Cairo,157.9,157.9,157.9,157.9,2026-08-13,2026-08-13
+45578429221,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias Mod. Oásis,157.9,157.9,157.9,157.9,2026-08-13,2026-08-13
