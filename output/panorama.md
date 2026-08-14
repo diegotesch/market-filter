@@ -1,9 +1,9 @@
 # Panorama do catalogo
 
-- **11,501** produtos coletados
+- **11,497** produtos coletados
 - **10** feed(s)
 
-- **11,501** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
+- **11,497** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
 
 ## Lojas
 
@@ -14,7 +14,7 @@
 | Alianças Imperiais BR | 458 | 4.0% |
 | Carraro BR | 456 | 4.0% |
 | Legale Lover BR | 361 | 3.1% |
-| Leveros BR | 237 | 2.1% |
+| Leveros BR | 233 | 2.0% |
 | Afiliados Galícia Educação | 201 | 1.7% |
 | Afiliados Galícia Educação - Escola de Direi | 50 | 0.4% |
 | Radiale Pneus | 21 | 0.2% |
@@ -24,10 +24,10 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 3,939 | 34.2% |
+| R$ 50 a 100 | 3,939 | 34.3% |
 | R$ 100 a 250 | 3,123 | 27.2% |
 | R$ 250 a 500 | 1,822 | 15.8% |
-| acima de R$ 1.000 | 1,072 | 9.3% |
+| acima de R$ 1.000 | 1,068 | 9.3% |
 | R$ 500 a 1.000 | 812 | 7.1% |
 | ate R$ 50 | 733 | 6.4% |
 
@@ -52,7 +52,7 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| 605 | 229 | 2.0% |
+| 605 | 225 | 2.0% |
 | Automotive | 21 | 0.2% |
 | Vitamins & Supplements | 5 | 0.0% |
 | 608 | 2 | 0.0% |
@@ -106,7 +106,7 @@
 **Leveros BR**
 
 - Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs — R$ 8,359.05
-- Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,609.05
+- Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,799.00
 - Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (3x Evap HW 9. — R$ 13,602.10
 - Ar-Condicionado Inverter Piso Teto R-32 Gree G-Prime Compact 57.000 BT — R$ 10,069.05
 - Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente — R$ 7,884.05
