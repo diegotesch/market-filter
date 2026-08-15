@@ -11,10 +11,10 @@
 |---|---:|---:|
 | Clovis Calçados BR | 8,198 | 71.3% |
 | Lauri Esporte | 1,514 | 13.2% |
-| Alianças Imperiais BR | 458 | 4.0% |
+| Alianças Imperiais BR | 459 | 4.0% |
 | Carraro BR | 456 | 4.0% |
 | Legale Lover BR | 361 | 3.1% |
-| Leveros BR | 233 | 2.0% |
+| Leveros BR | 232 | 2.0% |
 | Afiliados Galícia Educação | 201 | 1.7% |
 | Afiliados Galícia Educação - Escola de Direi | 50 | 0.4% |
 | Radiale Pneus | 21 | 0.2% |
@@ -26,9 +26,9 @@
 |---|---:|---:|
 | R$ 50 a 100 | 3,939 | 34.3% |
 | R$ 100 a 250 | 3,123 | 27.2% |
-| R$ 250 a 500 | 1,822 | 15.8% |
+| R$ 250 a 500 | 1,823 | 15.9% |
 | acima de R$ 1.000 | 1,068 | 9.3% |
-| R$ 500 a 1.000 | 812 | 7.1% |
+| R$ 500 a 1.000 | 811 | 7.1% |
 | ate R$ 50 | 733 | 6.4% |
 
 ## Marcas
@@ -56,7 +56,7 @@
 | Automotive | 21 | 0.2% |
 | Vitamins & Supplements | 5 | 0.0% |
 | 608 | 2 | 0.0% |
-| 604 | 2 | 0.0% |
+| 604 | 1 | 0.0% |
 | 2751 | 1 | 0.0% |
 | 6727 | 1 | 0.0% |
 | 536 | 1 | 0.0% |
@@ -106,7 +106,7 @@
 **Leveros BR**
 
 - Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs — R$ 8,359.05
-- Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,799.00
+- Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,609.05
 - Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (3x Evap HW 9. — R$ 13,602.10
 - Ar-Condicionado Inverter Piso Teto R-32 Gree G-Prime Compact 57.000 BT — R$ 10,069.05
 - Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente — R$ 7,884.05

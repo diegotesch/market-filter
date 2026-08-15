@@ -1,5 +1,5 @@
 produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,primeira_vez,ultima_alteracao
-39197437699,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Quente/Frio 220V,3799.0,3609.05,3609.05,3799.0,2026-08-09,2026-08-14
+39197437699,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Quente/Frio 220V,3609.05,3799.0,3609.05,3799.0,2026-08-09,2026-08-15
 39197437700,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (3x Evap HW 9.000) Quente/Frio 220V,13602.1,13602.1,13602.1,13602.1,2026-08-09,2026-08-09
 39197437714,97939,Leveros BR,5000012578-KIT MS K7 1V EVAP 9K+PAINEL-GR,3416.0,3416.0,3416.0,3416.0,2026-08-09,2026-08-09
 39197437724,97939,Leveros BR,Ar Condicionado Split HW G-Diamond Auto Inverter Wi-Fi Gree 18.000 BTUs Quente/Frio 220V,4074.55,4074.55,4074.55,4074.55,2026-08-09,2026-08-09
@@ -7,14 +7,14 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197437743,97939,Leveros BR,Ar-condicionado Split Cassete 4 Vias Inverter Fujitsu Airstage 36.000 BTUs R-32 Quente/Frio 380V Trifásico,15769.05,17099.0,15769.05,17099.0,2026-08-09,2026-08-11
 39197437745,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 23.000 BTUs (2x Evap Cassete 4 Vias 9.000 + 1x Evap Cassete 4 Vias 18.000) Quente/Frio 220V,28025.0,28025.0,28025.0,28025.0,2026-08-09,2026-08-09
 39197437749,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,13866.2,13866.2,13866.2,13866.2,2026-08-09,2026-08-09
-39197437750,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (3x Evap Cassete 1 Via 9.000) Quente/Frio 220V,23420.35,23420.35,23420.35,23420.35,2026-08-09,2026-08-09
+39197437750,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (3x Evap Cassete 1 Via 9.000) Quente/Frio 220V,24653.0,23420.35,23420.35,24653.0,2026-08-09,2026-08-15
 39197437756,97939,Leveros BR,Ar-Condicionado Split Cassete Gree G-Prime Inverter Compact 36.000 BTUs R-32 Só Frio 220V Monofásico,9936.05,9936.05,9936.05,9936.05,2026-08-09,2026-08-09
 39197437761,97939,Leveros BR,Ar-condicionado Split HW Inverter Fujitsu Airstage Premium 9.000 BTUs R-32 Quente/Frio 220V,2944.05,2944.05,2944.05,2944.05,2026-08-09,2026-08-09
-39197437773,97939,Leveros BR,Ar-Condicionado Inverter Split Hi Wall G-Top Auto Wi-Fi Gree 30.000 BTUs Quente/Frio 220V,6820.05,6820.05,6820.05,6820.05,2026-08-09,2026-08-09
+39197437773,97939,Leveros BR,Ar-Condicionado Inverter Split Hi Wall G-Top Auto Wi-Fi Gree 30.000 BTUs Quente/Frio 220V,7179.0,6820.05,6820.05,7179.0,2026-08-09,2026-08-15
 39197437780,97939,Leveros BR,5000012579-KIT MS K7 1V EVAP 12K+PAINEL-GR,3427.0,3427.0,3427.0,3427.0,2026-08-09,2026-08-09
 39197437781,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 42.000 (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,18753.0,18753.0,18753.0,18753.0,2026-08-09,2026-08-09
 39197437783,97939,Leveros BR,KIT EVAP CASSETE 4 VIAS VRF DUAL VANE QF 24.000 BTUs (Evap K7 4V + Painel ) - LG,5033.1,5033.1,5033.1,5033.1,2026-08-09,2026-08-09
-39197437788,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (2x Evap HW 9.000 + 2x Evap Duto 18.000) Quente/Frio 220V,30741.05,30741.05,30741.05,30741.05,2026-08-09,2026-08-09
+39197437788,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (2x Evap HW 9.000 + 2x Evap Duto 18.000) Quente/Frio 220V,32359.0,30741.05,30741.05,32359.0,2026-08-09,2026-08-15
 39197437789,97939,Leveros BR,Ar-Condicionado Bi Split Inverter Daikin 18.000 (2x Evap HW 12.000) Só Frio 220V,8911.0,8911.0,8911.0,8911.0,2026-08-09,2026-08-09
 39197437791,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 24.000 BTUs Quente/Frio 220V,4692.05,4692.05,4692.05,4692.05,2026-08-09,2026-08-09
 39197437801,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 (1x Evap HW 7.000 + 1x Evap HW 12.000) Quente/Frio 220V,6705.1,6705.1,6705.1,6705.1,2026-08-09,2026-08-09
@@ -25,17 +25,17 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197437831,97939,Leveros BR,Ar-Condicionado Split Cassete Inverter 4 Vias Hitachi AirCore 600 24.000 BTUs Quente/Frio 220V Monofásico,8834.05,9299.0,8834.05,9299.0,2026-08-09,2026-08-10
 39197437837,97939,Leveros BR,Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 18.000 BTUs R-32 Quente/Frio 220V,4844.05,4844.05,4844.05,4844.05,2026-08-09,2026-08-09
 39197437838,97939,Leveros BR,KIT EVAP CASSETE 1 VIA VRF QF 18.000 BTUs (Evap K7 1V + Painel ) - LG,4602.75,4602.75,4602.75,4602.75,2026-08-09,2026-08-09
-39197437842,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (3x Evap HW 9.000 + 1x Evap HW 24.000) Quente/Frio 220V,28891.4,28891.4,28891.4,28891.4,2026-08-09,2026-08-09
+39197437842,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (3x Evap HW 9.000 + 1x Evap HW 24.000) Quente/Frio 220V,30412.0,28891.4,28891.4,30412.0,2026-08-09,2026-08-15
 39197437848,97939,Leveros BR,KIT EVAP CASSETE 4 VIAS VRF DUAL VANE QF 36.000 BTUs (Evap K7 4V + Painel ) - LG,5441.6,5441.6,5441.6,5441.6,2026-08-09,2026-08-09
 39197437855,97939,Leveros BR,Ar-Condicionado Bi Split Inverter R-32 Daikin 18.000 BTUs (2x Evap HW 12.000) Quente/Frio 220V,7988.55,7988.55,7988.55,7988.55,2026-08-09,2026-08-09
-39197437856,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap HW 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,18826.15,18826.15,18826.15,18826.15,2026-08-09,2026-08-09
+39197437856,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap HW 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,19817.0,18826.15,18826.15,19817.0,2026-08-09,2026-08-15
 39197437869,97939,Leveros BR,Ar-Condicionado Inverter Split Hi Wall G-Top Auto Wi-Fi Gree 30.000 BTUs Só Frio 220V,6269.05,6269.05,6269.05,6269.05,2026-08-09,2026-08-09
 39197437870,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,16439.75,16439.75,16439.75,16439.75,2026-08-09,2026-08-09
 39197437875,97939,Leveros BR,5000010467-KIT MS K7 4V EVAP 9K + PAINEL - LG,3209.1,3209.1,3209.1,3209.1,2026-08-09,2026-08-09
 39197437878,97939,Leveros BR,5000002457-KIT MS K7 4V EVAP 12K+PAINEL+CONTROLE-DA-[DAIKIN],5988.8,5988.8,5988.8,5988.8,2026-08-09,2026-08-09
 39197437880,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,14588.2,14588.2,14588.2,14588.2,2026-08-09,2026-08-09
-39197437883,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,19716.3,19716.3,19716.3,19716.3,2026-08-09,2026-08-09
-39197437886,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 23.000 BTUs (2x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,23716.75,23716.75,23716.75,23716.75,2026-08-09,2026-08-09
+39197437883,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,20754.0,19716.3,19716.3,20754.0,2026-08-09,2026-08-15
+39197437886,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 23.000 BTUs (2x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,24965.0,23716.75,23716.75,24965.0,2026-08-09,2026-08-15
 39197437890,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (3x Evap HW 9.000) Quente/Frio 220V,16084.45,16084.45,16084.45,16084.45,2026-08-09,2026-08-09
 39197437891,97939,Leveros BR,Ar-Condicionado Bi Split Inverter R-32 Daikin 18.000 BTUs (1x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,7726.35,7726.35,7726.35,7726.35,2026-08-09,2026-08-09
 39197437897,97939,Leveros BR,KIT EVAP CASSETE 4 VIAS VRF DUAL VANE QF 48.000 BTUs (Evap K7 4V + Painel ) - LG,5584.1,5584.1,5584.1,5584.1,2026-08-09,2026-08-09
@@ -45,24 +45,24 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197437908,97939,Leveros BR,5000008846-KIT VRF K7 4V EVAP 28K + PAINEL D.VANE - LG,5109.1,5109.1,5109.1,5109.1,2026-08-09,2026-08-09
 39197437909,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (3x Evap HW 12.000) Quente/Frio 220V,16876.75,17765.0,16876.75,17765.0,2026-08-09,2026-08-11
 39197437917,97939,Leveros BR,5000010488-KIT VRF K7 4V EVAP 12K + PAINEL - LG,4412.75,4412.75,4412.75,4412.75,2026-08-09,2026-08-09
-39197437922,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Daikin SkyAir 46.000 BTUs Quente/Frio 220V Monofásico,19303.05,19303.05,19303.05,19303.05,2026-08-09,2026-08-09
-39197437925,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Daikin SkyAir 31.000 BTUs Quente/Frio 220V Monofásico,14724.05,14724.05,14724.05,14724.05,2026-08-09,2026-08-09
+39197437922,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Daikin SkyAir 46.000 BTUs Quente/Frio 220V Monofásico,20319.0,19303.05,19303.05,20319.0,2026-08-09,2026-08-15
+39197437925,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Daikin SkyAir 31.000 BTUs Quente/Frio 220V Monofásico,15499.0,14724.05,14724.05,15499.0,2026-08-09,2026-08-15
 39197437927,97939,Leveros BR,5000005668-KIT MS K7 4V EVAP 21K+PAINEL+CONTROLE-DA-[DAIKIN],6867.55,6867.55,6867.55,6867.55,2026-08-09,2026-08-09
 39197437928,97939,Leveros BR,Ar Condicionado Split HW G-Diamond Auto Inverter Wi-Fi Gree 24.000 BTUs Quente/Frio 220V,5319.05,5319.05,5319.05,5319.05,2026-08-09,2026-08-09
 39197437931,97939,Leveros BR,5000003593-KIT MS K7 1V EVAP 12K+PAINEL-DA-[DAIKIN],4518.2,4518.2,4518.2,4518.2,2026-08-09,2026-08-09
-39197437940,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,29467.1,29467.1,29467.1,29467.1,2026-08-09,2026-08-09
+39197437940,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,31018.0,29467.1,29467.1,31018.0,2026-08-09,2026-08-15
 39197437949,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18000 BTUs (2x Evap HW 12.000) Quente/Frio 220V,12278.75,12925.0,12278.75,12925.0,2026-08-09,2026-08-11
 39197437960,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (1x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,12369.95,13021.0,12369.95,13021.0,2026-08-09,2026-08-10
 39197437961,97939,Leveros BR,Ar Condicionado Split HW G-Diamond Auto Inverter Wi-Fi Gree 24.000 BTUs Só Frio 220V,5091.05,5359.0,5091.05,5359.0,2026-08-09,2026-08-10
 39197437962,97939,Leveros BR,Ar-Condicionado Inverter Split Hi Wall G-Top Auto Wi-Fi Gree 18.000 BTUs Só Frio 220V,3314.55,3314.55,3314.55,3314.55,2026-08-09,2026-08-09
 39197437963,97939,Leveros BR,KIT EVAP CASSETE 1 VIA VRF QF 24.000 BTUs (Evap K7 1V + Painel ) - LG,4726.25,4726.25,4726.25,4726.25,2026-08-09,2026-08-09
 39197437966,97939,Leveros BR,Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs R-32 Só Frio 220V,7789.05,8169.05,7789.05,8169.05,2026-08-09,2026-08-11
-39197437969,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (1x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,16937.55,16937.55,16937.55,16937.55,2026-08-09,2026-08-09
+39197437969,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (1x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,17829.0,16937.55,16937.55,17829.0,2026-08-09,2026-08-15
 39197437974,97939,Leveros BR,Ar-Condicionado Split HW Inverter R-32 Philco PAC30000IFM15 30.000 BTUs Só Frio 220V,5319.05,5442.55,5319.05,5442.55,2026-08-09,2026-08-11
 39197437977,97939,Leveros BR,5000010484-KIT VRF K7 1V EVAP 12K + PAINEL - LG,4127.75,4127.75,4127.75,4127.75,2026-08-09,2026-08-09
 39197437982,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 30.000 (1x Evap Cassete 1 Via 9.000 + 2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,17791.6,17791.6,17791.6,17791.6,2026-08-09,2026-08-09
 39197437985,97939,Leveros BR,Ar-Condicionado Splitão Carrier Ecosplit 25 TR Só Frio 220V Trifásico,57711.55,57711.55,57711.55,57711.55,2026-08-09,2026-08-09
-39197437989,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,31853.5,31853.5,31853.5,31853.5,2026-08-09,2026-08-09
+39197437989,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 12.000) Quente/Frio 220V,33530.0,31853.5,31853.5,33530.0,2026-08-09,2026-08-15
 39197437991,97939,Leveros BR,5000012580-KIT MS K7 1V EVAP 18K+PAINEL-GR,3711.0,3711.0,3711.0,3711.0,2026-08-09,2026-08-09
 39197437997,97939,Leveros BR,Ar-Condicionado Splitão Carrier 20 TR Só Frio 380V Trifásico,41837.05,44039.0,41837.05,44039.0,2026-08-09,2026-08-13
 39197438005,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 24.000 BTUs Só Frio 220V,4179.05,4179.05,4179.05,4179.05,2026-08-09,2026-08-09
@@ -83,27 +83,27 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39197438107,97939,Leveros BR,Ar-Condicionado Split Teto Inverter Fujitsu 45.000 BTUs Quente/Frio R32 380V Trifásico,14534.05,14534.05,14534.05,14534.05,2026-08-09,2026-08-09
 39197438123,97939,Leveros BR,5000010482-KIT VRF K7 1V EVAP 9K + PAINEL - LG,4089.75,4089.75,4089.75,4089.75,2026-08-09,2026-08-09
 39197438124,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Hitachi Air Core 48.000 BTUs Só Frio 220V Trifásico,11589.05,12199.0,11589.05,12199.0,2026-08-09,2026-08-11
-39197438127,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (3x Evap HW 9.000 + 2x Evap HW 12.000) Quente/Frio 220V,29640.0,29640.0,29640.0,29640.0,2026-08-09,2026-08-09
+39197438127,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (3x Evap HW 9.000 + 2x Evap HW 12.000) Quente/Frio 220V,31200.0,29640.0,29640.0,31200.0,2026-08-09,2026-08-15
 39197438139,97939,Leveros BR,KIT EVAP CASSETE 4 VIAS MULTI SPLIT QF 9.000 BTUs (Evap K7 4V + Painel ) - Daikin,4966.6,4966.6,4966.6,4966.6,2026-08-09,2026-08-09
-39197438141,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap Cassete 1 Via 9.000) Quente/Frio 220V,16641.15,16641.15,16641.15,16641.15,2026-08-09,2026-08-09
+39197438141,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap Cassete 1 Via 9.000) Quente/Frio 220V,17517.0,16641.15,16641.15,17517.0,2026-08-09,2026-08-15
 39197438159,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 42.000 (4x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,17148.45,17148.45,17148.45,17148.45,2026-08-09,2026-08-09
-39197438160,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (2x Evap HW 9.000 + 3x Evap HW 12.000) Quente/Frio 220V,29904.1,29904.1,29904.1,29904.1,2026-08-09,2026-08-09
+39197438160,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (2x Evap HW 9.000 + 3x Evap HW 12.000) Quente/Frio 220V,31478.0,29904.1,29904.1,31478.0,2026-08-09,2026-08-15
 39197438162,97939,Leveros BR,5000010462-KIT MS K7 1V EVAP 9K + PAINEL - LG,3798.1,3798.1,3798.1,3798.1,2026-08-09,2026-08-09
-39197438166,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,17233.95,17233.95,17233.95,17233.95,2026-08-09,2026-08-09
+39197438166,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,18141.0,17233.95,17233.95,18141.0,2026-08-09,2026-08-15
 39197438170,97939,Leveros BR,Ar-Condicionado LG AI DUAL Inverter Voice 24.000 BTUs Quente/Frio 220V - S3-W24K231A,4644.55,4644.55,4644.55,4644.55,2026-08-09,2026-08-09
-39197438175,97939,Leveros BR,Ar-Condicionado LG AI DUAL Inverter Voice ARTCOOL UV Nano 18.000 BTUs Quente/Frio 220V - S3-W18KLR7A,4369.05,4369.05,4369.05,4369.05,2026-08-09,2026-08-09
+39197438175,97939,Leveros BR,Ar-Condicionado LG AI DUAL Inverter Voice ARTCOOL UV Nano 18.000 BTUs Quente/Frio 220V - S3-W18KLR7A,4599.0,4369.05,4369.05,4599.0,2026-08-09,2026-08-15
 39197438180,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 14.000 BTUs (2x Evap HW 7.000) Quente/Frio 220V,6401.1,6401.1,6401.1,6401.1,2026-08-09,2026-08-09
 39197438190,97939,Leveros BR,Ar-condicionado Split Cassete 4 Vias Inverter Fujitsu Airstage 45.000 BTUs R-32 Quente/Frio 380V Trifásico,16719.05,18059.0,16719.05,18059.0,2026-08-09,2026-08-11
 39197438191,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Dream Inverter Wi-Fi 24.000 BTUs R-32 Quente/Frio 220V,4654.05,4464.05,4464.05,4654.05,2026-08-09,2026-08-14
 39197438193,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Hitachi Air Core 36.000 BTUs Só Frio 220V Monofásico,9404.05,9404.05,9404.05,9404.05,2026-08-09,2026-08-09
 39197438195,97939,Leveros BR,5000010486-KIT VRF K7 4V EVAP 9K + PAINEL - LG,4355.75,4355.75,4355.75,4355.75,2026-08-09,2026-08-09
-39197438197,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,29375.9,29375.9,29375.9,29375.9,2026-08-09,2026-08-09
+39197438197,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,30922.0,29375.9,29375.9,30922.0,2026-08-09,2026-08-15
 39197438199,97939,Leveros BR,Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs R-32 Quente/Frio 220V,8359.05,8739.05,8359.05,8739.05,2026-08-09,2026-08-11
 39235535695,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (1x Evap HW 12.000 + 2x Evap HW 18.000) Quente/Frio 220V,18972.45,19971.0,18972.45,19971.0,2026-08-09,2026-08-10
 39235535696,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 (3x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,20113.4,20113.4,20113.4,20113.4,2026-08-09,2026-08-09
 39235535699,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 (2x Evap HW 9.000 + 2x Evap HW 12.000) Quente/Frio 220V,20377.5,20377.5,20377.5,20377.5,2026-08-09,2026-08-09
 39235535700,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 (2x Evap HW 12.000 + 1x Evap Duto 20.000) Quente/Frio 220V,20457.3,21534.0,20457.3,21534.0,2026-08-09,2026-08-11
-39235535701,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (3x Evap Cassete 1 Via 12.000) Quente/Frio 220V,26222.85,26222.85,26222.85,26222.85,2026-08-09,2026-08-09
+39235535701,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (3x Evap Cassete 1 Via 12.000) Quente/Frio 220V,27603.0,26222.85,26222.85,27603.0,2026-08-09,2026-08-15
 39235535702,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 (2x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,18881.25,19875.0,18881.25,19875.0,2026-08-09,2026-08-10
 39235535703,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (1x Evap HW 9.000 + 1x Evap HW 24.000) Quente/Frio 220V,17777.35,17777.35,17777.35,17777.35,2026-08-09,2026-08-09
 39235535706,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (2x Evap HW 9.000 + 1x Evap HW 24.000) Quente/Frio 220V,19628.9,19628.9,19628.9,19628.9,2026-08-09,2026-08-09
@@ -408,7 +408,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39265666495,97992,Alianças Imperiais BR,Par de alianças Fininhas 2mm abauladas com Anel Petit,327.9,327.9,327.9,327.9,2026-08-09,2026-08-09
 39336195950,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 2x Evap HW 12.000) Quente/Frio 220V,15424.2,15424.2,15424.2,15424.2,2026-08-09,2026-08-09
 39336195952,97939,Leveros BR,5000011042-KIT VRF K7 1V EVAP 7K + PAINEL-LG,4004.25,4004.25,4004.25,4004.25,2026-08-09,2026-08-09
-39336195953,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,21567.85,21567.85,21567.85,21567.85,2026-08-09,2026-08-09
+39336195953,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 2x Evap Cassete 1 Via 12.000) Quente/Frio 220V,22703.0,21567.85,21567.85,22703.0,2026-08-09,2026-08-15
 39336195954,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 2x Evap HW 12.000) Quente/Frio 220V,16612.65,16612.65,16612.65,16612.65,2026-08-09,2026-08-09
 39336195956,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 34.000 (3x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,24536.6,25828.0,24536.6,25828.0,2026-08-09,2026-08-10
 39336195957,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 34.000 BTUs (2x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,22420.95,23601.0,22420.95,23601.0,2026-08-09,2026-08-10
@@ -4363,7 +4363,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 40920027700,98680,Clovis Calçados BR,Tênis Feminino Apolis Olympikus - 206 AZUL/LARANJA 34,199.99,199.99,199.99,199.99,2026-08-09,2026-08-09
 40920027701,98680,Clovis Calçados BR,Tênis Feminino Run 70s 2.0 Adidas IH8595 ROSA 34,399.99,399.99,399.99,399.99,2026-08-09,2026-08-09
 40923630451,98680,Clovis Calçados BR,Sandália Masculina Denim Soul Democrata 015135 CARAMELO 01 38,199.99,199.99,199.99,199.99,2026-08-09,2026-08-09
-40927424700,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 12.000 BTUs Só Frio 220V,2374.05,2374.05,2374.05,2374.05,2026-08-09,2026-08-09
+40927424700,97939,Leveros BR,Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 12.000 BTUs Só Frio 220V,2499.0,2374.05,2374.05,2499.0,2026-08-09,2026-08-15
 40927439450,98680,Clovis Calçados BR,Bolsa Feminina Via Marte B2523 MARFIM,99.99,99.99,99.99,99.99,2026-08-09,2026-08-09
 40927439451,98680,Clovis Calçados BR,Tênis Chuck Taylor All Star Cx Exp2 Converse A07199C PRETO 34,349.99,349.99,349.99,349.99,2026-08-09,2026-08-09
 40927439453,98680,Clovis Calçados BR,Tênis Chuck Taylor All Star Cx Exp2 Converse A07481C OLIVA 34,349.99,349.99,349.99,349.99,2026-08-09,2026-08-09
@@ -5430,7 +5430,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 41780337337,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (3x Evap HW 12.000 + 1x Evap Cassete 1 Via 9.000) Quente/Frio 220V,17700.4,17700.4,17700.4,17700.4,2026-08-09,2026-08-09
 41780337339,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (2x Evap Cassete 1 Via 9.000 + 2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,22255.65,22255.65,22255.65,22255.65,2026-08-09,2026-08-09
 41780337340,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (3x Evap HW 12.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,17958.8,17958.8,17958.8,17958.8,2026-08-09,2026-08-09
-41780337341,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (3x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,17125.0,16268.75,16268.75,17125.0,2026-08-09,2026-08-14
+41780337341,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (3x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,16268.75,17125.0,16268.75,17125.0,2026-08-09,2026-08-15
 41780337342,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 30.000 (2x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,13665.75,13665.75,13665.75,13665.75,2026-08-09,2026-08-09
 41780337343,97939,Leveros BR,Ar-Condicionado Multi Split Inverter R-32 Gree 36.000 (4x Evap Cassete 1 Via 9.000) Quente/Frio 220V,21738.85,21738.85,21738.85,21738.85,2026-08-09,2026-08-09
 41780337344,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Gree 36.000 (2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,16025.55,16025.55,16025.55,16025.55,2026-08-09,2026-08-09
@@ -8037,7 +8037,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42234072353,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (3x Evap HW 9.000 + 1x Evap HW 12.000) Quente/Frio 220V,18429.05,18429.05,18429.05,18429.05,2026-08-09,2026-08-09
 42234072355,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (3x Evap HW 12.000) Quente/Frio 220V,17363.15,17363.15,17363.15,17363.15,2026-08-09,2026-08-09
 42234072356,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (2x Evap HW 9.000 + 1x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,18817.6,18817.6,18817.6,18817.6,2026-08-09,2026-08-09
-42234072357,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 9.000 + 1x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,18348.0,17430.6,17430.6,18348.0,2026-08-09,2026-08-14
+42234072357,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 9.000 + 1x Evap HW 12.000 + 1x Evap HW 18.000) Quente/Frio 220V,17430.6,18348.0,17430.6,18348.0,2026-08-09,2026-08-15
 42234072358,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (3x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,18657.05,19639.0,18657.05,19639.0,2026-08-09,2026-08-11
 42234072359,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 9.000 + 1x Evap HW 12.000 + 1x Evap HW 24.000) Quente/Frio 220V,17815.35,17815.35,17815.35,17815.35,2026-08-09,2026-08-09
 42234072361,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (4x Evap HW 9.000) Quente/Frio 220V,18268.5,18268.5,18268.5,18268.5,2026-08-09,2026-08-09
@@ -10908,7 +10908,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43690944151,97992,Alianças Imperiais BR,Par Alianças de Prata 925 com 4mm Mod. Mimo com 12 Pedras,377.9,377.9,377.9,377.9,2026-08-09,2026-08-09
 43690944152,97992,Alianças Imperiais BR,Par Alianças de Prata 925 Trabalhadas 4mm Mod. Celtic,347.9,347.9,347.9,347.9,2026-08-09,2026-08-09
 43690944153,97992,Alianças Imperiais BR,Par de alianças 4mm com 15 zircônias modelo Elo em Prata 925,375.9,375.9,375.9,375.9,2026-08-09,2026-08-09
-43742706082,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Inverter II Wi-Fi 30.000 BTUs R-32 Quente/Frio 220V,5319.05,4939.05,4939.05,5599.0,2026-08-09,2026-08-14
+43742706082,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Inverter II Wi-Fi 30.000 BTUs R-32 Quente/Frio 220V,5599.0,5319.05,4939.05,5599.0,2026-08-09,2026-08-15
 43748378258,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas 8mm Modelo Estelar com Gravação Lateral,457.9,457.9,457.9,457.9,2026-08-09,2026-08-09
 43748956165,99634,Legale Lover BR,Nova Formação do Advogado Previdenciarista,94.9,94.9,94.9,94.9,2026-08-09,2026-08-09
 43748956166,99634,Legale Lover BR,Concorrência e Regulação - Aspectos Teóricos e Práticos,94.9,94.9,94.9,94.9,2026-08-09,2026-08-09
@@ -11122,15 +11122,15 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43748956378,99634,Legale Lover BR,OAB 2ª Fase: Direito Civil – 45º Exame de Ordem,519.0,519.0,519.0,519.0,2026-08-09,2026-08-09
 43751947142,97992,Alianças Imperiais BR,Caixinha de veludo vermelho,14.9,14.9,14.9,14.9,2026-08-09,2026-08-09
 43767766360,97992,Alianças Imperiais BR,Caixinha de madeira premium,57.9,57.9,57.9,57.9,2026-08-09,2026-08-09
-43786580162,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,21517.5,21517.5,21517.5,21517.5,2026-08-09,2026-08-09
-43786580163,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 23.000 BTUs (2x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,24617.35,24617.35,24617.35,24617.35,2026-08-09,2026-08-09
-43786580164,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 (3x Evap Cassete 1 Via 18.000) Quente/Frio 220V,36335.6,36335.6,36335.6,36335.6,2026-08-09,2026-08-09
-43786580165,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (2x Evap Cassete 1 Via 12.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,27123.45,27123.45,27123.45,27123.45,2026-08-09,2026-08-09
-43786580166,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (1x Evap HW 12.000 + 2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,25546.45,25546.45,25546.45,25546.45,2026-08-09,2026-08-09
-43786580167,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,19726.75,19726.75,19726.75,19726.75,2026-08-09,2026-08-09
-43786580168,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 1x Evap K7 1 Via 12.000 + 1x Evap K7 1 Via 18.000) Quente/Frio 220V,22468.45,22468.45,22468.45,22468.45,2026-08-09,2026-08-09
-43786580169,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,32754.1,32754.1,32754.1,32754.1,2026-08-09,2026-08-09
-43786580170,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 34.000 BTUs (2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,26970.5,26970.5,26970.5,26970.5,2026-08-09,2026-08-09
+43786580162,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,22650.0,21517.5,21517.5,22650.0,2026-08-09,2026-08-15
+43786580163,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 23.000 BTUs (2x Evap Cassete 1 Via 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,25913.0,24617.35,24617.35,25913.0,2026-08-09,2026-08-15
+43786580164,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 (3x Evap Cassete 1 Via 18.000) Quente/Frio 220V,38248.0,36335.6,36335.6,38248.0,2026-08-09,2026-08-15
+43786580165,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (2x Evap Cassete 1 Via 12.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,28551.0,27123.45,27123.45,28551.0,2026-08-09,2026-08-15
+43786580166,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 28.000 BTUs (1x Evap HW 12.000 + 2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,26891.0,25546.45,25546.45,26891.0,2026-08-09,2026-08-15
+43786580167,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (2x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,20765.0,19726.75,19726.75,20765.0,2026-08-09,2026-08-15
+43786580168,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 24.000 BTUs (1x Evap HW 9.000 + 1x Evap K7 1 Via 12.000 + 1x Evap K7 1 Via 18.000) Quente/Frio 220V,23651.0,22468.45,22468.45,23651.0,2026-08-09,2026-08-15
+43786580169,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 38.000 BTUs (4x Evap HW 9.000 + 1x Evap Cassete 1 Via 18.000) Quente/Frio 220V,34478.0,32754.1,32754.1,34478.0,2026-08-09,2026-08-15
+43786580170,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Daikin 34.000 BTUs (2x Evap Cassete 1 Via 18.000) Quente/Frio 220V,28390.0,26970.5,26970.5,28390.0,2026-08-09,2026-08-15
 43790674258,97992,Alianças Imperiais BR,Anel de Moeda Antiga Modelo Graça (Escolha a cor da Pedra),147.9,147.9,147.9,147.9,2026-08-09,2026-08-09
 43790674259,97992,Alianças Imperiais BR,Anel Premium Mod. Girassol (Escolha a Cor da Pedra Maior),179.9,179.9,179.9,179.9,2026-08-09,2026-08-09
 43790674260,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias modelo Pétala.,147.9,147.9,147.9,147.9,2026-08-09,2026-08-09
@@ -11154,7 +11154,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44026914745,97992,Alianças Imperiais BR,Par de alianças Trançadas 8mm com zircônias Modelo Navi Abauladas,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 44026914746,97992,Alianças Imperiais BR,Par de alianças Trançadas 8mm com zircônias Modelo Navi Retas,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 44049368362,97992,Alianças Imperiais BR,Colar Personalizado com Nome e Foto Banhado a Ouro 18k (Tamanho M),97.9,97.9,97.9,97.9,2026-08-09,2026-08-09
-44071640345,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 9.000 + 2x Evap HW 18.000) Quente/Frio 220V,18588.0,17658.6,17658.6,18588.0,2026-08-09,2026-08-14
+44071640345,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 9.000 + 2x Evap HW 18.000) Quente/Frio 220V,17658.6,18588.0,17658.6,18588.0,2026-08-09,2026-08-15
 44071640346,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (2x Evap HW 18.000) Quente/Frio 220V,16271.6,16271.6,16271.6,16271.6,2026-08-09,2026-08-09
 44071640347,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 35.000 (1x Evap HW 12.000 + 2x Evap HW 18.000) Quente/Frio 220V,17819.15,17819.15,17819.15,17819.15,2026-08-09,2026-08-09
 44137880850,97992,Alianças Imperiais BR,Conjunto de Anéis Mod. Laurel e Guardian.,227.9,227.9,227.9,227.9,2026-08-09,2026-08-09
@@ -11459,7 +11459,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44903653680,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 4mm Mod. Roma,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 44912798808,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 45.000 (4x Evap HW 9.000 + 1x Evap HW 18.000) Quente/Frio 220V,23902.0,23902.0,23902.0,23902.0,2026-08-09,2026-08-09
 44912798809,97939,Leveros BR,Ar-Condicionado Multi Split Inverter Fujitsu 45.000 (4x Evap HW 9.000 + 1x Evap HW 24.000) Quente/Frio 220V,24286.75,24286.75,24286.75,24286.75,2026-08-09,2026-08-09
-44925672867,97939,Leveros BR,Ar-Condicionado Split Teto Carrier Xperience 70.000 BTUs Só Frio 220V Trifásico,9784.05,9784.05,9784.05,9784.05,2026-08-09,2026-08-09
+44925672867,97939,Leveros BR,Ar-Condicionado Split Teto Carrier Xperience 70.000 BTUs Só Frio 220V Trifásico,10299.0,9784.05,9784.05,10299.0,2026-08-09,2026-08-15
 44969643564,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 4mm Mod. Éden,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 44969643565,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 4mm Mod. Élfico,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 44969643566,97992,Alianças Imperiais BR,Par de alianças de moedas antigas modelo Napoli com anel Laurel,497.9,497.9,497.9,497.9,2026-08-09,2026-08-09
@@ -11480,11 +11480,11 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45136236451,97939,Leveros BR,Ar-Condicionado LG AI DUAL Inverter Voice 18.000 BTUs Frio 220V - S3-Q18KL31B,3299.0,3299.0,3299.0,3299.0,2026-08-10,2026-08-10
 45139421853,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Éden,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 45143986714,97939,Leveros BR,Ar-Condicionado Split Cassete 4 Vias Inverter Eco R-32 Philco 55.000 BTUs Frio 220V Bifásico,10449.05,10449.05,10449.05,10449.05,2026-08-09,2026-08-09
-45143986715,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Dream Inverter Wi-Fi 30.000 BTUs R-32 Só Frio 220V,4654.05,4654.05,4654.05,4654.05,2026-08-09,2026-08-09
+45143986715,97939,Leveros BR,Ar-Condicionado Split HW Elgin Eco Dream Inverter Wi-Fi 30.000 BTUs R-32 Só Frio 220V,4899.0,4654.05,4654.05,4899.0,2026-08-09,2026-08-15
 45143986717,97939,Leveros BR,Ar-Condicionado Bi-Split HW LG Dual Inverter Voice 16.000 BTUs (1x Evap HW 9.000 + 1x Evap HW 12.000) R-32 Só Frio 220V,5224.05,5224.05,5224.05,5224.05,2026-08-09,2026-08-09
 45144003448,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Élfico,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 45144003449,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Roma,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
-45175864299,97939,Leveros BR,Ar-condicionado Split Cassete 4 Vias Inverter Fujitsu Airstage 54.000 BTUs R-32 Quente/Frio 220V Monofásico,18619.05,19759.05,18619.05,20799.0,2026-08-09,2026-08-12
+45175864299,97939,Leveros BR,Ar-condicionado Split Cassete 4 Vias Inverter Fujitsu Airstage 54.000 BTUs R-32 Quente/Frio 220V Monofásico,19599.0,18619.05,18619.05,20799.0,2026-08-09,2026-08-15
 45240780794,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 4mm Mod. Rumi,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 45240780795,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas 4mm Mod. Rumi,397.9,397.9,397.9,397.9,2026-08-09,2026-08-09
 45240784928,97939,Leveros BR,Ar-Condicionado Split Duto Inverter Trane 18.000 BTUs Quente/Frio 220V Monofásico,7979.05,7979.05,7979.05,7979.05,2026-08-09,2026-08-09
@@ -11516,3 +11516,4 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45548355992,97992,Alianças Imperiais BR,Aliança de Moeda Antiga Trabalhada 4mm Mod. Napoli em Prata,197.9,197.9,197.9,197.9,2026-08-11,2026-08-11
 45578429220,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias Mod. Cairo,157.9,157.9,157.9,157.9,2026-08-13,2026-08-13
 45578429221,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias Mod. Oásis,157.9,157.9,157.9,157.9,2026-08-13,2026-08-13
+45600580775,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 6mm Mod. Celtic,375.9,375.9,375.9,375.9,2026-08-15,2026-08-15
