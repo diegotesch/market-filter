@@ -1,67 +1,80 @@
 # Panorama do catalogo
 
-- **11,497** produtos coletados
-- **10** feed(s)
+- **173,021** produtos coletados
+- **12** feed(s)
 
-- **11,497** com preco valido (mediana R$ 149.99, min R$ 2.90, max R$ 57,711.55)
+- **173,021** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 57,711.55)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| Clovis Calçados BR | 8,198 | 71.3% |
-| Lauri Esporte | 1,514 | 13.2% |
-| Alianças Imperiais BR | 459 | 4.0% |
-| Carraro BR | 456 | 4.0% |
-| Legale Lover BR | 361 | 3.1% |
-| Leveros BR | 232 | 2.0% |
-| Afiliados Galícia Educação | 201 | 1.7% |
-| Afiliados Galícia Educação - Escola de Direi | 50 | 0.4% |
-| Radiale Pneus | 21 | 0.2% |
+| C&A BR | 161,523 | 93.4% |
+| Clovis Calçados BR | 8,198 | 4.7% |
+| Lauri Esporte | 1,514 | 0.9% |
+| Alianças Imperiais BR | 460 | 0.3% |
+| Carraro BR | 456 | 0.3% |
+| Legale Lover BR | 361 | 0.2% |
+| Leveros BR | 232 | 0.1% |
+| Afiliados Galícia Educação | 201 | 0.1% |
+| Afiliados Galícia Educação - Escola de Direi | 50 | 0.0% |
+| Radiale Pneus | 21 | 0.0% |
 | Exypna | 5 | 0.0% |
 
 ## Faixas de preco
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 3,939 | 34.3% |
-| R$ 100 a 250 | 3,123 | 27.2% |
-| R$ 250 a 500 | 1,823 | 15.9% |
-| acima de R$ 1.000 | 1,069 | 9.3% |
-| R$ 500 a 1.000 | 810 | 7.0% |
-| ate R$ 50 | 733 | 6.4% |
+| R$ 50 a 100 | 66,377 | 38.4% |
+| R$ 100 a 250 | 65,992 | 38.1% |
+| ate R$ 50 | 33,160 | 19.2% |
+| R$ 250 a 500 | 4,873 | 2.8% |
+| R$ 500 a 1.000 | 1,498 | 0.9% |
+| acima de R$ 1.000 | 1,121 | 0.6% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| Moleca | 551 | 4.8% |
-| ON Running | 525 | 4.6% |
-| Beira Rio | 506 | 4.4% |
-| Vizzano | 504 | 4.4% |
-| Modare | 425 | 3.7% |
-| Melissa | 425 | 3.7% |
-| Legale Educacional | 361 | 3.1% |
-| Molekinha | 328 | 2.9% |
-| Via Marte | 304 | 2.6% |
-| Converse | 290 | 2.5% |
-| New Balance | 278 | 2.4% |
-| Piccadilly | 273 | 2.4% |
+| C&A | 82,633 | 47.8% |
+| Moleca | 551 | 0.3% |
+| ON Running | 525 | 0.3% |
+| Beira Rio | 506 | 0.3% |
+| Vizzano | 504 | 0.3% |
+| Modare | 425 | 0.2% |
+| Melissa | 425 | 0.2% |
+| Legale Educacional | 361 | 0.2% |
+| Molekinha | 328 | 0.2% |
+| Via Marte | 304 | 0.2% |
+| Converse | 290 | 0.2% |
+| New Balance | 278 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| 605 | 225 | 2.0% |
-| Automotive | 21 | 0.2% |
-| Vitamins & Supplements | 5 | 0.0% |
-| 608 | 2 | 0.0% |
-| 604 | 1 | 0.0% |
-| 2751 | 1 | 0.0% |
-| 6727 | 1 | 0.0% |
-| 536 | 1 | 0.0% |
+| Moda Feminina > Roupas > Blusas | 33,134 | 19.2% |
+| Moda Masculina > Roupas > Blusas | 15,870 | 9.2% |
+| Infantil > Roupas > Blusas | 13,273 | 7.7% |
+| Moda Feminina > Roupas > Calças | 12,602 | 7.3% |
+| Moda Feminina > Roupas > Shorts | 10,742 | 6.2% |
+| Moda Feminina > Roupas > Vestidos | 6,372 | 3.7% |
+| Moda Masculina > Roupas > Bermudas | 5,446 | 3.1% |
+| Moda Masculina > Roupas > Calças | 4,644 | 2.7% |
+| Infantil > Roupas > Bermudas | 4,117 | 2.4% |
+| Moda Feminina > Roupas > Saias | 3,891 | 2.2% |
+| Infantil > Roupas > Calças | 3,622 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 2,862 | 1.7% |
 
 ## Exemplos de produto
+
+**C&A BR**
+
+- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 49.99
 
 **Clovis Calçados BR**
 
@@ -102,11 +115,3 @@
 - Nova Formação do Advogado Previdenciarista — R$ 94.90
 - Concorrência e Regulação - Aspectos Teóricos e Práticos — R$ 94.90
 - Lei de Drogas — R$ 94.90
-
-**Leveros BR**
-
-- Ar-Condicionado Split HW Inverter Fujitsu Airstage Premium 27.000 BTUs — R$ 8,359.05
-- Ar Condicionado Split HW G-Top Auto Inverter Wi-Fi Gree 18.000 BTUs Qu — R$ 3,609.05
-- Ar-Condicionado Multi Split Inverter Daikin 18.000 BTUs (3x Evap HW 9. — R$ 13,602.10
-- Ar-Condicionado Inverter Piso Teto R-32 Gree G-Prime Compact 57.000 BT — R$ 10,069.05
-- Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente — R$ 7,884.05
