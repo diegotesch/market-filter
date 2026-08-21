@@ -1,9 +1,9 @@
 # Panorama do catalogo
 
-- **174,998** produtos coletados
+- **175,001** produtos coletados
 - **13** feed(s)
 
-- **174,998** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
+- **175,001** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
@@ -11,7 +11,7 @@
 |---|---:|---:|
 | C&A BR | 158,399 | 90.5% |
 | Clovis Calçados BR | 8,198 | 4.7% |
-| Kabum BR | 5,103 | 2.9% |
+| Kabum BR | 5,106 | 2.9% |
 | Lauri Esporte | 1,514 | 0.9% |
 | Alianças Imperiais BR | 460 | 0.3% |
 | Carraro BR | 456 | 0.3% |
@@ -27,11 +27,11 @@
 | | Produtos | % |
 |---|---:|---:|
 | R$ 100 a 250 | 65,955 | 37.7% |
-| R$ 50 a 100 | 65,711 | 37.5% |
-| ate R$ 50 | 32,685 | 18.7% |
+| R$ 50 a 100 | 65,710 | 37.5% |
+| ate R$ 50 | 32,684 | 18.7% |
 | R$ 250 a 500 | 5,730 | 3.3% |
-| acima de R$ 1.000 | 2,551 | 1.5% |
-| R$ 500 a 1.000 | 2,366 | 1.4% |
+| acima de R$ 1.000 | 2,553 | 1.5% |
+| R$ 500 a 1.000 | 2,369 | 1.4% |
 
 ## Marcas
 
