@@ -1,20 +1,20 @@
 # Panorama do catalogo
 
-- **175,001** produtos coletados
+- **199,364** produtos coletados
 - **13** feed(s)
 
-- **175,001** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
+- **199,364** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 158,399 | 90.5% |
-| Clovis Calçados BR | 8,198 | 4.7% |
-| Kabum BR | 5,106 | 2.9% |
-| Lauri Esporte | 1,514 | 0.9% |
-| Alianças Imperiais BR | 460 | 0.3% |
-| Carraro BR | 456 | 0.3% |
+| C&A BR | 182,723 | 91.7% |
+| Clovis Calçados BR | 8,198 | 4.1% |
+| Kabum BR | 5,145 | 2.6% |
+| Lauri Esporte | 1,514 | 0.8% |
+| Alianças Imperiais BR | 460 | 0.2% |
+| Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 361 | 0.2% |
 | Leveros BR | 230 | 0.1% |
 | Afiliados Galícia Educação | 201 | 0.1% |
@@ -26,18 +26,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 100 a 250 | 65,955 | 37.7% |
-| R$ 50 a 100 | 65,710 | 37.5% |
-| ate R$ 50 | 32,684 | 18.7% |
-| R$ 250 a 500 | 5,730 | 3.3% |
-| acima de R$ 1.000 | 2,553 | 1.5% |
-| R$ 500 a 1.000 | 2,369 | 1.4% |
+| R$ 50 a 100 | 74,987 | 37.6% |
+| R$ 100 a 250 | 73,855 | 37.0% |
+| ate R$ 50 | 39,349 | 19.7% |
+| R$ 250 a 500 | 6,206 | 3.1% |
+| acima de R$ 1.000 | 2,593 | 1.3% |
+| R$ 500 a 1.000 | 2,374 | 1.2% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 80,811 | 46.2% |
+| C&A | 94,085 | 47.2% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.3% |
@@ -46,36 +46,36 @@
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 361 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 313 | 0.2% |
+| Rise Mode | 324 | 0.2% |
 | Via Marte | 304 | 0.2% |
-| Converse | 290 | 0.2% |
+| Converse | 290 | 0.1% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 32,615 | 18.6% |
-| Moda Masculina > Roupas > Blusas | 15,622 | 8.9% |
-| Infantil > Roupas > Blusas | 13,092 | 7.5% |
-| Moda Feminina > Roupas > Calças | 12,222 | 7.0% |
-| Moda Feminina > Roupas > Shorts | 10,509 | 6.0% |
-| Moda Feminina > Roupas > Vestidos | 6,247 | 3.6% |
-| Moda Masculina > Roupas > Bermudas | 5,380 | 3.1% |
-| Moda Masculina > Roupas > Calças | 4,572 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,127 | 2.4% |
-| Moda Feminina > Roupas > Saias | 3,782 | 2.2% |
-| Infantil > Roupas > Calças | 3,567 | 2.0% |
-| Moda Feminina > Moda Íntima > Sutiãs | 2,841 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 38,370 | 19.2% |
+| Moda Masculina > Roupas > Blusas | 17,098 | 8.6% |
+| Infantil > Roupas > Blusas | 15,026 | 7.5% |
+| Moda Feminina > Roupas > Calças | 14,107 | 7.1% |
+| Moda Feminina > Roupas > Shorts | 11,509 | 5.8% |
+| Moda Feminina > Roupas > Vestidos | 7,435 | 3.7% |
+| Moda Masculina > Roupas > Bermudas | 5,858 | 2.9% |
+| Moda Masculina > Roupas > Calças | 4,983 | 2.5% |
+| Infantil > Roupas > Bermudas | 4,844 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,416 | 2.2% |
+| Infantil > Roupas > Calças | 3,981 | 2.0% |
+| Moda Feminina > Roupas > Casacos | 3,901 | 2.0% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto baby camiseta listrada e short bege — R$ 99.99
-- conjunto baby camiseta listrada e short bege — R$ 99.99
-- calça clochard infantil de sarja com bordado floral rosa — R$ 89.99
-- calça clochard infantil de sarja com bordado floral rosa — R$ 89.99
-- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- body infantil de algodão manga longa rosa — R$ 25.99
+- body infantil de algodão manga longa rosa — R$ 25.99
+- body infantil de algodão manga longa rosa — R$ 25.99
+- body infantil de algodão estampado off white — R$ 45.99
+- body infantil de algodão estampado off white — R$ 45.99
 
 **Clovis Calçados BR**
 
@@ -88,9 +88,9 @@
 **Kabum BR**
 
 - Cabo USB A para USB B Plus Cable, para Impressora, 3 Metros - PC-USB30 — R$ 8.90
-- Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 11.90
+- Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 69.90
-- Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 49.99
+- Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 59.99
 - Apresentador sem fio Logitech R400 com Laser Pointer Vermelho, Conexão — R$ 139.99
 
 **Lauri Esporte**
