@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **200,803** produtos coletados
+- **203,813** produtos coletados
 - **13** feed(s)
 
-- **200,803** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
+- **203,813** com preco valido (mediana R$ 99.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 184,048 | 91.7% |
-| Clovis Calçados BR | 8,198 | 4.1% |
-| Kabum BR | 5,158 | 2.6% |
-| Lauri Esporte | 1,514 | 0.8% |
-| Alianças Imperiais BR | 461 | 0.2% |
+| C&A BR | 187,122 | 91.8% |
+| Clovis Calçados BR | 8,198 | 4.0% |
+| Kabum BR | 5,101 | 2.5% |
+| Lauri Esporte | 1,514 | 0.7% |
+| Alianças Imperiais BR | 465 | 0.2% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 361 | 0.2% |
 | Afiliados Galícia Educação | 314 | 0.2% |
-| Leveros BR | 217 | 0.1% |
+| Leveros BR | 206 | 0.1% |
 | Afiliados Galícia Educação - Escola de Direi | 50 | 0.0% |
 | Radiale Pneus | 21 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,56 +26,56 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 75,789 | 37.7% |
-| R$ 100 a 250 | 75,247 | 37.5% |
-| ate R$ 50 | 38,685 | 19.3% |
-| R$ 250 a 500 | 6,133 | 3.1% |
-| acima de R$ 1.000 | 2,583 | 1.3% |
-| R$ 500 a 1.000 | 2,366 | 1.2% |
+| R$ 50 a 100 | 77,095 | 37.8% |
+| R$ 100 a 250 | 76,235 | 37.4% |
+| ate R$ 50 | 39,382 | 19.3% |
+| R$ 250 a 500 | 6,191 | 3.0% |
+| acima de R$ 1.000 | 2,546 | 1.2% |
+| R$ 500 a 1.000 | 2,364 | 1.2% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 94,638 | 47.1% |
+| C&A | 97,332 | 47.8% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
-| Beira Rio | 506 | 0.3% |
-| Vizzano | 504 | 0.3% |
+| Beira Rio | 506 | 0.2% |
+| Vizzano | 504 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 361 | 0.2% |
-| Rise Mode | 338 | 0.2% |
+| Rise Mode | 337 | 0.2% |
 | Molekinha | 328 | 0.2% |
 | Galícia Educação | 314 | 0.2% |
-| Via Marte | 304 | 0.2% |
+| Via Marte | 304 | 0.1% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 38,837 | 19.3% |
-| Moda Masculina > Roupas > Blusas | 17,421 | 8.7% |
-| Infantil > Roupas > Blusas | 14,768 | 7.4% |
-| Moda Feminina > Roupas > Calças | 14,188 | 7.1% |
-| Moda Feminina > Roupas > Shorts | 11,749 | 5.9% |
-| Moda Feminina > Roupas > Vestidos | 7,499 | 3.7% |
-| Moda Masculina > Roupas > Bermudas | 6,039 | 3.0% |
-| Moda Masculina > Roupas > Calças | 5,075 | 2.5% |
-| Infantil > Roupas > Bermudas | 4,871 | 2.4% |
-| Moda Feminina > Roupas > Saias | 4,450 | 2.2% |
-| Infantil > Roupas > Calças | 3,940 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 3,930 | 2.0% |
+| Moda Feminina > Roupas > Blusas | 39,760 | 19.5% |
+| Moda Masculina > Roupas > Blusas | 17,664 | 8.7% |
+| Infantil > Roupas > Blusas | 14,896 | 7.3% |
+| Moda Feminina > Roupas > Calças | 14,390 | 7.1% |
+| Moda Feminina > Roupas > Shorts | 11,869 | 5.8% |
+| Moda Feminina > Roupas > Vestidos | 7,931 | 3.9% |
+| Moda Masculina > Roupas > Bermudas | 6,105 | 3.0% |
+| Moda Masculina > Roupas > Calças | 5,094 | 2.5% |
+| Infantil > Roupas > Bermudas | 4,886 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,577 | 2.2% |
+| Moda Feminina > Roupas > Casacos | 4,070 | 2.0% |
+| Infantil > Roupas > Calças | 3,968 | 1.9% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
+- calça legging infantil de algodão felpado floral vinho — R$ 49.99
+- calça legging infantil de algodão felpado floral vinho — R$ 49.99
+- calça legging infantil de algodão felpado floral vinho — R$ 49.99
 - blusa básica feminina manga longa gola alta cinza — R$ 49.99
-- blusa básica feminina manga longa gola alta cinza — R$ 49.99
-- blusa básica feminina manga longa gola alta cinza — R$ 49.99
-- blusa básica feminina manga longa gola alta cinza — R$ 49.99
-- blusa básica feminina manga longa gola alta cinza — R$ 49.99
+- vestido infantil de algodão com calcinha floral off white — R$ 119.99
 
 **Clovis Calçados BR**
 
@@ -87,7 +87,7 @@
 
 **Kabum BR**
 
-- Cabo USB A para USB B Plus Cable, para Impressora, 3 Metros - PC-USB30 — R$ 8.90
+- Cabo USB A para USB B Plus Cable, para Impressora, 3 Metros - PC-USB30 — R$ 11.90
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 69.90
 - Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 52.99
