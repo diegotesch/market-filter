@@ -1,19 +1,19 @@
 # Panorama do catalogo
 
-- **204,264** produtos coletados
+- **204,140** produtos coletados
 - **13** feed(s)
 
-- **204,264** com preco valido (mediana R$ 89.99, min R$ 2.89, max R$ 89,999.99)
+- **204,140** com preco valido (mediana R$ 89.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 187,476 | 91.8% |
+| C&A BR | 187,348 | 91.8% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 5,111 | 2.5% |
+| Kabum BR | 5,113 | 2.5% |
 | Lauri Esporte | 1,514 | 0.7% |
-| Alianças Imperiais BR | 465 | 0.2% |
+| Alianças Imperiais BR | 467 | 0.2% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 360 | 0.2% |
@@ -26,18 +26,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 79,703 | 39.0% |
-| R$ 100 a 250 | 67,778 | 33.2% |
-| ate R$ 50 | 46,123 | 22.6% |
-| R$ 250 a 500 | 5,759 | 2.8% |
-| acima de R$ 1.000 | 2,524 | 1.2% |
-| R$ 500 a 1.000 | 2,377 | 1.2% |
+| R$ 50 a 100 | 79,804 | 39.1% |
+| R$ 100 a 250 | 67,860 | 33.2% |
+| ate R$ 50 | 45,861 | 22.5% |
+| R$ 250 a 500 | 5,716 | 2.8% |
+| acima de R$ 1.000 | 2,526 | 1.2% |
+| R$ 500 a 1.000 | 2,373 | 1.2% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 97,248 | 47.6% |
+| C&A | 97,061 | 47.5% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -46,7 +46,7 @@
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 360 | 0.2% |
-| Rise Mode | 341 | 0.2% |
+| Rise Mode | 337 | 0.2% |
 | Molekinha | 328 | 0.2% |
 | Via Marte | 304 | 0.1% |
 
@@ -54,28 +54,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,800 | 19.5% |
-| Moda Masculina > Roupas > Blusas | 17,803 | 8.7% |
-| Infantil > Roupas > Blusas | 15,013 | 7.3% |
-| Moda Feminina > Roupas > Calças | 14,432 | 7.1% |
-| Moda Feminina > Roupas > Shorts | 12,006 | 5.9% |
-| Moda Feminina > Roupas > Vestidos | 7,821 | 3.8% |
-| Moda Masculina > Roupas > Bermudas | 6,140 | 3.0% |
-| Moda Masculina > Roupas > Calças | 5,217 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,958 | 2.4% |
-| Moda Feminina > Roupas > Saias | 4,533 | 2.2% |
-| Infantil > Roupas > Calças | 4,100 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 4,030 | 2.0% |
+| Moda Feminina > Roupas > Blusas | 39,804 | 19.5% |
+| Moda Masculina > Roupas > Blusas | 17,771 | 8.7% |
+| Infantil > Roupas > Blusas | 14,944 | 7.3% |
+| Moda Feminina > Roupas > Calças | 14,452 | 7.1% |
+| Moda Feminina > Roupas > Shorts | 12,163 | 6.0% |
+| Moda Feminina > Roupas > Vestidos | 7,822 | 3.8% |
+| Moda Masculina > Roupas > Bermudas | 6,116 | 3.0% |
+| Moda Masculina > Roupas > Calças | 5,200 | 2.5% |
+| Infantil > Roupas > Bermudas | 4,959 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,582 | 2.2% |
+| Infantil > Roupas > Calças | 4,097 | 2.0% |
+| Moda Feminina > Roupas > Casacos | 4,022 | 2.0% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -89,8 +89,8 @@
 
 - Cabo USB A para USB B Plus Cable, para Impressora, 3 Metros - PC-USB30 — R$ 11.90
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
-- Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 69.90
-- Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 59.99
+- Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 74.90
+- Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 56.99
 - Apresentador sem fio Logitech R400 com Laser Pointer Vermelho, Conexão — R$ 139.99
 
 **Lauri Esporte**
