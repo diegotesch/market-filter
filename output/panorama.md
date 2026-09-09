@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **203,218** produtos coletados
+- **202,407** produtos coletados
 - **13** feed(s)
 
-- **203,218** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
+- **202,407** com preco valido (mediana R$ 89.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 186,523 | 91.8% |
-| Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 5,036 | 2.5% |
+| C&A BR | 185,743 | 91.8% |
+| Clovis Calçados BR | 8,198 | 4.1% |
+| Kabum BR | 5,006 | 2.5% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 482 | 0.2% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 360 | 0.2% |
-| Leveros BR | 197 | 0.1% |
+| Leveros BR | 196 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,18 +26,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 78,850 | 38.8% |
-| R$ 100 a 250 | 67,998 | 33.5% |
-| ate R$ 50 | 45,826 | 22.6% |
-| R$ 250 a 500 | 5,642 | 2.8% |
-| acima de R$ 1.000 | 2,552 | 1.3% |
-| R$ 500 a 1.000 | 2,350 | 1.2% |
+| R$ 50 a 100 | 78,607 | 38.8% |
+| R$ 100 a 250 | 67,660 | 33.4% |
+| ate R$ 50 | 45,660 | 22.6% |
+| R$ 250 a 500 | 5,626 | 2.8% |
+| acima de R$ 1.000 | 2,505 | 1.2% |
+| R$ 500 a 1.000 | 2,349 | 1.2% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 96,115 | 47.3% |
+| C&A | 95,712 | 47.3% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -46,36 +46,36 @@
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 360 | 0.2% |
-| Rise Mode | 332 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Via Marte | 304 | 0.1% |
+| Rise Mode | 325 | 0.2% |
+| Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,272 | 19.3% |
-| Moda Masculina > Roupas > Blusas | 17,746 | 8.7% |
-| Infantil > Roupas > Blusas | 14,944 | 7.4% |
-| Moda Feminina > Roupas > Calças | 14,481 | 7.1% |
-| Moda Feminina > Roupas > Shorts | 12,498 | 6.2% |
-| Moda Feminina > Roupas > Vestidos | 7,713 | 3.8% |
-| Moda Masculina > Roupas > Bermudas | 6,213 | 3.1% |
-| Moda Masculina > Roupas > Calças | 5,172 | 2.5% |
-| Infantil > Roupas > Bermudas | 4,971 | 2.4% |
-| Moda Feminina > Roupas > Saias | 4,490 | 2.2% |
-| Infantil > Roupas > Calças | 4,092 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 3,726 | 1.8% |
+| Moda Feminina > Roupas > Blusas | 39,105 | 19.3% |
+| Moda Masculina > Roupas > Blusas | 17,632 | 8.7% |
+| Infantil > Roupas > Blusas | 15,004 | 7.4% |
+| Moda Feminina > Roupas > Calças | 14,371 | 7.1% |
+| Moda Feminina > Roupas > Shorts | 12,452 | 6.2% |
+| Moda Feminina > Roupas > Vestidos | 7,683 | 3.8% |
+| Moda Masculina > Roupas > Bermudas | 6,173 | 3.0% |
+| Moda Masculina > Roupas > Calças | 5,156 | 2.5% |
+| Infantil > Roupas > Bermudas | 4,975 | 2.5% |
+| Moda Feminina > Roupas > Saias | 4,480 | 2.2% |
+| Infantil > Roupas > Calças | 4,087 | 2.0% |
+| Moda Feminina > Roupas > Casacos | 3,605 | 1.8% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
-- calça legging infantil de algodão felpado floral cinza — R$ 49.99
+- chinelo havaianas infantil com elástico amarelo — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- chinelo havaianas infantil com elástico amarelo — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- chinelo havaianas infantil com elástico amarelo — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -91,7 +91,7 @@
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 74.90
 - Extensão SMS de tomadas Novo Padrão com 4 tomadas - 64100 — R$ 29.99
 - Mouse com fio USB Logitech M100 com Design Ambidestro e Facilidade Plu — R$ 41.99
-- Estabilizador SMS Progressive III 1000VA, Entrada Bivolt Automático e  — R$ 549.99
+- Estabilizador SMS Progressive III 1000VA, Entrada Bivolt Automático e  — R$ 629.90
 
 **Lauri Esporte**
 
