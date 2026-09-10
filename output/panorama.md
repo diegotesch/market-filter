@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **202,407** produtos coletados
+- **210,373** produtos coletados
 - **13** feed(s)
 
-- **202,407** com preco valido (mediana R$ 89.99, min R$ 2.89, max R$ 89,999.99)
+- **210,373** com preco valido (mediana R$ 89.99, min R$ 2.89, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 185,743 | 91.8% |
-| Clovis Calçados BR | 8,198 | 4.1% |
-| Kabum BR | 5,006 | 2.5% |
+| C&A BR | 193,698 | 92.1% |
+| Clovis Calçados BR | 8,198 | 3.9% |
+| Kabum BR | 5,012 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
-| Alianças Imperiais BR | 482 | 0.2% |
+| Alianças Imperiais BR | 486 | 0.2% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 360 | 0.2% |
-| Leveros BR | 196 | 0.1% |
+| Leveros BR | 197 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,20 +26,20 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 78,607 | 38.8% |
-| R$ 100 a 250 | 67,660 | 33.4% |
-| ate R$ 50 | 45,660 | 22.6% |
-| R$ 250 a 500 | 5,626 | 2.8% |
-| acima de R$ 1.000 | 2,505 | 1.2% |
-| R$ 500 a 1.000 | 2,349 | 1.2% |
+| R$ 50 a 100 | 81,488 | 38.7% |
+| R$ 100 a 250 | 69,844 | 33.2% |
+| ate R$ 50 | 48,433 | 23.0% |
+| R$ 250 a 500 | 5,753 | 2.7% |
+| acima de R$ 1.000 | 2,496 | 1.2% |
+| R$ 500 a 1.000 | 2,359 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 95,712 | 47.3% |
+| C&A | 101,850 | 48.4% |
 | Moleca | 551 | 0.3% |
-| ON Running | 525 | 0.3% |
+| ON Running | 525 | 0.2% |
 | Beira Rio | 506 | 0.2% |
 | Vizzano | 504 | 0.2% |
 | Modare | 425 | 0.2% |
@@ -47,35 +47,35 @@
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 360 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 325 | 0.2% |
-| Via Marte | 304 | 0.2% |
+| Rise Mode | 321 | 0.2% |
+| Via Marte | 304 | 0.1% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,105 | 19.3% |
-| Moda Masculina > Roupas > Blusas | 17,632 | 8.7% |
-| Infantil > Roupas > Blusas | 15,004 | 7.4% |
-| Moda Feminina > Roupas > Calças | 14,371 | 7.1% |
-| Moda Feminina > Roupas > Shorts | 12,452 | 6.2% |
-| Moda Feminina > Roupas > Vestidos | 7,683 | 3.8% |
-| Moda Masculina > Roupas > Bermudas | 6,173 | 3.0% |
-| Moda Masculina > Roupas > Calças | 5,156 | 2.5% |
-| Infantil > Roupas > Bermudas | 4,975 | 2.5% |
-| Moda Feminina > Roupas > Saias | 4,480 | 2.2% |
-| Infantil > Roupas > Calças | 4,087 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 3,605 | 1.8% |
+| Moda Feminina > Roupas > Blusas | 40,859 | 19.4% |
+| Moda Masculina > Roupas > Blusas | 18,103 | 8.6% |
+| Infantil > Roupas > Blusas | 15,683 | 7.5% |
+| Moda Feminina > Roupas > Calças | 15,184 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 12,720 | 6.0% |
+| Moda Feminina > Roupas > Vestidos | 8,090 | 3.8% |
+| Moda Masculina > Roupas > Bermudas | 6,214 | 3.0% |
+| Moda Masculina > Roupas > Calças | 5,310 | 2.5% |
+| Infantil > Roupas > Bermudas | 5,008 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,726 | 2.2% |
+| Infantil > Roupas > Calças | 4,055 | 1.9% |
+| Moda Feminina > Roupas > Casacos | 4,011 | 1.9% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- chinelo havaianas infantil com elástico amarelo — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- chinelo havaianas infantil com elástico amarelo — R$ 39.99
+- body de algodão infantil manga curta amarelo — R$ 25.99
+- body de algodão infantil manga curta amarelo — R$ 25.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- chinelo havaianas infantil com elástico amarelo — R$ 39.99
+- body de algodão infantil manga curta amarelo — R$ 25.99
 
 **Clovis Calçados BR**
 
