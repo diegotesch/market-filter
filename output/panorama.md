@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **204,607** produtos coletados
+- **206,556** produtos coletados
 - **13** feed(s)
 
-- **204,607** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **206,556** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 187,844 | 91.8% |
+| C&A BR | 189,831 | 91.9% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 5,074 | 2.5% |
+| Kabum BR | 5,037 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 498 | 0.2% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 373 | 0.2% |
-| Leveros BR | 197 | 0.1% |
+| Leveros BR | 196 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 19 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,18 +26,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 80,869 | 39.5% |
-| R$ 100 a 250 | 69,187 | 33.8% |
-| ate R$ 50 | 43,991 | 21.5% |
-| R$ 250 a 500 | 5,665 | 2.8% |
-| acima de R$ 1.000 | 2,590 | 1.3% |
-| R$ 500 a 1.000 | 2,305 | 1.1% |
+| R$ 50 a 100 | 81,815 | 39.6% |
+| R$ 100 a 250 | 70,215 | 34.0% |
+| ate R$ 50 | 44,034 | 21.3% |
+| R$ 250 a 500 | 5,583 | 2.7% |
+| acima de R$ 1.000 | 2,568 | 1.2% |
+| R$ 500 a 1.000 | 2,341 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 98,662 | 48.2% |
+| C&A | 99,142 | 48.0% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -47,35 +47,35 @@
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 373 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 325 | 0.2% |
+| Rise Mode | 316 | 0.2% |
 | Via Marte | 304 | 0.1% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,741 | 19.4% |
-| Moda Masculina > Roupas > Blusas | 17,365 | 8.5% |
-| Infantil > Roupas > Blusas | 14,919 | 7.3% |
-| Moda Feminina > Roupas > Calças | 14,908 | 7.3% |
-| Moda Feminina > Roupas > Shorts | 12,572 | 6.1% |
-| Moda Feminina > Roupas > Vestidos | 7,930 | 3.9% |
-| Moda Masculina > Roupas > Bermudas | 6,196 | 3.0% |
-| Moda Masculina > Roupas > Calças | 5,210 | 2.5% |
-| Infantil > Roupas > Bermudas | 4,893 | 2.4% |
-| Moda Feminina > Roupas > Saias | 4,613 | 2.3% |
-| Infantil > Roupas > Calças | 3,975 | 1.9% |
-| Moda Feminina > Roupas > Casacos | 3,608 | 1.8% |
+| Moda Feminina > Roupas > Blusas | 40,105 | 19.4% |
+| Moda Masculina > Roupas > Blusas | 17,761 | 8.6% |
+| Infantil > Roupas > Blusas | 15,495 | 7.5% |
+| Moda Feminina > Roupas > Calças | 14,848 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 12,635 | 6.1% |
+| Moda Feminina > Roupas > Vestidos | 7,980 | 3.9% |
+| Moda Masculina > Roupas > Bermudas | 6,323 | 3.1% |
+| Moda Masculina > Roupas > Calças | 5,241 | 2.5% |
+| Infantil > Roupas > Bermudas | 5,101 | 2.5% |
+| Moda Feminina > Roupas > Saias | 4,592 | 2.2% |
+| Infantil > Roupas > Calças | 4,138 | 2.0% |
+| Moda Feminina > Roupas > Casacos | 3,455 | 1.7% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- kit de 2 vestidos infantis de algodão com recorte estampado colorido — R$ 99.99
+- body infantil de algodão carrinhos amarelo — R$ 19.99
+- body infantil de algodão carrinhos amarelo — R$ 19.99
+- body infantil de algodão carrinhos amarelo — R$ 19.99
+- body infantil de algodão carrinhos amarelo — R$ 19.99
+- body infantil de algodão carrinhos amarelo — R$ 19.99
 
 **Clovis Calçados BR**
 
@@ -89,7 +89,7 @@
 
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 79.90
-- Extensão SMS de tomadas Novo Padrão com 4 tomadas - 64100 — R$ 29.99
+- Extensão SMS de tomadas Novo Padrão com 4 tomadas - 64100 — R$ 28.99
 - Mouse com fio USB Logitech M100 com Design Ambidestro e Facilidade Plu — R$ 41.99
 - Adaptador TP-Link Wireless, USB, 300Mbps - TL-WN822N — R$ 89.90
 
