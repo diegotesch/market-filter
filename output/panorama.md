@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **206,556** produtos coletados
+- **184,624** produtos coletados
 - **13** feed(s)
 
-- **206,556** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **184,624** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 189,831 | 91.9% |
-| Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 5,037 | 2.4% |
-| Lauri Esporte | 1,514 | 0.7% |
-| Alianças Imperiais BR | 498 | 0.2% |
+| C&A BR | 167,975 | 91.0% |
+| Clovis Calçados BR | 8,198 | 4.4% |
+| Kabum BR | 5,006 | 2.7% |
+| Lauri Esporte | 1,514 | 0.8% |
+| Alianças Imperiais BR | 497 | 0.3% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 373 | 0.2% |
-| Leveros BR | 196 | 0.1% |
+| Leveros BR | 152 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 19 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,56 +26,56 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 81,815 | 39.6% |
-| R$ 100 a 250 | 70,215 | 34.0% |
-| ate R$ 50 | 44,034 | 21.3% |
-| R$ 250 a 500 | 5,583 | 2.7% |
-| acima de R$ 1.000 | 2,568 | 1.2% |
-| R$ 500 a 1.000 | 2,341 | 1.1% |
+| R$ 50 a 100 | 72,265 | 39.1% |
+| R$ 100 a 250 | 64,210 | 34.8% |
+| ate R$ 50 | 37,741 | 20.4% |
+| R$ 250 a 500 | 5,537 | 3.0% |
+| acima de R$ 1.000 | 2,530 | 1.4% |
+| R$ 500 a 1.000 | 2,341 | 1.3% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 99,142 | 48.0% |
+| C&A | 91,536 | 49.6% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
-| Beira Rio | 506 | 0.2% |
-| Vizzano | 504 | 0.2% |
+| Beira Rio | 506 | 0.3% |
+| Vizzano | 504 | 0.3% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 373 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 316 | 0.2% |
-| Via Marte | 304 | 0.1% |
+| Rise Mode | 311 | 0.2% |
+| Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 40,105 | 19.4% |
-| Moda Masculina > Roupas > Blusas | 17,761 | 8.6% |
-| Infantil > Roupas > Blusas | 15,495 | 7.5% |
-| Moda Feminina > Roupas > Calças | 14,848 | 7.2% |
-| Moda Feminina > Roupas > Shorts | 12,635 | 6.1% |
-| Moda Feminina > Roupas > Vestidos | 7,980 | 3.9% |
-| Moda Masculina > Roupas > Bermudas | 6,323 | 3.1% |
-| Moda Masculina > Roupas > Calças | 5,241 | 2.5% |
-| Infantil > Roupas > Bermudas | 5,101 | 2.5% |
-| Moda Feminina > Roupas > Saias | 4,592 | 2.2% |
-| Infantil > Roupas > Calças | 4,138 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 3,455 | 1.7% |
+| Moda Feminina > Roupas > Blusas | 31,445 | 17.0% |
+| Moda Masculina > Roupas > Blusas | 17,877 | 9.7% |
+| Infantil > Roupas > Blusas | 15,605 | 8.5% |
+| Moda Feminina > Roupas > Calças | 12,373 | 6.7% |
+| Moda Feminina > Roupas > Shorts | 9,420 | 5.1% |
+| Moda Masculina > Roupas > Bermudas | 6,331 | 3.4% |
+| Moda Feminina > Roupas > Vestidos | 5,590 | 3.0% |
+| Moda Masculina > Roupas > Calças | 5,270 | 2.9% |
+| Infantil > Roupas > Bermudas | 5,101 | 2.8% |
+| Infantil > Roupas > Calças | 4,122 | 2.2% |
+| Moda Feminina > Roupas > Saias | 3,181 | 1.7% |
+| Moda Feminina > Roupas > Casacos | 2,915 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- body infantil de algodão carrinhos amarelo — R$ 19.99
-- body infantil de algodão carrinhos amarelo — R$ 19.99
-- body infantil de algodão carrinhos amarelo — R$ 19.99
-- body infantil de algodão carrinhos amarelo — R$ 19.99
-- body infantil de algodão carrinhos amarelo — R$ 19.99
+- body infantil básico manga curta cinza — R$ 25.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- body infantil básico manga curta cinza — R$ 25.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- body infantil básico manga curta cinza — R$ 25.99
 
 **Clovis Calçados BR**
 
@@ -90,8 +90,8 @@
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 79.90
 - Extensão SMS de tomadas Novo Padrão com 4 tomadas - 64100 — R$ 28.99
-- Mouse com fio USB Logitech M100 com Design Ambidestro e Facilidade Plu — R$ 41.99
 - Adaptador TP-Link Wireless, USB, 300Mbps - TL-WN822N — R$ 89.90
+- Teclado com fio USB Logitech K120 Resistente à Respingos e Layout ABNT — R$ 65.90
 
 **Lauri Esporte**
 
