@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **205,634** produtos coletados
+- **188,169** produtos coletados
 - **13** feed(s)
 
-- **205,634** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **188,169** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 188,993 | 91.9% |
-| Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,996 | 2.4% |
-| Lauri Esporte | 1,514 | 0.7% |
-| Alianças Imperiais BR | 497 | 0.2% |
+| C&A BR | 171,495 | 91.1% |
+| Clovis Calçados BR | 8,198 | 4.4% |
+| Kabum BR | 4,996 | 2.7% |
+| Lauri Esporte | 1,514 | 0.8% |
+| Alianças Imperiais BR | 499 | 0.3% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 408 | 0.2% |
 | Afiliados Galícia Educação | 375 | 0.2% |
-| Leveros BR | 152 | 0.1% |
+| Leveros BR | 183 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 19 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,56 +26,56 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 81,507 | 39.6% |
-| R$ 100 a 250 | 70,202 | 34.1% |
-| ate R$ 50 | 43,418 | 21.1% |
-| R$ 250 a 500 | 5,623 | 2.7% |
-| acima de R$ 1.000 | 2,539 | 1.2% |
-| R$ 500 a 1.000 | 2,345 | 1.1% |
+| R$ 50 a 100 | 74,064 | 39.4% |
+| R$ 100 a 250 | 65,739 | 34.9% |
+| ate R$ 50 | 38,322 | 20.4% |
+| R$ 250 a 500 | 5,348 | 2.8% |
+| acima de R$ 1.000 | 2,542 | 1.4% |
+| R$ 500 a 1.000 | 2,154 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 97,986 | 47.7% |
+| C&A | 88,230 | 46.9% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
-| Beira Rio | 506 | 0.2% |
-| Vizzano | 504 | 0.2% |
+| Beira Rio | 506 | 0.3% |
+| Vizzano | 504 | 0.3% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
 | Legale Educacional | 408 | 0.2% |
 | Galícia Educação | 375 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 305 | 0.1% |
-| Via Marte | 304 | 0.1% |
+| Rise Mode | 306 | 0.2% |
+| Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,732 | 19.3% |
-| Moda Masculina > Roupas > Blusas | 17,808 | 8.7% |
-| Infantil > Roupas > Blusas | 15,462 | 7.5% |
-| Moda Feminina > Roupas > Calças | 14,766 | 7.2% |
-| Moda Feminina > Roupas > Shorts | 12,684 | 6.2% |
-| Moda Feminina > Roupas > Vestidos | 7,995 | 3.9% |
-| Moda Masculina > Roupas > Bermudas | 6,311 | 3.1% |
-| Moda Masculina > Roupas > Calças | 5,241 | 2.5% |
-| Infantil > Roupas > Bermudas | 5,084 | 2.5% |
-| Moda Feminina > Roupas > Saias | 4,576 | 2.2% |
-| Infantil > Roupas > Calças | 4,098 | 2.0% |
-| Moda Feminina > Roupas > Casacos | 3,327 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 35,630 | 18.9% |
+| Moda Masculina > Roupas > Blusas | 16,844 | 9.0% |
+| Infantil > Roupas > Blusas | 14,486 | 7.7% |
+| Moda Feminina > Roupas > Calças | 12,998 | 6.9% |
+| Moda Feminina > Roupas > Shorts | 11,929 | 6.3% |
+| Moda Feminina > Roupas > Vestidos | 6,948 | 3.7% |
+| Moda Masculina > Roupas > Bermudas | 5,946 | 3.2% |
+| Moda Masculina > Roupas > Calças | 4,954 | 2.6% |
+| Infantil > Roupas > Bermudas | 4,621 | 2.5% |
+| Moda Feminina > Roupas > Saias | 4,118 | 2.2% |
+| Infantil > Roupas > Calças | 3,865 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 2,996 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto curto infantil de algodão turma do mickey listrado azul — R$ 79.99
-- conjunto curto infantil de algodão turma do mickey listrado azul — R$ 79.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- conjunto curto infantil de algodão turma do mickey listrado azul — R$ 79.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- Kit de 3 Cadernos de Papel Estampados Quadriculados Multicor — R$ 39.99
+- polo feminina com algodão manga longa listrada azul — R$ 89.99
+- polo feminina com algodão manga longa listrada azul — R$ 89.99
+- polo feminina com algodão manga longa listrada azul — R$ 89.99
+- polo feminina com algodão manga longa listrada azul — R$ 89.99
 
 **Clovis Calçados BR**
 
