@@ -1,81 +1,81 @@
 # Panorama do catalogo
 
-- **188,169** produtos coletados
+- **190,934** produtos coletados
 - **13** feed(s)
 
-- **188,169** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **190,934** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 171,495 | 91.1% |
-| Clovis Calçados BR | 8,198 | 4.4% |
-| Kabum BR | 4,996 | 2.7% |
+| C&A BR | 174,284 | 91.3% |
+| Clovis Calçados BR | 8,198 | 4.3% |
+| Kabum BR | 4,957 | 2.6% |
 | Lauri Esporte | 1,514 | 0.8% |
-| Alianças Imperiais BR | 499 | 0.3% |
+| Alianças Imperiais BR | 510 | 0.3% |
 | Carraro BR | 456 | 0.2% |
-| Legale Lover BR | 408 | 0.2% |
+| Legale Lover BR | 411 | 0.2% |
 | Afiliados Galícia Educação | 375 | 0.2% |
-| Leveros BR | 183 | 0.1% |
+| Leveros BR | 185 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
-| Shark-Ninja BR | 19 | 0.0% |
+| Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
 
 ## Faixas de preco
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 74,064 | 39.4% |
-| R$ 100 a 250 | 65,739 | 34.9% |
-| ate R$ 50 | 38,322 | 20.4% |
-| R$ 250 a 500 | 5,348 | 2.8% |
-| acima de R$ 1.000 | 2,542 | 1.4% |
-| R$ 500 a 1.000 | 2,154 | 1.1% |
+| R$ 50 a 100 | 75,464 | 39.5% |
+| R$ 100 a 250 | 66,639 | 34.9% |
+| ate R$ 50 | 38,758 | 20.3% |
+| R$ 250 a 500 | 5,414 | 2.8% |
+| acima de R$ 1.000 | 2,512 | 1.3% |
+| R$ 500 a 1.000 | 2,147 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 88,230 | 46.9% |
+| C&A | 89,128 | 46.7% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| Legale Educacional | 408 | 0.2% |
+| Legale Educacional | 411 | 0.2% |
 | Galícia Educação | 375 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 306 | 0.2% |
+| Rise Mode | 309 | 0.2% |
 | Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 35,630 | 18.9% |
-| Moda Masculina > Roupas > Blusas | 16,844 | 9.0% |
-| Infantil > Roupas > Blusas | 14,486 | 7.7% |
-| Moda Feminina > Roupas > Calças | 12,998 | 6.9% |
-| Moda Feminina > Roupas > Shorts | 11,929 | 6.3% |
-| Moda Feminina > Roupas > Vestidos | 6,948 | 3.7% |
-| Moda Masculina > Roupas > Bermudas | 5,946 | 3.2% |
-| Moda Masculina > Roupas > Calças | 4,954 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,621 | 2.5% |
-| Moda Feminina > Roupas > Saias | 4,118 | 2.2% |
-| Infantil > Roupas > Calças | 3,865 | 2.1% |
-| Moda Feminina > Moda Íntima > Sutiãs | 2,996 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 36,715 | 19.2% |
+| Moda Masculina > Roupas > Blusas | 16,825 | 8.8% |
+| Infantil > Roupas > Blusas | 14,558 | 7.6% |
+| Moda Feminina > Roupas > Calças | 13,770 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 12,087 | 6.3% |
+| Moda Feminina > Roupas > Vestidos | 7,218 | 3.8% |
+| Moda Masculina > Roupas > Bermudas | 6,020 | 3.2% |
+| Moda Masculina > Roupas > Calças | 4,982 | 2.6% |
+| Infantil > Roupas > Bermudas | 4,623 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,178 | 2.2% |
+| Infantil > Roupas > Calças | 3,869 | 2.0% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,014 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- Kit de 3 Cadernos de Papel Estampados Quadriculados Multicor — R$ 39.99
-- polo feminina com algodão manga longa listrada azul — R$ 89.99
-- polo feminina com algodão manga longa listrada azul — R$ 89.99
-- polo feminina com algodão manga longa listrada azul — R$ 89.99
-- polo feminina com algodão manga longa listrada azul — R$ 89.99
+- conjunto longo infantil com capuz ursinho off white — R$ 119.99
+- conjunto longo infantil com capuz ursinho off white — R$ 119.99
+- conjunto longo infantil com capuz ursinho off white — R$ 119.99
+- saia infantil malha plissada preta — R$ 49.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -89,9 +89,9 @@
 
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 79.90
+- Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 59.99
 - Extensão SMS de tomadas Novo Padrão com 4 tomadas - 64100 — R$ 28.99
 - Adaptador TP-Link Wireless, USB, 300Mbps - TL-WN822N — R$ 89.90
-- Teclado com fio USB Logitech K120 Resistente à Respingos e Layout ABNT — R$ 65.90
 
 **Lauri Esporte**
 
