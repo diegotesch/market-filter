@@ -1,23 +1,23 @@
 # Panorama do catalogo
 
-- **190,934** produtos coletados
+- **190,122** produtos coletados
 - **13** feed(s)
 
-- **190,934** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **190,122** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 174,284 | 91.3% |
+| C&A BR | 173,496 | 91.3% |
 | Clovis Calçados BR | 8,198 | 4.3% |
-| Kabum BR | 4,957 | 2.6% |
+| Kabum BR | 4,935 | 2.6% |
 | Lauri Esporte | 1,514 | 0.8% |
 | Alianças Imperiais BR | 510 | 0.3% |
 | Carraro BR | 456 | 0.2% |
 | Legale Lover BR | 411 | 0.2% |
 | Afiliados Galícia Educação | 375 | 0.2% |
-| Leveros BR | 185 | 0.1% |
+| Leveros BR | 183 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -26,18 +26,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 75,464 | 39.5% |
-| R$ 100 a 250 | 66,639 | 34.9% |
-| ate R$ 50 | 38,758 | 20.3% |
-| R$ 250 a 500 | 5,414 | 2.8% |
-| acima de R$ 1.000 | 2,512 | 1.3% |
-| R$ 500 a 1.000 | 2,147 | 1.1% |
+| R$ 50 a 100 | 76,470 | 40.2% |
+| R$ 100 a 250 | 63,691 | 33.5% |
+| ate R$ 50 | 40,322 | 21.2% |
+| R$ 250 a 500 | 5,023 | 2.6% |
+| acima de R$ 1.000 | 2,493 | 1.3% |
+| R$ 500 a 1.000 | 2,123 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 89,128 | 46.7% |
+| C&A | 88,667 | 46.6% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.3% |
@@ -47,35 +47,35 @@
 | Legale Educacional | 411 | 0.2% |
 | Galícia Educação | 375 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 309 | 0.2% |
+| Rise Mode | 308 | 0.2% |
 | Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 36,715 | 19.2% |
-| Moda Masculina > Roupas > Blusas | 16,825 | 8.8% |
-| Infantil > Roupas > Blusas | 14,558 | 7.6% |
-| Moda Feminina > Roupas > Calças | 13,770 | 7.2% |
-| Moda Feminina > Roupas > Shorts | 12,087 | 6.3% |
-| Moda Feminina > Roupas > Vestidos | 7,218 | 3.8% |
-| Moda Masculina > Roupas > Bermudas | 6,020 | 3.2% |
-| Moda Masculina > Roupas > Calças | 4,982 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,623 | 2.4% |
-| Moda Feminina > Roupas > Saias | 4,178 | 2.2% |
-| Infantil > Roupas > Calças | 3,869 | 2.0% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,014 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 36,517 | 19.2% |
+| Moda Masculina > Roupas > Blusas | 16,750 | 8.8% |
+| Infantil > Roupas > Blusas | 14,504 | 7.6% |
+| Moda Feminina > Roupas > Calças | 13,677 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 12,024 | 6.3% |
+| Moda Feminina > Roupas > Vestidos | 7,248 | 3.8% |
+| Moda Masculina > Roupas > Bermudas | 5,988 | 3.1% |
+| Moda Masculina > Roupas > Calças | 4,977 | 2.6% |
+| Infantil > Roupas > Bermudas | 4,654 | 2.4% |
+| Moda Feminina > Roupas > Saias | 4,187 | 2.2% |
+| Infantil > Roupas > Calças | 3,859 | 2.0% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,009 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto longo infantil com capuz ursinho off white — R$ 119.99
-- conjunto longo infantil com capuz ursinho off white — R$ 119.99
-- conjunto longo infantil com capuz ursinho off white — R$ 119.99
-- saia infantil malha plissada preta — R$ 49.99
+- conjunto longo infantil com capuz ursinho off white — R$ 79.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- conjunto longo infantil com capuz ursinho off white — R$ 79.99
+- conjunto longo infantil com capuz ursinho off white — R$ 79.99
+- conjunto longo infantil com capuz ursinho off white — R$ 79.99
 
 **Clovis Calçados BR**
 
