@@ -1,22 +1,22 @@
 # Panorama do catalogo
 
-- **190,727** produtos coletados
+- **190,500** produtos coletados
 - **12** feed(s)
 
-- **190,727** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **190,500** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 174,562 | 91.5% |
+| C&A BR | 174,353 | 91.5% |
 | Clovis Calçados BR | 8,198 | 4.3% |
-| Kabum BR | 4,919 | 2.6% |
+| Kabum BR | 4,899 | 2.6% |
 | Lauri Esporte | 1,514 | 0.8% |
-| Alianças Imperiais BR | 514 | 0.3% |
+| Alianças Imperiais BR | 515 | 0.3% |
 | Legale Lover BR | 411 | 0.2% |
 | Afiliados Galícia Educação | 375 | 0.2% |
-| Leveros BR | 190 | 0.1% |
+| Leveros BR | 191 | 0.1% |
 | Radiale Pneus | 21 | 0.0% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -25,18 +25,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 76,975 | 40.4% |
-| R$ 100 a 250 | 64,372 | 33.8% |
-| ate R$ 50 | 40,100 | 21.0% |
-| R$ 250 a 500 | 4,921 | 2.6% |
-| acima de R$ 1.000 | 2,293 | 1.2% |
-| R$ 500 a 1.000 | 2,066 | 1.1% |
+| R$ 50 a 100 | 76,782 | 40.3% |
+| R$ 100 a 250 | 64,319 | 33.8% |
+| ate R$ 50 | 40,030 | 21.0% |
+| R$ 250 a 500 | 4,945 | 2.6% |
+| acima de R$ 1.000 | 2,296 | 1.2% |
+| R$ 500 a 1.000 | 2,128 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 89,266 | 46.8% |
+| C&A | 89,273 | 46.9% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.3% |
@@ -46,34 +46,34 @@
 | Legale Educacional | 411 | 0.2% |
 | Galícia Educação | 375 | 0.2% |
 | Molekinha | 328 | 0.2% |
-| Rise Mode | 307 | 0.2% |
+| Rise Mode | 304 | 0.2% |
 | Via Marte | 304 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 37,402 | 19.6% |
-| Moda Masculina > Roupas > Blusas | 16,669 | 8.7% |
-| Infantil > Roupas > Blusas | 14,515 | 7.6% |
-| Moda Feminina > Roupas > Calças | 13,893 | 7.3% |
-| Moda Feminina > Roupas > Shorts | 12,215 | 6.4% |
-| Moda Feminina > Roupas > Vestidos | 7,368 | 3.9% |
-| Moda Masculina > Roupas > Bermudas | 5,994 | 3.1% |
-| Moda Masculina > Roupas > Calças | 4,975 | 2.6% |
+| Moda Feminina > Roupas > Blusas | 37,299 | 19.6% |
+| Moda Masculina > Roupas > Blusas | 16,637 | 8.7% |
+| Infantil > Roupas > Blusas | 14,460 | 7.6% |
+| Moda Feminina > Roupas > Calças | 13,915 | 7.3% |
+| Moda Feminina > Roupas > Shorts | 12,212 | 6.4% |
+| Moda Feminina > Roupas > Vestidos | 7,358 | 3.9% |
+| Moda Masculina > Roupas > Bermudas | 6,002 | 3.2% |
+| Moda Masculina > Roupas > Calças | 4,981 | 2.6% |
 | Infantil > Roupas > Bermudas | 4,710 | 2.5% |
-| Moda Feminina > Roupas > Saias | 4,207 | 2.2% |
-| Infantil > Roupas > Calças | 3,907 | 2.0% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,013 | 1.6% |
+| Moda Feminina > Roupas > Saias | 4,222 | 2.2% |
+| Infantil > Roupas > Calças | 3,907 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,008 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
+- calça infantil de tricot canelada bege — R$ 29.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- calça infantil de tricot canelada bege — R$ 29.99
+- calça infantil de tricot canelada bege — R$ 29.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
