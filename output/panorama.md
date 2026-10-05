@@ -1,19 +1,19 @@
 # Panorama do catalogo
 
-- **249,479** produtos coletados
+- **247,748** produtos coletados
 - **12** feed(s)
 
-- **249,479** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **247,748** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 233,422 | 93.6% |
+| C&A BR | 231,712 | 93.5% |
 | Clovis Calçados BR | 8,198 | 3.3% |
-| Kabum BR | 4,821 | 1.9% |
+| Kabum BR | 4,798 | 1.9% |
 | Lauri Esporte | 1,514 | 0.6% |
-| Alianças Imperiais BR | 524 | 0.2% |
+| Alianças Imperiais BR | 526 | 0.2% |
 | Legale Lover BR | 410 | 0.2% |
 | Afiliados Galícia Educação | 381 | 0.2% |
 | Leveros BR | 165 | 0.1% |
@@ -25,18 +25,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 102,006 | 40.9% |
-| R$ 100 a 250 | 79,306 | 31.8% |
-| ate R$ 50 | 58,615 | 23.5% |
-| R$ 250 a 500 | 5,211 | 2.1% |
-| acima de R$ 1.000 | 2,245 | 0.9% |
-| R$ 500 a 1.000 | 2,096 | 0.8% |
+| R$ 50 a 100 | 101,723 | 41.1% |
+| R$ 100 a 250 | 79,204 | 32.0% |
+| ate R$ 50 | 57,315 | 23.1% |
+| R$ 250 a 500 | 5,190 | 2.1% |
+| acima de R$ 1.000 | 2,234 | 0.9% |
+| R$ 500 a 1.000 | 2,082 | 0.8% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 125,838 | 50.4% |
+| C&A | 125,353 | 50.6% |
 | Moleca | 551 | 0.2% |
 | ON Running | 525 | 0.2% |
 | Beira Rio | 506 | 0.2% |
@@ -53,28 +53,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 52,765 | 21.2% |
-| Moda Masculina > Roupas > Blusas | 20,702 | 8.3% |
-| Infantil > Roupas > Blusas | 19,269 | 7.7% |
-| Moda Feminina > Roupas > Calças | 19,256 | 7.7% |
-| Moda Feminina > Roupas > Shorts | 15,652 | 6.3% |
-| Moda Feminina > Roupas > Vestidos | 11,227 | 4.5% |
-| Moda Masculina > Roupas > Bermudas | 7,914 | 3.2% |
-| Moda Feminina > Roupas > Saias | 6,320 | 2.5% |
-| Moda Masculina > Roupas > Calças | 6,299 | 2.5% |
-| Infantil > Roupas > Bermudas | 6,070 | 2.4% |
-| Infantil > Roupas > Calças | 5,197 | 2.1% |
-| Moda Feminina > Roupas > Casacos | 4,010 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 52,511 | 21.2% |
+| Moda Masculina > Roupas > Blusas | 20,655 | 8.3% |
+| Moda Feminina > Roupas > Calças | 18,982 | 7.7% |
+| Infantil > Roupas > Blusas | 18,905 | 7.6% |
+| Moda Feminina > Roupas > Shorts | 15,902 | 6.4% |
+| Moda Feminina > Roupas > Vestidos | 11,338 | 4.6% |
+| Moda Masculina > Roupas > Bermudas | 7,973 | 3.2% |
+| Moda Feminina > Roupas > Saias | 6,458 | 2.6% |
+| Moda Masculina > Roupas > Calças | 6,400 | 2.6% |
+| Infantil > Roupas > Bermudas | 6,022 | 2.4% |
+| Infantil > Roupas > Calças | 5,090 | 2.1% |
+| Moda Feminina > Moda Íntima > Calcinhas | 3,887 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
+- camiseta feminina de algodão gatinhos monday mornings bege — R$ 39.99
 - cropped de tricot com lurex prateado — R$ 89.99
-- camiseta feminina de algodão estampada off white — R$ 39.99
-- camiseta feminina de algodão estampada off white — R$ 39.99
-- camiseta feminina de algodão estampada off white — R$ 39.99
-- camiseta feminina de algodão estampada off white — R$ 39.99
+- cropped de tricot com lurex prateado — R$ 89.99
+- cropped de tricot com lurex prateado — R$ 89.99
+- cropped de tricot com lurex prateado — R$ 89.99
 
 **Clovis Calçados BR**
 
