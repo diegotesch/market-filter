@@ -1,40 +1,40 @@
 # Panorama do catalogo
 
-- **207,326** produtos coletados
+- **206,653** produtos coletados
 - **10** feed(s)
 
-- **207,326** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
+- **206,653** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 76,799.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 191,459 | 92.3% |
+| C&A BR | 190,695 | 92.3% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,792 | 2.3% |
+| Kabum BR | 4,884 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 548 | 0.3% |
 | Legale Lover BR | 410 | 0.2% |
 | Afiliados Galícia Educação | 382 | 0.2% |
-| Shark-Ninja BR | 18 | 0.0% |
+| Shark-Ninja BR | 17 | 0.0% |
 | Exypna | 5 | 0.0% |
 
 ## Faixas de preco
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 84,443 | 40.7% |
-| R$ 100 a 250 | 71,322 | 34.4% |
-| ate R$ 50 | 42,799 | 20.6% |
-| R$ 250 a 500 | 4,638 | 2.2% |
-| acima de R$ 1.000 | 2,068 | 1.0% |
-| R$ 500 a 1.000 | 2,056 | 1.0% |
+| R$ 50 a 100 | 84,145 | 40.7% |
+| R$ 100 a 250 | 71,216 | 34.5% |
+| ate R$ 50 | 42,462 | 20.5% |
+| R$ 250 a 500 | 4,663 | 2.3% |
+| acima de R$ 1.000 | 2,094 | 1.0% |
+| R$ 500 a 1.000 | 2,073 | 1.0% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 102,068 | 49.2% |
+| C&A | 101,507 | 49.1% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -51,28 +51,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 41,275 | 19.9% |
-| Moda Masculina > Roupas > Blusas | 18,416 | 8.9% |
-| Moda Feminina > Roupas > Calças | 15,752 | 7.6% |
-| Infantil > Roupas > Blusas | 15,450 | 7.5% |
-| Moda Feminina > Roupas > Shorts | 14,250 | 6.9% |
-| Moda Feminina > Roupas > Vestidos | 9,040 | 4.4% |
-| Moda Masculina > Roupas > Bermudas | 7,079 | 3.4% |
-| Moda Masculina > Roupas > Calças | 5,594 | 2.7% |
-| Moda Feminina > Roupas > Saias | 5,512 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,361 | 2.6% |
-| Infantil > Roupas > Calças | 4,425 | 2.1% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,167 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 41,101 | 19.9% |
+| Moda Masculina > Roupas > Blusas | 18,400 | 8.9% |
+| Moda Feminina > Roupas > Calças | 15,747 | 7.6% |
+| Infantil > Roupas > Blusas | 15,370 | 7.4% |
+| Moda Feminina > Roupas > Shorts | 14,190 | 6.9% |
+| Moda Feminina > Roupas > Vestidos | 9,043 | 4.4% |
+| Moda Masculina > Roupas > Bermudas | 7,083 | 3.4% |
+| Moda Masculina > Roupas > Calças | 5,560 | 2.7% |
+| Moda Feminina > Roupas > Saias | 5,478 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,334 | 2.6% |
+| Infantil > Roupas > Calças | 4,418 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,153 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto curto infantil com suspensório bege — R$ 119.99
+- chinelo havaianas infantil com elástico amarelo — R$ 49.99
+- chinelo havaianas infantil com elástico amarelo — R$ 49.99
+- chinelo havaianas infantil com elástico amarelo — R$ 49.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- conjunto curto infantil com suspensório bege — R$ 119.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- chinelo havaianas infantil com elástico amarelo — R$ 49.99
 
 **Clovis Calçados BR**
 
