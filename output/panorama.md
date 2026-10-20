@@ -1,20 +1,20 @@
 # Panorama do catalogo
 
-- **205,772** produtos coletados
+- **207,198** produtos coletados
 - **10** feed(s)
 
-- **205,772** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 82,999.99)
+- **207,198** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 82,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 189,821 | 92.2% |
+| C&A BR | 191,227 | 92.3% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,876 | 2.4% |
+| Kabum BR | 4,899 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
-| Alianças Imperiais BR | 548 | 0.3% |
-| Legale Lover BR | 410 | 0.2% |
+| Alianças Imperiais BR | 552 | 0.3% |
+| Legale Lover BR | 403 | 0.2% |
 | Afiliados Galícia Educação | 382 | 0.2% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -23,25 +23,25 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 83,853 | 40.8% |
-| R$ 100 a 250 | 70,992 | 34.5% |
-| ate R$ 50 | 42,142 | 20.5% |
-| R$ 250 a 500 | 4,637 | 2.3% |
-| acima de R$ 1.000 | 2,076 | 1.0% |
-| R$ 500 a 1.000 | 2,072 | 1.0% |
+| R$ 50 a 100 | 84,482 | 40.8% |
+| R$ 100 a 250 | 71,487 | 34.5% |
+| ate R$ 50 | 42,409 | 20.5% |
+| R$ 250 a 500 | 4,668 | 2.3% |
+| acima de R$ 1.000 | 2,087 | 1.0% |
+| R$ 500 a 1.000 | 2,065 | 1.0% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 100,758 | 49.0% |
+| C&A | 102,017 | 49.2% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
 | Vizzano | 504 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| Legale Educacional | 410 | 0.2% |
+| Legale Educacional | 403 | 0.2% |
 | Galícia Educação | 382 | 0.2% |
 | Molekinha | 328 | 0.2% |
 | Via Marte | 304 | 0.1% |
@@ -51,28 +51,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 40,912 | 19.9% |
-| Moda Masculina > Roupas > Blusas | 18,358 | 8.9% |
-| Moda Feminina > Roupas > Calças | 15,549 | 7.6% |
-| Infantil > Roupas > Blusas | 15,315 | 7.4% |
-| Moda Feminina > Roupas > Shorts | 14,166 | 6.9% |
-| Moda Feminina > Roupas > Vestidos | 9,014 | 4.4% |
-| Moda Masculina > Roupas > Bermudas | 7,044 | 3.4% |
-| Moda Feminina > Roupas > Saias | 5,522 | 2.7% |
-| Moda Masculina > Roupas > Calças | 5,519 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,317 | 2.6% |
-| Infantil > Roupas > Calças | 4,379 | 2.1% |
-| Moda Feminina > Moda Íntima > Calcinhas | 3,119 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 41,284 | 19.9% |
+| Moda Masculina > Roupas > Blusas | 18,399 | 8.9% |
+| Moda Feminina > Roupas > Calças | 15,659 | 7.6% |
+| Infantil > Roupas > Blusas | 15,464 | 7.5% |
+| Moda Feminina > Roupas > Shorts | 14,147 | 6.8% |
+| Moda Feminina > Roupas > Vestidos | 9,108 | 4.4% |
+| Moda Masculina > Roupas > Bermudas | 7,122 | 3.4% |
+| Moda Feminina > Roupas > Saias | 5,556 | 2.7% |
+| Moda Masculina > Roupas > Calças | 5,546 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,316 | 2.6% |
+| Infantil > Roupas > Calças | 4,391 | 2.1% |
+| Moda Feminina > Moda Íntima > Calcinhas | 3,127 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- body de algodão peruano infantil manga curta rosa — R$ 39.99
+- conjunto infantil body e calça jacaré em algodão verde — R$ 79.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- body de algodão peruano infantil manga curta rosa — R$ 39.99
-- jardineira longa infantil bichinhos bege — R$ 99.99
-- jardineira longa infantil bichinhos bege — R$ 99.99
+- conjunto infantil body e calça jacaré em algodão verde — R$ 79.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- conjunto infantil body e calça jacaré em algodão verde — R$ 79.99
 
 **Clovis Calçados BR**
 
