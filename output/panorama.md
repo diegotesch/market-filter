@@ -1,17 +1,17 @@
 # Panorama do catalogo
 
-- **206,990** produtos coletados
+- **207,037** produtos coletados
 - **10** feed(s)
 
-- **206,990** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
+- **207,037** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 191,073 | 92.3% |
+| C&A BR | 191,109 | 92.3% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,841 | 2.3% |
+| Kabum BR | 4,852 | 2.3% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 556 | 0.3% |
 | Legale Lover BR | 403 | 0.2% |
@@ -23,18 +23,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 84,299 | 40.7% |
-| R$ 100 a 250 | 71,608 | 34.6% |
-| ate R$ 50 | 42,302 | 20.4% |
-| R$ 250 a 500 | 4,646 | 2.2% |
-| R$ 500 a 1.000 | 2,069 | 1.0% |
-| acima de R$ 1.000 | 2,066 | 1.0% |
+| R$ 50 a 100 | 84,495 | 40.8% |
+| R$ 100 a 250 | 71,609 | 34.6% |
+| ate R$ 50 | 42,232 | 20.4% |
+| R$ 250 a 500 | 4,587 | 2.2% |
+| R$ 500 a 1.000 | 2,060 | 1.0% |
+| acima de R$ 1.000 | 2,054 | 1.0% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 101,932 | 49.2% |
+| C&A | 101,897 | 49.2% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -51,28 +51,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 41,430 | 20.0% |
-| Moda Masculina > Roupas > Blusas | 18,367 | 8.9% |
-| Moda Feminina > Roupas > Calças | 15,771 | 7.6% |
-| Infantil > Roupas > Blusas | 15,420 | 7.4% |
-| Moda Feminina > Roupas > Shorts | 14,267 | 6.9% |
-| Moda Feminina > Roupas > Vestidos | 9,179 | 4.4% |
-| Moda Masculina > Roupas > Bermudas | 7,096 | 3.4% |
-| Moda Masculina > Roupas > Calças | 5,561 | 2.7% |
-| Moda Feminina > Roupas > Saias | 5,515 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,292 | 2.6% |
-| Infantil > Roupas > Calças | 4,316 | 2.1% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,152 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 41,454 | 20.0% |
+| Moda Masculina > Roupas > Blusas | 18,647 | 9.0% |
+| Moda Feminina > Roupas > Calças | 15,608 | 7.5% |
+| Infantil > Roupas > Blusas | 15,460 | 7.5% |
+| Moda Feminina > Roupas > Shorts | 14,167 | 6.8% |
+| Moda Feminina > Roupas > Vestidos | 9,094 | 4.4% |
+| Moda Masculina > Roupas > Bermudas | 7,143 | 3.5% |
+| Moda Masculina > Roupas > Calças | 5,590 | 2.7% |
+| Moda Feminina > Roupas > Saias | 5,450 | 2.6% |
+| Infantil > Roupas > Bermudas | 5,316 | 2.6% |
+| Infantil > Roupas > Calças | 4,347 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,126 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- casaco infantil de plush leão bege — R$ 35.99
-- casaco infantil de plush leão bege — R$ 35.99
-- casaco infantil de plush leão bege — R$ 35.99
+- body infantil de algodão poá minnie off white — R$ 39.99
+- body infantil de algodão poá minnie off white — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- casaco infantil de plush leão bege — R$ 35.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- body infantil de algodão poá minnie off white — R$ 39.99
 
 **Clovis Calçados BR**
 
