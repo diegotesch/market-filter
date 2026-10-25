@@ -1270,7 +1270,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 32857591789,58627,C&A BR,boné básico de sarja aba curva off white,59.99,59.99,59.99,59.99,2026-08-18,2026-08-18
 32885504255,46967,Kabum BR,"Microsoft Windows 11 Home 64-bit ESD, Digital para Download - KW9-00664",899.99,919.99,899.99,1249.99,2026-08-19,2026-10-13
 32885504257,46967,Kabum BR,Microsoft Windows 11 Pro 64 Bits ESD - Digital para Download - FQC-10572,1359.99,1699.99,1359.99,1699.99,2026-08-19,2026-10-13
-32885504301,46967,Kabum BR,"SmartWatch Husky Sports 700 GPS, Preto, Pulseira Extra Azul Marinho, Com GPS - HSPH000",365.55,99.99,99.99,365.55,2026-08-19,2026-10-24
+32885504301,46967,Kabum BR,"SmartWatch Husky Sports 700 GPS, Preto, Pulseira Extra Azul Marinho, Com GPS - HSPH000",259.99,365.55,99.99,365.55,2026-08-19,2026-10-25
 32885504303,46967,Kabum BR,"SmartWatch Husky Sports 700 GPS, Preto, Pulseira Extra Verde Escuro, Com GPS - HSPH001",99.99,169.99,99.99,365.55,2026-08-19,2026-10-21
 32885504307,46967,Kabum BR,"Smartwatch KaBuM! smart 700, Preto, Pulseira Extra Verde Escuro, Compatível IoT Alexa - KBSAC018",99.99,119.99,99.99,265.55,2026-08-19,2026-10-21
 32885504309,46967,Kabum BR,"SmartWatch KaBuM! smart 700, Preto, Pulseira Extra Cinza Claro, Compatível IoT Alexa - KBSAC019",99.99,119.99,99.99,265.55,2026-08-19,2026-10-21
@@ -2478,7 +2478,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 35834748364,58627,C&A BR,Bermuda Reta de Sarja - marrom,109.99,99.99,99.99,119.99,2026-08-18,2026-09-11
 35834748365,58627,C&A BR,Bermuda Reta de Sarja - marrom,109.99,99.99,99.99,119.99,2026-08-18,2026-09-11
 35834748366,58627,C&A BR,Bermuda Reta de Sarja - marrom,109.99,99.99,99.99,119.99,2026-08-18,2026-09-11
-35834856630,46967,Kabum BR,"Memória RAM Kingston Fury Beast, 16GB, 5600MHz, DDR5, CL40, para Intel XMP, Preto - KF556C40BB-16",2049.99,1999.99,1828.99,2049.99,2026-08-19,2026-10-14
+35834856630,46967,Kabum BR,"Memória RAM Kingston Fury Beast, 16GB, 5600MHz, DDR5, CL40, para Intel XMP, Preto - KF556C40BB-16",2499.99,2049.99,1828.99,2499.99,2026-08-19,2026-10-25
 35841007575,58627,C&A BR,blusa de algodão peruano alça fina verde,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 35841007576,58627,C&A BR,blusa de algodão peruano alça fina verde,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 35841007577,58627,C&A BR,blusa de algodão peruano alça fina verde,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
@@ -3300,7 +3300,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 36237651295,46967,Kabum BR,"Kit Com 5 Ventoinhas Rise Mode Crystal Sound, 120mm, ARGB, Transparente - RM-CS-02-ARGB",159.99,159.99,159.99,159.99,2026-08-22,2026-08-22
 36238059257,58627,C&A BR,cola de cílios i envy by kiss new york 48h transparente,25.99,29.99,25.99,35.99,2026-08-18,2026-09-04
 36238059313,58627,C&A BR,boné de sarja aba curva preto,49.99,49.99,49.99,49.99,2026-08-18,2026-08-18
-36238399993,46967,Kabum BR,"Nobreak SMS Tech, 600VA, 6 Tomadas de Saída, 115V - 0029300",489.99,509.99,399.99,539.9,2026-08-19,2026-10-06
+36238399993,46967,Kabum BR,"Nobreak SMS Tech, 600VA, 6 Tomadas de Saída, 115V - 0029300",539.9,489.99,399.99,539.9,2026-08-19,2026-10-25
 36238399999,46967,Kabum BR,"Water Cooler Rise Mode Aura Ice, ARGB, 240mm, AMD/Intel, Branco - RM-WAI-02-ARGB",369.99,389.99,310.99,475.9,2026-08-19,2026-10-15
 36239169160,58627,C&A BR,Perfume Jean Paul Gaultier Scandal Le Parfum Feminino Eau De Parfum 80Ml Único,979.99,979.99,979.99,979.99,2026-08-18,2026-08-18
 36239169162,58627,C&A BR,Perfume Jean Paul Gaultier Scandal Le Parfum Feminino Eau De Parfum 30Ml Único,539.99,539.99,539.99,539.99,2026-08-18,2026-08-18
@@ -4090,7 +4090,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 36737961588,46967,Kabum BR,"Nobreak SMS Gamer, 1500VA, Senoidal, 8 Tomadas, WiFi, Entrada e Saida Bivolt - 29600",2499.9,2299.99,2049.99,2499.9,2026-08-19,2026-09-12
 36737961641,46967,Kabum BR,"Jogo The Last of Us Part II Remastered, PS5 - 1000030252",259.47,195.9,195.9,259.47,2026-08-19,2026-10-22
 36738676451,58627,C&A BR,Base Daily Tint Cream Cor 03 Único,62.99,69.99,62.99,69.99,2026-08-18,2026-10-09
-36739024777,46967,Kabum BR,Nobreak SMS 2200va mono 220v Power Vision - 27746,2699.99,2699.99,2699.99,2699.99,2026-08-19,2026-08-19
+36739024777,46967,Kabum BR,Nobreak SMS 2200va mono 220v Power Vision - 27746,2718.14,2699.99,2699.99,2718.14,2026-08-19,2026-10-25
 36754548468,58627,C&A BR,blusão infantil de moletom com capuz e bolso azul marinho - azul marinho,99.99,59.99,59.99,99.99,2026-08-18,2026-10-20
 36754548469,58627,C&A BR,blusão infantil de moletom com capuz e bolso azul marinho - azul marinho,99.99,59.99,59.99,99.99,2026-08-18,2026-10-20
 36754548470,58627,C&A BR,blusão infantil de moletom com capuz e bolso azul marinho - azul marinho,99.99,59.99,59.99,99.99,2026-08-18,2026-10-20
@@ -10838,7 +10838,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38028283471,58627,C&A BR,vestido longo alça fina com franzidos preto,119.99,169.99,119.99,169.99,2026-08-18,2026-09-01
 38034476272,46967,Kabum BR,"PC Gamer Concórdia Intel Core i7-10700F, 16GB RAM, RTX 3060, SSD 500GB, Linux, Preto - 46613",6399.99,6399.99,6399.99,6399.99,2026-08-19,2026-08-19
 38045841637,91942,C&A BR,perfume antonio banderas king of seduction masculino eau de toilette 200ml,199.99,199.99,199.99,199.99,2026-08-18,2026-08-18
-38045841899,46967,Kabum BR,"Kit Com 3 Ventoinhas Ryvel Snowy, 3x 120mm, Led ARGB, Branco - RY-FN-SW-WT",77.99,119.9,69.99,119.9,2026-08-19,2026-10-23
+38045841899,46967,Kabum BR,"Kit Com 3 Ventoinhas Ryvel Snowy, 3x 120mm, Led ARGB, Branco - RY-FN-SW-WT",119.9,77.99,69.99,119.9,2026-08-19,2026-10-25
 38046488139,58627,C&A BR,jean paul gaultier scandal absolu parfum concentré for him,919.99,919.99,919.99,919.99,2026-08-18,2026-08-18
 38046488168,58627,C&A BR,jean paul gaultier scandal absolu parfum concentré for him,739.99,739.99,739.99,739.99,2026-08-18,2026-08-18
 38046488170,58627,C&A BR,jean paul gaultier scandal absolu parfum concentré 30ml,569.99,569.99,569.99,569.99,2026-08-18,2026-08-18
@@ -10849,7 +10849,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38050534854,91942,C&A BR,bermuda jeans cargo fit azul claro,169.99,159.99,159.99,179.99,2026-08-18,2026-09-11
 38050534855,91942,C&A BR,bermuda jeans cargo fit azul claro,169.99,159.99,159.99,179.99,2026-08-18,2026-09-11
 38050534856,91942,C&A BR,bermuda jeans cargo fit azul claro,169.99,159.99,159.99,179.99,2026-08-18,2026-09-11
-38053446302,46967,Kabum BR,"Kit Com 3 Ventoinhas Ryvel Lycan, 3x 120mm, Led ARGB, Branco - RY-FN-LY-WT",89.99,199.9,89.99,199.9,2026-08-19,2026-10-23
+38053446302,46967,Kabum BR,"Kit Com 3 Ventoinhas Ryvel Lycan, 3x 120mm, Led ARGB, Branco - RY-FN-LY-WT",199.9,89.99,89.99,199.9,2026-08-19,2026-10-25
 38053446306,46967,Kabum BR,"Headset Gamer Sem Fio Astro Gaming A50 X LIGHTSPEED + Base Station, Bluetooth, HDMI 2.1 Passthru, para Xbox e PS, Branco- 939-002132",2599.99,3399.99,2599.99,3399.99,2026-08-22,2026-10-14
 38063899346,91942,C&A BR,polo de piquet básica comfort manga curta - verde médio,79.99,89.99,79.99,89.99,2026-08-18,2026-09-15
 38063899347,91942,C&A BR,polo de piquet básica comfort manga curta - verde médio,79.99,89.99,79.99,89.99,2026-08-18,2026-09-15
@@ -11523,7 +11523,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38308360651,58627,C&A BR,calça baggy jeans azul,179.99,169.99,169.99,179.99,2026-08-18,2026-08-26
 38308360652,58627,C&A BR,calça baggy jeans azul,179.99,169.99,169.99,179.99,2026-08-18,2026-08-26
 38308360653,58627,C&A BR,calça baggy jeans azul,179.99,169.99,169.99,179.99,2026-08-18,2026-08-26
-38309635700,46967,Kabum BR,"Kit com 3 Ventoinhas ASUS Tuf Gaming TF120, 120mm, ARGB, Branco - 90DA0033-B00030",339.99,349.9,319.99,349.9,2026-08-19,2026-10-10
+38309635700,46967,Kabum BR,"Kit com 3 Ventoinhas ASUS Tuf Gaming TF120, 120mm, ARGB, Branco - 90DA0033-B00030",349.9,339.99,319.99,349.9,2026-08-19,2026-10-25
 38310808435,91942,C&A BR,camiseta de algodão peruano decote v - chumbo,39.99,35.99,35.99,39.99,2026-08-18,2026-08-26
 38310808436,91942,C&A BR,camiseta de algodão peruano decote v - chumbo,39.99,35.99,35.99,39.99,2026-08-18,2026-08-26
 38310808437,91942,C&A BR,camiseta de algodão peruano decote v - chumbo,39.99,35.99,35.99,39.99,2026-08-18,2026-08-26
@@ -14340,7 +14340,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38694042069,58627,C&A BR,calça legging plus size com bolso esportiva preta,149.99,129.99,129.99,149.99,2026-08-18,2026-08-26
 38694042138,58627,C&A BR,base facial cosmos karen bachini m22nq médio,41.99,45.99,41.99,45.99,2026-08-18,2026-10-09
 38694042257,58627,C&A BR,base facial cosmos karen bachini e30nq escuro,41.99,45.99,41.99,45.99,2026-08-18,2026-10-09
-38694710247,46967,Kabum BR,"HD Interno WD Purple Pro Smart, 8TB, SATA, 3.5' - WD8002PURP",2599.99,3699.99,2599.99,3699.99,2026-08-19,2026-10-22
+38694710247,46967,Kabum BR,"HD Interno WD Purple Pro Smart, 8TB, SATA, 3.5' - WD8002PURP",3699.99,2599.99,2599.99,3699.99,2026-08-19,2026-10-25
 38694710256,46967,Kabum BR,"Norton Small Business Premium 500GB, 20 Dispositivos. 12M ESD - 21460295",509.99,524.99,499.99,524.99,2026-08-19,2026-10-13
 38695053482,58627,C&A BR,sutiã feminino base com bojo de tule poá rendado preto,59.99,39.99,39.99,59.99,2026-08-18,2026-09-01
 38695053483,58627,C&A BR,sutiã feminino base com bojo de tule poá rendado preto,59.99,39.99,39.99,59.99,2026-08-18,2026-09-01
@@ -15239,7 +15239,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38854263261,58627,C&A BR,vestido midi muscle tee texturizado vermelho,69.99,69.99,69.99,69.99,2026-08-18,2026-08-18
 38854263262,58627,C&A BR,vestido midi muscle tee texturizado vermelho,69.99,69.99,69.99,69.99,2026-08-18,2026-08-18
 38857296599,46967,Kabum BR,"Adaptador USB para RJ45, MD9, Azul - 5589",24.9,30.99,24.9,30.99,2026-08-19,2026-09-18
-38857296605,46967,Kabum BR,"Cabo USB-C para USB AM 2.0 MD9, 1 Metro - 7697",9.9,12.9,8.9,12.9,2026-08-19,2026-10-19
+38857296605,46967,Kabum BR,"Cabo USB-C para USB AM 2.0 MD9, 1 Metro - 7697",12.9,9.9,8.9,12.9,2026-08-19,2026-10-25
 38857296638,46967,Kabum BR,"Nobreak Coletek UPS SAFE 1400VA, AUT, 2 Baterias, 8 Tomadas, Preto - SAFE1400-USB",639.99,769.89,639.99,769.89,2026-08-19,2026-10-20
 38857682671,58627,C&A BR,kit relógio masculino technos analógico calendário 2115mpisk4a dourado,367.99,367.99,367.99,367.99,2026-08-18,2026-08-18
 38857682795,58627,C&A BR,vestido midi de tule infantil manga curta esqueleto preto,69.99,69.99,69.99,69.99,2026-08-22,2026-08-22
@@ -15445,7 +15445,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 38883879362,58627,C&A BR,kit de 3 calcinhas de algodão infantil hello kitty colorido,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 38883879436,58627,C&A BR,Perfume Ralph Lauren Polo Blue Masculino Eau de Toilette 125ml Único,579.99,579.99,579.99,579.99,2026-08-18,2026-08-18
 38887243220,46967,Kabum BR,"Gabinete Gamer Rise Mode X5 Glass, RGB, Lateral em Vidro Fumê, Sem FANs, Preto - RM-X5-05-FB",159.99,149.99,149.99,179.99,2026-08-19,2026-10-09
-38887243254,46967,Kabum BR,"Teclado Semi Mecânico Gamer Rise Mode G1 Full, Membrana, USB, Branco - RM-TG-01-FW",29.99,47.99,29.99,47.99,2026-08-19,2026-10-23
+38887243254,46967,Kabum BR,"Teclado Semi Mecânico Gamer Rise Mode G1 Full, Membrana, USB, Branco - RM-TG-01-FW",47.99,29.99,29.99,47.99,2026-08-19,2026-10-25
 38887243284,46967,Kabum BR,"Mouse Gamer Fortrek Cruiser New Edition, RGB, 12000 DPI, 7 Botões, Preto - 77245",59.99,68.98,59.99,68.99,2026-08-19,2026-10-14
 38887799747,91942,C&A BR,cropped básico de poliamida areia - verde mate,35.99,35.99,35.99,35.99,2026-08-18,2026-08-18
 38887799748,91942,C&A BR,cropped básico de poliamida areia - verde mate,35.99,35.99,35.99,35.99,2026-08-18,2026-08-18
@@ -16340,7 +16340,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39078036147,58627,C&A BR,camiseta de algodão com amarração ohana stitch vinho,19.99,19.99,19.99,19.99,2026-08-22,2026-08-22
 39078036148,58627,C&A BR,camiseta de algodão com amarração ohana stitch vinho,19.99,19.99,19.99,19.99,2026-08-22,2026-08-22
 39078036149,58627,C&A BR,camiseta de algodão com amarração ohana stitch vinho,19.99,19.99,19.99,19.99,2026-08-22,2026-08-22
-39078611127,58627,C&A BR,contorno facial stick payot 1 claro,29.99,29.99,29.99,29.99,2026-08-18,2026-08-18
+39078611127,58627,C&A BR,contorno facial stick payot 1 claro,55.99,29.99,29.99,55.99,2026-08-18,2026-10-25
 39079308708,91942,C&A BR,contorno facial stick payot 1 claro,29.99,29.99,29.99,29.99,2026-08-18,2026-08-18
 39082608407,91942,C&A BR,camiseta de algodão manga curta lilo e stitch bege,49.99,39.99,39.99,49.99,2026-08-18,2026-09-11
 39082608408,91942,C&A BR,camiseta de algodão manga curta lilo e stitch bege,49.99,39.99,39.99,55.99,2026-08-18,2026-09-11
@@ -16976,7 +16976,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 39175382613,46967,Kabum BR,"Placa-Mãe Gigabyte Z890 AORUS PRO ICE, Intel, ATX, DDR5, RGB, Wi-Fi 7, Bluetooth, Branco- Z890 AORUS PRO ICE",3148.99,3542.99,3099.99,4281.99,2026-08-19,2026-10-20
 39176575688,91942,C&A BR,contorno stick vizzela 02,59.99,59.99,59.99,59.99,2026-08-18,2026-08-18
 39176578047,46967,Kabum BR,"Vitrola HI FI Raveo Sonetto Chrome, Vinyl, Bluetooth, USB, Aux, Navy - 26398",429.9,437.9,409.9,639.99,2026-08-22,2026-10-20
-39176578096,46967,Kabum BR,"Apple Watch SE GPS, Caixa Meia-Noite de Alumínio de 44 mm, Pulseira Loop Esportiva Tinto - MXEP3BE/A",2249.99,2499.99,2249.99,2499.99,2026-09-05,2026-10-01
+39176578096,46967,Kabum BR,"Apple Watch SE GPS, Caixa Meia-Noite de Alumínio de 44 mm, Pulseira Loop Esportiva Tinto - MXEP3BE/A",2244.99,2249.99,2244.99,2499.99,2026-09-05,2026-10-25
 39179610271,91942,C&A BR,bermuda de sarja juvenil bolso cargo bege,79.99,79.99,79.99,79.99,2026-08-22,2026-08-22
 39179610272,91942,C&A BR,bermuda de sarja juvenil bolso cargo bege,79.99,79.99,79.99,79.99,2026-08-22,2026-08-22
 39179610273,91942,C&A BR,bermuda de sarja juvenil bolso cargo bege,79.99,79.99,79.99,79.99,2026-08-22,2026-08-22
@@ -24957,7 +24957,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 40208939865,58627,C&A BR,base líquida bruna tavares skin l20,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
 40210124108,46967,Kabum BR,"Cadeira Gamer XT Racer Speed Series, Até 120kg, Com Almofadas, Reclinável, Descanso de Braço 2D, Preto - XTS150",899.99,809.89,799.99,999.99,2026-08-19,2026-10-15
 40210124109,46967,Kabum BR,"Cadeira Gamer XT Racer Speed Series, Até 120kg, Com Almofadas e Apoio de Pés, Reclinável, Descanso de Braço 2D, Preto - XTS190",899.99,749.99,599.99,1199.99,2026-08-19,2026-10-15
-40210124110,46967,Kabum BR,"Cadeira Gamer XT Racer Speed Series, Até 120kg, Com Almofadas, Reclinável, Descanso de Braço 2D, Preto e Cinza - XTS130",699.99,1199.99,649.99,1199.99,2026-08-19,2026-10-16
+40210124110,46967,Kabum BR,"Cadeira Gamer XT Racer Speed Series, Até 120kg, Com Almofadas, Reclinável, Descanso de Braço 2D, Preto e Cinza - XTS130",1199.99,699.99,649.99,1199.99,2026-08-19,2026-10-25
 40211051874,97992,Alianças Imperiais BR,(COMBO) Par de alianças 6mm abaulada+ anel mod. Madrid,427.9,397.9,397.9,427.9,2026-08-09,2026-09-26
 40211051875,97992,Alianças Imperiais BR,Alianças 6mm Mod.R6 + Anel Madrid (Escolha a Cor da Pedra),427.9,397.9,397.9,427.9,2026-08-09,2026-09-26
 40211051876,97992,Alianças Imperiais BR,Anel Solitário Aparador Moeda Antiga com Zircônias Mod. Madrid,197.9,157.9,157.9,197.9,2026-08-09,2026-09-29
@@ -26171,7 +26171,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 40323099675,98680,Clovis Calçados BR,Chinelo Masculino Free III Rider 12455 AZUL/VERMELHO 39,49.99,49.99,49.99,49.99,2026-08-09,2026-08-09
 40323099676,98680,Clovis Calçados BR,Kit Sandália Infantil Baby + Mochila Disney Grendene Kids 23078 MARINHO 19,79.99,79.99,79.99,79.99,2026-08-09,2026-08-09
 40323689364,46967,Kabum BR,"Controle Sem fio 8BitDo Ultimate 2C, Bluetooth, Pessêgo - 81HD04",189.99,229.0,189.99,229.0,2026-08-19,2026-10-21
-40323689365,46967,Kabum BR,"Controle Wireless 8BitDo Ultimate 2C, Bluetooth, Verde - 81HD02",169.99,199.99,169.99,199.99,2026-08-19,2026-10-24
+40323689365,46967,Kabum BR,"Controle Wireless 8BitDo Ultimate 2C, Bluetooth, Verde - 81HD02",199.99,169.99,169.99,199.99,2026-08-19,2026-10-25
 40323998147,91942,C&A BR,body infantil de algodão xodó da família listrado bege,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 40323998148,91942,C&A BR,body infantil de algodão xodó da família listrado bege,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 40323998149,91942,C&A BR,body infantil de algodão xodó da família listrado bege,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
@@ -31552,7 +31552,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 40973003161,91942,C&A BR,esfoliante pitaya dia a dia labotrat,21.99,21.99,21.99,21.99,2026-08-18,2026-08-18
 40973008131,46967,Kabum BR,Nobreak Intelbras XNB 600VA 220V - 4822005,329.99,429.99,319.99,429.99,2026-08-19,2026-10-14
 40973008404,46967,Kabum BR,"Filtro de Linha + DPS iClamper Energia 8, 8 Tomadas, Bivolt, Transparente - 26776",99.99,109.99,99.99,109.99,2026-08-19,2026-10-19
-40973008530,46967,Kabum BR,"Placa de Vídeo MSI GeForce RTX 5070 12G VENTUS 2X OC,12 GB GDDR7, 28Gbps, NVIDIA GeForce RTX 5070- G5070-12V2C",5699.99,6000.0,4799.99,6000.0,2026-08-19,2026-10-20
+40973008530,46967,Kabum BR,"Placa de Vídeo MSI GeForce RTX 5070 12G VENTUS 2X OC,12 GB GDDR7, 28Gbps, NVIDIA GeForce RTX 5070- G5070-12V2C",5552.29,5699.99,4799.99,6000.0,2026-08-19,2026-10-25
 40977518485,98680,Clovis Calçados BR,Tênis Infantil Split VLC Fila F04K00023 MARINHO 28,279.99,279.99,279.99,279.99,2026-08-09,2026-08-09
 40977518495,98680,Clovis Calçados BR,Sandália Feminina Flat Moleca 5504101 BRANCO/PRETO 36,99.99,99.99,99.99,99.99,2026-08-09,2026-08-09
 40977518504,98680,Clovis Calçados BR,Mini Melissa Free Hug Baby 33735 AZUL 22,69.99,69.99,69.99,69.99,2026-08-09,2026-08-09
@@ -43140,7 +43140,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 41943811431,91942,C&A BR,gloss vizzela infantil brilha brilha vagalume 3ml,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 41943811432,91942,C&A BR,batom vizzela infantil balão fantástico 4g,31.44,36.99,31.44,36.99,2026-08-18,2026-09-23
 41943819300,46967,Kabum BR,"Microfone Razer Seiren V3 Mini Ultra Compacto, USB, Branco - RZ1905050300",729.99,729.99,729.99,729.99,2026-08-19,2026-08-19
-41943819301,46967,Kabum BR,"Microfone Razer Seiren V3 Mini Ultra Compacto, USB, Quartz - RZ1905050200",249.99,1099.99,249.99,1099.99,2026-08-19,2026-10-16
+41943819301,46967,Kabum BR,"Microfone Razer Seiren V3 Mini Ultra Compacto, USB, Quartz - RZ1905050200",1099.99,249.99,249.99,1099.99,2026-08-19,2026-10-25
 41943819302,46967,Kabum BR,"Microfone Razer Seiren V3 Mini, Condensador, Sensor Tap-to-Mute, Ultra Compacto, USB, Preto - RZ19-05050100",399.99,439.99,369.99,719.9,2026-08-19,2026-10-07
 41943819303,46967,Kabum BR,"Microfone Razer Seiren V3, Chroma RGB, USB, Preto - RZ1905060100R",1599.99,1799.99,1599.99,1799.99,2026-08-19,2026-09-09
 41943819304,46967,Kabum BR,"Microfone Razer Seiren V3, Chroma RGB, USB, Quartz - RZ1905060300",599.99,2699.99,599.99,2699.99,2026-08-19,2026-10-16
@@ -44546,7 +44546,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42026627964,46967,Kabum BR,"Cadeira Gamer XT Racer Speed Series, Até 120kg, Com Almofadas e Apoio de Pés, Reclinável, Descanso de Braço 2D, Preto e Vermelho - XTS180",899.99,999.99,849.99,999.99,2026-08-19,2026-10-06
 42026627972,46967,Kabum BR,"Kit com 3 Ventoinhas Corsair iCUE LINK QX120, 120mm, RGB, Preto - CO-9051002-WW",529.99,509.99,509.99,729.99,2026-08-19,2026-09-28
 42026627973,46967,Kabum BR,"Ventoinha Corsair iCUE LINK QX120, 120mm, RGB, Branco - CO-9051005-WW",169.99,189.99,169.99,199.99,2026-08-19,2026-09-15
-42026627974,46967,Kabum BR,"Headset Gamer HyperX Cloud Stinger 2, Drivers 50mm, Branco, Xbox - 75X28AA",209.99,325.9,209.99,325.9,2026-08-19,2026-10-01
+42026627974,46967,Kabum BR,"Headset Gamer HyperX Cloud Stinger 2, Drivers 50mm, Branco, Xbox - 75X28AA",325.9,209.99,209.99,325.9,2026-08-19,2026-10-25
 42026627990,46967,Kabum BR,"Case de transporte para Controle 8BitDo Ultimate, Bluetooth, Wireless, Preto - 88BF01",79.0,129.9,73.99,129.9,2026-08-19,2026-09-09
 42026627991,46967,Kabum BR,"Controle Arcade Stick Sem Fio 8BitDo para Xbox, Preto - 81JA02D",799.99,899.0,799.99,899.0,2026-08-19,2026-10-21
 42026627996,46967,Kabum BR,"Kit com 3 Ventoinhas Corsair RS120 ARGB, 120mm, PWM, Preto - CO-9050181-WW",202.99,209.99,189.99,254.99,2026-08-19,2026-10-23
@@ -51958,7 +51958,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42253420973,58627,C&A BR,sandalia tiras finas salto bloco com fivelas oneself marrom,119.99,119.99,119.99,119.99,2026-08-22,2026-08-22
 42253420974,58627,C&A BR,sandalia tiras finas salto bloco com fivelas oneself marrom,119.99,119.99,119.99,119.99,2026-08-22,2026-08-22
 42253420991,58627,C&A BR,kit de 3 meias cano longo esportivas 34-39 colorido,39.99,49.99,39.99,49.99,2026-08-18,2026-09-01
-42254170303,46967,Kabum BR,Estabilizador SMS 2000VA PRG III Bivolt 16218,989.99,1009.9,959.99,1009.9,2026-08-19,2026-09-18
+42254170303,46967,Kabum BR,Estabilizador SMS 2000VA PRG III Bivolt 16218,1009.9,989.99,959.99,1009.9,2026-08-19,2026-10-25
 42254170330,46967,Kabum BR,"Nobreak SMS Tech, 800VA, 6 Tomadas, Entrada Bivolt e Saisa 115V - 29302",749.9,789.99,749.9,789.99,2026-08-19,2026-08-27
 42254170343,46967,Kabum BR,"Teclado Mecânico Gamer Machenike K500f-B81 CRYSTAL, 75%, Switch Crystal Tátil Hot-Swappable, Gasket, RGB, Preto Transparente - K500F-B81 BK BY",229.9,639.9,229.9,639.9,2026-08-19,2026-10-14
 42254170344,46967,Kabum BR,"Teclado Mecânico Gamer Machenike K500f-B81 CRYSTAL, 75%, Switch Crystal Tátil Hot-Swappable, Branco Transpar4ente - K500F-B81 WH BX",299.99,475.9,299.99,475.9,2026-08-19,2026-10-14
@@ -52165,7 +52165,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42271344668,58627,C&A BR,camiseta infantil dragon ball off white,29.99,29.99,29.99,29.99,2026-08-28,2026-08-28
 42271344669,58627,C&A BR,camiseta infantil dragon ball off white,29.99,29.99,29.99,29.99,2026-08-28,2026-08-28
 42278661210,46967,Kabum BR,"Suporte de Mesa Articulado para 2 Monitores de 17"" a 35"", ELG, Ajuste de altura com Pistão a Gás - F160N",419.99,449.99,419.99,449.99,2026-08-19,2026-08-25
-42278661314,46967,Kabum BR,"Fone de Ouvido JBL Wave Buds 2, Cancelamento de Ruído, Bateria Até 40 Horas, Bluetooth 5.3, Conexão Multipontos, IP54, Preto - JBLWBUDS2BLK",299.9,399.9,229.0,419.99,2026-08-19,2026-10-21
+42278661314,46967,Kabum BR,"Fone de Ouvido JBL Wave Buds 2, Cancelamento de Ruído, Bateria Até 40 Horas, Bluetooth 5.3, Conexão Multipontos, IP54, Preto - JBLWBUDS2BLK",399.9,299.9,229.0,419.99,2026-08-19,2026-10-25
 42278661316,46967,Kabum BR,"Jogo Pokémon Legends Z-A, Nintendo Switch 2 - NT000056NSW",438.08,369.0,369.0,438.08,2026-08-19,2026-10-21
 42279167717,91942,C&A BR,camiseta infantil nasa cinza,25.99,25.99,25.99,25.99,2026-08-18,2026-08-18
 42279167718,91942,C&A BR,camiseta infantil nasa cinza,25.99,25.99,25.99,25.99,2026-08-18,2026-08-18
@@ -55488,7 +55488,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42445767896,46967,Kabum BR,"Monitor Gamer ASUS TUF 27"", Full HD, 240Hz, 0.3ms, Fast IPS, VRR, G-Sync Comp, FreeSync Premium, HDR10, Som Integrado, Preto - VG279QM5A",2000.0,1349.99,999.99,2000.0,2026-08-19,2026-10-24
 42445767898,46967,Kabum BR,"Gabinete Gamer Corsair iCUE Link 5000T LX RGB, Mid-Tower, E-ATX, Vidro Temperado, 3x FANs, Branco - CC-9011299-WW",1910.99,1699.99,1699.99,1910.99,2026-08-19,2026-09-08
 42445767900,46967,Kabum BR,"Gabinete Gamer Corsair 5000T Mid-Tower, E-ATX, Lateral em Vidro temperado, Sem FANs, Branco - CC-9011301-WW",939.99,939.99,939.99,939.99,2026-08-19,2026-08-19
-42445767916,46967,Kabum BR,"Cadeira De Escritório Ergonômica DT3 Diana+, Até 150Kg, Ajuste de Altura, Preto - 14445-8",1509.9,1499.99,1499.99,1509.9,2026-08-19,2026-10-10
+42445767916,46967,Kabum BR,"Cadeira De Escritório Ergonômica DT3 Diana+, Até 150Kg, Ajuste de Altura, Preto - 14445-8",1599.9,1509.9,1499.99,1599.9,2026-08-19,2026-10-25
 42445767921,46967,Kabum BR,"Bolsa HORI Slim Tough Pouch, para Nintendo Switch, Preta - NSW-810U",248.99,248.99,248.99,248.99,2026-08-22,2026-08-22
 42445886935,91942,C&A BR,regata básica feminina de algodão canelada off white,39.99,49.99,39.99,49.99,2026-08-18,2026-09-01
 42445886936,91942,C&A BR,regata básica feminina de algodão canelada off white,39.99,49.99,39.99,49.99,2026-08-18,2026-09-01
@@ -59193,7 +59193,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42664223046,46967,Kabum BR,"Fone de Ouvido On-Ear JBL Tune 520C, Conexão USB-C, Pure Bass, Preto - JBLT520CBLK",158.9,179.9,158.9,249.99,2026-08-19,2026-10-20
 42664223047,46967,Kabum BR,"Soundbar JBL Bar 500, Bluetooth, 290W, com Subwoofer, 5.1 Canais, Dolby Atmos, Preta - JBLBAR500M2BLKBR",2748.9,2748.9,2748.9,2748.9,2026-08-19,2026-08-19
 42664223048,46967,Kabum BR,"Soundbar JBL Bar 800, Bluetooth, 340W, com Subwoofer, 5.1.2 Canais, Dolby Atmos, Preta - JBLBAR800M2BLKBR",3599.9,6599.99,3599.9,6599.99,2026-08-19,2026-10-20
-42664223049,46967,Kabum BR,"Caixa de Som Boombox 4 JBL, À Prova D'água, Bluetooth, Camuflada - JBLBOOMBOX4SQUADBR",2499.9,3899.9,2299.9,3899.99,2026-08-19,2026-10-24
+42664223049,46967,Kabum BR,"Caixa de Som Boombox 4 JBL, À Prova D'água, Bluetooth, Camuflada - JBLBOOMBOX4SQUADBR",3899.99,2499.9,2299.9,3899.99,2026-08-19,2026-10-25
 42664223382,46967,Kabum BR,"Monitor Gamer Cooler Master 23.8"", FHD, 100Hz, 1ms, VA, HDMI e VGA, HDR, Adaptive Sync, Preto - GA241",599.99,499.99,499.99,599.99,2026-08-19,2026-10-21
 42664223384,46967,Kabum BR,"Monitor Gamer Cooler Master 24.5"", FHD, 180Hz, 1ms, IPS, DisplayPort e HDMI, HDR, Adaptive Sync, Preto - GM25FP",699.99,1149.99,699.99,1149.99,2026-08-19,2026-08-27
 42664660329,91942,C&A BR,faixa de cabelo hello kitty klass vough,24.99,24.99,24.99,24.99,2026-08-18,2026-08-18
@@ -62753,7 +62753,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42922476560,91942,C&A BR,saia curta feminina de tricot texturizado folhagens mindset off white,69.99,119.99,69.99,119.99,2026-08-18,2026-09-01
 42922476561,91942,C&A BR,saia curta feminina de tricot texturizado folhagens mindset off white,69.99,119.99,69.99,119.99,2026-08-18,2026-09-01
 42922476562,91942,C&A BR,saia curta feminina de tricot texturizado folhagens mindset off white,69.99,119.99,69.99,119.99,2026-08-18,2026-09-01
-42922476568,91942,C&A BR,batom océane bálsamo labial soft kiss balm lovely rosa,31.99,34.99,31.99,49.99,2026-08-18,2026-10-09
+42922476568,91942,C&A BR,batom océane bálsamo labial soft kiss balm lovely rosa,55.99,31.99,31.99,55.99,2026-08-18,2026-10-25
 42922476576,91942,C&A BR,iluminador bastão océane shine highlight stick edition sun glow,79.99,71.99,71.99,79.99,2026-08-18,2026-10-23
 42923269308,58627,C&A BR,camisa com babados e bordado manga bufante off white,119.99,119.99,119.99,119.99,2026-08-22,2026-08-22
 42923269309,58627,C&A BR,camisa com babados e bordado manga bufante off white,119.99,119.99,119.99,119.99,2026-08-22,2026-08-22
@@ -62772,7 +62772,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 42923272310,58627,C&A BR,camisa feminina jeans oversized azul,129.99,159.99,129.99,159.99,2026-08-18,2026-09-01
 42923272311,58627,C&A BR,camisa feminina jeans oversized azul,129.99,159.99,129.99,159.99,2026-08-18,2026-09-01
 42923272312,58627,C&A BR,camisa feminina jeans oversized azul,129.99,159.99,129.99,159.99,2026-08-18,2026-09-01
-42923272322,58627,C&A BR,batom océane bálsamo labial soft kiss balm lovely rosa,31.99,34.99,31.99,49.99,2026-08-18,2026-10-09
+42923272322,58627,C&A BR,batom océane bálsamo labial soft kiss balm lovely rosa,55.99,31.99,31.99,55.99,2026-08-18,2026-10-25
 42923272323,58627,C&A BR,iluminador bastão océane shine highlight stick edition sun glow,79.99,71.99,71.99,79.99,2026-08-18,2026-10-23
 42924687368,46967,Kabum BR,Suporte Octoo UpTable p/ Notebook Branco 08162,49.99,55.99,29.99,55.99,2026-08-19,2026-10-16
 42929947203,46967,Kabum BR,"Placa Mãe ASUS B760M-AYW WIFI II, Intel LGA 1700, mATX, DDR5, Wi-fi 6, Bluetooth, Preto - 90MB1MH0-M0EAY0",899.99,953.99,853.99,966.99,2026-08-19,2026-10-13
@@ -70827,7 +70827,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43180887223,46967,Kabum BR,"iPad Apple 11"" A16, Wi-Fi, 256GB, Câmera 12MP, Amarelo - MD4J4BZ/A",4899.99,4499.99,4499.99,5199.99,2026-08-19,2026-10-02
 43180887225,46967,Kabum BR,"Monitor Gamer Curvo Husky Boreal 27"", FHD, 260Hz, 1ms, Adaptive Sync, VA, DisplayPort e HDMI, HDR - HMG00627PT",849.99,799.99,699.99,1199.9,2026-08-19,2026-10-21
 43180887226,46967,Kabum BR,Caixa de Som Bluetooth PartyBox Club 120 JBL - Branca - 28913857,1999.9,3699.99,1999.9,3699.99,2026-08-19,2026-10-20
-43180887261,46967,Kabum BR,"Notebook Acer Aspire 5 A515-45-R478, AMD Ryzen 5-5500U, 16GB RAM, 512GB SSD, 15.6"" FHD LED, IPS, 60Hz, Linux Gutta - NX.AYDAL.00R",5745.6,3899.0,3599.0,5745.6,2026-08-19,2026-10-24
+43180887261,46967,Kabum BR,"Notebook Acer Aspire 5 A515-45-R478, AMD Ryzen 5-5500U, 16GB RAM, 512GB SSD, 15.6"" FHD LED, IPS, 60Hz, Linux Gutta - NX.AYDAL.00R",3999.0,5745.6,3599.0,5745.6,2026-08-19,2026-10-25
 43180887262,46967,Kabum BR,"Notebook Acer Nitro V15 ANV15-41-R4Q9 R77735HS AMD Ryzen 7, 32GB, 512GB SSD, NVIDIA RTX 4050, 15.6"" FHD LED, IPS, AGPOS - NH.U20AL.002",8499.0,8299.0,7999.0,8499.0,2026-08-19,2026-08-26
 43181095688,91942,C&A BR,camiseta feminina de algodão estampada off white,55.99,49.99,49.99,55.99,2026-08-18,2026-09-11
 43181095689,91942,C&A BR,camiseta feminina de algodão estampada off white,55.99,49.99,49.99,55.99,2026-08-18,2026-09-11
@@ -78354,7 +78354,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43443653200,91942,C&A BR,gloss labial luluca by melu daily lip tint sweet rosy,24.99,24.99,24.99,24.99,2026-08-18,2026-08-18
 43443653201,91942,C&A BR,base líquida mascavo by mariana saad soft radiance 32n 30ml,129.99,129.99,129.99,129.99,2026-08-18,2026-08-18
 43443679208,46967,Kabum BR,"Jogo SAROS Edição Standard, para PS5 - 1000048816",249.0,315.9,249.0,315.9,2026-08-19,2026-10-24
-43443679209,46967,Kabum BR,"Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",4499.0,4184.07,4089.0,4699.0,2026-08-19,2026-10-21
+43443679209,46967,Kabum BR,"Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",4699.0,4499.0,4089.0,4699.0,2026-08-19,2026-10-25
 43444195982,58627,C&A BR,sapato social masculino de couro marrom,199.99,249.99,199.99,249.99,2026-08-18,2026-09-01
 43444195983,58627,C&A BR,sapato social masculino de couro marrom,199.99,249.99,199.99,249.99,2026-08-18,2026-09-01
 43444195984,58627,C&A BR,sapato social masculino de couro marrom,199.99,249.99,199.99,249.99,2026-08-18,2026-09-01
@@ -81991,7 +81991,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43550579159,46967,Kabum BR,"Headset Office Pcyes HB300, Driver 30mm, P2 3.5mm, Preto - PHB300",59.99,59.99,59.99,59.99,2026-08-19,2026-08-19
 43550579480,46967,Kabum BR,"Cabo Extensor Lian-Li Strimer, 168-8, Plus 16 Pinos, 335MM - PW168-8PV2",429.9,289.9,289.9,429.9,2026-08-19,2026-10-23
 43550579586,46967,Kabum BR,"Ventoinha NZXT Single-frame F Series, LED RGB Core, 360mm, 3x 120mm, Branco - RF-U36HF-W1",379.99,389.99,379.99,389.99,2026-08-19,2026-08-26
-43550579646,46967,Kabum BR,"Placa Mãe Gigabyte B650 Eagle AX, AMD AM5, ATX, DDR5, LED RGB, Wi-Fi 6E, Bluetooth, Preto - 9MB65EGX-00-10",1099.99,1379.9,1029.99,1379.9,2026-08-19,2026-10-21
+43550579646,46967,Kabum BR,"Placa Mãe Gigabyte B650 Eagle AX, AMD AM5, ATX, DDR5, LED RGB, Wi-Fi 6E, Bluetooth, Preto - 9MB65EGX-00-10",1379.9,1099.99,1029.99,1379.9,2026-08-19,2026-10-25
 43550579647,46967,Kabum BR,"Mini Nobreak Marsriva KP3, 18W, 3 saídas DC, USB, 10.000mAh, Branco",219.99,219.99,219.99,219.99,2026-08-19,2026-08-19
 43550579649,46967,Kabum BR,"Placa Mãe Gigabyte B860M AORUS ELITE WIFI6E ICE, Intel, Micro ATX, DDR5, Wi-Fi 6E, Bluetooth, Branca - B86MLI6-00",1739.9,1566.99,1566.99,1739.9,2026-08-19,2026-10-23
 43550579653,46967,Kabum BR,"Mousepad Gamer Razer Firefly V2 Pro, RGB 15 Zonas Retroiluminado, Superfície Rígida Microtexturizada, Porta USB Passthrough, Preto - RZ02-04920100",1499.99,799.99,795.9,1499.99,2026-08-19,2026-10-24
@@ -83286,7 +83286,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43585988265,46967,Kabum BR,"Headset Gamer Sem Fio Razer Barracuda X (2022), Multiplataforma, Quartz - RZ04-04430300-R3U1",829.99,829.99,829.99,829.99,2026-08-19,2026-08-19
 43585988267,46967,Kabum BR,"Microfone Gamer Razer Seiren V3 Chroma Quartz, Condensador, Iluminação RGB, Conexão USB, Porta de 3.5mm, Rosa - RZ19-05060300",599.99,1089.9,599.99,1089.9,2026-08-19,2026-10-16
 43585988269,46967,Kabum BR,"Microfone Gamer Razer Seiren V3 Mini Quartz, Supercardioide, Função Toque para Silenciar, Conexão USB, Rosa - RZ19-05050200",559.99,249.99,249.99,559.99,2026-08-19,2026-10-23
-43585988273,46967,Kabum BR,"Headset Gamer Sem Fio JBL Quantum 650 Wireless, 2.4GHz, Som Surround, Preto - JBLQTUM650BLK",939.99,599.99,559.0,939.99,2026-08-19,2026-10-05
+43585988273,46967,Kabum BR,"Headset Gamer Sem Fio JBL Quantum 650 Wireless, 2.4GHz, Som Surround, Preto - JBLQTUM650BLK",999.99,939.99,559.0,999.99,2026-08-19,2026-10-25
 43590993297,91942,C&A BR,regata feminina de tricot com lurex e fivelas dourada,79.99,79.99,79.99,79.99,2026-08-18,2026-08-18
 43590993298,91942,C&A BR,regata feminina de tricot com lurex e fivelas dourada,79.99,79.99,79.99,79.99,2026-08-18,2026-08-18
 43590993299,91942,C&A BR,regata feminina de tricot com lurex e fivelas dourada,79.99,79.99,79.99,79.99,2026-08-18,2026-08-18
@@ -86421,7 +86421,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43679234228,46967,Kabum BR,"Mousepad Gamer Husky Black Frost, Speed, Extra Grande (900x400mm), Preto - HMSP002",29.99,59.9,29.99,59.9,2026-08-19,2026-10-14
 43679234682,46967,Kabum BR,"Mousepad Havit, 700x300mm, Antiderrapante, Rosa - MP847",29.99,49.99,27.99,49.99,2026-08-19,2026-10-01
 43679235145,46967,Kabum BR,"MacBook Air Apple 15"" Chip M4, CPU 10 Núcleos, GPU 10 Núcleos, Neural Engine 16 Núcleos, 16GB RAM, SSD 512GB, Meia-noite - MW1M3BZ/A",12599.0,12499.0,11699.0,12599.0,2026-08-19,2026-08-25
-43679235168,46967,Kabum BR,"Gabinete Gamer Liketec Dasha V2, Cubo, M-ATX, Mini Tower, Frontal e Lateral em Vidro Temperado, Sem FANs, Preto - LC-MT-CUBODASHAV2-SF",129.99,179.99,129.99,179.99,2026-08-19,2026-10-19
+43679235168,46967,Kabum BR,"Gabinete Gamer Liketec Dasha V2, Cubo, M-ATX, Mini Tower, Frontal e Lateral em Vidro Temperado, Sem FANs, Preto - LC-MT-CUBODASHAV2-SF",179.99,129.99,129.99,179.99,2026-08-19,2026-10-25
 43679235177,46967,Kabum BR,"Apple Watch Series 11 GPS, Caixa Preta Brilhante de Alumínio de 46 mm, Pulseira esportiva Preta, Tamanho P/M - MEUW4AM/A",3999.99,5899.0,3999.0,5899.0,2026-08-19,2026-09-14
 43679235187,46967,Kabum BR,"Jogo Resident Evil Requiem, PS5 - CP000036PS5",279.91,279.9,279.9,279.91,2026-08-19,2026-10-21
 43679431178,58627,C&A BR,rasteirinha infantil ipanema marie rosa,35.99,35.99,35.99,35.99,2026-08-23,2026-08-23
@@ -95311,7 +95311,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43874573971,58627,C&A BR,blusa assimétrica feminina halterneck com renda preta,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
 43874573972,58627,C&A BR,blusa assimétrica feminina halterneck com renda preta,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
 43874573973,58627,C&A BR,blusa assimétrica feminina halterneck com renda preta,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
-43876372227,46967,Kabum BR,"Controle Sony Dualsense Edge PS5, Sem Fio, Midnight Black - CFI-ZCP1WY",1069.0,1394.07,1069.0,1394.07,2026-08-19,2026-10-24
+43876372227,46967,Kabum BR,"Controle Sony Dualsense Edge PS5, Sem Fio, Midnight Black - CFI-ZCP1WY",1394.07,1069.0,1069.0,1394.07,2026-08-19,2026-10-25
 43876861118,58627,C&A BR,jaqueta parka de sarja com bolsos - verde militar,139.99,249.99,139.99,249.99,2026-08-18,2026-09-24
 43876861119,58627,C&A BR,jaqueta parka de sarja com bolsos - verde militar,139.99,249.99,139.99,249.99,2026-08-18,2026-09-24
 43876861120,58627,C&A BR,jaqueta parka de sarja com bolsos - verde militar,139.99,249.99,139.99,249.99,2026-08-18,2026-09-24
@@ -99925,7 +99925,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43951578904,91942,C&A BR,saia evasê feminina de algodão com bolsos azul,149.99,149.99,149.99,149.99,2026-08-22,2026-08-22
 43951701561,46967,Kabum BR,"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões, Preto - RZ01-04000100-R3U1",319.99,649.9,279.99,649.9,2026-08-19,2026-10-14
 43951701691,46967,Kabum BR,"Suporte de Mesa Articulado para 2 Monitores de 17"" a 32"" Ergofirst, Ajuste com Pistão a Gás, Preto - G16-C024",149.99,139.99,119.99,299.99,2026-08-19,2026-10-09
-43951701723,46967,Kabum BR,"Projetor DLP BenQ MW560C, WXGA (1280x800), 4000 ANSI Lumens, HDMI, Branco - 9H.JTD77.1NL",2999.9,4619.99,2999.9,4619.99,2026-08-19,2026-10-10
+43951701723,46967,Kabum BR,"Projetor DLP BenQ MW560C, WXGA (1280x800), 4000 ANSI Lumens, HDMI, Branco - 9H.JTD77.1NL",4999.9,2999.9,2999.9,4999.9,2026-08-19,2026-10-25
 43951701724,46967,Kabum BR,"Carteira de Criptomoedas SecuX W20C-PLUS, USB, Bluetooth, Tela LCD, Inclui 2 Placas de Recuperação X-SEED, Preto - 98-011-010100",699.99,699.99,699.99,699.99,2026-08-19,2026-08-19
 43951701725,46967,Kabum BR,"Mouse Gamer Redragon Deicide, RGB, Preto - M816-RGB",79.99,129.99,74.9,129.99,2026-08-19,2026-09-24
 43951701726,46967,Kabum BR,"Mouse Gamer Redragon Deicide Lite, 10000DPI, RGB, Preto - M816-LIT",119.99,179.99,109.99,179.99,2026-08-19,2026-10-14
@@ -101530,11 +101530,11 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 43976540200,58627,C&A BR,short de alfaiataria feminino listrado marrom,139.99,179.99,139.99,179.99,2026-08-18,2026-09-01
 43976540201,58627,C&A BR,short de alfaiataria feminino listrado marrom,139.99,179.99,139.99,179.99,2026-08-18,2026-09-01
 43976540202,58627,C&A BR,short de alfaiataria feminino listrado marrom,139.99,179.99,139.99,179.99,2026-08-18,2026-09-01
-43976540203,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
-43976540204,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
-43976540205,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
-43976540206,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
-43976540207,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,89.99,89.99,89.99,89.99,2026-08-18,2026-08-18
+43976540203,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,59.99,89.99,59.99,89.99,2026-08-18,2026-10-25
+43976540204,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,59.99,89.99,59.99,89.99,2026-08-18,2026-10-25
+43976540205,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,59.99,89.99,59.99,89.99,2026-08-18,2026-10-25
+43976540206,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,59.99,89.99,59.99,89.99,2026-08-18,2026-10-25
+43976540207,58627,C&A BR,polo básica feminina de tricot manga longa marrom escuro,59.99,89.99,59.99,89.99,2026-08-18,2026-10-25
 43977486539,46967,Kabum BR,"Memória RAM Kingston Fury Renegade RGB, 48GB, 6000MHz, DDR5, CL32, XMP, Prata - KF560C32RSA-48",7499.99,7499.99,7499.99,7499.99,2026-08-28,2026-08-28
 43977486541,46967,Kabum BR,"Memória RAM Kingston Fury Renegade, 32GB (2x16GB), 8000MT/s, DDR5, CL38, DIMM, Branco XMP - KF580C38RWK2-32",5499.9,5499.9,5499.9,5499.9,2026-08-19,2026-08-19
 43977545073,58627,C&A BR,bermuda infantil de sarja com cinto kaki - azul marinho,109.99,119.99,109.99,119.99,2026-08-18,2026-09-01
@@ -102322,7 +102322,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44022890841,91942,C&A BR,short jeans feminino cintura alta listrado azul,99.99,119.99,99.99,119.99,2026-08-18,2026-09-01
 44022890842,91942,C&A BR,short jeans feminino cintura alta listrado azul,99.99,119.99,99.99,119.99,2026-08-18,2026-09-01
 44022890861,91942,C&A BR,corretivo mari maria cover up 12,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
-44022890862,91942,C&A BR,base e corretivo mari maria matte velvet skin bege médio,55.99,79.99,55.99,79.99,2026-08-18,2026-09-04
+44022890862,91942,C&A BR,base e corretivo mari maria matte velvet skin bege médio,79.99,55.99,55.99,79.99,2026-08-18,2026-10-25
 44022890863,91942,C&A BR,base e corretivo mari maria matte velvet skin bege claro 1,55.99,79.99,55.99,79.99,2026-08-18,2026-09-04
 44022890864,91942,C&A BR,bermuda jorts feminina de sarja cintura média bege,99.99,119.99,99.99,119.99,2026-08-18,2026-09-01
 44022890865,91942,C&A BR,bermuda jorts feminina de sarja cintura média bege,99.99,119.99,99.99,119.99,2026-08-18,2026-09-01
@@ -102416,7 +102416,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44023542598,58627,C&A BR,polo box fit masculina texturizada azul,159.99,159.99,159.99,159.99,2026-08-18,2026-08-18
 44023542613,58627,C&A BR,corretivo mari maria cover up 12,39.99,39.99,39.99,39.99,2026-08-18,2026-08-18
 44023542617,58627,C&A BR,base e corretivo mari maria matte velvet skin bege claro 1,55.99,79.99,55.99,79.99,2026-08-18,2026-09-04
-44023542618,58627,C&A BR,base e corretivo mari maria matte velvet skin bege médio,55.99,79.99,55.99,79.99,2026-08-18,2026-09-04
+44023542618,58627,C&A BR,base e corretivo mari maria matte velvet skin bege médio,79.99,55.99,55.99,79.99,2026-08-18,2026-10-25
 44023542640,58627,C&A BR,calça infantil esportiva jogger cinza,79.99,99.99,79.99,99.99,2026-08-18,2026-09-01
 44023542641,58627,C&A BR,calça infantil esportiva jogger cinza,79.99,99.99,79.99,99.99,2026-08-18,2026-09-01
 44023542642,58627,C&A BR,calça infantil esportiva jogger cinza,79.99,99.99,79.99,99.99,2026-08-18,2026-09-01
@@ -111935,7 +111935,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44176706373,58627,C&A BR,calça skater feminina jeans cintura média plus size cinza,199.99,199.99,199.99,199.99,2026-08-18,2026-08-18
 44179842065,46967,Kabum BR,"Impressora HP Laser 135A, Laser, Mono, 110V - 4ZB82A",1799.9,1239.99,1239.99,1799.9,2026-08-19,2026-10-23
 44179842066,46967,Kabum BR,"Cadeira de Escritório Ergonômica DT3 Diana V2, Até 136kg, Reclinável, Preto - 11726-7",1299.9,1119.9,1059.9,1299.9,2026-08-19,2026-10-24
-44179843546,46967,Kabum BR,"Monitor Portátil Gamer Rise Mode Portavision 14"" Full HD 60hz IPS, Mini HDMI, USB-C, Preto - RM-MPV-14-B-60FH",549.99,509.99,509.99,589.9,2026-08-19,2026-10-21
+44179843546,46967,Kabum BR,"Monitor Portátil Gamer Rise Mode Portavision 14"" Full HD 60hz IPS, Mini HDMI, USB-C, Preto - RM-MPV-14-B-60FH",589.9,549.99,509.99,589.9,2026-08-19,2026-10-25
 44179843547,46967,Kabum BR,"Monitor Portátil Gamer Rise Mode Portavision 15.6"", Full HD, 60Hz, IPS, Mini HDMI, USB-C, Preto - RM-MPV-15-B-60FH",789.99,749.99,749.99,799.99,2026-08-19,2026-10-21
 44179843548,46967,Kabum BR,"Monitor Portátil Gamer Rise Mode Portavision 15.6"", Full HD, 144Hz, IPS, Mini HDMI, USB-C, Preto - RM-MPV-15-B-144FH",899.99,799.99,799.99,899.99,2026-08-19,2026-10-21
 44179843630,46967,Kabum BR,"Mouse Gamer Rise Mode Laser Black RGB, 16000 DPI, 9 Botões, Preto - RM-MG-L-B",49.99,199.99,49.99,199.99,2026-08-19,2026-10-14
@@ -114692,7 +114692,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44213272869,58627,C&A BR,gloss labial stick vult e baton rosa 2g,49.99,49.99,49.99,49.99,2026-08-18,2026-08-18
 44213272870,58627,C&A BR,gloss labial stick vult e baton malva 2g,44.99,49.99,44.99,49.99,2026-08-18,2026-10-08
 44213272871,58627,C&A BR,gloss labial stick vult e baton translúcido com glitter 2g,49.99,49.99,49.99,49.99,2026-08-18,2026-08-18
-44213997948,46967,Kabum BR,"Dispositivo Protetor Contra Surtos Ragtech, DPS Space Up Nitro, Classe III, Microprocessado, 4 Tomadas, STD, RGB - 4790",239.99,295.9,239.99,295.9,2026-08-19,2026-10-14
+44213997948,46967,Kabum BR,"Dispositivo Protetor Contra Surtos Ragtech, DPS Space Up Nitro, Classe III, Microprocessado, 4 Tomadas, STD, RGB - 4790",295.9,239.99,239.99,295.9,2026-08-19,2026-10-25
 44213998202,46967,Kabum BR,"Volante Logitech PRO WHEEL para PS5, PS4 e PC - 941-000176",9189.9,9189.9,9189.9,9189.9,2026-08-19,2026-08-19
 44213998203,46967,Kabum BR,"Placa de Vídeo Asus PRIME RTX 5060 TI O8G NVIDIA GeForce, 8GB, GDDR7, 2647MHz, 128bits, Triple Fan, DLSS 4, Ray Tracing - 90YV0MP0-M0NA00",4640.99,3299.99,3299.99,4640.99,2026-08-22,2026-09-27
 44213998204,46967,Kabum BR,"Placa-Mãe ASRock B850M Pro RS AMD, Ryzen B850, mATX , DDR5 - 90-MXBR60-A0UAYZ",1499.99,1049.99,988.99,1499.99,2026-08-19,2026-10-22
@@ -117847,7 +117847,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44254817848,58627,C&A BR,suéter feminino de tricot com gola texturizado bege,99.99,169.99,99.99,169.99,2026-08-18,2026-09-01
 44254817849,58627,C&A BR,suéter feminino de tricot com gola texturizado bege,99.99,169.99,99.99,169.99,2026-08-18,2026-09-01
 44254817850,58627,C&A BR,suéter feminino de tricot com gola texturizado bege,99.99,169.99,99.99,169.99,2026-08-18,2026-09-01
-44254817872,58627,C&A BR,body feminino de poliamida manga longa canelado preta,89.99,69.99,69.99,89.99,2026-08-18,2026-09-11
+44254817872,58627,C&A BR,body feminino de poliamida manga longa canelado preta,49.99,89.99,49.99,89.99,2026-08-18,2026-10-25
 44254817873,58627,C&A BR,body feminino de poliamida manga longa canelado preta,49.99,89.99,49.99,89.99,2026-08-18,2026-09-15
 44254817874,58627,C&A BR,body feminino de poliamida manga longa canelado preta,49.99,89.99,49.99,89.99,2026-08-18,2026-09-15
 44254817906,58627,C&A BR,cinto feminino corset com fivela arredondada marrom,49.99,59.99,49.99,59.99,2026-08-18,2026-09-01
@@ -125682,7 +125682,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44370513517,58627,C&A BR,maiô infantil hello kitty listrado colorido,129.99,129.99,129.99,129.99,2026-08-18,2026-08-18
 44370513518,58627,C&A BR,maiô infantil hello kitty listrado colorido,129.99,129.99,129.99,129.99,2026-08-18,2026-08-18
 44370513519,58627,C&A BR,maiô infantil hello kitty listrado colorido,129.99,129.99,129.99,129.99,2026-08-18,2026-08-18
-44372206135,46967,Kabum BR,"Notebook Gamer Lenovo LOQ 15IRX9, 15.6"" Full HD 144Hz, Intel Core i5-13450HX, 16GB, 512GB SSD, NVIDIA RTX 4050, Linux - 83KHS00300",6599.0,6899.0,5899.0,9750.24,2026-08-19,2026-10-24
+44372206135,46967,Kabum BR,"Notebook Gamer Lenovo LOQ 15IRX9, 15.6"" Full HD 144Hz, Intel Core i5-13450HX, 16GB, 512GB SSD, NVIDIA RTX 4050, Linux - 83KHS00300",9750.24,6599.0,5899.0,9750.24,2026-08-19,2026-10-25
 44372206136,46967,Kabum BR,"Jogo MONSTER HUNTER STORIES 3 TWISTED REFLECTION, para Nintendo Switch 2 - CP000040NSW",415.9,415.9,415.9,415.9,2026-08-19,2026-08-19
 44372345184,58627,C&A BR,polo masculina manga curta azul,119.99,99.99,99.99,139.99,2026-08-18,2026-09-15
 44372345185,58627,C&A BR,polo masculina manga curta azul,119.99,99.99,99.99,139.99,2026-08-18,2026-09-15
@@ -133108,7 +133108,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44486492383,58627,C&A BR,camiseta infantil manga curta com recorte homem aranha preta,49.99,39.99,39.99,49.99,2026-08-18,2026-09-11
 44486492384,58627,C&A BR,camiseta infantil manga curta com recorte homem aranha preta,49.99,39.99,39.99,49.99,2026-08-18,2026-09-11
 44487601406,46967,Kabum BR,"iPhone 17 Pro Apple 256GB, Câmera Tripla Fusion de 48MP, Tela 6.3"" Super Retina XDR, Prateado",11499.0,7999.99,7999.99,11499.0,2026-08-19,2026-10-10
-44487601407,46967,Kabum BR,"iPhone 17 Pro Apple 512GB, Câmera Tripla Fusion de 48MP, Tela 6.3"", Super Retina XDR, Laranja-cósmico",8999.99,12999.0,8999.99,12999.0,2026-08-19,2026-10-19
+44487601407,46967,Kabum BR,"iPhone 17 Pro Apple 512GB, Câmera Tripla Fusion de 48MP, Tela 6.3"", Super Retina XDR, Laranja-cósmico",12999.0,8999.99,8999.99,12999.0,2026-08-19,2026-10-25
 44487601408,46967,Kabum BR,"Apple Watch SE 3 GPS, Caixa Estelar de Alumínio de 40 mm, Pulseira Esportiva Estelar, Tamanho P/M - MEH34AM/A",2199.99,3299.0,2199.99,3299.0,2026-08-19,2026-09-10
 44487601412,46967,Kabum BR,"Memória RAM Husky Impulse, RGB, 16GB, 3200MHz, DDR4, CL22, Preto - HRM002163222RGB",1099.99,869.99,869.99,1099.99,2026-08-19,2026-10-07
 44487601413,46967,Kabum BR,"Memória RAM Husky Impulse, RGB, 8GB, 3200MHz, DDR4, CL22, Preto - HRM002083222RGB",599.99,599.99,599.99,599.99,2026-08-19,2026-08-19
@@ -141022,7 +141022,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44643404205,46967,Kabum BR,"iPad Air Apple 11"" 512 GB, Chip M3, Wi-Fi + Cellular, Câmera Traseira 12MP, Azul - MCG54BZ/A",5999.99,11999.0,5299.99,11999.0,2026-08-19,2026-10-05
 44643404206,46967,Kabum BR,"Headset Gamer Sem Fio Corsair Void Wireless V2, RGB, Bluetooth, Dolby Atmos, Carbon - CA-9011379-WW",899.99,699.99,699.99,899.99,2026-08-19,2026-09-02
 44643404222,46967,Kabum BR,"iPhone 17 Pro Apple 256GB, Câmera Tripla Fusion de 48MP, Tela 6.3"" Super Retina XDR, Laranja-cósmico",11499.0,8999.99,7999.0,11499.0,2026-08-19,2026-10-24
-44643404223,46967,Kabum BR,"iPhone 17 Pro Max Apple 256GB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Azul-intenso",9999.99,12499.0,9499.99,12499.0,2026-08-19,2026-10-23
+44643404223,46967,Kabum BR,"iPhone 17 Pro Max Apple 256GB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Azul-intenso",12499.0,9999.99,9499.99,12499.0,2026-08-19,2026-10-25
 44643404224,46967,Kabum BR,"Gabinete Gamer Rise Mode Crystal Glass 01, Mid Tower, Lateral e Frontal em vidro, Preto - RM-CA-CY-01-FB",149.99,129.99,129.99,149.99,2026-08-19,2026-10-09
 44643404225,46967,Kabum BR,"Gabinete Gamer Rise Mode Crystal Glass 02, Mid Tower, Lateral e Frontal em vidro, Preto - RM-CA-CY-02-FB",169.99,169.99,169.99,169.99,2026-08-19,2026-08-19
 44643404226,46967,Kabum BR,"Gabinete Gamer Rise Mode Crystal Glass 03, Mid Tower, Lateral e Frontal em vidro, Preto - RM-CA-CY-03-FB",229.99,199.99,189.99,229.99,2026-08-19,2026-10-08
@@ -145877,7 +145877,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44691816232,58627,C&A BR,Relógio Masculino Orient Analógico - MBSS1396 P2SX Prateado,299.99,299.99,299.99,299.99,2026-08-18,2026-08-18
 44692329645,46967,Kabum BR,"Switch de Mesa TP-Link, 5 Portas 10/100/1000Mbps - LS105G",129.9,179.9,119.9,179.9,2026-08-20,2026-10-19
 44692329660,46967,Kabum BR,"iPhone 17 Pro Max Apple 1TB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Prateado",11319.99,11299.99,10999.99,15499.0,2026-08-19,2026-10-20
-44692329663,46967,Kabum BR,"Apple Watch SE 3 GPS + Cellular, Caixa Meia-noite de Alumínio de 44 mm, Pulseira Esportiva Meia-noite, Tamanho M/G - MEPJ4AM/A",2699.99,4299.0,2699.99,4299.0,2026-09-05,2026-10-21
+44692329663,46967,Kabum BR,"Apple Watch SE 3 GPS + Cellular, Caixa Meia-noite de Alumínio de 44 mm, Pulseira Esportiva Meia-noite, Tamanho M/G - MEPJ4AM/A",4299.0,2699.99,2699.99,4299.0,2026-09-05,2026-10-25
 44692329671,46967,Kabum BR,"Controle Sem Fio Sony DualSense, PlayStation 5, Bluetooth, Starlight Blue - CFI-ZCT2W",464.07,398.97,398.97,464.07,2026-08-19,2026-08-27
 44692329672,46967,Kabum BR,"KIT CREATIVE - Mesa Digitalizadora Wacom One, 12 + Pen Drive 64GB SanDisk Crayola USB-C, Cerulean Blue",3099.6,3099.6,3099.6,3099.6,2026-08-19,2026-08-19
 44692414450,58627,C&A BR,camiseta infantil manga curta algodão peruano off white,49.99,55.99,49.99,55.99,2026-08-18,2026-09-01
@@ -148346,7 +148346,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44716949815,46967,Kabum BR,"Webcam Logitech Brio 100 Full HD 30 FPS, Microfone, USB-A, Correção Automática, Branco - 960-001615",254.99,259.99,254.99,259.99,2026-08-19,2026-09-19
 44716949826,46967,Kabum BR,"Mouse Sem Fio Logitech MX Anywhere 3S, Bluetooth, Clique Silencioso, Recarregável, Cinza Claro - 910-006933",419.99,499.99,419.99,499.99,2026-08-19,2026-10-23
 44716949837,46967,Kabum BR,"Microfone Dinâmico Gamer Fifine Ampligame, RGB, Cardióide, USB-C, Anti-Ruído, Para Streaming, Branco - AM8W",269.9,269.9,269.9,269.9,2026-08-30,2026-08-30
-44716949851,46967,Kabum BR,"Kit Teclado e Mouse Sem Fio MX Keys S, Bluetooth ou Receptor Logi Bolt, com Apoio para as Mãos, Grafite - 920-011605",1169.99,1222.99,1099.99,1329.9,2026-08-19,2026-10-20
+44716949851,46967,Kabum BR,"Kit Teclado e Mouse Sem Fio MX Keys S, Bluetooth ou Receptor Logi Bolt, com Apoio para as Mãos, Grafite - 920-011605",1329.9,1169.99,1099.99,1329.9,2026-08-19,2026-10-25
 44716949918,46967,Kabum BR,"Water Cooler MACH1 GLACIAL, ARGB, 360mm, AMD e Intel, Preto - IMV360BK",639.99,623.99,623.99,639.99,2026-08-19,2026-10-15
 44716949919,46967,Kabum BR,"Water Cooler MACH1 GLACIAL, ARGB, 360mm, AMD e Intel, Branco - IMV360WH",639.99,623.99,623.99,639.99,2026-08-19,2026-10-15
 44716949920,46967,Kabum BR,"Water Cooler MACH1 EXTREME, ARGB, 240mm, Efeito Espelho Infinito, AMD e Intel, Preto - ICEMIRROR240BK",256.99,256.99,256.99,256.99,2026-08-19,2026-08-19
@@ -149644,7 +149644,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44734787866,46967,Kabum BR,"Teclado Mecânico Sem Fio Logitech MX Mechanical Mini, Iluminação, Switch Tactile Quiet, Bluetooth, USB, Preto - 920-010783",999.99,909.9,909.9,999.99,2026-08-19,2026-08-22
 44734787877,46967,Kabum BR,"Placa-Mãe Gigabyte B650M Aorus Elite, AMD, Micro ATX, DDR5, Preto - B650M AORUS ELITE",1199.99,1480.0,1199.99,1480.0,2026-08-23,2026-09-29
 44734787878,46967,Kabum BR,"Mousepad Gamer Steelseries QCK, 3XL, 1220x590mm, Anti Derrapante, Preto - 63842",299.99,399.99,299.99,399.99,2026-08-19,2026-10-14
-44734787883,46967,Kabum BR,"Webcam HP 320 FHD, 5MP, USB-A, Preto - 53X26AA#ABL",199.99,229.99,199.99,229.99,2026-08-19,2026-10-23
+44734787883,46967,Kabum BR,"Webcam HP 320 FHD, 5MP, USB-A, Preto - 53X26AA#ABL",249.9,199.99,199.99,249.9,2026-08-19,2026-10-25
 44734787887,46967,Kabum BR,"Placa Mãe ASUS Proart Z890-CREATOR WIFI, Intel, ATX, Z890, DDR5 - 90MB1JD0-M0EAY0",4999.99,3926.99,3926.99,4999.99,2026-08-19,2026-10-12
 44734787897,46967,Kabum BR,"Placa Mãe Gigabyte B850 GAMING X WIFI6E, AMD AM5, ATX, DDR5, RGB, Wi-Fi 6E, Bluetooth, Preto - B85GMX6-00",1480.99,1499.99,1480.99,1759.99,2026-08-19,2026-10-02
 44734787898,46967,Kabum BR,"Placa Mãe Gigabyte B850 GAMING WIFI 6, AMD AM5, ATX, DDR5, RGB, Wi-Fi 6, Bluetooth, Preto - B85GW-00",1529.99,1299.99,1299.99,1529.99,2026-08-19,2026-10-18
@@ -153021,7 +153021,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44780259195,58627,C&A BR,minissaia feminina jeans cintura média azul,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
 44780259196,58627,C&A BR,minissaia feminina jeans cintura média azul,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
 44780259197,58627,C&A BR,minissaia feminina jeans cintura média azul,119.99,119.99,119.99,119.99,2026-08-18,2026-08-18
-44780656226,46967,Kabum BR,"Microfone Gamer Rise Mode Elite 08 RGB, com Suporte de Mesa, USB-C, Preto - RM-ME-08-B",149.99,259.99,149.99,259.99,2026-08-19,2026-10-13
+44780656226,46967,Kabum BR,"Microfone Gamer Rise Mode Elite 08 RGB, com Suporte de Mesa, USB-C, Preto - RM-ME-08-B",259.99,149.99,149.99,259.99,2026-08-19,2026-10-25
 44780656249,46967,Kabum BR,"Mousepad Gamer Rise Mode 3D 01, Estendido Pro 900x400mm, Borda Costurada, Branco - RM-MPP-3D1-W",34.99,59.99,34.99,59.99,2026-08-19,2026-10-14
 44780656250,46967,Kabum BR,"Mousepad Gamer Rise Mode 3D 02, Estendido 900x300mm, Borda Costurada, Preto - RM-MP-3D2-B",29.99,59.99,29.99,59.99,2026-08-19,2026-10-01
 44780656251,46967,Kabum BR,"Mousepad Gamer Rise Mode 3D 02, Estendido Pro 900x400mm, Borda Costurada, Preto - RM-MPP-3D2-B",34.99,60.0,34.99,60.0,2026-08-19,2026-10-14
@@ -162806,8 +162806,8 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44924785999,46967,Kabum BR,"Cabo Extensor Audio P2 MD9, 1.5 Metros - 9280",7.9,9.99,7.9,9.99,2026-08-19,2026-10-15
 44924786000,46967,Kabum BR,"Cabo Extensor USB MD9, 1.8 Metros, com Filtro - 9274",11.98,11.98,11.98,11.98,2026-08-19,2026-08-19
 44924786055,46967,Kabum BR,"Processador Intel Core i5-14400F, 2.5GHz (4.70 GHz Max Turbo), Cache 20MB, 10 Núcleos, 16 Threads, LGA 1700, Sem Vídeo Integrado - BX8071514400F",1199.99,999.99,999.99,1199.99,2026-09-13,2026-09-25
-44924786058,46967,Kabum BR,"iPhone 17 Pro Max Apple 512GB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Laranja-cósmico",9829.99,13999.0,9829.99,13999.0,2026-08-19,2026-10-24
-44924786060,46967,Kabum BR,"Echo Dot Max Amazon Geração mais recente, Assistente Virtual: Alexa Integrada, Grafite - B0DKLQT9XR",679.9,628.9,597.9,849.99,2026-08-19,2026-10-18
+44924786058,46967,Kabum BR,"iPhone 17 Pro Max Apple 512GB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Laranja-cósmico",13999.0,9829.99,9829.99,13999.0,2026-08-19,2026-10-25
+44924786060,46967,Kabum BR,"Echo Dot Max Amazon Geração mais recente, Assistente Virtual: Alexa Integrada, Grafite - B0DKLQT9XR",699.9,679.9,597.9,849.99,2026-08-19,2026-10-25
 44924786061,46967,Kabum BR,"Teclado Mecânico Gamer PCYES Arkeum, 75%, RGB, Switch Blue, ABNT2, Black Vulcan - AKBV75BBR",189.99,189.99,189.99,189.99,2026-08-19,2026-08-19
 44924786062,46967,Kabum BR,"Teclado Mecânico Gamer PCYES Arkeum, 75%, RGB, Switch Red, ABNT2, Black Vulcan - AKBV75RBR",209.99,209.99,209.99,209.99,2026-08-19,2026-08-19
 44924786063,46967,Kabum BR,"Teclado Mecânico Gamer PCYES Arkeum, 75%, RGB, Switch Blue, ABNT2, White Ghost - AKWG75BBR",179.99,149.99,149.99,189.99,2026-08-19,2026-09-14
@@ -163251,7 +163251,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44926792874,58627,C&A BR,Saia Feminina DVF Midi Envelope Estampada de Folhagem Off White,139.99,229.99,139.99,229.99,2026-08-18,2026-09-01
 44926792875,58627,C&A BR,Saia Feminina DVF Midi Envelope Estampada de Folhagem Off White,139.99,229.99,139.99,229.99,2026-08-18,2026-09-01
 44926792876,58627,C&A BR,Saia Feminina DVF Midi Envelope Estampada de Folhagem Off White,139.99,229.99,139.99,229.99,2026-08-18,2026-09-01
-44940557530,46967,Kabum BR,"Processador AMD Ryzen 9 9950X3D2, 4.3GHz (5.6GHz Max Turbo), Cache 208MB, 16 Núcleos, 32 Threads, AM5, Com Vídeo Integrado - 100-100001978WOF",6399.99,9999.99,6399.99,9999.99,2026-08-19,2026-10-17
+44940557530,46967,Kabum BR,"Processador AMD Ryzen 9 9950X3D2, 4.3GHz (5.6GHz Max Turbo), Cache 208MB, 16 Núcleos, 32 Threads, AM5, Com Vídeo Integrado - 100-100001978WOF",9999.99,6399.99,6399.99,9999.99,2026-08-19,2026-10-25
 44940557531,46967,Kabum BR,"Notebook Lenovo IdeaPad 1 15IRU7, Intel Core i3-1315U, 8GB, SSD 256GB, 15.6"""" FHD, Windows 11 Home, Cloud Grey - 83QJ0001BO",4499.0,3699.99,3399.0,4499.0,2026-08-19,2026-10-04
 44941158350,91942,C&A BR,regata juvenil de algodão com bordado brasil azul,59.99,49.99,49.99,59.99,2026-08-18,2026-09-11
 44941158351,91942,C&A BR,regata juvenil de algodão com bordado brasil azul,59.99,49.99,49.99,59.99,2026-08-18,2026-09-11
@@ -165914,7 +165914,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 44980103921,46967,Kabum BR,"Placa Mãe NZXT N7 B850, AMD B850, AM5, ATX, DDR5, com Wi-Fi e Cover, Branca - N7-B85XT-W1",2489.99,2899.99,2199.99,2899.99,2026-08-19,2026-10-13
 44980104414,46967,Kabum BR,"Gabinete Gamer Montech X2 PLUS, Mid Tower, Lateral em Vidro, 3X Fans, Preto - X2PLUSB",229.99,209.99,209.99,229.99,2026-08-19,2026-10-09
 44980104415,46967,Kabum BR,"Gabinete Gamer X2 PLUS, Mid Tower, Lateral em Vidro, 3X Fans, Branco - X2PLUSB",259.99,209.99,209.99,259.99,2026-08-19,2026-08-31
-44980104416,46967,Kabum BR,"Monitor Gamer Curvo Gigabyte 34"", QHD, 120Hz, 1ms, VA, Adaptive-Sync, FreeSync Premium, HDR Ready, Altura Ajustável, Preto - GS34WQCA",1399.99,1599.99,1299.99,1599.99,2026-08-19,2026-10-19
+44980104416,46967,Kabum BR,"Monitor Gamer Curvo Gigabyte 34"", QHD, 120Hz, 1ms, VA, Adaptive-Sync, FreeSync Premium, HDR Ready, Altura Ajustável, Preto - GS34WQCA",1499.99,1399.99,1299.99,1599.99,2026-08-19,2026-10-25
 44980104417,46967,Kabum BR,"Headset Gamer Redragon Cybill, Surround, Drivers 50mm, USB, Preto - H312",349.99,399.99,349.99,399.99,2026-08-19,2026-10-14
 44980104418,46967,Kabum BR,"Headset Gamer Redragon Arrow, RGB, Som Surround 7.1, Driver 53mm, USB, Preto - H858",359.99,499.99,359.99,499.99,2026-08-19,2026-10-05
 44980104423,46967,Kabum BR,"Headset Gamer Sem Fio Redragon Vibecore 600X, Bluetooth, Drivers 40mm, Preto - H610",259.99,269.99,259.99,269.99,2026-08-19,2026-09-03
@@ -167156,7 +167156,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45015623716,46967,Kabum BR,"Kit Ventoinhas Montech GF120 V2, ARGB, 3x 120mm, Preto - GF120V2ARGB3PB",127.99,126.99,126.99,159.99,2026-08-19,2026-10-21
 45015623717,46967,Kabum BR,"Kit Ventoinhas Montech GF120 V2, ARGB, 3x 120mm, Branco - GF120V2ARGB3PW",129.99,129.99,129.99,129.99,2026-08-19,2026-08-19
 45015623719,46967,Kabum BR,"Ventoinha Montech GF120R V2, ARGB, Reverse, 120mm, Branco - GF120RV2ARGBW",39.99,36.99,36.99,39.99,2026-08-19,2026-08-26
-45015623720,46967,Kabum BR,"Kit Ventoinhas Montech GF120R V2, ARGB, Reverse, 3x 120mm, Preto - GF120RV2ARGB3PB",124.99,139.99,124.99,139.99,2026-08-19,2026-10-14
+45015623720,46967,Kabum BR,"Kit Ventoinhas Montech GF120R V2, ARGB, Reverse, 3x 120mm, Preto - GF120RV2ARGB3PB",139.99,124.99,124.99,139.99,2026-08-19,2026-10-25
 45015623721,46967,Kabum BR,"Kit Ventoinhas Montech GF120R V2, ARGB, Reverse, 3x 120mm, Branco - GF120RV2ARGB3PW",129.99,159.99,129.99,159.99,2026-08-19,2026-08-25
 45015623722,46967,Kabum BR,"Air Cooler Montech NX600, Dual Tower, 120mm, Intel e AMD, Preto - NX600B",168.99,168.99,168.99,168.99,2026-08-23,2026-08-23
 45015623723,46967,Kabum BR,"Air Cooler Montech NX600, Dual Tower, 120mm, Intel e AMD, Branco - NX600W",168.99,142.99,142.99,168.99,2026-08-19,2026-09-17
@@ -170889,7 +170889,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45079497721,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R3 Magnesium, 26000 DPI, Liga de Magnésio, Switch Kailh Black Mamba, Tri-Mode Wireless Bluetooth USB-C, Branco - R3",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
 45079497722,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R3 Magnesium, 26000 DPI, Liga de Magnésio, Switch Kailh Black Mamba, Tri-Mode Wireless Bluetooth USB-C, Cinza - R3",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
 45079497723,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R3 Magnesium, 26000 DPI, Liga de Magnésio, Switch Kailh Black Mamba, Tri-Mode Wireless Bluetooth USB-C, Roxo - R3",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
-45079497724,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R2 Magnesium, 42000 DPI, Liga de Magnésio, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Preto - R2",499.99,799.99,419.99,799.99,2026-08-19,2026-10-15
+45079497724,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R2 Magnesium, 42000 DPI, Liga de Magnésio, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Preto - R2",799.99,499.99,419.99,799.99,2026-08-19,2026-10-25
 45079497725,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R2 Magnesium, 42000 DPI, Liga de Magnésio, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Branco - R2",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
 45079497726,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R2 Magnesium, 42000 DPI, Liga de Magnésio, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Cinza - R2",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
 45079497727,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R2 Magnesium, 42000 DPI, Liga de Magnésio, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Roxo - R2",499.99,799.99,399.99,799.99,2026-08-19,2026-10-14
@@ -172393,7 +172393,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45091146507,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark V3PRO, RGB, 25000 DPI, Tri-Mode Wireless Bluetooth USB-C, Berry Red - V3PRO",199.99,339.99,149.99,339.99,2026-08-19,2026-10-14
 45091146508,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark V6, RGB, 25000 DPI, Tri-Mode Wireless Bluetooth USB-C, Branco - V6",199.99,339.99,164.99,339.99,2026-08-19,2026-10-14
 45091146509,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark V6, RGB, 25000 DPI, Tri-Mode Wireless Bluetooth USB-C, Berry Red - V6",199.99,339.99,164.99,339.99,2026-08-19,2026-10-14
-45091146510,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R11 Ultra, 42000 DPI, Tri-Mode Wireless Bluetooth USB-C, Ink Blade - R11 Ultra",499.99,479.99,389.99,599.99,2026-08-19,2026-09-25
+45091146510,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R11 Ultra, 42000 DPI, Tri-Mode Wireless Bluetooth USB-C, Ink Blade - R11 Ultra",599.99,499.99,389.99,599.99,2026-08-19,2026-10-25
 45091146511,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R11 Ultra, 42000 DPI, Tri-Mode Wireless Bluetooth USB-C, Phantom Shark - R11 Ultra",419.99,599.99,359.99,599.99,2026-08-19,2026-10-14
 45091146512,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark G3 Pro, 25000 DPI, Switch Omron, Com Base de Carregamento, Tri-Mode Wireless Bluetooth USB-C, Vermelho Berry - G3 PRO BERRY RED",159.99,299.99,139.99,299.99,2026-08-19,2026-10-14
 45091146513,46967,Kabum BR,"Processador AMD Ryzen 7 7700, 3.8GHz (5.3GHz Max Turbo), Cache 40MB, 8 Núcleos, 16 Threads, AM5, Com Vídeo Integrado, 100-100000592SBX",1899.99,1999.99,1899.99,2599.99,2026-08-28,2026-09-30
@@ -180578,7 +180578,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45250178736,46967,Kabum BR,"iPhone 17 Pro Max Apple 1TB, Câmera Tripla Fusion de 48MP, Tela 6.9"" Super Retina XDR, Azul-intenso",11999.99,15499.0,10999.99,15499.0,2026-08-19,2026-10-23
 45253069712,97939,Leveros BR,Ar-Condicionado Split Teto Inverter LG WI-FI Conect 30.000 BTUs Quente/Frio 220V Monofásico,7884.05,8999.0,7884.05,8999.0,2026-08-09,2026-08-11
 45255295604,46967,Kabum BR,"Notebook Acer Aspire Go 15 AG15-71P-76A7 intel core I7 13º Geração 32GB RAM, 512GB SSD, FULL HD LED TN UHD, Linux - NX.JH6AL.009",6990.0,6499.99,5099.0,6990.0,2026-08-19,2026-10-14
-45255295605,46967,Kabum BR,"Notebook Acer Nitro V15 ANV15-52-77BG intel core I7 13º Geração, RTX 4050, 16GB RAM, 512GB SSD, FULL HD LED IPS, Windows 11 - NH.U0CAL.004",10641.6,7332.1,6799.0,10641.6,2026-08-19,2026-10-24
+45255295605,46967,Kabum BR,"Notebook Acer Nitro V15 ANV15-52-77BG intel core I7 13º Geração, RTX 4050, 16GB RAM, 512GB SSD, FULL HD LED IPS, Windows 11 - NH.U0CAL.004",7599.99,10641.6,6799.0,10641.6,2026-08-19,2026-10-25
 45255399554,91942,C&A BR,kit relógio feminino mondaine 32712l0mkne2k1 analógico prateado,183.99,183.99,183.99,183.99,2026-08-18,2026-08-18
 45255399556,91942,C&A BR,kit relógio feminino mondaine analógico 32520l0mvne2k prateado,259.99,259.99,259.99,259.99,2026-08-18,2026-08-18
 45255399557,91942,C&A BR,relógio masculino seculus 23706gpsvda1 analógico calendário dourado,479.99,479.99,479.99,479.99,2026-08-18,2026-08-18
@@ -199624,7 +199624,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45547904653,46967,Kabum BR,"Switch Tenda SG105, 5 Portas, Gigabit 10/100/1000Mbps, Desktop, Plug and Play, Black - 60024886",79.9,69.9,69.9,79.9,2026-08-19,2026-10-13
 45547904654,46967,Kabum BR,"Switch Tenda SG108, 8 Portas, Gigabit 10/100/1000Mbps, Desktop, Plug and Play, Black - 60025022",94.9,99.9,94.9,99.9,2026-08-19,2026-09-03
 45547904655,46967,Kabum BR,"Switch Tenda TEG1016M, 16 Portas, Gigabit 10/100/1000Mbps, Mini Metal Case, Desktop/Wall-Mount, Preto - 60017668",329.9,359.9,329.9,359.9,2026-08-19,2026-09-03
-45547904656,46967,Kabum BR,"Cadeira Ergonômica DT3 ErgoStance, Até 130Kg, Regulagem de Braços e Altura, Preta - 14897-9",1979.9,2259.9,1979.9,2999.99,2026-08-19,2026-10-23
+45547904656,46967,Kabum BR,"Cadeira Ergonômica DT3 ErgoStance, Até 130Kg, Regulagem de Braços e Altura, Preta - 14897-9",2999.99,1979.9,1979.9,2999.99,2026-08-19,2026-10-25
 45547904657,46967,Kabum BR,"Cadeira Ergonômica DT3 ErgoStance, Até 130Kg, Regulagem de Braços e Altura, Cinza - 14898-0",1979.9,2259.9,1979.9,2449.9,2026-08-19,2026-10-23
 45547904658,46967,Kabum BR,"Impressora 3D FlashForge AD5X, 600 mm/s, 110V, Aberta, Multicolorida, Área de Impressão 220x220x220mm - AD5X (127V)",3099.99,3300.0,3099.99,3999.99,2026-08-19,2026-10-20
 45547999921,58627,C&A BR,casaco infantil de tricot com gola boneca e bordado floral bege,79.99,99.99,79.99,99.99,2026-08-18,2026-09-15
@@ -202712,7 +202712,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45577831627,46967,Kabum BR,"Fonte Be Quiet! PURE POWER 13M 1000W, 80 Plus GOLD, ATX 3.1, PCIe 5.1, Full Modular, Preto - BP028U2",849.99,999.99,849.99,999.99,2026-08-19,2026-10-01
 45577832012,46967,Kabum BR,"Placa-Mãe MSI B550M-A PRO, AMD, AM4, Micro-ATX, DDR4 - B550MAPRO",552.99,699.99,539.99,699.99,2026-08-19,2026-10-13
 45577832013,46967,Kabum BR,"Cabo DisplayPort Storm Tech, 2.1, 16K 60Hz, Plugs de Metal, 3 Metros, Preto - CBDP0014",89.9,119.99,89.9,119.99,2026-08-19,2026-10-16
-45577832014,46967,Kabum BR,Placa de Video Palit GeForce RTX 5070 WHITE OC 12GB GDDR7 192bit 3-DP e HDMI - NE75070U19K9-GB2050W,5599.99,5299.99,4899.99,5999.99,2026-08-19,2026-10-19
+45577832014,46967,Kabum BR,Placa de Video Palit GeForce RTX 5070 WHITE OC 12GB GDDR7 192bit 3-DP e HDMI - NE75070U19K9-GB2050W,5999.99,5599.99,4899.99,5999.99,2026-08-19,2026-10-25
 45577832160,46967,Kabum BR,"Headset Gamer Redragon Luce, Som Surround 7.1, Drivers 50mm, Preto - H888",299.99,209.99,209.99,299.99,2026-08-19,2026-10-04
 45577832161,46967,Kabum BR,"Monitor Portátil ASUS ZenScreen 15.6"""", Full HD, IPS, HDMI, USB Type-C, Filtro Blue Light, Anti-reflexo - MB16AHVE",799.99,789.99,749.99,799.99,2026-08-19,2026-10-21
 45577832162,46967,Kabum BR,"Monitor Profissional ASUS ProArt 27"", QHD, 144Hz, IPS, Adaptive Sync, USB-C, Altura Ajustável, Som Integrado - PA278CGRV",2299.99,1999.99,1999.99,2399.99,2026-08-19,2026-10-20
@@ -205754,7 +205754,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45640872221,91942,C&A BR,camiseta masculina comfort listrada em algodão texturizada bege,49.99,49.99,49.99,49.99,2026-08-18,2026-08-18
 45640872222,91942,C&A BR,camiseta masculina comfort listrada em algodão texturizada bege,49.99,49.99,49.99,49.99,2026-08-18,2026-08-18
 45640872269,91942,C&A BR,batom líquido dailus matte 12h cherry,25.99,27.99,25.99,39.99,2026-08-18,2026-10-09
-45640872270,91942,C&A BR,batom líquido dailus matte 12h choco,27.99,39.99,27.99,39.99,2026-08-18,2026-09-04
+45640872270,91942,C&A BR,batom líquido dailus matte 12h choco,25.99,27.99,25.99,39.99,2026-08-18,2026-10-25
 45640872271,91942,C&A BR,batom líquido dailus matte 12h cappuccino,25.99,27.99,25.99,39.99,2026-08-18,2026-10-10
 45640872272,91942,C&A BR,batom líquido dailus matte 12h malva,25.99,27.99,25.99,39.99,2026-08-18,2026-10-10
 45640872273,91942,C&A BR,calça wide leg feminina jeans cintura alta cós cruzado azul,179.99,179.99,179.99,179.99,2026-08-18,2026-08-18
@@ -219317,7 +219317,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45841780192,46967,Kabum BR,"Teclado Magnético Gamer AULA WIN60 HE, Switches Magnéticos, RGB, 8000Hz Polling Rate, Cinza Escuro - AULA-WIN60HE-Mag-BK-Greywood",223.99,299.99,219.99,299.99,2026-09-01,2026-10-23
 45841780193,46967,Kabum BR,"Teclado Magnético Gamer AULA WIN68 HE, Switches Magnéticos, RGB, 8000Hz Polling Rate, Cinza Escuro - AULA-WIN68HE-Mag-BK-Greywood",249.99,259.99,249.99,329.99,2026-09-01,2026-10-22
 45841780194,46967,Kabum BR,"Teclado Sem Fio Mecânico Gamer AJAZZ AK820 Pro, Gasket Mount, Tela TFT, RGB, Tri-Mode, Switch Gift, Amarelo - Ajazz-AK820-Pro-GY-gift",309.99,319.99,309.99,419.99,2026-09-01,2026-10-22
-45841780195,46967,Kabum BR,"Teclado Magnético Gamer AULA Hero68 HE, Switches Magnéticos Hotswap, RGB, 8000Hz Polling Rate, Branco - AULA-HERO68HE-SP-WH-SYMB",319.99,399.99,289.99,399.99,2026-09-01,2026-10-19
+45841780195,46967,Kabum BR,"Teclado Magnético Gamer AULA Hero68 HE, Switches Magnéticos Hotswap, RGB, 8000Hz Polling Rate, Branco - AULA-HERO68HE-SP-WH-SYMB",399.99,319.99,289.99,399.99,2026-09-01,2026-10-25
 45841780196,46967,Kabum BR,"Teclado Magnético Gamer EPOMAKER HE68 Lite, Switches Hall Effect, RGB, 8K Polling, Preto - EPOMAKER-HE68-LITE-W1-BK-BY",299.99,309.99,249.99,309.99,2026-09-01,2026-09-17
 45841780197,46967,Kabum BR,"Teclado Mecânico Gamer AULA F75, RGB, Switch Red, Keycaps PBT, Hotswap, Preto - AULA-F75-Wired-BK-R",299.99,289.99,284.99,299.99,2026-09-01,2026-09-14
 45841780198,46967,Kabum BR,"Teclado Mecânico Gamer AULA F75, RGB, Switch Red, Keycaps PBT, Hotswap, Branco - AULA-F75-Wired-WH-R",299.99,279.99,279.99,299.99,2026-09-01,2026-09-29
@@ -222104,12 +222104,12 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45876195957,46967,Kabum BR,"iPad Air Apple 13"" 256GB, Chip M3, Wi-Fi + Cellular, Câmera Traseira 12MP, Roxo - MCJ84BZ/A",5899.99,9399.99,5899.99,9399.99,2026-09-04,2026-10-21
 45876195958,46967,Kabum BR,"iPad Air Apple 13"" 512GB, Chip M3, Wi-Fi + Cellular, Câmera Traseira 12MP, Roxo - MCJD4BZ/A",6199.99,8999.99,5999.99,8999.99,2026-09-04,2026-10-02
 45876195959,46967,Kabum BR,"iPad Air Apple 13"" 1 TB, Chip M3, Wi-Fi + Cellular, Câmera Traseira 12MP, Roxo - MCJH4BZ/A",6999.99,6799.99,6799.99,9399.99,2026-09-04,2026-10-02
-45876195960,46967,Kabum BR,"iPad Air Apple 13"" 128 GB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCNL4BZ/A",8999.99,4999.9,4999.9,8999.99,2026-09-04,2026-10-24
+45876195960,46967,Kabum BR,"iPad Air Apple 13"" 128 GB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCNL4BZ/A",4999.99,8999.99,4999.9,8999.99,2026-09-04,2026-10-25
 45876195961,46967,Kabum BR,"iPad Air Apple 13"" 256 GB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCNR4BZ/A",8999.99,5299.99,4999.99,8999.99,2026-09-04,2026-10-14
 45876195962,46967,Kabum BR,"iPad Air Apple 13"" 512 GB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCNY4BZ/A",5999.99,6999.99,5999.99,8999.99,2026-09-04,2026-09-16
 45876195963,46967,Kabum BR,"iPad Air Apple 13"" 1 TB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCQ34BZ/A",8999.99,6999.99,6799.99,8999.99,2026-09-04,2026-10-15
 45876195964,46967,Kabum BR,"iPad Air Apple 11"" 1 TB, Chip M3, Wi-Fi + Cellular, Câmera Traseira 12MP, Roxo - MCGC4BZ/A",5999.99,8999.99,5999.99,8999.99,2026-09-04,2026-09-28
-45876195965,46967,Kabum BR,"iPad Air Apple 11"" 1 TB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCAU4BZ/A",8999.99,5999.9,5999.9,8999.99,2026-09-04,2026-10-24
+45876195965,46967,Kabum BR,"iPad Air Apple 11"" 1 TB, Chip M3, Wi-Fi, Câmera Traseira 12MP, Roxo - MCAU4BZ/A",5999.99,8999.99,5999.9,8999.99,2026-09-04,2026-10-25
 45876198046,46967,Kabum BR,"Processador AMD Ryzen 5 9600X, 3.9 GHz (5.4 GHz Max Turbo), Cache 32MB, 6 Núcleos, 12 Threads, AM5, Sem Vídeo Integrado - 100-100001405WOF + Water Cooler MACH1 Logic, RGB, 240mm, AMD e Intel, Preto - GK240",1434.54,1434.54,1434.54,1434.54,2026-09-04,2026-09-04
 45876198047,46967,Kabum BR,"Processador AMD Ryzen 7 5700X, 3.4GHz (4.6GHz Max Turbo), Cache 36MB, 8 Núcleos, 16 Threads, AM4, Sem Vídeo Integrado - 100-100000926WOF + Water Cooler MACH1 Logic, RGB, 240mm, AMD e Intel, Preto - GK240",1540.72,1540.72,1540.72,1540.72,2026-09-04,2026-09-04
 45876198048,46967,Kabum BR,"Processador AMD Ryzen 7 5800XT, 3.8 GHz (4.8 GHz Max Turbo), Cache 32MB, 8 Núcleos, 16 Threads, AM4, Sem Vídeo Integrado - 100-100001582WOF + Water Cooler MACH1 Logic, RGB, 240mm, AMD e Intel, Preto - GK240",1859.25,1859.25,1859.25,1859.25,2026-09-04,2026-09-04
@@ -225682,7 +225682,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45908074358,46967,Kabum BR,"Fonte ASRock Challenger 650B, 650W, 80 PLUS, Bronze, Preto - 90-UXC065-BNBAAA",399.99,459.9,399.99,459.9,2026-09-06,2026-09-23
 45908074359,46967,Kabum BR,"Fonte Gamer Rise Mode Elektra, 650W, Bronze, PFC Ativo, Preto - RM-PSU-ELK-650-B",313.99,229.99,229.99,313.99,2026-09-06,2026-10-21
 45908074861,46967,Kabum BR,"Controle 8BitDo Ultimate 2C, USB, Roxo - 82CD01",149.99,149.99,149.99,149.99,2026-09-29,2026-09-29
-45908074862,46967,Kabum BR,"Teclado Magnético Gamer Attack Shark X82 HE, 75%, Rapid Trigger, 8000Hz, 0.01mm, Contour Line, Preto e Cinza - AS-X82HE-CL",279.99,429.99,279.99,429.99,2026-09-06,2026-10-14
+45908074862,46967,Kabum BR,"Teclado Magnético Gamer Attack Shark X82 HE, 75%, Rapid Trigger, 8000Hz, 0.01mm, Contour Line, Preto e Cinza - AS-X82HE-CL",429.99,279.99,279.99,429.99,2026-09-06,2026-10-25
 45908471312,91942,C&A BR,conjunto curto infantil de algodão listrado bege,79.99,79.99,79.99,79.99,2026-09-06,2026-09-06
 45908471313,91942,C&A BR,conjunto curto infantil de algodão listrado bege,79.99,79.99,79.99,79.99,2026-09-06,2026-09-06
 45908471314,91942,C&A BR,conjunto curto infantil de algodão listrado bege,79.99,79.99,79.99,79.99,2026-09-06,2026-09-06
@@ -228594,7 +228594,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45943838982,46967,Kabum BR,"Filamento PLA Voolt3D V-Silk, Verde, 1.75mm, 1kg - PL-VD-SK-1",99.99,129.9,99.99,129.9,2026-09-10,2026-10-19
 45943838983,46967,Kabum BR,"Headset Gamer Redragon Grendel, RGB, Som Surround 7.1, Driver 53mm, USB, Preto - H314-RGB",199.99,199.99,199.99,199.99,2026-09-10,2026-09-10
 45943838994,46967,Kabum BR,"Fonte Corsair RM1000x SHIFT, 1000W, 80 Plus Gold, Totalmente Modular, PFC Ativo, Com Cabo, Preto - CP-9020300-BR",1199.99,1299.99,1099.99,1299.99,2026-09-10,2026-10-03
-45943838995,46967,Kabum BR,"Fonte Corsair RM850x SHIFT, 850W, 80 Plus Gold, Totalmente Modular, PFC Ativo, Com Cabo, Preto - CP-9020299-BR",899.99,959.99,899.99,959.99,2026-09-10,2026-10-19
+45943838995,46967,Kabum BR,"Fonte Corsair RM850x SHIFT, 850W, 80 Plus Gold, Totalmente Modular, PFC Ativo, Com Cabo, Preto - CP-9020299-BR",959.99,899.99,899.99,959.99,2026-09-10,2026-10-25
 45943838996,46967,Kabum BR,"Fonte Corsair RM750x SHIFT, 750W, 80 Plus Gold, Totalmente Modular, PFC Ativo, Com Cabo, Preto - CP-9020298-BR",739.99,799.99,699.99,799.99,2026-09-10,2026-10-15
 45943838997,46967,Kabum BR,"Filamento PLA para Impressora 3D Elegoo TPU 95A, 1.75mm, Premium, Preto - TPU 95A BLACK",129.99,119.99,109.99,129.99,2026-09-10,2026-09-29
 45943838998,46967,Kabum BR,"Filamento PLA para Impressora 3D Elegoo TPU 95A, 1.75mm, Premium, Branco - TPU 95A WHITE",109.99,129.99,109.99,129.99,2026-09-10,2026-09-21
@@ -234552,7 +234552,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45964644444,58627,C&A BR,camiseta comfort com linho bege,45.99,45.99,45.99,45.99,2026-09-12,2026-09-12
 45964644445,58627,C&A BR,camiseta comfort com linho bege,45.99,45.99,45.99,45.99,2026-09-12,2026-09-12
 45973683773,46967,Kabum BR,"Cabo Adaptador Displayport Macho x VGA Macho MD9, 1.8 Metros - 7729",39.9,54.99,39.9,54.99,2026-09-13,2026-09-17
-45973683936,46967,Kabum BR,"Monitor Gamer Gigabyte AORUS QD-OLED 31.5"", 4K, 240Hz, 0.03ms, FreeSync Premium Pro, HDR 400, USB-C, Altura Ajustável, Som Integrado - FO32U2P-SA",8999.99,7499.99,7399.99,8999.99,2026-09-13,2026-10-24
+45973683936,46967,Kabum BR,"Monitor Gamer Gigabyte AORUS QD-OLED 31.5"", 4K, 240Hz, 0.03ms, FreeSync Premium Pro, HDR 400, USB-C, Altura Ajustável, Som Integrado - FO32U2P-SA",7499.99,8999.99,7399.99,8999.99,2026-09-13,2026-10-25
 45973684794,46967,Kabum BR,"iPhone 18 Pro Apple 256GB, Câmera Tripla Fusion de 48MP, Chip A20 Pro, Tela 6.3"" Super Retina XDR, Preto",10799.1,12999.0,8999.99,12999.0,2026-09-13,2026-10-23
 45973684795,46967,Kabum BR,"iPhone 18 Pro Apple 256GB, Câmera Tripla Fusion de 48MP, Chip A20 Pro, Tela 6.3"" Super Retina XDR, Bordô",10799.1,12999.0,10799.1,12999.0,2026-09-13,2026-09-20
 45973684796,46967,Kabum BR,"iPhone 18 Pro Max Apple 256GB, Câmera Tripla Fusion de 48MP, Chip A20 Pro, Tela 6.3"" Super Retina XDR, Preto",11699.1,13999.0,11699.1,13999.0,2026-09-13,2026-09-20
@@ -235424,7 +235424,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 45990427211,46967,Kabum BR,"Water Cooler Corsair NAUTILUS 360, 360mm, AMD e Intel, Preto - CW-9060089-WW",678.99,678.99,678.99,678.99,2026-09-15,2026-09-15
 45990427344,46967,Kabum BR,Jogo FINAL FANTASY VII REMAKE INTERGRADE & REBIRTH - TWIN PACK PHYSICAL ED. para PS5 - SE000288PS5,429.9,429.9,429.9,429.9,2026-09-15,2026-09-15
 45990427367,46967,Kabum BR,"iPhone 18 Pro Max Apple 256GB, Câmera de 48MP, A20 Pro, Tela 6.9"" Super Retina XDR, Bordô",11699.1,12999.0,11699.1,12999.0,2026-09-15,2026-10-16
-45990427368,46967,Kabum BR,"iPhone 18 Pro Max Apple 256GB, Câmera de 48MP, A20 Pro, Tela 6.9"" Super Retina XDR, Glacial",12999.0,11699.1,11699.1,12999.0,2026-09-15,2026-10-24
+45990427368,46967,Kabum BR,"iPhone 18 Pro Max Apple 256GB, Câmera de 48MP, A20 Pro, Tela 6.9"" Super Retina XDR, Glacial",11699.99,12999.0,11699.1,12999.0,2026-09-15,2026-10-25
 45990427369,46967,Kabum BR,"iPhone 18 Pro Max Apple 512GB, Câmera de 48MP, A20 Pro, Tela 6.9"""" Super Retina XDR, Prateado",13049.1,13049.1,13049.1,13049.1,2026-09-15,2026-09-15
 45990427370,46967,Kabum BR,"iPhone 18 Pro Max Apple 512GB, Câmera de 48MP, A20 Pro, Tela 6.9"" Super Retina XDR, Bordô",13049.1,13049.99,13049.1,13049.99,2026-09-15,2026-10-01
 45990427371,46967,Kabum BR,"iPhone 18 Pro Max Apple 1TB, Câmera de 48MP, A20 Pro, Tela 6.9"" Super Retina XDR, Glacial",15749.99,15749.1,15749.1,15749.99,2026-09-15,2026-09-30
@@ -246081,7 +246081,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46150766646,46967,Kabum BR,"Gabinete Gamer Hyrax HGB740, Mid Tower ATX, Frontal e Lateral em Vidro Temperado, Sem FANs, Branco - HGB740W",416.99,416.99,416.99,416.99,2026-09-29,2026-09-29
 46150766886,46967,Kabum BR,"Gabinete Gamer Bluecase BG-055 HIT PRO, Mid tower, Micro ATX e Mini ITX, 3XFAN Rainbow, Frente e lateral em vidro, Preto - BG-055BBX",149.99,149.99,149.99,149.99,2026-09-29,2026-09-29
 46150767335,46967,Kabum BR,"Placa Mãe ASUS TUF B850-PLUS WIFI, AMD AM5 , ATX, DDR5, Wi-fi 7, Preto - TUF GAMING B850-PLUS WIFI",1899.99,1899.99,1899.99,1899.99,2026-09-29,2026-09-29
-46150768547,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R5 Ultra, 42000 DPI, Fibra de Carbono, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Verde - R5 ULTRA",499.99,699.99,499.99,699.99,2026-09-29,2026-10-14
+46150768547,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R5 Ultra, 42000 DPI, Fibra de Carbono, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Verde - R5 ULTRA",699.99,499.99,499.99,699.99,2026-09-29,2026-10-25
 46150769311,46967,Kabum BR,"Jogo God Of War Laufey, para PS5 - 1000052677",371.07,371.07,371.07,371.07,2026-09-29,2026-09-29
 46150769312,46967,Kabum BR,"Placa De Vídeo Husky Alpha RX 580 + Fonte Husky Sledger 550w, 80 Plus White",1137.92,1137.92,1137.92,1137.92,2026-09-29,2026-09-29
 46152288551,91942,C&A BR,salopete jeans infantil com body floral azul,129.99,129.99,129.99,129.99,2026-09-30,2026-09-30
@@ -246765,7 +246765,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46167679693,97992,Alianças Imperiais BR,Par Alianças de Moedas Antigas Trabalhadas 2mm Mod. Ágape,327.9,327.9,327.9,327.9,2026-09-30,2026-09-30
 46167679694,97992,Alianças Imperiais BR,Par Alianças de Prata 950 Trabalhadas Modelo Ágape 2mm,375.9,375.9,375.9,375.9,2026-09-30,2026-09-30
 46171613266,46967,Kabum BR,"Memória RAM para Notebook Rise Mode, 4GB, 1600MHz, DDR3, CL11 - RM-D3-4G1600N",45.99,45.99,45.99,45.99,2026-09-30,2026-09-30
-46171613358,46967,Kabum BR,"HD Surveillance Seagate Skyhawk, 4TB, Cache 256 MB, 3.5', SATA - ST4000VX016",1259.99,1399.99,1259.99,1399.99,2026-09-30,2026-10-22
+46171613358,46967,Kabum BR,"HD Surveillance Seagate Skyhawk, 4TB, Cache 256 MB, 3.5', SATA - ST4000VX016",1399.99,1259.99,1259.99,1399.99,2026-09-30,2026-10-25
 46171613782,46967,Kabum BR,"MacBook Air Apple 15"" Chip M4, CPU 10 Núcleos, GPU 10 Núcleos, Neural Engine 16 Núcleos, 16GB RAM, SSD 512GB, Meia-noite - MW1M3BZ/A",11299.99,15699.0,11299.99,15699.0,2026-09-30,2026-10-05
 46172511089,91942,C&A BR,body de algodão infantil minnie off white,29.99,29.99,29.99,29.99,2026-10-01,2026-10-01
 46172511090,91942,C&A BR,body de algodão infantil minnie off white,29.99,29.99,29.99,29.99,2026-10-01,2026-10-01
@@ -299202,6 +299202,11 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46215773950,58627,C&A BR,camiseta classic feminina de algodão peruano interlock lilás,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
 46215773951,58627,C&A BR,camiseta classic feminina de algodão peruano interlock lilás,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
 46215773952,58627,C&A BR,camiseta classic feminina de algodão peruano interlock lilás,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
+46215773953,58627,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46215773954,58627,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46215773955,58627,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46215773956,58627,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46215773957,58627,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
 46215773958,58627,C&A BR,saia curta feminina jeans cós deslocado azul,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
 46215773959,58627,C&A BR,saia curta feminina jeans cós deslocado azul,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
 46215773960,58627,C&A BR,saia curta feminina jeans cós deslocado azul,79.99,79.99,79.99,79.99,2026-10-04,2026-10-04
@@ -311042,7 +311047,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46308007045,46967,Kabum BR,"Roteador VPN Grandstream GWN7001, Multi-WAN, 6 Portas Gigabit, Preto - GWN7001",349.9,389.9,349.9,389.9,2026-10-14,2026-10-24
 46308007046,46967,Kabum BR,"Ventoinha C3Tech F9-L330WHRGB, 120mm, ARGB, 4 Pinos, Branco - F9L330WHRGB",31.99,36.99,31.99,36.99,2026-10-14,2026-10-23
 46308007047,46967,Kabum BR,"Kit com 3 Ventoinhas C3Tech F9 120mm, ARGB, Com Controladora, 4 Pinos, Branco - F9L660WHRGB",99.99,149.99,99.99,149.99,2026-10-14,2026-10-23
-46308007048,46967,Kabum BR,"Ventoinha C3Tech F9-L330BKRGB, 120mm, ARGB, 4 Pinos, Preto - F9L330BKRGB",24.99,35.99,24.99,35.99,2026-10-14,2026-10-20
+46308007048,46967,Kabum BR,"Ventoinha C3Tech F9-L330BKRGB, 120mm, ARGB, 4 Pinos, Preto - F9L330BKRGB",55.99,24.99,24.99,55.99,2026-10-14,2026-10-25
 46308007049,46967,Kabum BR,"Impressora Laser HP LaserJet Pro 335dw, Monocromática, Duplex, Wi-Fi, Ethernet, 33 PPM, 110V, Cinza - A58WMA_696",1439.99,1599.99,1439.99,1599.99,2026-10-14,2026-10-19
 46308007050,46967,Kabum BR,Placa-Mãe ASUS TUF Gaming B550M-Plus + Processador AMD Ryzen 7 5700X + Water Cooler MACH1 Logic,1799.99,1949.99,1799.99,1949.99,2026-10-14,2026-10-17
 46308126462,58627,C&A BR,camisa infantil de algodão manga curta texturizada azul,89.99,89.99,89.99,89.99,2026-10-14,2026-10-14
@@ -311567,7 +311572,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46320501061,97992,Alianças Imperiais BR,Par de Alianças Modelo Italiana 4mm + Anel Royal Prata Legítima,427.9,427.9,427.9,427.9,2026-10-15,2026-10-15
 46323406153,46967,Kabum BR,"Robô Aspirador de Pó Philco PAS08C, Bivolt, Preto, Passa Pano Enquanto Aspira- 54903069",499.99,499.99,499.99,499.99,2026-10-16,2026-10-16
 46323406310,46967,Kabum BR,"Headset Gamer Fifine H9, Som Surround 7.1, USB, Console e PC, Branco - H9W",229.99,229.99,229.99,229.99,2026-10-16,2026-10-16
-46323406593,46967,Kabum BR,"Monitor Gamer curvo Acer Predator Series Z57 bmiiphuzx, 57.1"" LED, 7K,120,Hz, 1ms, DisplayPort e HDMI, HDR, FreeSync - UM.NZ7AA.002",13999.99,12999.99,12999.99,13999.99,2026-10-16,2026-10-24
+46323406593,46967,Kabum BR,"Monitor Gamer curvo Acer Predator Series Z57 bmiiphuzx, 57.1"" LED, 7K,120,Hz, 1ms, DisplayPort e HDMI, HDR, FreeSync - UM.NZ7AA.002",12999.99,13999.99,12999.99,13999.99,2026-10-16,2026-10-25
 46323406778,46967,Kabum BR,"Jogo Elden Ring Nightreign, PS5",175.9,175.9,175.9,175.9,2026-10-16,2026-10-16
 46323407005,46967,Kabum BR,"Teclado Mecânico Gamer Husky Pier, 60%, RGB, Switch Gateron EF Red, ABNT2, Hot-Swap, ABS Double Injection, Preto - HTG220PTVR",159.99,159.99,159.99,159.99,2026-10-16,2026-10-16
 46323407543,46967,Kabum BR,"Placa de Vídeo ASUS RTX 5060 Dual OC NVIDIA GeForce, 8GB GDDR7 - 90YV0PS0-M0NA00",3399.99,2899.99,2899.99,3399.99,2026-10-16,2026-10-23
@@ -312564,7 +312569,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46344108683,46967,Kabum BR,"Suporte de Mesa Articulado para 2 Monitores de 17"" a 35"", ELG, Ajuste de altura com Pistão a Gás - F160N",259.99,449.99,259.99,449.99,2026-10-17,2026-10-19
 46344108691,46967,Kabum BR,"Nobreak UPS Ts Shara XPro Professional, 1500VA, Bivolt, 2 Baterias Internas, 8 Tomadas, ABS, Preto - 4536",1229.9,1229.9,1229.9,1229.9,2026-10-17,2026-10-17
 46344108800,46967,Kabum BR,"Gabinete Gamer Corsair 4000D RS ARGB, Mid Tower, Lateral em Vidro, com 3x Fans RS ARGB, Branco - CC-9011297-WW",619.9,619.9,619.9,619.9,2026-10-17,2026-10-17
-46344108801,46967,Kabum BR,"Gabinete Corsair Frame 4000D RS, Mid Tower, ATX, Leteral em Vidro, Modular High, Airflow, 3 Fans RS120, Preto - CC-9011312-WW",599.99,849.99,599.99,849.99,2026-10-17,2026-10-21
+46344108801,46967,Kabum BR,"Gabinete Corsair Frame 4000D RS, Mid Tower, ATX, Leteral em Vidro, Modular High, Airflow, 3 Fans RS120, Preto - CC-9011312-WW",849.99,599.99,599.99,849.99,2026-10-17,2026-10-25
 46344108802,46967,Kabum BR,"Placa de Vídeo ASUS TUF RTX 5070 Ti O16G GAMING NVIDIA Geforce, 16GB, GDDR7, IA com FP4 e DLSS4, Edição OC - 90YV0MD0-M0NA00",9226.0,8999.99,8999.99,9226.0,2026-10-17,2026-10-19
 46344108919,46967,Kabum BR,"Gabinete Gamer Corsair FRAME 5000D RS, Mid Tower, 4x Fans, Preto - CC-9011307-WW",1049.99,1049.99,1049.99,1049.99,2026-10-17,2026-10-17
 46344108920,46967,Kabum BR,"Gabinete Gamer Corsair 5000D RS ARGB, Mid Tower, E-ATX, Lateral em Vidro temperado, 4x FANs, Preto - CC-9011309-WW",1199.99,1199.99,1199.99,1199.99,2026-10-17,2026-10-17
@@ -312863,7 +312868,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46356001713,46967,Kabum BR,"Microfone Gamer Dinâmico Fifine Tank3, XLR e USB-C, Podcast e Estúdio, Preto - TANK3",349.99,359.99,349.99,479.99,2026-10-18,2026-10-20
 46356001714,46967,Kabum BR,"Kit Teclado e Mouse Sem Fio AOC 2.4G Wireless Set, Preto - KM300 BK",74.99,74.99,74.99,74.99,2026-10-18,2026-10-18
 46356001715,46967,Kabum BR,"Monitor Gamer CORSAIR XENEON EDGE 14.5"" LCD, IPS, 60Hz, Touchscreen, USB-C DP-Alt Mode e HDMI, Suporte iCUE e Windows, Preto ? CC-9011306-WW",1999.99,1799.99,1699.99,1999.99,2026-10-18,2026-10-22
-46356001721,46967,Kabum BR,"Placa de Captura Fifine V3, 1080p 60FPS, com Loop-out 4K, USB 3.0, RGB, Preta - V3",389.99,359.99,249.99,399.99,2026-10-18,2026-10-23
+46356001721,46967,Kabum BR,"Placa de Captura Fifine V3, 1080p 60FPS, com Loop-out 4K, USB 3.0, RGB, Preta - V3",399.99,389.99,249.99,399.99,2026-10-18,2026-10-25
 46356001722,46967,Kabum BR,"Placa de Captura Fifine V3, 1080p 60FPS, com Loop-out 4K, USB 3.0, RGB, Branca - V3W",399.99,329.99,259.99,399.99,2026-10-18,2026-10-24
 46356001723,46967,Kabum BR,"Cabo de Microfone Fifine L9, XLR Macho para Fêmea, 1.8m, Preto - L9C",39.99,59.99,39.99,59.99,2026-10-18,2026-10-19
 46356001724,46967,Kabum BR,"Fonte MACH1 EMPOWER, 1250W, Cybenetics Platinum, Modular, PFC Ativo, Preto - 1250EMPOWER",899.99,799.99,799.99,899.99,2026-10-18,2026-10-20
@@ -313813,7 +313818,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46381197488,46967,Kabum BR,Saco de Poeira para Robô Aspirador de pó KABUM! smart K800 Pro - KSHPR527,24.99,29.99,24.99,29.99,2026-10-20,2026-10-23
 46381197489,46967,Kabum BR,Par de Pano MOP para Robô Aspirador de pó KABUM! smart K4000 - KSHPR564,59.99,69.99,59.99,69.99,2026-10-20,2026-10-23
 46381197490,46967,Kabum BR,Escova rotativa central para Robô Aspirador de pó KABUM! smart K4000 - KSHPR566,69.99,79.99,69.99,79.99,2026-10-20,2026-10-23
-46381197491,46967,Kabum BR,Escovas Laterais para Robô Aspirador de pó KABUM! smart K4000 - KSHPR567,7.99,9.99,7.99,9.99,2026-10-20,2026-10-23
+46381197491,46967,Kabum BR,Escovas Laterais para Robô Aspirador de pó KABUM! smart K4000 - KSHPR567,9.99,7.99,7.99,9.99,2026-10-20,2026-10-25
 46381197492,46967,Kabum BR,Filtro HEPA para Robô Aspirador de pó KABUM! smart K800/K800 Pro - KSHPR504,6.99,7.99,6.99,7.99,2026-10-20,2026-10-23
 46381197493,46967,Kabum BR,Escovas Laterais para Robô Aspirador de pó KABUM! smart K800/K800 Pro - KSHPR515,5.99,6.99,5.99,6.99,2026-10-20,2026-10-23
 46381197494,46967,Kabum BR,Reservatório 2 em 1 (Poeira e Água) para Robô Aspirador de pó KABUM! smart K800 Pro - KSHPR1001,299.99,349.99,299.99,349.99,2026-10-20,2026-10-23
@@ -314841,6 +314846,10 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46409300608,58627,C&A BR,camiseta juvenil manga curta listrada marrom,69.99,69.99,69.99,69.99,2026-10-23,2026-10-23
 46409300609,58627,C&A BR,camiseta juvenil manga curta listrada marrom,69.99,69.99,69.99,69.99,2026-10-23,2026-10-23
 46409300610,58627,C&A BR,camiseta juvenil manga curta listrada marrom,69.99,69.99,69.99,69.99,2026-10-23,2026-10-23
+46409300625,58627,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46409300626,58627,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46409300627,58627,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46409300628,58627,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
 46409301239,58627,C&A BR,jaqueta puffer plus size preto,129.99,129.99,129.99,129.99,2026-10-23,2026-10-23
 46409301240,58627,C&A BR,jaqueta puffer plus size preto,129.99,129.99,129.99,129.99,2026-10-23,2026-10-23
 46409301241,58627,C&A BR,jaqueta puffer plus size preto,129.99,129.99,129.99,129.99,2026-10-23,2026-10-23
@@ -315777,7 +315786,7 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46415695255,46967,Kabum BR,"Cabo de Rede CAT.5e Furukawa SOHOPLUS, 305 Metros, Cinza - 23200102",849.9,849.9,849.9,849.9,2026-10-24,2026-10-24
 46415696058,46967,Kabum BR,"iPhone 18 Pro Apple 1TB, Câmera de 48MP, A20 Pro, Tela 6.3"" Super Retina XDR, Prateado",14849.1,14849.1,14849.1,14849.1,2026-10-24,2026-10-24
 46415696059,46967,Kabum BR,"iPhone 18 Pro Apple 2TB, Câmera de 48MP, A20 Pro, Tela 6.3"" Super Retina XDR, Bordô",18999.1,18999.1,18999.1,18999.1,2026-10-24,2026-10-24
-46415696060,46967,Kabum BR,"iPhone Duo Apple 256GB, Câmera de 48MB, A20 Pro, Tela 7.6"""" Super Retina XDR Dobrável, Céu Noturno",19799.1,19799.1,19799.1,19799.1,2026-10-24,2026-10-24
+46415696060,46967,Kabum BR,"iPhone Duo Apple 256GB, Câmera de 48MB, A20 Pro, Tela 7.6"""" Super Retina XDR Dobrável, Céu Noturno",21999.0,19799.1,19799.1,21999.0,2026-10-24,2026-10-25
 46415696061,46967,Kabum BR,Placa Mãe MSI A520M-A PRO + 5 5500F + Air Cooler MACH1 ARTIC 120mm + Memória XPG 8GB,1413.99,1413.99,1413.99,1413.99,2026-10-24,2026-10-24
 46416002732,91942,C&A BR,bermuda de moletinho com cordão e bolso vermelha,39.99,39.99,39.99,39.99,2026-10-24,2026-10-24
 46416002733,91942,C&A BR,bermuda de moletinho com cordão e bolso vermelha,39.99,39.99,39.99,39.99,2026-10-24,2026-10-24
@@ -316447,3 +316456,322 @@ produto_id,feed_id,loja,nome,preco_atual,preco_anterior,preco_min,preco_max,prim
 46420885670,58627,C&A BR,camiseta feminina básica com fenda scuba azul,89.99,89.99,89.99,89.99,2026-10-24,2026-10-24
 46420885671,58627,C&A BR,camiseta feminina básica com fenda scuba azul,89.99,89.99,89.99,89.99,2026-10-24,2026-10-24
 46420885674,58627,C&A BR,kit beleza fun brisa de caramelo sabonete líquido hidratante e massageador,69.99,69.99,69.99,69.99,2026-10-24,2026-10-24
+46423321690,46967,Kabum BR,"Estabilizador SMS Progressive III 2000 VA, Mono 115V, Ideal para impressora a laser - 16217",649.99,649.99,649.99,649.99,2026-10-25,2026-10-25
+46423321691,46967,Kabum BR,"Estabilizador SMS Progressive III 1000VA, Entrada Bivolt Automático e Saída 115V, 5 Tomadas - 16216",629.9,629.9,629.9,629.9,2026-10-25,2026-10-25
+46423321692,46967,Kabum BR,"Estabilizador SMS Revolution Speedy 300VA, Entrada Bivolt Automático e Saída de 115V, 4 Tomadas - USP300Bi - 15970",214.58,214.58,214.58,214.58,2026-10-25,2026-10-25
+46423321693,46967,Kabum BR,"Nobreak TS Shara UPS Senno VT 2KVA, 1800W, 4BS, Mono, LCD, USB, RS232, 220V, 4x Baterias Ide Internas de 9AH - 6871",3299.99,3299.99,3299.99,3299.99,2026-10-25,2026-10-25
+46423321760,46967,Kabum BR,"Cabo de Rede CAT.5e Furukawa, 100 Metros, Azul - 23200186",338.13,338.13,338.13,338.13,2026-10-25,2026-10-25
+46423321878,46967,Kabum BR,"Gabinete Gamer Corsair Frame 4000D RS, Mid Tower, E-ATX, Modular High, Airflow, Lateral em Vidro Temperado, 3x FANs, Branco - CC-9011313-WW",749.99,749.99,749.99,749.99,2026-10-25,2026-10-25
+46423322145,46967,Kabum BR,"Headset Gamer Sem Fio JBL Quantum 650 Wireless, 2.4GHz, Setup White, Branco - JBLQTUM650WHT",999.99,999.99,999.99,999.99,2026-10-25,2026-10-25
+46423322146,46967,Kabum BR,"Gabinete Gamer Bluecase Pure BG-064, Micro-ATX, Mini-ITX, Lateral em Vidro, USB 3.0, Sem Fonte, Preto - BG-064BBX",129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423322234,46967,Kabum BR,"Nobreak TS Shara, Gamer, 2000VA, Entrada Biv. Auto, Saída Selecionável, 8T, USB, 2X9AH, 1 EXP 24V - 4580",2399.99,2399.99,2399.99,2399.99,2026-10-25,2026-10-25
+46423686076,91942,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423686077,91942,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423686078,91942,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423686079,91942,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423686080,91942,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423686117,91942,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686118,91942,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686119,91942,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686120,91942,C&A BR,camiseta juvenil listrada de manga curta em malha com linho fifteen verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686124,91942,C&A BR,perfume antonio banderas the golden secret masculino eau de toilette 100ml,209.99,209.99,209.99,209.99,2026-10-25,2026-10-25
+46423686128,91942,C&A BR,suéter de tricô decote em v off white,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423686129,91942,C&A BR,suéter de tricô decote em v off white,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423686130,91942,C&A BR,suéter de tricô decote em v off white,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423686131,91942,C&A BR,suéter de tricô decote em v off white,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423686132,91942,C&A BR,suéter de tricô decote em v off white,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423686144,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686145,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686146,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686147,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686148,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686149,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686150,91942,C&A BR,calça skinny alfaiatada cintura super alta com elástico cinza,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423686292,91942,C&A BR,batom payot matte carmim vermelho,39.99,39.99,39.99,39.99,2026-10-25,2026-10-25
+46423686365,91942,C&A BR,perfume masculino adidas uefa goal eau de toilette 50ml,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423687977,91942,C&A BR,perfume masculino banderas seduction x eau de parfum for men 50ml,199.99,199.99,199.99,199.99,2026-10-25,2026-10-25
+46423688241,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688242,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688243,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688244,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688245,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688246,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688247,91942,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423688248,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688249,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688339,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688340,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688341,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688342,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688343,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688344,91942,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423688363,91942,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688364,91942,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688365,91942,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688366,91942,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688367,91942,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688447,91942,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688448,91942,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688449,91942,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688450,91942,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688451,91942,C&A BR,camisa masculina com linho manga longa lilás,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46423688452,91942,C&A BR,camisa masculina com linho manga longa lilás,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46423688453,91942,C&A BR,camisa masculina com linho manga longa lilás,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46423688454,91942,C&A BR,camisa masculina com linho manga longa lilás,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46423688468,91942,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688469,91942,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688470,91942,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688471,91942,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688472,91942,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423688473,91942,C&A BR,meia masculina cano longo NFL em algodão branco,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423688474,91942,C&A BR,meia masculina cano longo NFL em algodão branco,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423688568,91942,C&A BR,regata feminina de tricot halterneck metalizada azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688569,91942,C&A BR,regata feminina de tricot halterneck metalizada azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688570,91942,C&A BR,regata feminina de tricot halterneck metalizada azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688571,91942,C&A BR,regata feminina de tricot halterneck metalizada azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688572,91942,C&A BR,regata feminina de tricot halterneck metalizada azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423688573,91942,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423688574,91942,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423688575,91942,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423688576,91942,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423688577,91942,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423688578,91942,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423688579,91942,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423688580,91942,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423688581,91942,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423688582,91942,C&A BR,kit de acessórios para cabelo beleza fun com 1 piranha e 1 prendedor dourado,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423688583,91942,C&A BR,piranha para cabelo beleza fun em metal prateada,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423688584,91942,C&A BR,piranha para cabelo beleza fun em metal dourada,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423688585,91942,C&A BR,kit de 2 presilhas para cabelo beleza fun colorida,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423688586,91942,C&A BR,kit beleza fun chá de verde com sabonete líquido hidratante facial e presilha,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423688587,91942,C&A BR,kit de acessórios para cabelo beleza fun com 1 piranha e cartela com 20 pedras de strass dourado,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423947572,58627,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423947573,58627,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423947574,58627,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423947575,58627,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423947576,58627,C&A BR,short infantil de sarja listrado com bolsos de coração vermelho,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46423947579,58627,C&A BR,perfume antonio banderas the golden secret masculino eau de toilette 100ml,209.99,209.99,209.99,209.99,2026-10-25,2026-10-25
+46423947585,58627,C&A BR,colete cropped alfaiataria areia,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947586,58627,C&A BR,colete cropped alfaiataria areia,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947587,58627,C&A BR,colete cropped alfaiataria areia,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947588,58627,C&A BR,colete cropped alfaiataria areia,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947589,58627,C&A BR,colete cropped alfaiataria areia,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947637,58627,C&A BR,blusa de viscose com laise preta,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46423947638,58627,C&A BR,blusa de viscose com laise preta,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46423947639,58627,C&A BR,blusa de viscose com laise preta,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46423947640,58627,C&A BR,blusa de viscose com laise preta,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46423947641,58627,C&A BR,blusa de viscose com laise preta,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46423947652,58627,C&A BR,batom payot matte carmim vermelho,39.99,39.99,39.99,39.99,2026-10-25,2026-10-25
+46423947661,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947662,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947663,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947664,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947665,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947666,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947667,58627,C&A BR,saia balonê feminina jeans cintura alta azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947696,58627,C&A BR,perfume masculino adidas uefa goal eau de toilette 50ml,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947724,58627,C&A BR,suéter feminino de tricot gola alta cinza,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947725,58627,C&A BR,suéter feminino de tricot gola alta cinza,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947726,58627,C&A BR,suéter feminino de tricot gola alta cinza,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947727,58627,C&A BR,suéter feminino de tricot gola alta cinza,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947728,58627,C&A BR,suéter feminino de tricot gola alta cinza,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947777,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947778,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947779,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947780,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947781,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947782,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947783,58627,C&A BR,short feminina jeans cintura média azul,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46423947784,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947785,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947786,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947787,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947788,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947789,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947790,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947791,58627,C&A BR,calça mom feminina de sarja cintura alta off white,159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46423947792,58627,C&A BR,corretivo líquido 4 boca rosa,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423947793,58627,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947794,58627,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947795,58627,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947796,58627,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947797,58627,C&A BR,vestido infantil listrado com bolso azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46423947800,58627,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947801,58627,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947802,58627,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947803,58627,C&A BR,camiseta masculina comfort com estampa de capacetes nas costas preta,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947805,58627,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947806,58627,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947807,58627,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947808,58627,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947809,58627,C&A BR,camiseta masculina relaxed em algodão com estampa goku dragon ball z preto,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46423947810,58627,C&A BR,meia masculina cano longo NFL em algodão branco,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423947811,58627,C&A BR,meia masculina cano longo NFL em algodão branco,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423947812,58627,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947813,58627,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947814,58627,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947815,58627,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947816,58627,C&A BR,regata feminina de renda gola alta floral azul,69.99,69.99,69.99,69.99,2026-10-25,2026-10-25
+46423947818,58627,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947819,58627,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947820,58627,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947821,58627,C&A BR,short masculino de praia suncoast em tecido anarruga com recorte verde,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46423947822,58627,C&A BR,piranha para cabelo beleza fun em metal prateada,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423947823,58627,C&A BR,piranha para cabelo beleza fun em metal dourada,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46423947824,58627,C&A BR,kit de 2 presilhas para cabelo beleza fun colorida,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46423947825,58627,C&A BR,kit beleza fun chá de verde com sabonete líquido hidratante facial e presilha,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46423947826,58627,C&A BR,kit de acessórios para cabelo beleza fun com 1 piranha e cartela com 20 pedras de strass dourado,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424594845,46967,Kabum BR,"Mouse Sem Fio Logitech M170, Wireless, Azul - 910-006863",58.9,58.9,58.9,58.9,2026-10-25,2026-10-25
+46424594888,46967,Kabum BR,"Iluminação de LED Premium Logitech G Litra Glow com Tecnologia TrueSoft, Braço Ajustável e Controle por App, para PC/Mac, Preto- 946-000031",259.99,259.99,259.99,259.99,2026-10-25,2026-10-25
+46424594913,46967,Kabum BR,"Gabinete Gamer Bluecase BG-054 HIT, Mid tower, Micro ATX e Mini ITX, Frontal e lateral em vidro, USB 3.0, Sem FANs, Preto - BG-054BBX",155.9,155.9,155.9,155.9,2026-10-25,2026-10-25
+46424594962,46967,Kabum BR,"Teclado Gamer Razer Ornata V3, Low Profile, Chroma RGB, Membrana, USB, Layout Us, Preto - RZ0304460200",469.99,469.99,469.99,469.99,2026-10-25,2026-10-25
+46424595028,46967,Kabum BR,"Mouse Gamer sem Fio Attack Shark X3Pro 4K/8K, Tri-Mode, 26.000 DPI, Sensor Óptico PAW3395, 7 Botões - Vermelho",499.99,499.99,499.99,499.99,2026-10-25,2026-10-25
+46424595029,46967,Kabum BR,"Mouse Gamer com Fio Attack Shark X1, Ultraleve, 12.800 DPI, 6 Botões - Branco",179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424595030,46967,Kabum BR,"Mouse Gamer com Fio Attack Shark X3, 12.800 DPI, 6 Botões Programáveis - Preto",159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46424595031,46967,Kabum BR,"Mouse Gamer com Fio Attack Shark X3, 12.800 DPI, 6 Botões Programáveis - Branco",159.99,159.99,159.99,159.99,2026-10-25,2026-10-25
+46424595032,46967,Kabum BR,"Teclado Mecânico Gamer Attack Shark M86, 75% Compacto, RGB, Blackberry, Roxo/Preto - AS-M86-BB-RY",299.99,299.99,299.99,299.99,2026-10-25,2026-10-25
+46424595073,46967,Kabum BR,"Gabinete Gamer Bluecase Pure Pro BG-064, Micro-ATX, Mini-ITX, 3x Fans Rainbow, Lateral em Vidro, Preto - BG-064PBBX",169.99,169.99,169.99,169.99,2026-10-25,2026-10-25
+46424595112,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R5 Ultra, 42000 DPI, Fibra de Carbono, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Preto - R5 ULTRA",699.99,699.99,699.99,699.99,2026-10-25,2026-10-25
+46424595113,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R5 Ultra, 42000 DPI, Fibra de Carbono, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Branco - R5 ULTRA",699.99,699.99,699.99,699.99,2026-10-25,2026-10-25
+46424595114,46967,Kabum BR,"Mouse Gamer Sem Fio Attack Shark R5 Ultra, 42000 DPI, Fibra de Carbono, Switch Óptico, Tri-Mode Wireless Bluetooth USB-C, Vermelho - R5 ULTRA",699.99,699.99,699.99,699.99,2026-10-25,2026-10-25
+46424595115,46967,Kabum BR,"Caixa de Som Bluetooth JBL Boombox 4, À Prova D'água IP67, Laranja - JBLBOOMBOX4ORGBR",3899.9,3899.9,3899.9,3899.9,2026-10-25,2026-10-25
+46424666926,58627,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666927,58627,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666928,58627,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666929,58627,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666930,58627,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666969,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666970,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666971,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666972,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666973,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666974,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424666975,58627,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424667016,58627,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424667017,58627,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424667018,58627,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424667019,58627,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424667020,58627,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424667022,58627,C&A BR,blusa feminina assimétrica de um ombro só em tricô dourado,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46424667023,58627,C&A BR,blusa feminina assimétrica de um ombro só em tricô dourado,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46424667024,58627,C&A BR,blusa feminina assimétrica de um ombro só em tricô dourado,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46424667025,58627,C&A BR,blusa feminina assimétrica de um ombro só em tricô dourado,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46424667026,58627,C&A BR,blusa feminina assimétrica de um ombro só em tricô dourado,119.99,119.99,119.99,119.99,2026-10-25,2026-10-25
+46424667027,58627,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424667028,58627,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424667029,58627,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424667030,58627,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424718958,58627,C&A BR,leave in kerasys keramide treatment severe damage 200ml,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424718976,58627,C&A BR,blush compacto océane duo edition chilly paint marrom,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424719162,58627,C&A BR,perfume feminino v v love missy g g body mist for woman 250ml,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424719201,58627,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424719202,58627,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424719203,58627,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424719204,58627,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424719205,58627,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424719211,58627,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424719212,58627,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424719213,58627,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424719214,58627,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424719215,58627,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424719218,58627,C&A BR,kit beleza fun spa com sabonete líquido hidratante corporal e esponja banho,39.99,39.99,39.99,39.99,2026-10-25,2026-10-25
+46424833577,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833578,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833579,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833580,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833581,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833582,91942,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46424833649,91942,C&A BR,perfume masculino banderas seduction x eau de parfum for men 100ml,259.99,259.99,259.99,259.99,2026-10-25,2026-10-25
+46424833709,91942,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833710,91942,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833711,91942,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833712,91942,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833713,91942,C&A BR,camiseta classic feminina de algodão peruano interlock azul,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833715,91942,C&A BR,short masculino de poliamida cós elástico verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46424833716,91942,C&A BR,short masculino de poliamida cós elástico verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46424833717,91942,C&A BR,short masculino de poliamida cós elástico verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46424833718,91942,C&A BR,short masculino de poliamida cós elástico verde,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46424833720,91942,C&A BR,leave in kerasys keramide treatment severe damage 200ml,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833726,91942,C&A BR,blush compacto océane duo edition chilly paint marrom,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833787,91942,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833788,91942,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833789,91942,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833790,91942,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833791,91942,C&A BR,short saia feminino de sarja com fenda plus size off white,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833819,91942,C&A BR,perfume feminino v v love missy g g body mist for woman 250ml,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46424833925,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833926,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833927,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833928,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833929,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833930,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424833931,91942,C&A BR,short feminino de sarja com lenço de crochê bege,149.99,149.99,149.99,149.99,2026-10-25,2026-10-25
+46424834023,91942,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424834024,91942,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424834025,91942,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424834026,91942,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424834027,91942,C&A BR,vestido infantil menina em algodão com estampa de borboletas e babados rosa,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46424834028,91942,C&A BR,vestido curto feminino frente única com babados vermelho,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834029,91942,C&A BR,vestido curto feminino frente única com babados vermelho,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834030,91942,C&A BR,vestido curto feminino frente única com babados vermelho,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834031,91942,C&A BR,vestido curto feminino frente única com babados vermelho,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834032,91942,C&A BR,vestido curto feminino frente única com babados vermelho,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834082,91942,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834083,91942,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834084,91942,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834085,91942,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834086,91942,C&A BR,vestido longo feminino de laise com recorte cut out e argola off white,179.99,179.99,179.99,179.99,2026-10-25,2026-10-25
+46424834087,91942,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424834088,91942,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424834089,91942,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424834090,91942,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424834091,91942,C&A BR,vestido regata curto feminino de viscose piquet azul,139.99,139.99,139.99,139.99,2026-10-25,2026-10-25
+46424834092,91942,C&A BR,kit beleza fun spa com sabonete líquido hidratante corporal e esponja banho,39.99,39.99,39.99,39.99,2026-10-25,2026-10-25
+46424834128,91942,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424834129,91942,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424834130,91942,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46424834131,91942,C&A BR,blusa feminina sem alça de tricot com lurex dourada,99.99,99.99,99.99,99.99,2026-10-25,2026-10-25
+46425104391,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104392,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104393,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104394,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104395,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104396,58627,C&A BR,body infantil de algodão com mangas curtas melhor presente de todos off white,29.99,29.99,29.99,29.99,2026-10-25,2026-10-25
+46425104397,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104398,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104399,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104400,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104401,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104402,58627,C&A BR,conjunto infantil body e calça de algodão azul,49.99,49.99,49.99,49.99,2026-10-25,2026-10-25
+46425104500,58627,C&A BR,camisa juvenil manga curta de algodão listrada off white,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46425104501,58627,C&A BR,camisa juvenil manga curta de algodão listrada off white,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46425104502,58627,C&A BR,camisa juvenil manga curta de algodão listrada off white,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46425104503,58627,C&A BR,camisa juvenil manga curta de algodão listrada off white,129.99,129.99,129.99,129.99,2026-10-25,2026-10-25
+46425104537,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104538,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104539,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104540,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104541,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104542,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104543,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104544,58627,C&A BR,short jeans clochard cintura super alta com bolsos azul claro,89.99,89.99,89.99,89.99,2026-10-25,2026-10-25
+46425104594,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104595,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104596,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104597,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104598,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104599,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104600,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104601,58627,C&A BR,saia jeans midi com recorte cintura alta com elástico azul médio,59.99,59.99,59.99,59.99,2026-10-25,2026-10-25
+46425104680,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104681,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104682,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104683,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104684,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104685,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425104686,58627,C&A BR,tênis bossa com recortes bicolor rosa,79.99,79.99,79.99,79.99,2026-10-25,2026-10-25
+46425105062,58627,C&A BR,necessaire bolso duplo concha off white,25.99,25.99,25.99,25.99,2026-10-25,2026-10-25
+46425105198,58627,C&A BR,blusa esportiva manga curta laranja,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46425105199,58627,C&A BR,blusa esportiva manga curta laranja,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46425105200,58627,C&A BR,blusa esportiva manga curta laranja,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25
+46425105201,58627,C&A BR,blusa esportiva manga curta laranja,19.99,19.99,19.99,19.99,2026-10-25,2026-10-25

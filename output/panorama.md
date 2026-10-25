@@ -1,17 +1,17 @@
 # Panorama do catalogo
 
-- **205,907** produtos coletados
+- **204,913** produtos coletados
 - **10** feed(s)
 
-- **205,907** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
+- **204,913** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 189,963 | 92.3% |
+| C&A BR | 188,945 | 92.2% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,867 | 2.4% |
+| Kabum BR | 4,891 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 557 | 0.3% |
 | Legale Lover BR | 403 | 0.2% |
@@ -23,18 +23,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 84,048 | 40.8% |
-| R$ 100 a 250 | 71,132 | 34.5% |
-| ate R$ 50 | 42,007 | 20.4% |
-| R$ 250 a 500 | 4,581 | 2.2% |
-| R$ 500 a 1.000 | 2,073 | 1.0% |
-| acima de R$ 1.000 | 2,066 | 1.0% |
+| R$ 50 a 100 | 83,437 | 40.7% |
+| R$ 100 a 250 | 71,110 | 34.7% |
+| ate R$ 50 | 41,648 | 20.3% |
+| R$ 250 a 500 | 4,563 | 2.2% |
+| R$ 500 a 1.000 | 2,078 | 1.0% |
+| acima de R$ 1.000 | 2,077 | 1.0% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 101,243 | 49.2% |
+| C&A | 100,765 | 49.2% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -51,28 +51,28 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 41,363 | 20.1% |
-| Moda Masculina > Roupas > Blusas | 18,434 | 9.0% |
-| Infantil > Roupas > Blusas | 15,466 | 7.5% |
-| Moda Feminina > Roupas > Calças | 15,368 | 7.5% |
-| Moda Feminina > Roupas > Shorts | 14,081 | 6.8% |
-| Moda Feminina > Roupas > Vestidos | 9,124 | 4.4% |
-| Moda Masculina > Roupas > Bermudas | 7,123 | 3.5% |
-| Moda Masculina > Roupas > Calças | 5,563 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,328 | 2.6% |
-| Moda Feminina > Roupas > Saias | 5,249 | 2.5% |
-| Infantil > Roupas > Calças | 4,306 | 2.1% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,120 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 41,226 | 20.1% |
+| Moda Masculina > Roupas > Blusas | 18,209 | 8.9% |
+| Infantil > Roupas > Blusas | 15,432 | 7.5% |
+| Moda Feminina > Roupas > Calças | 15,345 | 7.5% |
+| Moda Feminina > Roupas > Shorts | 13,995 | 6.8% |
+| Moda Feminina > Roupas > Vestidos | 9,115 | 4.4% |
+| Moda Masculina > Roupas > Bermudas | 7,016 | 3.4% |
+| Moda Masculina > Roupas > Calças | 5,534 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,267 | 2.6% |
+| Moda Feminina > Roupas > Saias | 5,171 | 2.5% |
+| Infantil > Roupas > Calças | 4,265 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,095 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- body infantil de algodão poá minnie off white — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- body infantil de algodão poá minnie off white — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- body infantil de algodão poá minnie off white — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -88,7 +88,7 @@
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 14.99
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 64.90
 - Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 45.90
-- Mouse com fio USB Logitech M100 com Design Ambidestro e Facilidade Plu — R$ 41.99
+- Estabilizador SMS Progressive III 2000 VA, Mono 115V, Ideal para impre — R$ 649.99
 
 **Lauri Esporte**
 
