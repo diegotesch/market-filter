@@ -1,17 +1,17 @@
 # Panorama do catalogo
 
-- **204,913** produtos coletados
+- **203,769** produtos coletados
 - **10** feed(s)
 
-- **204,913** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
+- **203,769** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 188,945 | 92.2% |
+| C&A BR | 187,803 | 92.2% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,891 | 2.4% |
+| Kabum BR | 4,889 | 2.4% |
 | Lauri Esporte | 1,514 | 0.7% |
 | Alianças Imperiais BR | 557 | 0.3% |
 | Legale Lover BR | 403 | 0.2% |
@@ -23,18 +23,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 83,437 | 40.7% |
-| R$ 100 a 250 | 71,110 | 34.7% |
-| ate R$ 50 | 41,648 | 20.3% |
-| R$ 250 a 500 | 4,563 | 2.2% |
-| R$ 500 a 1.000 | 2,078 | 1.0% |
-| acima de R$ 1.000 | 2,077 | 1.0% |
+| R$ 50 a 100 | 83,097 | 40.8% |
+| R$ 100 a 250 | 70,638 | 34.7% |
+| ate R$ 50 | 41,340 | 20.3% |
+| R$ 250 a 500 | 4,555 | 2.2% |
+| R$ 500 a 1.000 | 2,071 | 1.0% |
+| acima de R$ 1.000 | 2,068 | 1.0% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 100,765 | 49.2% |
+| C&A | 100,026 | 49.1% |
 | Moleca | 551 | 0.3% |
 | ON Running | 525 | 0.3% |
 | Beira Rio | 506 | 0.2% |
@@ -51,18 +51,18 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 41,226 | 20.1% |
-| Moda Masculina > Roupas > Blusas | 18,209 | 8.9% |
-| Infantil > Roupas > Blusas | 15,432 | 7.5% |
-| Moda Feminina > Roupas > Calças | 15,345 | 7.5% |
-| Moda Feminina > Roupas > Shorts | 13,995 | 6.8% |
-| Moda Feminina > Roupas > Vestidos | 9,115 | 4.4% |
-| Moda Masculina > Roupas > Bermudas | 7,016 | 3.4% |
-| Moda Masculina > Roupas > Calças | 5,534 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,267 | 2.6% |
-| Moda Feminina > Roupas > Saias | 5,171 | 2.5% |
-| Infantil > Roupas > Calças | 4,265 | 2.1% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,095 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 40,829 | 20.0% |
+| Moda Masculina > Roupas > Blusas | 18,064 | 8.9% |
+| Infantil > Roupas > Blusas | 15,379 | 7.5% |
+| Moda Feminina > Roupas > Calças | 15,263 | 7.5% |
+| Moda Feminina > Roupas > Shorts | 14,031 | 6.9% |
+| Moda Feminina > Roupas > Vestidos | 9,055 | 4.4% |
+| Moda Masculina > Roupas > Bermudas | 7,017 | 3.4% |
+| Moda Masculina > Roupas > Calças | 5,505 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,222 | 2.6% |
+| Moda Feminina > Roupas > Saias | 5,163 | 2.5% |
+| Infantil > Roupas > Calças | 4,243 | 2.1% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,081 | 1.5% |
 
 ## Exemplos de produto
 
@@ -85,7 +85,7 @@
 **Kabum BR**
 
 - Switch 16 Portas TP-Link 10/100 Mbps TL-SF1016D — R$ 189.90
-- Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 14.99
+- Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 11.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 64.90
 - Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 45.90
 - Estabilizador SMS Progressive III 2000 VA, Mono 115V, Ideal para impre — R$ 649.99
