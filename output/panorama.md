@@ -1,20 +1,20 @@
 # Panorama do catalogo
 
-- **203,651** produtos coletados
+- **203,732** produtos coletados
 - **10** feed(s)
 
-- **203,651** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 100,000.00)
+- **203,732** com preco valido (mediana R$ 89.99, min R$ 2.90, max R$ 100,000.00)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 186,848 | 91.7% |
+| C&A BR | 186,475 | 91.5% |
 | Clovis Calçados BR | 8,198 | 4.0% |
-| Kabum BR | 4,868 | 2.4% |
-| Lauri Esporte | 2,341 | 1.1% |
+| Kabum BR | 4,910 | 2.4% |
+| Lauri Esporte | 2,748 | 1.3% |
 | Alianças Imperiais BR | 559 | 0.3% |
-| Legale Lover BR | 430 | 0.2% |
+| Legale Lover BR | 435 | 0.2% |
 | Afiliados Galícia Educação | 382 | 0.2% |
 | Shark-Ninja BR | 20 | 0.0% |
 | Exypna | 5 | 0.0% |
@@ -23,55 +23,55 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 82,351 | 40.4% |
-| R$ 100 a 250 | 71,537 | 35.1% |
-| ate R$ 50 | 40,235 | 19.8% |
-| R$ 250 a 500 | 4,709 | 2.3% |
-| R$ 500 a 1.000 | 2,588 | 1.3% |
-| acima de R$ 1.000 | 2,231 | 1.1% |
+| R$ 50 a 100 | 82,051 | 40.3% |
+| R$ 100 a 250 | 71,931 | 35.3% |
+| ate R$ 50 | 39,774 | 19.5% |
+| R$ 250 a 500 | 4,916 | 2.4% |
+| R$ 500 a 1.000 | 2,854 | 1.4% |
+| acima de R$ 1.000 | 2,206 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 100,312 | 49.3% |
-| ON Running | 715 | 0.4% |
-| ASICS | 589 | 0.3% |
+| C&A | 99,973 | 49.1% |
+| ON Running | 714 | 0.4% |
+| ASICS | 609 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.2% |
 | Vizzano | 504 | 0.2% |
-| Legale Educacional | 430 | 0.2% |
+| New Balance | 456 | 0.2% |
+| Legale Educacional | 435 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| New Balance | 412 | 0.2% |
-| Columbia | 407 | 0.2% |
+| Columbia | 406 | 0.2% |
 | Galícia Educação | 382 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 40,508 | 19.9% |
-| Moda Masculina > Roupas > Blusas | 17,870 | 8.8% |
-| Moda Feminina > Roupas > Calças | 15,492 | 7.6% |
-| Infantil > Roupas > Blusas | 14,898 | 7.3% |
-| Moda Feminina > Roupas > Shorts | 14,119 | 6.9% |
-| Moda Feminina > Roupas > Vestidos | 9,091 | 4.5% |
-| Moda Masculina > Roupas > Bermudas | 6,974 | 3.4% |
-| Moda Masculina > Roupas > Calças | 5,349 | 2.6% |
-| Infantil > Roupas > Bermudas | 5,185 | 2.5% |
-| Moda Feminina > Roupas > Saias | 5,181 | 2.5% |
-| Infantil > Roupas > Calças | 4,162 | 2.0% |
-| Moda Feminina > Moda Íntima > Sutiãs | 3,107 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 40,875 | 20.1% |
+| Moda Masculina > Roupas > Blusas | 17,802 | 8.7% |
+| Moda Feminina > Roupas > Calças | 15,528 | 7.6% |
+| Infantil > Roupas > Blusas | 14,727 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 14,163 | 7.0% |
+| Moda Feminina > Roupas > Vestidos | 9,128 | 4.5% |
+| Moda Masculina > Roupas > Bermudas | 6,927 | 3.4% |
+| Moda Masculina > Roupas > Calças | 5,301 | 2.6% |
+| Moda Feminina > Roupas > Saias | 5,193 | 2.5% |
+| Infantil > Roupas > Bermudas | 5,130 | 2.5% |
+| Infantil > Roupas > Calças | 4,116 | 2.0% |
+| Moda Feminina > Moda Íntima > Sutiãs | 3,076 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- vestido infantil balonê com faixa de cabeça off white — R$ 59.99
+- body infantil de algodão com coração 3d off white — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- vestido infantil balonê com faixa de cabeça off white — R$ 59.99
+- body infantil de algodão com coração 3d off white — R$ 39.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
@@ -86,7 +86,7 @@
 
 - Switch 16 Portas TP-Link 10/100 Mbps TL-SF1016D — R$ 189.90
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 9.90
-- Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 99.90
+- Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 59.90
 - Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 44.99
 - Estabilizador SMS Progressive III 2000 VA, Mono 115V, Ideal para impre — R$ 649.99
 
