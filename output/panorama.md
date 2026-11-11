@@ -1,21 +1,21 @@
 # Panorama do catalogo
 
-- **196,037** produtos coletados
+- **196,001** produtos coletados
 - **10** feed(s)
 
-- **196,037** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 100,000.00)
+- **196,001** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 100,000.00)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 178,901 | 91.3% |
+| C&A BR | 178,849 | 91.2% |
 | Clovis Calçados BR | 8,198 | 4.2% |
-| Kabum BR | 4,893 | 2.5% |
-| Lauri Esporte | 2,639 | 1.3% |
+| Kabum BR | 4,909 | 2.5% |
+| Lauri Esporte | 2,622 | 1.3% |
 | Alianças Imperiais BR | 559 | 0.3% |
-| Legale Lover BR | 438 | 0.2% |
-| Afiliados Galícia Educação | 385 | 0.2% |
+| Legale Lover BR | 443 | 0.2% |
+| Afiliados Galícia Educação | 397 | 0.2% |
 | Shark-Ninja BR | 19 | 0.0% |
 | Exypna | 5 | 0.0% |
 
@@ -23,56 +23,56 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 78,921 | 40.3% |
-| R$ 100 a 250 | 70,271 | 35.8% |
-| ate R$ 50 | 36,899 | 18.8% |
-| R$ 250 a 500 | 4,997 | 2.5% |
-| R$ 500 a 1.000 | 2,796 | 1.4% |
-| acima de R$ 1.000 | 2,153 | 1.1% |
+| R$ 50 a 100 | 78,531 | 40.1% |
+| R$ 100 a 250 | 70,593 | 36.0% |
+| ate R$ 50 | 36,863 | 18.8% |
+| R$ 250 a 500 | 5,052 | 2.6% |
+| R$ 500 a 1.000 | 2,779 | 1.4% |
+| acima de R$ 1.000 | 2,183 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 94,744 | 48.3% |
-| ON Running | 670 | 0.3% |
+| C&A | 94,841 | 48.4% |
+| ON Running | 668 | 0.3% |
 | ASICS | 590 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
-| New Balance | 442 | 0.2% |
-| Legale Educacional | 438 | 0.2% |
+| Legale Educacional | 443 | 0.2% |
+| New Balance | 436 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| Columbia | 393 | 0.2% |
-| Galícia Educação | 385 | 0.2% |
+| Galícia Educação | 397 | 0.2% |
+| Columbia | 390 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,297 | 20.0% |
-| Moda Masculina > Roupas > Blusas | 17,066 | 8.7% |
-| Moda Feminina > Roupas > Calças | 14,890 | 7.6% |
-| Infantil > Roupas > Blusas | 14,067 | 7.2% |
-| Moda Feminina > Roupas > Shorts | 13,844 | 7.1% |
-| Moda Feminina > Roupas > Vestidos | 8,793 | 4.5% |
-| Moda Masculina > Roupas > Bermudas | 6,952 | 3.5% |
-| Moda Feminina > Roupas > Saias | 5,082 | 2.6% |
-| Moda Masculina > Roupas > Calças | 5,072 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,984 | 2.5% |
-| Infantil > Roupas > Calças | 3,898 | 2.0% |
-| Moda Feminina > Moda Íntima > Sutiãs | 2,943 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 39,161 | 20.0% |
+| Moda Masculina > Roupas > Blusas | 16,985 | 8.7% |
+| Moda Feminina > Roupas > Calças | 14,911 | 7.6% |
+| Infantil > Roupas > Blusas | 14,084 | 7.2% |
+| Moda Feminina > Roupas > Shorts | 13,831 | 7.1% |
+| Moda Feminina > Roupas > Vestidos | 8,818 | 4.5% |
+| Moda Masculina > Roupas > Bermudas | 6,945 | 3.5% |
+| Moda Feminina > Roupas > Saias | 5,092 | 2.6% |
+| Moda Masculina > Roupas > Calças | 5,052 | 2.6% |
+| Infantil > Roupas > Bermudas | 4,979 | 2.5% |
+| Infantil > Roupas > Calças | 3,910 | 2.0% |
+| Infantil > Roupas > Vestidos | 2,957 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
+- calça reta infantil jeans moranguinho azul — R$ 69.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- calça reta infantil jeans moranguinho azul — R$ 69.99
+- body de algodão infantil snoopy off white — R$ 35.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- calça saruel infantil de algodão peruano cós e barra dobrável bege — R$ 39.99
-- calça saruel infantil de algodão peruano cós e barra dobrável bege — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -86,7 +86,7 @@
 
 - Switch 16 Portas TP-Link 10/100 Mbps TL-SF1016D — R$ 189.90
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 11.90
-- Cabo USB A para USB B Plus Cable, para Impressora, 5 Metros - PC-USB50 — R$ 23.99
+- Cabo USB A para USB B Plus Cable, para Impressora, 5 Metros - PC-USB50 — R$ 14.90
 - Adaptador Wireless TP-Link TL-WN821N, USB, 300M — R$ 59.90
 - Pen Drive 16GB SanDisk Cruzer Blade, USB 2.0, Preto - SDCZ50-016G-B35 — R$ 44.99
 
