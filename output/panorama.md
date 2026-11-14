@@ -1,68 +1,68 @@
 # Panorama do catalogo
 
-- **188,996** produtos coletados
+- **195,496** produtos coletados
 - **10** feed(s)
 
-- **188,996** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
+- **195,496** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 171,872 | 90.9% |
-| Clovis Calçados BR | 8,198 | 4.3% |
-| Kabum BR | 4,906 | 2.6% |
-| Lauri Esporte | 2,584 | 1.4% |
+| C&A BR | 178,260 | 91.2% |
+| Clovis Calçados BR | 8,198 | 4.2% |
+| Kabum BR | 4,932 | 2.5% |
+| Lauri Esporte | 2,567 | 1.3% |
 | Alianças Imperiais BR | 561 | 0.3% |
+| Afiliados Galícia Educação | 501 | 0.3% |
 | Legale Lover BR | 455 | 0.2% |
-| Afiliados Galícia Educação | 397 | 0.2% |
-| Shark-Ninja BR | 18 | 0.0% |
+| Shark-Ninja BR | 17 | 0.0% |
 | Exypna | 5 | 0.0% |
 
 ## Faixas de preco
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 75,430 | 39.9% |
-| R$ 100 a 250 | 69,399 | 36.7% |
-| ate R$ 50 | 34,296 | 18.1% |
-| R$ 250 a 500 | 4,944 | 2.6% |
-| R$ 500 a 1.000 | 2,735 | 1.4% |
-| acima de R$ 1.000 | 2,192 | 1.2% |
+| R$ 50 a 100 | 78,056 | 39.9% |
+| R$ 100 a 250 | 71,814 | 36.7% |
+| ate R$ 50 | 35,581 | 18.2% |
+| R$ 250 a 500 | 5,096 | 2.6% |
+| R$ 500 a 1.000 | 2,750 | 1.4% |
+| acima de R$ 1.000 | 2,199 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 88,216 | 46.7% |
-| ON Running | 653 | 0.3% |
-| ASICS | 586 | 0.3% |
+| C&A | 94,188 | 48.2% |
+| ON Running | 644 | 0.3% |
+| ASICS | 584 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
+| Galícia Educação | 501 | 0.3% |
 | Legale Educacional | 455 | 0.2% |
-| New Balance | 427 | 0.2% |
+| New Balance | 426 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| Galícia Educação | 397 | 0.2% |
-| Columbia | 388 | 0.2% |
+| Columbia | 386 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 37,297 | 19.7% |
-| Moda Masculina > Roupas > Blusas | 16,368 | 8.7% |
-| Moda Feminina > Roupas > Calças | 14,330 | 7.6% |
-| Infantil > Roupas > Blusas | 13,565 | 7.2% |
-| Moda Feminina > Roupas > Shorts | 13,532 | 7.2% |
-| Moda Feminina > Roupas > Vestidos | 8,554 | 4.5% |
-| Moda Masculina > Roupas > Bermudas | 6,937 | 3.7% |
-| Moda Masculina > Roupas > Calças | 4,941 | 2.6% |
-| Moda Feminina > Roupas > Saias | 4,926 | 2.6% |
-| Infantil > Roupas > Bermudas | 4,884 | 2.6% |
-| Infantil > Roupas > Calças | 3,696 | 2.0% |
-| Infantil > Roupas > Vestidos | 2,868 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 39,136 | 20.0% |
+| Moda Masculina > Roupas > Blusas | 16,849 | 8.6% |
+| Moda Feminina > Roupas > Calças | 14,829 | 7.6% |
+| Infantil > Roupas > Blusas | 13,976 | 7.1% |
+| Moda Feminina > Roupas > Shorts | 13,946 | 7.1% |
+| Moda Feminina > Roupas > Vestidos | 8,984 | 4.6% |
+| Moda Masculina > Roupas > Bermudas | 7,079 | 3.6% |
+| Moda Feminina > Roupas > Saias | 5,311 | 2.7% |
+| Moda Masculina > Roupas > Calças | 5,052 | 2.6% |
+| Infantil > Roupas > Bermudas | 5,030 | 2.6% |
+| Infantil > Roupas > Calças | 3,874 | 2.0% |
+| Infantil > Roupas > Vestidos | 2,994 | 1.5% |
 
 ## Exemplos de produto
 
@@ -106,10 +106,10 @@
 - (COMBO) Par de alianças 6mm Mod. R5+ Anel Princesa — R$ 427.90
 - (COMBO) Par de alianças 8mm mod R8 + anel Rainha — R$ 457.90
 
-**Legale Lover BR**
+**Afiliados Galícia Educação**
 
-- Formação do Advogado Trabalhista — R$ 94.90
-- Redação Jurídica — R$ 94.90
-- Visual Law — R$ 94.90
-- Formação do Advogado Criminalista — R$ 94.90
-- Audiência Trabalhista — R$ 94.90
+- WhatsApp com IA para Vendas — R$ 59.90
+- WhatsApp com IA para Atendimento — R$ 59.90
+- Uso Seguro de IA no Trabalho — R$ 59.90
+- Power BI com Copilot — R$ 59.90
+- NotebookLM no Trabalho — R$ 59.90
