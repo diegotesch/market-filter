@@ -1,77 +1,77 @@
 # Panorama do catalogo
 
-- **195,496** produtos coletados
+- **195,797** produtos coletados
 - **10** feed(s)
 
-- **195,496** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
+- **195,797** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 178,260 | 91.2% |
+| C&A BR | 178,568 | 91.2% |
 | Clovis Calçados BR | 8,198 | 4.2% |
-| Kabum BR | 4,932 | 2.5% |
-| Lauri Esporte | 2,567 | 1.3% |
+| Kabum BR | 4,933 | 2.5% |
+| Lauri Esporte | 2,557 | 1.3% |
 | Alianças Imperiais BR | 561 | 0.3% |
 | Afiliados Galícia Educação | 501 | 0.3% |
 | Legale Lover BR | 455 | 0.2% |
-| Shark-Ninja BR | 17 | 0.0% |
+| Shark-Ninja BR | 19 | 0.0% |
 | Exypna | 5 | 0.0% |
 
 ## Faixas de preco
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 78,056 | 39.9% |
-| R$ 100 a 250 | 71,814 | 36.7% |
-| ate R$ 50 | 35,581 | 18.2% |
-| R$ 250 a 500 | 5,096 | 2.6% |
+| R$ 50 a 100 | 77,963 | 39.8% |
+| R$ 100 a 250 | 71,974 | 36.8% |
+| ate R$ 50 | 35,816 | 18.3% |
+| R$ 250 a 500 | 5,102 | 2.6% |
 | R$ 500 a 1.000 | 2,750 | 1.4% |
-| acima de R$ 1.000 | 2,199 | 1.1% |
+| acima de R$ 1.000 | 2,192 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 94,188 | 48.2% |
-| ON Running | 644 | 0.3% |
+| C&A | 94,493 | 48.3% |
+| ON Running | 638 | 0.3% |
 | ASICS | 584 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
 | Galícia Educação | 501 | 0.3% |
 | Legale Educacional | 455 | 0.2% |
-| New Balance | 426 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
+| New Balance | 423 | 0.2% |
 | Columbia | 386 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,136 | 20.0% |
-| Moda Masculina > Roupas > Blusas | 16,849 | 8.6% |
-| Moda Feminina > Roupas > Calças | 14,829 | 7.6% |
-| Infantil > Roupas > Blusas | 13,976 | 7.1% |
-| Moda Feminina > Roupas > Shorts | 13,946 | 7.1% |
-| Moda Feminina > Roupas > Vestidos | 8,984 | 4.6% |
-| Moda Masculina > Roupas > Bermudas | 7,079 | 3.6% |
-| Moda Feminina > Roupas > Saias | 5,311 | 2.7% |
-| Moda Masculina > Roupas > Calças | 5,052 | 2.6% |
-| Infantil > Roupas > Bermudas | 5,030 | 2.6% |
-| Infantil > Roupas > Calças | 3,874 | 2.0% |
-| Infantil > Roupas > Vestidos | 2,994 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 39,419 | 20.1% |
+| Moda Masculina > Roupas > Blusas | 16,846 | 8.6% |
+| Moda Feminina > Roupas > Calças | 14,917 | 7.6% |
+| Moda Feminina > Roupas > Shorts | 13,882 | 7.1% |
+| Infantil > Roupas > Blusas | 13,877 | 7.1% |
+| Moda Feminina > Roupas > Vestidos | 9,031 | 4.6% |
+| Moda Masculina > Roupas > Bermudas | 7,064 | 3.6% |
+| Moda Feminina > Roupas > Saias | 5,341 | 2.7% |
+| Moda Masculina > Roupas > Calças | 5,073 | 2.6% |
+| Infantil > Roupas > Bermudas | 5,041 | 2.6% |
+| Infantil > Roupas > Calças | 3,879 | 2.0% |
+| Infantil > Roupas > Vestidos | 3,025 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- calça reta infantil jeans azul — R$ 69.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- calça reta infantil jeans azul — R$ 69.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
