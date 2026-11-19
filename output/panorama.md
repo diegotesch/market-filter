@@ -1,18 +1,18 @@
 # Panorama do catalogo
 
-- **195,240** produtos coletados
+- **196,843** produtos coletados
 - **10** feed(s)
 
-- **195,240** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
+- **196,843** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 178,096 | 91.2% |
+| C&A BR | 179,687 | 91.3% |
 | Clovis Calçados BR | 8,198 | 4.2% |
-| Kabum BR | 4,871 | 2.5% |
-| Lauri Esporte | 2,533 | 1.3% |
+| Kabum BR | 4,896 | 2.5% |
+| Lauri Esporte | 2,520 | 1.3% |
 | Alianças Imperiais BR | 561 | 0.3% |
 | Afiliados Galícia Educação | 501 | 0.3% |
 | Legale Lover BR | 457 | 0.2% |
@@ -23,19 +23,19 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 77,737 | 39.8% |
-| R$ 100 a 250 | 72,538 | 37.2% |
-| ate R$ 50 | 35,059 | 18.0% |
-| R$ 250 a 500 | 5,038 | 2.6% |
-| R$ 500 a 1.000 | 2,717 | 1.4% |
-| acima de R$ 1.000 | 2,151 | 1.1% |
+| R$ 50 a 100 | 78,155 | 39.7% |
+| R$ 100 a 250 | 73,258 | 37.2% |
+| ate R$ 50 | 35,490 | 18.0% |
+| R$ 250 a 500 | 5,066 | 2.6% |
+| R$ 500 a 1.000 | 2,709 | 1.4% |
+| acima de R$ 1.000 | 2,165 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 94,446 | 48.4% |
-| ON Running | 629 | 0.3% |
+| C&A | 95,259 | 48.4% |
+| ON Running | 624 | 0.3% |
 | ASICS | 579 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
@@ -44,35 +44,35 @@
 | Legale Educacional | 457 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| New Balance | 420 | 0.2% |
-| Columbia | 388 | 0.2% |
+| New Balance | 418 | 0.2% |
+| Columbia | 387 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,165 | 20.1% |
-| Moda Masculina > Roupas > Blusas | 16,928 | 8.7% |
-| Moda Feminina > Roupas > Calças | 14,900 | 7.6% |
-| Moda Feminina > Roupas > Shorts | 13,845 | 7.1% |
-| Infantil > Roupas > Blusas | 13,742 | 7.0% |
-| Moda Feminina > Roupas > Vestidos | 9,128 | 4.7% |
-| Moda Masculina > Roupas > Bermudas | 6,973 | 3.6% |
-| Moda Feminina > Roupas > Saias | 5,316 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,046 | 2.6% |
-| Moda Masculina > Roupas > Calças | 5,001 | 2.6% |
-| Infantil > Roupas > Calças | 3,790 | 1.9% |
-| Infantil > Roupas > Vestidos | 2,997 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 39,788 | 20.2% |
+| Moda Masculina > Roupas > Blusas | 16,989 | 8.6% |
+| Moda Feminina > Roupas > Calças | 15,066 | 7.7% |
+| Moda Feminina > Roupas > Shorts | 13,868 | 7.0% |
+| Infantil > Roupas > Blusas | 13,839 | 7.0% |
+| Moda Feminina > Roupas > Vestidos | 9,291 | 4.7% |
+| Moda Masculina > Roupas > Bermudas | 7,005 | 3.6% |
+| Moda Feminina > Roupas > Saias | 5,343 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,057 | 2.6% |
+| Moda Masculina > Roupas > Calças | 4,993 | 2.5% |
+| Infantil > Roupas > Calças | 3,783 | 1.9% |
+| Infantil > Roupas > Vestidos | 3,052 | 1.6% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto curto infantil texturizado floral verde — R$ 79.99
-- conjunto infantil tricot bolinhas bege — R$ 89.99
-- conjunto infantil tricot bolinhas bege — R$ 89.99
-- conjunto infantil tricot bolinhas bege — R$ 89.99
-- conjunto infantil tricot bolinhas bege — R$ 89.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- blusa básica feminina manga longa gola alta cinza — R$ 39.99
 
 **Clovis Calçados BR**
 
@@ -93,10 +93,10 @@
 **Lauri Esporte**
 
 - Tênis On Running Cloudpulse Masculino Bege 44 — R$ 809.10
-- Tênis On Running Cloudswift 4 Masculino Cinza 43 — R$ 1,079.10
 - Tênis On Running The Roger Advantage Masculino Branco 39 — R$ 989.10
 - Tênis On Running The Roger Advantage Masculino Branco 40 — R$ 989.10
 - Tênis On Running The Roger Advantage Masculino Branco 41 — R$ 989.10
+- Tênis On Running The Roger Advantage Masculino Branco 42 — R$ 989.10
 
 **Alianças Imperiais BR**
 
