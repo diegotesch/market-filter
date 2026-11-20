@@ -1,21 +1,21 @@
 # Panorama do catalogo
 
-- **196,843** produtos coletados
+- **195,256** produtos coletados
 - **10** feed(s)
 
-- **196,843** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
+- **195,256** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 179,687 | 91.3% |
+| C&A BR | 178,084 | 91.2% |
 | Clovis Calçados BR | 8,198 | 4.2% |
-| Kabum BR | 4,896 | 2.5% |
-| Lauri Esporte | 2,520 | 1.3% |
+| Kabum BR | 4,933 | 2.5% |
+| Lauri Esporte | 2,496 | 1.3% |
 | Alianças Imperiais BR | 561 | 0.3% |
 | Afiliados Galícia Educação | 501 | 0.3% |
-| Legale Lover BR | 457 | 0.2% |
+| Legale Lover BR | 460 | 0.2% |
 | Shark-Ninja BR | 18 | 0.0% |
 | Exypna | 5 | 0.0% |
 
@@ -23,56 +23,56 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 78,155 | 39.7% |
-| R$ 100 a 250 | 73,258 | 37.2% |
-| ate R$ 50 | 35,490 | 18.0% |
-| R$ 250 a 500 | 5,066 | 2.6% |
-| R$ 500 a 1.000 | 2,709 | 1.4% |
-| acima de R$ 1.000 | 2,165 | 1.1% |
+| R$ 50 a 100 | 79,125 | 40.5% |
+| R$ 100 a 250 | 71,468 | 36.6% |
+| ate R$ 50 | 34,837 | 17.8% |
+| R$ 250 a 500 | 4,944 | 2.5% |
+| R$ 500 a 1.000 | 2,704 | 1.4% |
+| acima de R$ 1.000 | 2,178 | 1.1% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 95,259 | 48.4% |
-| ON Running | 624 | 0.3% |
-| ASICS | 579 | 0.3% |
+| C&A | 93,977 | 48.1% |
+| ON Running | 613 | 0.3% |
+| ASICS | 575 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
 | Galícia Educação | 501 | 0.3% |
-| Legale Educacional | 457 | 0.2% |
+| Legale Educacional | 460 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| New Balance | 418 | 0.2% |
-| Columbia | 387 | 0.2% |
+| New Balance | 415 | 0.2% |
+| Columbia | 386 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,788 | 20.2% |
-| Moda Masculina > Roupas > Blusas | 16,989 | 8.6% |
-| Moda Feminina > Roupas > Calças | 15,066 | 7.7% |
-| Moda Feminina > Roupas > Shorts | 13,868 | 7.0% |
-| Infantil > Roupas > Blusas | 13,839 | 7.0% |
-| Moda Feminina > Roupas > Vestidos | 9,291 | 4.7% |
-| Moda Masculina > Roupas > Bermudas | 7,005 | 3.6% |
-| Moda Feminina > Roupas > Saias | 5,343 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,057 | 2.6% |
-| Moda Masculina > Roupas > Calças | 4,993 | 2.5% |
-| Infantil > Roupas > Calças | 3,783 | 1.9% |
-| Infantil > Roupas > Vestidos | 3,052 | 1.6% |
+| Moda Feminina > Roupas > Blusas | 39,316 | 20.1% |
+| Moda Masculina > Roupas > Blusas | 16,877 | 8.6% |
+| Moda Feminina > Roupas > Calças | 14,949 | 7.7% |
+| Moda Feminina > Roupas > Shorts | 13,749 | 7.0% |
+| Infantil > Roupas > Blusas | 13,680 | 7.0% |
+| Moda Feminina > Roupas > Vestidos | 9,276 | 4.8% |
+| Moda Masculina > Roupas > Bermudas | 6,963 | 3.6% |
+| Moda Feminina > Roupas > Saias | 5,322 | 2.7% |
+| Infantil > Roupas > Bermudas | 5,024 | 2.6% |
+| Moda Masculina > Roupas > Calças | 4,966 | 2.5% |
+| Infantil > Roupas > Calças | 3,747 | 1.9% |
+| Infantil > Roupas > Vestidos | 3,017 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
+- conjunto longo infantil de fleece urso marrom — R$ 119.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- conjunto longo infantil de fleece urso marrom — R$ 119.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- blusa básica feminina manga longa gola alta cinza — R$ 39.99
+- suéter infantil de tricot com bordado amarelo — R$ 79.99
 
 **Clovis Calçados BR**
 
@@ -84,7 +84,7 @@
 
 **Kabum BR**
 
-- Switch 16 Portas TP-Link 10/100 Mbps TL-SF1016D — R$ 189.90
+- Switch 16 Portas TP-Link 10/100 Mbps TL-SF1016D — R$ 229.90
 - Cabo Extensor USB 2.0 A Macho x USB 2.0 A Fêmea, PlusCable, 3 metros - — R$ 11.90
 - Cabo USB A para USB B Plus Cable, para Impressora, 1.8 Metros - PC-USB — R$ 10.90
 - Cabo USB A para USB B Plus Cable, para Impressora, 5 Metros - PC-USB50 — R$ 14.90
