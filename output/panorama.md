@@ -1,18 +1,18 @@
 # Panorama do catalogo
 
-- **195,256** produtos coletados
+- **194,426** produtos coletados
 - **10** feed(s)
 
-- **195,256** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
+- **194,426** com preco valido (mediana R$ 99.99, min R$ 2.90, max R$ 89,999.99)
 
 ## Lojas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A BR | 178,084 | 91.2% |
+| C&A BR | 177,131 | 91.1% |
 | Clovis Calçados BR | 8,198 | 4.2% |
-| Kabum BR | 4,933 | 2.5% |
-| Lauri Esporte | 2,496 | 1.3% |
+| Kabum BR | 5,067 | 2.6% |
+| Lauri Esporte | 2,485 | 1.3% |
 | Alianças Imperiais BR | 561 | 0.3% |
 | Afiliados Galícia Educação | 501 | 0.3% |
 | Legale Lover BR | 460 | 0.2% |
@@ -23,20 +23,20 @@
 
 | | Produtos | % |
 |---|---:|---:|
-| R$ 50 a 100 | 79,125 | 40.5% |
-| R$ 100 a 250 | 71,468 | 36.6% |
-| ate R$ 50 | 34,837 | 17.8% |
-| R$ 250 a 500 | 4,944 | 2.5% |
-| R$ 500 a 1.000 | 2,704 | 1.4% |
-| acima de R$ 1.000 | 2,178 | 1.1% |
+| R$ 50 a 100 | 78,851 | 40.6% |
+| R$ 100 a 250 | 71,082 | 36.6% |
+| ate R$ 50 | 34,598 | 17.8% |
+| R$ 250 a 500 | 4,933 | 2.5% |
+| R$ 500 a 1.000 | 2,710 | 1.4% |
+| acima de R$ 1.000 | 2,252 | 1.2% |
 
 ## Marcas
 
 | | Produtos | % |
 |---|---:|---:|
-| C&A | 93,977 | 48.1% |
-| ON Running | 613 | 0.3% |
-| ASICS | 575 | 0.3% |
+| C&A | 93,207 | 47.9% |
+| ON Running | 607 | 0.3% |
+| ASICS | 573 | 0.3% |
 | Moleca | 551 | 0.3% |
 | Beira Rio | 506 | 0.3% |
 | Vizzano | 504 | 0.3% |
@@ -44,35 +44,35 @@
 | Legale Educacional | 460 | 0.2% |
 | Modare | 425 | 0.2% |
 | Melissa | 425 | 0.2% |
-| New Balance | 415 | 0.2% |
-| Columbia | 386 | 0.2% |
+| New Balance | 416 | 0.2% |
+| Columbia | 384 | 0.2% |
 
 ## Categorias
 
 | | Produtos | % |
 |---|---:|---:|
-| Moda Feminina > Roupas > Blusas | 39,316 | 20.1% |
-| Moda Masculina > Roupas > Blusas | 16,877 | 8.6% |
-| Moda Feminina > Roupas > Calças | 14,949 | 7.7% |
-| Moda Feminina > Roupas > Shorts | 13,749 | 7.0% |
-| Infantil > Roupas > Blusas | 13,680 | 7.0% |
-| Moda Feminina > Roupas > Vestidos | 9,276 | 4.8% |
-| Moda Masculina > Roupas > Bermudas | 6,963 | 3.6% |
-| Moda Feminina > Roupas > Saias | 5,322 | 2.7% |
-| Infantil > Roupas > Bermudas | 5,024 | 2.6% |
-| Moda Masculina > Roupas > Calças | 4,966 | 2.5% |
-| Infantil > Roupas > Calças | 3,747 | 1.9% |
-| Infantil > Roupas > Vestidos | 3,017 | 1.5% |
+| Moda Feminina > Roupas > Blusas | 39,156 | 20.1% |
+| Moda Masculina > Roupas > Blusas | 16,759 | 8.6% |
+| Moda Feminina > Roupas > Calças | 14,842 | 7.6% |
+| Moda Feminina > Roupas > Shorts | 13,680 | 7.0% |
+| Infantil > Roupas > Blusas | 13,582 | 7.0% |
+| Moda Feminina > Roupas > Vestidos | 9,201 | 4.7% |
+| Moda Masculina > Roupas > Bermudas | 6,949 | 3.6% |
+| Moda Feminina > Roupas > Saias | 5,290 | 2.7% |
+| Infantil > Roupas > Bermudas | 4,981 | 2.6% |
+| Moda Masculina > Roupas > Calças | 4,957 | 2.5% |
+| Infantil > Roupas > Calças | 3,797 | 2.0% |
+| Infantil > Roupas > Vestidos | 2,982 | 1.5% |
 
 ## Exemplos de produto
 
 **C&A BR**
 
-- conjunto longo infantil de fleece urso marrom — R$ 119.99
+- vestido infantil de algodão com babado xadrez colorido — R$ 99.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- conjunto longo infantil de fleece urso marrom — R$ 119.99
+- jardineira infantil jeans floral com camiseta azul — R$ 149.99
 - blusa básica feminina manga longa gola alta cinza — R$ 39.99
-- suéter infantil de tricot com bordado amarelo — R$ 79.99
+- jardineira infantil jeans floral com camiseta azul — R$ 149.99
 
 **Clovis Calçados BR**
 
